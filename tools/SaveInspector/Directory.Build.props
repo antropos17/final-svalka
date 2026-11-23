@@ -1,0 +1,7 @@
+<Project>
+  <!-- Keep obj/bin in the ignored project-local .work folder, as other Checks projects do. -->
+  <PropertyGroup>
+    <BaseIntermediateOutputPath>$(MSBuildThisFileDirectory)../../.work/save-inspector/obj/</BaseIntermediateOutputPath>
+    <BaseOutputPath>$(MSBuildThisFileDirectory)../../.work/save-inspector/bin/</BaseOutputPath>
+  </PropertyGroup>
+</Project>

@@ -1,0 +1,320 @@
+{
+  "version": "v005",
+  "generator": "built-in Image Gen",
+  "reference": "art_source/jtn/2026-11-15-style-c-main-screen-v004/main-screen-v004.png",
+  "baseArt": "art_source/jtn/2026-11-15-style-c-colour-v003",
+  "support": [
+    {
+      "path": "art_source/jtn/2026-11-15-style-c-unity-support-v005/originals/courtyard-background.png",
+      "bytes": 1371836,
+      "sha256": "4BDDE848CC54F1E69C52FE0BF4A49A7595FD1EF30E64B61BD3F1A5A02F87B2E0"
+    },
+    {
+      "path": "art_source/jtn/2026-11-15-style-c-unity-support-v005/originals/initial-sites-atlas.png",
+      "bytes": 1392662,
+      "sha256": "C27F70EFED3E52D08BD7DC5FFE63612B9EE5A0C30B2E41E0BADAFED2E3DF3BD4"
+    },
+    {
+      "path": "art_source/jtn/2026-11-15-style-c-unity-support-v005/originals/initial-sites-clean.png",
+      "bytes": 1329136,
+      "sha256": "A9569166AEF7F7A82627E446AE67947F02CC496F6E33B6F988BE961432874122"
+    }
+  ],
+  "runtime": [
+    {
+      "path": "Unity/Assets/Resources/Art/StyleC/Buttons/neutral-disabled.png",
+      "bytes": 125891,
+      "sha256": "EE125F093D6D713C8B9C87C003B79969ACFF1A055069A2139ED11A12665F33D1"
+    },
+    {
+      "path": "Unity/Assets/Resources/Art/StyleC/Buttons/neutral-normal.png",
+      "bytes": 127131,
+      "sha256": "13A0200659F1579091FB015D87A17533D1831F24B866D654E59A67E1D469F747"
+    },
+    {
+      "path": "Unity/Assets/Resources/Art/StyleC/Buttons/neutral-pressed.png",
+      "bytes": 132367,
+      "sha256": "821629E52EDEA75CEE600B548A9B481680CED2D5280623A4C70AF839EA7D5400"
+    },
+    {
+      "path": "Unity/Assets/Resources/Art/StyleC/Buttons/primary-disabled.png",
+      "bytes": 116668,
+      "sha256": "0CD1BA4B698B9ADDAF727968B8286113AF998A6490BC29AC2A07D5712BCAC00D"
+    },
+    {
+      "path": "Unity/Assets/Resources/Art/StyleC/Buttons/primary-normal.png",
+      "bytes": 112715,
+      "sha256": "22419D9896047B9466BE45ACDD634F8DFA1CE5B5455277186D2EDBAD7344C700"
+    },
+    {
+      "path": "Unity/Assets/Resources/Art/StyleC/Buttons/primary-pressed.png",
+      "bytes": 122539,
+      "sha256": "098856D109668020841773E9FBD999D454F6D26204A84D41AE50CD75E8AD905F"
+    },
+    {
+      "path": "Unity/Assets/Resources/Art/StyleC/Buttons/round-disabled.png",
+      "bytes": 91010,
+      "sha256": "A59B0FE1CA3FF4681CA58E352237A288611E623D9595D0217A56570D6A1E7608"
+    },
+    {
+      "path": "Unity/Assets/Resources/Art/StyleC/Buttons/round-normal.png",
+      "bytes": 94515,
+      "sha256": "BC1954E002E85A43825350D3277BAA80F28E9C421C7819226EA7C1FEE3C8F2BC"
+    },
+    {
+      "path": "Unity/Assets/Resources/Art/StyleC/Buttons/round-pressed.png",
+      "bytes": 90445,
+      "sha256": "60B98C7B0E7A2DC17D3F0C4862C5F105187E566C11D81E599EF07AA2B39EC77D"
+    },
+    {
+      "path": "Unity/Assets/Resources/Art/StyleC/Buttons/secondary-disabled.png",
+      "bytes": 111880,
+      "sha256": "2AEA8895365018F23D99579D1B5C9E56C9EBA860077C9C51D8269D85A6DF5E65"
+    },
+    {
+      "path": "Unity/Assets/Resources/Art/StyleC/Buttons/secondary-normal.png",
+      "bytes": 110222,
+      "sha256": "08750D0E7B0D26C1D9DFD4EF2C6E0E868E8820FA39FD640372F94BA73C53FF38"
+    },
+    {
+      "path": "Unity/Assets/Resources/Art/StyleC/Buttons/secondary-pressed.png",
+      "bytes": 108261,
+      "sha256": "AD8CF6F759CD6FD2F290E1156D7F53BECB1E2451A56001B0CB2ABE7BA4EA5FAB"
+    },
+    {
+      "path": "Unity/Assets/Resources/Art/StyleC/courtyard-background.png",
+      "bytes": 1371836,
+      "sha256": "4BDDE848CC54F1E69C52FE0BF4A49A7595FD1EF30E64B61BD3F1A5A02F87B2E0"
+    },
+    {
+      "path": "Unity/Assets/Resources/Art/StyleC/Houses/house-s00.png",
+      "bytes": 1065262,
+      "sha256": "8D5BA2C1326568D59D733CF661FB90F65AB4C29432BA7CB53831206B59B7EC35"
+    },
+    {
+      "path": "Unity/Assets/Resources/Art/StyleC/Houses/house-s01.png",
+      "bytes": 1052170,
+      "sha256": "6F5FDF521A3BD5EB443F9A04B4189D8F990CAA4993AC17D28144BF84D704071B"
+    },
+    {
+      "path": "Unity/Assets/Resources/Art/StyleC/Houses/house-s02.png",
+      "bytes": 1037793,
+      "sha256": "E1985F4A8CBE9EF715C54394E82C349BB218B309CBB7994A792F6339CF4B3F05"
+    },
+    {
+      "path": "Unity/Assets/Resources/Art/StyleC/Houses/house-s03.png",
+      "bytes": 1112376,
+      "sha256": "2916CD1989E397059074E7C0AADAFF752941436700BE9B844A9D3CADB3254C03"
+    },
+    {
+      "path": "Unity/Assets/Resources/Art/StyleC/Houses/house-s04.png",
+      "bytes": 1163416,
+      "sha256": "A2521524BFC05AA98F77D32FC17ED3C7D9884935F5DD3C9D67695A9641105D33"
+    },
+    {
+      "path": "Unity/Assets/Resources/Art/StyleC/Icons/back.png",
+      "bytes": 77819,
+      "sha256": "4B374FC148D240D8EBFF2D0D81CFFDFF9501B4D2EAB2A60E4C0155E3E194553A"
+    },
+    {
+      "path": "Unity/Assets/Resources/Art/StyleC/Icons/bonus.png",
+      "bytes": 132236,
+      "sha256": "CE63B2509A290D8B2A164F6C6AAA2A2086BDC8186D518E91EB3F6070C3A5085F"
+    },
+    {
+      "path": "Unity/Assets/Resources/Art/StyleC/Icons/check.png",
+      "bytes": 71875,
+      "sha256": "DEF6DEF94E529A5952C2FDC901070D81C9E6D98E190E07B39B3BE33B9454B0B2"
+    },
+    {
+      "path": "Unity/Assets/Resources/Art/StyleC/Icons/close.png",
+      "bytes": 99671,
+      "sha256": "B146FAF0030C3480C47245110393DC8ECE9D233F8C3E4007CDAF518B03E178F3"
+    },
+    {
+      "path": "Unity/Assets/Resources/Art/StyleC/Icons/coin.png",
+      "bytes": 124697,
+      "sha256": "DE7DCD95CF3A34F480F5C337DE700464383D78CF940F8CD807F9E1952A8C9883"
+    },
+    {
+      "path": "Unity/Assets/Resources/Art/StyleC/Icons/diamond.png",
+      "bytes": 79083,
+      "sha256": "611E9E2F4B4A34D0ACD7A997079CC6797BC773C996FEDD724E47E8BE5550F667"
+    },
+    {
+      "path": "Unity/Assets/Resources/Art/StyleC/Icons/energy.png",
+      "bytes": 76978,
+      "sha256": "FADA61C454675176C09A0A255E0A4772BB1BE67FE93FD64CC39A93F253D7D248"
+    },
+    {
+      "path": "Unity/Assets/Resources/Art/StyleC/Icons/events.png",
+      "bytes": 75314,
+      "sha256": "2F97F0CC06192626C8D5B25E3292C850802F279D1E94B19B490E847907739EA0"
+    },
+    {
+      "path": "Unity/Assets/Resources/Art/StyleC/Icons/help.png",
+      "bytes": 76153,
+      "sha256": "A1651955BC32E0B43110F10CCC1C278AB18848C957F9BEBB42F7544F31547BD0"
+    },
+    {
+      "path": "Unity/Assets/Resources/Art/StyleC/Icons/home.png",
+      "bytes": 152181,
+      "sha256": "267DD4898055870087FD3A292A88088873A92856DFF51F7F9CD04615D2295692"
+    },
+    {
+      "path": "Unity/Assets/Resources/Art/StyleC/Icons/info.png",
+      "bytes": 98913,
+      "sha256": "E6D68BDCCCA1875BCFF8785F5E22DA1B36EB21C9A9507EB18998362B61D6E3C5"
+    },
+    {
+      "path": "Unity/Assets/Resources/Art/StyleC/Icons/leaf.png",
+      "bytes": 96714,
+      "sha256": "1CC379AB3A155A754EDF02B69F0F9AFFDBB63D26F6F536F72FBFCC227283B68B"
+    },
+    {
+      "path": "Unity/Assets/Resources/Art/StyleC/Icons/lock.png",
+      "bytes": 100521,
+      "sha256": "91BC8DB6E9E57A73BD6C15D2777CA94B3249D7531EBFA044BA44DA5047484FE1"
+    },
+    {
+      "path": "Unity/Assets/Resources/Art/StyleC/Icons/map.png",
+      "bytes": 101454,
+      "sha256": "0733CED900DA32AEE3BF7DAC0BAE4E1A9C9F2D6ED4534A05277BF2F7480063D4"
+    },
+    {
+      "path": "Unity/Assets/Resources/Art/StyleC/Icons/next.png",
+      "bytes": 80919,
+      "sha256": "A8C3C989E96F4B764CB807BC4C4739D700062B11FAB8F9CC6A66B54C7293BAD1"
+    },
+    {
+      "path": "Unity/Assets/Resources/Art/StyleC/Icons/parts.png",
+      "bytes": 125589,
+      "sha256": "084EC0CD1A08062BE2F06CA63F7A488B21C95F466B9FF73EDDDD48FBF76DB2D0"
+    },
+    {
+      "path": "Unity/Assets/Resources/Art/StyleC/Icons/pause.png",
+      "bytes": 94856,
+      "sha256": "8AB431CACFA3CD93BB59BC69909BBC376FE32146B1949836BF7731CD7E90A18A"
+    },
+    {
+      "path": "Unity/Assets/Resources/Art/StyleC/Icons/play.png",
+      "bytes": 71897,
+      "sha256": "C6A9C459F445492741A879ECD9DF0F6754138DCF03E6C0D1664481055CAFAFFB"
+    },
+    {
+      "path": "Unity/Assets/Resources/Art/StyleC/Icons/profile.png",
+      "bytes": 90964,
+      "sha256": "11AF06FBBDD68D6A24762CD26E3B279B5190F5A67A7C4600C24CFC38AD444778"
+    },
+    {
+      "path": "Unity/Assets/Resources/Art/StyleC/Icons/reset.png",
+      "bytes": 97317,
+      "sha256": "4ED67DEDB7685D3AA08B772BFB8321498940B542C414E66AB7B8ABC12B6EB20F"
+    },
+    {
+      "path": "Unity/Assets/Resources/Art/StyleC/Icons/sections.png",
+      "bytes": 125344,
+      "sha256": "B295B436FB9743734FACA1262CA1DE8B36BC897A4BCC12F2261FB5792CE84439"
+    },
+    {
+      "path": "Unity/Assets/Resources/Art/StyleC/Icons/settings.png",
+      "bytes": 109097,
+      "sha256": "833C5236AAD2AF3C46565AF9ADCF191B35B848A42C8E005CDD808119753AD4A8"
+    },
+    {
+      "path": "Unity/Assets/Resources/Art/StyleC/Icons/shop.png",
+      "bytes": 118527,
+      "sha256": "75571FE1DA12BD31BE127669DAB1BBDEA3ADF82D185BC79209220F2A757213C3"
+    },
+    {
+      "path": "Unity/Assets/Resources/Art/StyleC/Icons/sound-off.png",
+      "bytes": 92462,
+      "sha256": "140BE8175A479023880EA97F744FB2633A772CA2B1EB3BEBAE3E55E11FA3479B"
+    },
+    {
+      "path": "Unity/Assets/Resources/Art/StyleC/Icons/sound.png",
+      "bytes": 90253,
+      "sha256": "5A03CF7BF4E1D243E9D2E980EB5312B5CE1D9E40F0A92F89C32BB05B3941C746"
+    },
+    {
+      "path": "Unity/Assets/Resources/Art/StyleC/Icons/spin.png",
+      "bytes": 125973,
+      "sha256": "B2588F08785F4FF60265946A0C192E622A1A1F3AE648CBAEC7E86517F0552D6C"
+    },
+    {
+      "path": "Unity/Assets/Resources/Art/StyleC/Icons/stop.png",
+      "bytes": 85232,
+      "sha256": "4464C6201B77ACA6DE18FABB9FD3AD5E192873ED11162B62F96C899C7AAF0170"
+    },
+    {
+      "path": "Unity/Assets/Resources/Art/StyleC/Icons/ticket.png",
+      "bytes": 81530,
+      "sha256": "7E0E4863F2EF546A34E62F97F93D7A7D076334C46D203999A8F767C8F5CD08DC"
+    },
+    {
+      "path": "Unity/Assets/Resources/Art/StyleC/Icons/upgrade.png",
+      "bytes": 110208,
+      "sha256": "6B9068CFC6A62C404EF67F3DF16F2B561FABADE88D672A65EA5A1BC9409DDAA9"
+    },
+    {
+      "path": "Unity/Assets/Resources/Art/StyleC/Icons/yard-house.png",
+      "bytes": 164592,
+      "sha256": "E73262CC6EE5E7D09DDD57E9CB8FDFB5356C975D36AC3DD82F7E64EBD0B253A9"
+    },
+    {
+      "path": "Unity/Assets/Resources/Art/StyleC/Icons/yard-neon.png",
+      "bytes": 162646,
+      "sha256": "A553B7054CFFD0074EA4CD5A523AB58F1ADF435163EEED8E76B90E899F6A3877"
+    },
+    {
+      "path": "Unity/Assets/Resources/Art/StyleC/Icons/yard-ruin.png",
+      "bytes": 157789,
+      "sha256": "C7EE1618477D2765F9E0382820479F376D0F13F298C7A238F0E8C6AE11497B30"
+    },
+    {
+      "path": "Unity/Assets/Resources/Art/StyleC/Sites/cart.png",
+      "bytes": 138800,
+      "sha256": "899126247B20617725E0D8C1C31122722BEA29C03BE83BAB58849AC3FB0408E5"
+    },
+    {
+      "path": "Unity/Assets/Resources/Art/StyleC/Sites/loft.png",
+      "bytes": 176683,
+      "sha256": "A2C633450997A96B3C04D59EC6FD6595F0BAFB46068E6DD5C893EEEBA9BDE1BB"
+    },
+    {
+      "path": "Unity/Assets/Resources/Art/StyleC/Sites/power.png",
+      "bytes": 156944,
+      "sha256": "C131991E5D3B9B50E7FE6E5EE3E01CEB5914DA1749669B13BE58FAB9051FA517"
+    },
+    {
+      "path": "Unity/Assets/Resources/Art/StyleC/Sites/recycler.png",
+      "bytes": 218217,
+      "sha256": "7E80D51447C5DA612DFD15357E7DB7E6A384100B27484EAEB5BA2D1512FB1040"
+    },
+    {
+      "path": "Unity/Assets/Resources/Art/StyleC/Sites/workshop.png",
+      "bytes": 250590,
+      "sha256": "9A0F2754D2E0315A5626F916D7B86C9B4D227D3396B216F82D01434837DF6236"
+    },
+    {
+      "path": "Unity/Assets/Resources/Art/StyleC/Symbols/symbol-box.png",
+      "bytes": 618425,
+      "sha256": "DFA97BC59C9787DD85F2030E079EEAF633FD4AEA0498ACA93C6CAF39A8A9B036"
+    },
+    {
+      "path": "Unity/Assets/Resources/Art/StyleC/Symbols/symbol-pigeon.png",
+      "bytes": 621341,
+      "sha256": "0197BFFC7D8D2FEDF18F35D967D9AA027E3028D1ADC636242D7BFDC54619DBDD"
+    },
+    {
+      "path": "Unity/Assets/Resources/Art/StyleC/Symbols/symbol-potato.png",
+      "bytes": 558820,
+      "sha256": "3299A881B7D4D02E0FC980BF4A65A8FAC5E2162F08483B082AF949C2C888A5A5"
+    },
+    {
+      "path": "Unity/Assets/Resources/Art/StyleC/Symbols/symbol-trash.png",
+      "bytes": 640559,
+      "sha256": "9895AE328803A840AFAAFF19ABB9EFA2D3DBEAD4689777EA5D7A0B6835E17D82"
+    }
+  ]
+}

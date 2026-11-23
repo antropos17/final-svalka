@@ -1,0 +1,6 @@
+<Project>
+  <PropertyGroup>
+    <BaseIntermediateOutputPath>$(MSBuildThisFileDirectory)../../../.work/storage-integration-checks/reader-obj/</BaseIntermediateOutputPath>
+    <BaseOutputPath>$(MSBuildThisFileDirectory)../../../.work/storage-integration-checks/reader-bin/</BaseOutputPath>
+  </PropertyGroup>
+</Project>

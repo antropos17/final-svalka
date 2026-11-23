@@ -1,0 +1,2365 @@
+{
+  "inputSha256": "6D5B88502ACC5CFFE912FBAD7E25C25B81E5C23B069895F84CC1D51AD35AFFFF",
+  "summaries": [
+    {
+      "policy": "affordable-skills-first",
+      "scenario": "continuous",
+      "milestones": {
+        "first-repair": {
+          "spins": {
+            "n": 16,
+            "min": 1,
+            "median": 1,
+            "p90": 1,
+            "p95": 1,
+            "max": 1
+          },
+          "nominalAutoEligibleSeconds": {
+            "n": 16,
+            "min": 3.5,
+            "median": 3.5,
+            "p90": 3.5,
+            "p95": 3.5,
+            "max": 3.5
+          },
+          "manualFloorSeconds": {
+            "n": 16,
+            "min": 3.5,
+            "median": 3.5,
+            "p90": 3.5,
+            "p95": 3.5,
+            "max": 3.5
+          },
+          "decisionsPlus2Seconds": {
+            "n": 16,
+            "min": 5.5,
+            "median": 5.5,
+            "p90": 5.5,
+            "p95": 5.5,
+            "max": 5.5
+          }
+        },
+        "workshop": {
+          "spins": {
+            "n": 16,
+            "min": 15,
+            "median": 18,
+            "p90": 21,
+            "p95": 21,
+            "max": 21
+          },
+          "nominalAutoEligibleSeconds": {
+            "n": 16,
+            "min": 56,
+            "median": 67.25,
+            "p90": 78.5,
+            "p95": 78.5,
+            "max": 78.5
+          },
+          "manualFloorSeconds": {
+            "n": 16,
+            "min": 52.5,
+            "median": 63,
+            "p90": 73.5,
+            "p95": 73.5,
+            "max": 73.5
+          },
+          "decisionsPlus2Seconds": {
+            "n": 16,
+            "min": 62,
+            "median": 73.25,
+            "p90": 84.5,
+            "p95": 84.5,
+            "max": 84.5
+          }
+        },
+        "era-ready": {
+          "spins": {
+            "n": 16,
+            "min": 264,
+            "median": 271.5,
+            "p90": 278,
+            "p95": 287,
+            "max": 287
+          },
+          "nominalAutoEligibleSeconds": {
+            "n": 16,
+            "min": 989.75,
+            "median": 1017.875,
+            "p90": 1042.25,
+            "p95": 1076,
+            "max": 1076
+          },
+          "manualFloorSeconds": {
+            "n": 16,
+            "min": 924,
+            "median": 950.25,
+            "p90": 973,
+            "p95": 1004.5,
+            "max": 1004.5
+          },
+          "decisionsPlus2Seconds": {
+            "n": 16,
+            "min": 1021.75,
+            "median": 1049.875,
+            "p90": 1074.25,
+            "p95": 1108,
+            "max": 1108
+          }
+        },
+        "chapter-end": {
+          "spins": {
+            "n": 16,
+            "min": 554,
+            "median": 566.5,
+            "p90": 577,
+            "p95": 578,
+            "max": 578
+          },
+          "nominalAutoEligibleSeconds": {
+            "n": 16,
+            "min": 2077.25,
+            "median": 2124.125,
+            "p90": 2163.5,
+            "p95": 2167.25,
+            "max": 2167.25
+          },
+          "manualFloorSeconds": {
+            "n": 16,
+            "min": 1939,
+            "median": 1982.75,
+            "p90": 2019.5,
+            "p95": 2023,
+            "max": 2023
+          },
+          "decisionsPlus2Seconds": {
+            "n": 16,
+            "min": 2143.25,
+            "median": 2190.125,
+            "p90": 2229.5,
+            "p95": 2233.25,
+            "max": 2233.25
+          }
+        },
+        "all-skills-owned": {
+          "spins": {
+            "n": 16,
+            "min": 554,
+            "median": 566.5,
+            "p90": 577,
+            "p95": 578,
+            "max": 578
+          },
+          "nominalAutoEligibleSeconds": {
+            "n": 16,
+            "min": 2077.25,
+            "median": 2124.125,
+            "p90": 2163.5,
+            "p95": 2167.25,
+            "max": 2167.25
+          },
+          "manualFloorSeconds": {
+            "n": 16,
+            "min": 1939,
+            "median": 1982.75,
+            "p90": 2019.5,
+            "p95": 2023,
+            "max": 2023
+          },
+          "decisionsPlus2Seconds": {
+            "n": 16,
+            "min": 2143.25,
+            "median": 2190.125,
+            "p90": 2229.5,
+            "p95": 2233.25,
+            "max": 2233.25
+          }
+        }
+      },
+      "longestConstructionGap": {
+        "n": 16,
+        "min": 123.75,
+        "median": 138.75,
+        "p90": 142.5,
+        "p95": 146.25,
+        "max": 146.25
+      },
+      "skillsAtChapterEnd": {
+        "n": 16,
+        "min": 6,
+        "median": 6,
+        "p90": 6,
+        "p95": 6,
+        "max": 6
+      }
+    },
+    {
+      "policy": "affordable-skills-first",
+      "scenario": "one-2h-return-after-workshop",
+      "milestones": {
+        "first-repair": {
+          "spins": {
+            "n": 4,
+            "min": 1,
+            "median": 1,
+            "p90": 1,
+            "p95": 1,
+            "max": 1
+          },
+          "nominalAutoEligibleSeconds": {
+            "n": 4,
+            "min": 3.5,
+            "median": 3.5,
+            "p90": 3.5,
+            "p95": 3.5,
+            "max": 3.5
+          },
+          "manualFloorSeconds": {
+            "n": 4,
+            "min": 3.5,
+            "median": 3.5,
+            "p90": 3.5,
+            "p95": 3.5,
+            "max": 3.5
+          },
+          "decisionsPlus2Seconds": {
+            "n": 4,
+            "min": 5.5,
+            "median": 5.5,
+            "p90": 5.5,
+            "p95": 5.5,
+            "max": 5.5
+          }
+        },
+        "workshop": {
+          "spins": {
+            "n": 4,
+            "min": 15,
+            "median": 16,
+            "p90": 19,
+            "p95": 19,
+            "max": 19
+          },
+          "nominalAutoEligibleSeconds": {
+            "n": 4,
+            "min": 56,
+            "median": 59.75,
+            "p90": 71,
+            "p95": 71,
+            "max": 71
+          },
+          "manualFloorSeconds": {
+            "n": 4,
+            "min": 52.5,
+            "median": 56,
+            "p90": 66.5,
+            "p95": 66.5,
+            "max": 66.5
+          },
+          "decisionsPlus2Seconds": {
+            "n": 4,
+            "min": 62,
+            "median": 65.75,
+            "p90": 77,
+            "p95": 77,
+            "max": 77
+          }
+        },
+        "era-ready": {
+          "spins": {
+            "n": 4,
+            "min": 251,
+            "median": 256.5,
+            "p90": 259,
+            "p95": 259,
+            "max": 259
+          },
+          "nominalAutoEligibleSeconds": {
+            "n": 4,
+            "min": 941,
+            "median": 961.625,
+            "p90": 971,
+            "p95": 971,
+            "max": 971
+          },
+          "manualFloorSeconds": {
+            "n": 4,
+            "min": 878.5,
+            "median": 897.75,
+            "p90": 906.5,
+            "p95": 906.5,
+            "max": 906.5
+          },
+          "decisionsPlus2Seconds": {
+            "n": 4,
+            "min": 975,
+            "median": 995.625,
+            "p90": 1005,
+            "p95": 1005,
+            "max": 1005
+          }
+        },
+        "chapter-end": {
+          "spins": {
+            "n": 4,
+            "min": 542,
+            "median": 550,
+            "p90": 560,
+            "p95": 560,
+            "max": 560
+          },
+          "nominalAutoEligibleSeconds": {
+            "n": 4,
+            "min": 2032.25,
+            "median": 2062.25,
+            "p90": 2099.75,
+            "p95": 2099.75,
+            "max": 2099.75
+          },
+          "manualFloorSeconds": {
+            "n": 4,
+            "min": 1897,
+            "median": 1925,
+            "p90": 1960,
+            "p95": 1960,
+            "max": 1960
+          },
+          "decisionsPlus2Seconds": {
+            "n": 4,
+            "min": 2100.25,
+            "median": 2130.25,
+            "p90": 2167.75,
+            "p95": 2167.75,
+            "max": 2167.75
+          }
+        },
+        "all-skills-owned": {
+          "spins": {
+            "n": 4,
+            "min": 542,
+            "median": 550,
+            "p90": 560,
+            "p95": 560,
+            "max": 560
+          },
+          "nominalAutoEligibleSeconds": {
+            "n": 4,
+            "min": 2032.25,
+            "median": 2062.25,
+            "p90": 2099.75,
+            "p95": 2099.75,
+            "max": 2099.75
+          },
+          "manualFloorSeconds": {
+            "n": 4,
+            "min": 1897,
+            "median": 1925,
+            "p90": 1960,
+            "p95": 1960,
+            "max": 1960
+          },
+          "decisionsPlus2Seconds": {
+            "n": 4,
+            "min": 2100.25,
+            "median": 2130.25,
+            "p90": 2167.75,
+            "p95": 2167.75,
+            "max": 2167.75
+          }
+        }
+      },
+      "longestConstructionGap": {
+        "n": 4,
+        "min": 131.25,
+        "median": 133.125,
+        "p90": 142.5,
+        "p95": 142.5,
+        "max": 142.5
+      },
+      "skillsAtChapterEnd": {
+        "n": 4,
+        "min": 6,
+        "median": 6,
+        "p90": 6,
+        "p95": 6,
+        "max": 6
+      }
+    },
+    {
+      "policy": "construction-first",
+      "scenario": "continuous",
+      "milestones": {
+        "first-repair": {
+          "spins": {
+            "n": 16,
+            "min": 1,
+            "median": 1,
+            "p90": 1,
+            "p95": 1,
+            "max": 1
+          },
+          "nominalAutoEligibleSeconds": {
+            "n": 16,
+            "min": 3.5,
+            "median": 3.5,
+            "p90": 3.5,
+            "p95": 3.5,
+            "max": 3.5
+          },
+          "manualFloorSeconds": {
+            "n": 16,
+            "min": 3.5,
+            "median": 3.5,
+            "p90": 3.5,
+            "p95": 3.5,
+            "max": 3.5
+          },
+          "decisionsPlus2Seconds": {
+            "n": 16,
+            "min": 5.5,
+            "median": 5.5,
+            "p90": 5.5,
+            "p95": 5.5,
+            "max": 5.5
+          }
+        },
+        "workshop": {
+          "spins": {
+            "n": 16,
+            "min": 15,
+            "median": 18,
+            "p90": 21,
+            "p95": 21,
+            "max": 21
+          },
+          "nominalAutoEligibleSeconds": {
+            "n": 16,
+            "min": 56,
+            "median": 67.25,
+            "p90": 78.5,
+            "p95": 78.5,
+            "max": 78.5
+          },
+          "manualFloorSeconds": {
+            "n": 16,
+            "min": 52.5,
+            "median": 63,
+            "p90": 73.5,
+            "p95": 73.5,
+            "max": 73.5
+          },
+          "decisionsPlus2Seconds": {
+            "n": 16,
+            "min": 62,
+            "median": 73.25,
+            "p90": 84.5,
+            "p95": 84.5,
+            "max": 84.5
+          }
+        },
+        "era-ready": {
+          "spins": {
+            "n": 16,
+            "min": 261,
+            "median": 270.5,
+            "p90": 276,
+            "p95": 285,
+            "max": 285
+          },
+          "nominalAutoEligibleSeconds": {
+            "n": 16,
+            "min": 978.5,
+            "median": 1014.125,
+            "p90": 1034.75,
+            "p95": 1068.5,
+            "max": 1068.5
+          },
+          "manualFloorSeconds": {
+            "n": 16,
+            "min": 913.5,
+            "median": 946.75,
+            "p90": 966,
+            "p95": 997.5,
+            "max": 997.5
+          },
+          "decisionsPlus2Seconds": {
+            "n": 16,
+            "min": 1004.5,
+            "median": 1040.125,
+            "p90": 1060.75,
+            "p95": 1094.5,
+            "max": 1094.5
+          }
+        },
+        "chapter-end": {
+          "spins": {
+            "n": 16,
+            "min": 589,
+            "median": 602.5,
+            "p90": 612,
+            "p95": 613,
+            "max": 613
+          },
+          "nominalAutoEligibleSeconds": {
+            "n": 16,
+            "min": 2208.5,
+            "median": 2259.125,
+            "p90": 2294.75,
+            "p95": 2298.5,
+            "max": 2298.5
+          },
+          "manualFloorSeconds": {
+            "n": 16,
+            "min": 2061.5,
+            "median": 2108.75,
+            "p90": 2142,
+            "p95": 2145.5,
+            "max": 2145.5
+          },
+          "decisionsPlus2Seconds": {
+            "n": 16,
+            "min": 2262.5,
+            "median": 2313.125,
+            "p90": 2348.75,
+            "p95": 2352.5,
+            "max": 2352.5
+          }
+        },
+        "all-skills-owned": {
+          "spins": {
+            "n": 16,
+            "min": 614,
+            "median": 626.5,
+            "p90": 634,
+            "p95": 638,
+            "max": 638
+          },
+          "nominalAutoEligibleSeconds": {
+            "n": 16,
+            "min": 2296,
+            "median": 2343,
+            "p90": 2371.75,
+            "p95": 2386,
+            "max": 2386
+          },
+          "manualFloorSeconds": {
+            "n": 16,
+            "min": 2149,
+            "median": 2192.75,
+            "p90": 2219,
+            "p95": 2233,
+            "max": 2233
+          },
+          "decisionsPlus2Seconds": {
+            "n": 16,
+            "min": 2362,
+            "median": 2409,
+            "p90": 2437.75,
+            "p95": 2452,
+            "max": 2452
+          }
+        }
+      },
+      "longestConstructionGap": {
+        "n": 16,
+        "min": 131.25,
+        "median": 151.875,
+        "p90": 165,
+        "p95": 165,
+        "max": 165
+      },
+      "skillsAtChapterEnd": {
+        "n": 16,
+        "min": 0,
+        "median": 0,
+        "p90": 0,
+        "p95": 0,
+        "max": 0
+      }
+    },
+    {
+      "policy": "construction-first",
+      "scenario": "one-2h-return-after-workshop",
+      "milestones": {
+        "first-repair": {
+          "spins": {
+            "n": 4,
+            "min": 1,
+            "median": 1,
+            "p90": 1,
+            "p95": 1,
+            "max": 1
+          },
+          "nominalAutoEligibleSeconds": {
+            "n": 4,
+            "min": 3.5,
+            "median": 3.5,
+            "p90": 3.5,
+            "p95": 3.5,
+            "max": 3.5
+          },
+          "manualFloorSeconds": {
+            "n": 4,
+            "min": 3.5,
+            "median": 3.5,
+            "p90": 3.5,
+            "p95": 3.5,
+            "max": 3.5
+          },
+          "decisionsPlus2Seconds": {
+            "n": 4,
+            "min": 5.5,
+            "median": 5.5,
+            "p90": 5.5,
+            "p95": 5.5,
+            "max": 5.5
+          }
+        },
+        "workshop": {
+          "spins": {
+            "n": 4,
+            "min": 15,
+            "median": 16,
+            "p90": 19,
+            "p95": 19,
+            "max": 19
+          },
+          "nominalAutoEligibleSeconds": {
+            "n": 4,
+            "min": 56,
+            "median": 59.75,
+            "p90": 71,
+            "p95": 71,
+            "max": 71
+          },
+          "manualFloorSeconds": {
+            "n": 4,
+            "min": 52.5,
+            "median": 56,
+            "p90": 66.5,
+            "p95": 66.5,
+            "max": 66.5
+          },
+          "decisionsPlus2Seconds": {
+            "n": 4,
+            "min": 62,
+            "median": 65.75,
+            "p90": 77,
+            "p95": 77,
+            "max": 77
+          }
+        },
+        "era-ready": {
+          "spins": {
+            "n": 4,
+            "min": 248,
+            "median": 254,
+            "p90": 258,
+            "p95": 258,
+            "max": 258
+          },
+          "nominalAutoEligibleSeconds": {
+            "n": 4,
+            "min": 929.75,
+            "median": 952.25,
+            "p90": 967.25,
+            "p95": 967.25,
+            "max": 967.25
+          },
+          "manualFloorSeconds": {
+            "n": 4,
+            "min": 868,
+            "median": 889.0,
+            "p90": 903,
+            "p95": 903,
+            "max": 903
+          },
+          "decisionsPlus2Seconds": {
+            "n": 4,
+            "min": 957.75,
+            "median": 980.25,
+            "p90": 995.25,
+            "p95": 995.25,
+            "max": 995.25
+          }
+        },
+        "chapter-end": {
+          "spins": {
+            "n": 4,
+            "min": 573,
+            "median": 585,
+            "p90": 596,
+            "p95": 596,
+            "max": 596
+          },
+          "nominalAutoEligibleSeconds": {
+            "n": 4,
+            "min": 2148.5,
+            "median": 2193.5,
+            "p90": 2234.75,
+            "p95": 2234.75,
+            "max": 2234.75
+          },
+          "manualFloorSeconds": {
+            "n": 4,
+            "min": 2005.5,
+            "median": 2047.5,
+            "p90": 2086,
+            "p95": 2086,
+            "max": 2086
+          },
+          "decisionsPlus2Seconds": {
+            "n": 4,
+            "min": 2204.5,
+            "median": 2249.5,
+            "p90": 2290.75,
+            "p95": 2290.75,
+            "max": 2290.75
+          }
+        },
+        "all-skills-owned": {
+          "spins": {
+            "n": 4,
+            "min": 598,
+            "median": 609,
+            "p90": 620,
+            "p95": 620,
+            "max": 620
+          },
+          "nominalAutoEligibleSeconds": {
+            "n": 4,
+            "min": 2236,
+            "median": 2277.5,
+            "p90": 2318.75,
+            "p95": 2318.75,
+            "max": 2318.75
+          },
+          "manualFloorSeconds": {
+            "n": 4,
+            "min": 2093,
+            "median": 2131.5,
+            "p90": 2170,
+            "p95": 2170,
+            "max": 2170
+          },
+          "decisionsPlus2Seconds": {
+            "n": 4,
+            "min": 2304,
+            "median": 2345.5,
+            "p90": 2386.75,
+            "p95": 2386.75,
+            "max": 2386.75
+          }
+        }
+      },
+      "longestConstructionGap": {
+        "n": 4,
+        "min": 138.75,
+        "median": 144.375,
+        "p90": 161.25,
+        "p95": 161.25,
+        "max": 161.25
+      },
+      "skillsAtChapterEnd": {
+        "n": 4,
+        "min": 0,
+        "median": 0,
+        "p90": 0,
+        "p95": 0,
+        "max": 0
+      }
+    }
+  ],
+  "gapsByProject": [
+    {
+      "policy": "affordable-skills-first",
+      "scenario": "continuous",
+      "project": "cart.build",
+      "seconds": {
+        "n": 16,
+        "min": 108.75,
+        "median": 123.75,
+        "p90": 138.75,
+        "p95": 142.5,
+        "max": 142.5
+      }
+    },
+    {
+      "policy": "affordable-skills-first",
+      "scenario": "continuous",
+      "project": "cart.improve",
+      "seconds": {
+        "n": 16,
+        "min": 75,
+        "median": 82.5,
+        "p90": 86.25,
+        "p95": 90.0,
+        "max": 90.0
+      }
+    },
+    {
+      "policy": "affordable-skills-first",
+      "scenario": "continuous",
+      "project": "cart.workshop-yard.upgrade-1",
+      "seconds": {
+        "n": 16,
+        "min": 71.25,
+        "median": 78.75,
+        "p90": 86.25,
+        "p95": 86.25,
+        "max": 86.25
+      }
+    },
+    {
+      "policy": "affordable-skills-first",
+      "scenario": "continuous",
+      "project": "cart.workshop-yard.upgrade-2",
+      "seconds": {
+        "n": 16,
+        "min": 82.5,
+        "median": 93.75,
+        "p90": 101.25,
+        "p95": 101.25,
+        "max": 101.25
+      }
+    },
+    {
+      "policy": "affordable-skills-first",
+      "scenario": "continuous",
+      "project": "house.improve",
+      "seconds": {
+        "n": 16,
+        "min": 123.75,
+        "median": 135.0,
+        "p90": 142.5,
+        "p95": 146.25,
+        "max": 146.25
+      }
+    },
+    {
+      "policy": "affordable-skills-first",
+      "scenario": "continuous",
+      "project": "house.repair",
+      "seconds": {
+        "n": 16,
+        "min": 3.5,
+        "median": 3.5,
+        "p90": 3.5,
+        "p95": 3.5,
+        "max": 3.5
+      }
+    },
+    {
+      "policy": "affordable-skills-first",
+      "scenario": "continuous",
+      "project": "house.workshop-yard.upgrade-1",
+      "seconds": {
+        "n": 16,
+        "min": 86.25,
+        "median": 101.25,
+        "p90": 105,
+        "p95": 105.0,
+        "max": 105.0
+      }
+    },
+    {
+      "policy": "affordable-skills-first",
+      "scenario": "continuous",
+      "project": "house.workshop-yard.upgrade-2",
+      "seconds": {
+        "n": 16,
+        "min": 90,
+        "median": 93.75,
+        "p90": 101.25,
+        "p95": 105.0,
+        "max": 105.0
+      }
+    },
+    {
+      "policy": "affordable-skills-first",
+      "scenario": "continuous",
+      "project": "pigeon-loft.build",
+      "seconds": {
+        "n": 16,
+        "min": 67.5,
+        "median": 75.0,
+        "p90": 82.5,
+        "p95": 82.5,
+        "max": 82.5
+      }
+    },
+    {
+      "policy": "affordable-skills-first",
+      "scenario": "continuous",
+      "project": "pigeon-loft.improve",
+      "seconds": {
+        "n": 16,
+        "min": 75,
+        "median": 82.5,
+        "p90": 90.0,
+        "p95": 90.0,
+        "max": 90.0
+      }
+    },
+    {
+      "policy": "affordable-skills-first",
+      "scenario": "continuous",
+      "project": "pigeon-loft.workshop-yard.upgrade-1",
+      "seconds": {
+        "n": 16,
+        "min": 97.5,
+        "median": 105.0,
+        "p90": 108.75,
+        "p95": 112.5,
+        "max": 112.5
+      }
+    },
+    {
+      "policy": "affordable-skills-first",
+      "scenario": "continuous",
+      "project": "pigeon-loft.workshop-yard.upgrade-2",
+      "seconds": {
+        "n": 16,
+        "min": 90,
+        "median": 93.75,
+        "p90": 101.25,
+        "p95": 101.25,
+        "max": 101.25
+      }
+    },
+    {
+      "policy": "affordable-skills-first",
+      "scenario": "continuous",
+      "project": "power-source.build",
+      "seconds": {
+        "n": 16,
+        "min": 105.0,
+        "median": 121.875,
+        "p90": 135.0,
+        "p95": 135,
+        "max": 135
+      }
+    },
+    {
+      "policy": "affordable-skills-first",
+      "scenario": "continuous",
+      "project": "power-source.improve",
+      "seconds": {
+        "n": 16,
+        "min": 71.25,
+        "median": 80.625,
+        "p90": 90.0,
+        "p95": 93.75,
+        "max": 93.75
+      }
+    },
+    {
+      "policy": "affordable-skills-first",
+      "scenario": "continuous",
+      "project": "power-source.workshop-yard.upgrade-1",
+      "seconds": {
+        "n": 16,
+        "min": 75.0,
+        "median": 82.5,
+        "p90": 86.25,
+        "p95": 90.0,
+        "max": 90.0
+      }
+    },
+    {
+      "policy": "affordable-skills-first",
+      "scenario": "continuous",
+      "project": "power-source.workshop-yard.upgrade-2",
+      "seconds": {
+        "n": 16,
+        "min": 90.0,
+        "median": 97.5,
+        "p90": 101.25,
+        "p95": 105.0,
+        "max": 105.0
+      }
+    },
+    {
+      "policy": "affordable-skills-first",
+      "scenario": "continuous",
+      "project": "recycler.build",
+      "seconds": {
+        "n": 16,
+        "min": 56.25,
+        "median": 67.5,
+        "p90": 82.5,
+        "p95": 86.25,
+        "max": 86.25
+      }
+    },
+    {
+      "policy": "affordable-skills-first",
+      "scenario": "continuous",
+      "project": "recycler.improve",
+      "seconds": {
+        "n": 16,
+        "min": 75.0,
+        "median": 82.5,
+        "p90": 90,
+        "p95": 93.75,
+        "max": 93.75
+      }
+    },
+    {
+      "policy": "affordable-skills-first",
+      "scenario": "continuous",
+      "project": "recycler.workshop-yard.upgrade-1",
+      "seconds": {
+        "n": 16,
+        "min": 75.0,
+        "median": 82.5,
+        "p90": 90,
+        "p95": 90.0,
+        "max": 90.0
+      }
+    },
+    {
+      "policy": "affordable-skills-first",
+      "scenario": "continuous",
+      "project": "recycler.workshop-yard.upgrade-2",
+      "seconds": {
+        "n": 16,
+        "min": 93.75,
+        "median": 97.5,
+        "p90": 101.25,
+        "p95": 101.25,
+        "max": 101.25
+      }
+    },
+    {
+      "policy": "affordable-skills-first",
+      "scenario": "continuous",
+      "project": "workshop.build",
+      "seconds": {
+        "n": 16,
+        "min": 52.5,
+        "median": 63.75,
+        "p90": 75.0,
+        "p95": 75.0,
+        "max": 75.0
+      }
+    },
+    {
+      "policy": "affordable-skills-first",
+      "scenario": "continuous",
+      "project": "workshop.improve",
+      "seconds": {
+        "n": 16,
+        "min": 82.5,
+        "median": 95.625,
+        "p90": 105.0,
+        "p95": 116.25,
+        "max": 116.25
+      }
+    },
+    {
+      "policy": "affordable-skills-first",
+      "scenario": "continuous",
+      "project": "workshop.workshop-yard.upgrade-1",
+      "seconds": {
+        "n": 16,
+        "min": 71.25,
+        "median": 80.625,
+        "p90": 90.0,
+        "p95": 90.0,
+        "max": 90.0
+      }
+    },
+    {
+      "policy": "affordable-skills-first",
+      "scenario": "continuous",
+      "project": "workshop.workshop-yard.upgrade-2",
+      "seconds": {
+        "n": 16,
+        "min": 90.0,
+        "median": 97.5,
+        "p90": 101.25,
+        "p95": 105.0,
+        "max": 105.0
+      }
+    },
+    {
+      "policy": "affordable-skills-first",
+      "scenario": "one-2h-return-after-workshop",
+      "project": "cart.build",
+      "seconds": {
+        "n": 4,
+        "min": 63.75,
+        "median": 73.125,
+        "p90": 82.5,
+        "p95": 82.5,
+        "max": 82.5
+      }
+    },
+    {
+      "policy": "affordable-skills-first",
+      "scenario": "one-2h-return-after-workshop",
+      "project": "cart.improve",
+      "seconds": {
+        "n": 4,
+        "min": 78.75,
+        "median": 86.25,
+        "p90": 86.25,
+        "p95": 86.25,
+        "max": 86.25
+      }
+    },
+    {
+      "policy": "affordable-skills-first",
+      "scenario": "one-2h-return-after-workshop",
+      "project": "cart.workshop-yard.upgrade-1",
+      "seconds": {
+        "n": 4,
+        "min": 75,
+        "median": 78.75,
+        "p90": 86.25,
+        "p95": 86.25,
+        "max": 86.25
+      }
+    },
+    {
+      "policy": "affordable-skills-first",
+      "scenario": "one-2h-return-after-workshop",
+      "project": "cart.workshop-yard.upgrade-2",
+      "seconds": {
+        "n": 4,
+        "min": 93.75,
+        "median": 95.625,
+        "p90": 101.25,
+        "p95": 101.25,
+        "max": 101.25
+      }
+    },
+    {
+      "policy": "affordable-skills-first",
+      "scenario": "one-2h-return-after-workshop",
+      "project": "house.improve",
+      "seconds": {
+        "n": 4,
+        "min": 127.5,
+        "median": 133.125,
+        "p90": 142.5,
+        "p95": 142.5,
+        "max": 142.5
+      }
+    },
+    {
+      "policy": "affordable-skills-first",
+      "scenario": "one-2h-return-after-workshop",
+      "project": "house.repair",
+      "seconds": {
+        "n": 4,
+        "min": 3.5,
+        "median": 3.5,
+        "p90": 3.5,
+        "p95": 3.5,
+        "max": 3.5
+      }
+    },
+    {
+      "policy": "affordable-skills-first",
+      "scenario": "one-2h-return-after-workshop",
+      "project": "house.workshop-yard.upgrade-1",
+      "seconds": {
+        "n": 4,
+        "min": 90.0,
+        "median": 97.5,
+        "p90": 108.75,
+        "p95": 108.75,
+        "max": 108.75
+      }
+    },
+    {
+      "policy": "affordable-skills-first",
+      "scenario": "one-2h-return-after-workshop",
+      "project": "house.workshop-yard.upgrade-2",
+      "seconds": {
+        "n": 4,
+        "min": 90.0,
+        "median": 93.75,
+        "p90": 97.5,
+        "p95": 97.5,
+        "max": 97.5
+      }
+    },
+    {
+      "policy": "affordable-skills-first",
+      "scenario": "one-2h-return-after-workshop",
+      "project": "pigeon-loft.build",
+      "seconds": {
+        "n": 4,
+        "min": 67.5,
+        "median": 75.0,
+        "p90": 78.75,
+        "p95": 78.75,
+        "max": 78.75
+      }
+    },
+    {
+      "policy": "affordable-skills-first",
+      "scenario": "one-2h-return-after-workshop",
+      "project": "pigeon-loft.improve",
+      "seconds": {
+        "n": 4,
+        "min": 75.0,
+        "median": 78.75,
+        "p90": 90.0,
+        "p95": 90.0,
+        "max": 90.0
+      }
+    },
+    {
+      "policy": "affordable-skills-first",
+      "scenario": "one-2h-return-after-workshop",
+      "project": "pigeon-loft.workshop-yard.upgrade-1",
+      "seconds": {
+        "n": 4,
+        "min": 108.75,
+        "median": 108.75,
+        "p90": 112.5,
+        "p95": 112.5,
+        "max": 112.5
+      }
+    },
+    {
+      "policy": "affordable-skills-first",
+      "scenario": "one-2h-return-after-workshop",
+      "project": "pigeon-loft.workshop-yard.upgrade-2",
+      "seconds": {
+        "n": 4,
+        "min": 93.75,
+        "median": 95.625,
+        "p90": 101.25,
+        "p95": 101.25,
+        "max": 101.25
+      }
+    },
+    {
+      "policy": "affordable-skills-first",
+      "scenario": "one-2h-return-after-workshop",
+      "project": "power-source.build",
+      "seconds": {
+        "n": 4,
+        "min": 112.5,
+        "median": 125.625,
+        "p90": 131.25,
+        "p95": 131.25,
+        "max": 131.25
+      }
+    },
+    {
+      "policy": "affordable-skills-first",
+      "scenario": "one-2h-return-after-workshop",
+      "project": "power-source.improve",
+      "seconds": {
+        "n": 4,
+        "min": 71.25,
+        "median": 75.0,
+        "p90": 90.0,
+        "p95": 90.0,
+        "max": 90.0
+      }
+    },
+    {
+      "policy": "affordable-skills-first",
+      "scenario": "one-2h-return-after-workshop",
+      "project": "power-source.workshop-yard.upgrade-1",
+      "seconds": {
+        "n": 4,
+        "min": 71.25,
+        "median": 76.875,
+        "p90": 86.25,
+        "p95": 86.25,
+        "max": 86.25
+      }
+    },
+    {
+      "policy": "affordable-skills-first",
+      "scenario": "one-2h-return-after-workshop",
+      "project": "power-source.workshop-yard.upgrade-2",
+      "seconds": {
+        "n": 4,
+        "min": 93.75,
+        "median": 99.375,
+        "p90": 101.25,
+        "p95": 101.25,
+        "max": 101.25
+      }
+    },
+    {
+      "policy": "affordable-skills-first",
+      "scenario": "one-2h-return-after-workshop",
+      "project": "recycler.build",
+      "seconds": {
+        "n": 4,
+        "min": 67.5,
+        "median": 71.25,
+        "p90": 78.75,
+        "p95": 78.75,
+        "max": 78.75
+      }
+    },
+    {
+      "policy": "affordable-skills-first",
+      "scenario": "one-2h-return-after-workshop",
+      "project": "recycler.improve",
+      "seconds": {
+        "n": 4,
+        "min": 78.75,
+        "median": 82.5,
+        "p90": 90.0,
+        "p95": 90.0,
+        "max": 90.0
+      }
+    },
+    {
+      "policy": "affordable-skills-first",
+      "scenario": "one-2h-return-after-workshop",
+      "project": "recycler.workshop-yard.upgrade-1",
+      "seconds": {
+        "n": 4,
+        "min": 75.0,
+        "median": 80.625,
+        "p90": 86.25,
+        "p95": 86.25,
+        "max": 86.25
+      }
+    },
+    {
+      "policy": "affordable-skills-first",
+      "scenario": "one-2h-return-after-workshop",
+      "project": "recycler.workshop-yard.upgrade-2",
+      "seconds": {
+        "n": 4,
+        "min": 90.0,
+        "median": 97.5,
+        "p90": 101.25,
+        "p95": 101.25,
+        "max": 101.25
+      }
+    },
+    {
+      "policy": "affordable-skills-first",
+      "scenario": "one-2h-return-after-workshop",
+      "project": "workshop.build",
+      "seconds": {
+        "n": 4,
+        "min": 52.5,
+        "median": 56.25,
+        "p90": 67.5,
+        "p95": 67.5,
+        "max": 67.5
+      }
+    },
+    {
+      "policy": "affordable-skills-first",
+      "scenario": "one-2h-return-after-workshop",
+      "project": "workshop.improve",
+      "seconds": {
+        "n": 4,
+        "min": 86.25,
+        "median": 91.875,
+        "p90": 105.0,
+        "p95": 105.0,
+        "max": 105.0
+      }
+    },
+    {
+      "policy": "affordable-skills-first",
+      "scenario": "one-2h-return-after-workshop",
+      "project": "workshop.workshop-yard.upgrade-1",
+      "seconds": {
+        "n": 4,
+        "min": 78.75,
+        "median": 84.375,
+        "p90": 86.25,
+        "p95": 86.25,
+        "max": 86.25
+      }
+    },
+    {
+      "policy": "affordable-skills-first",
+      "scenario": "one-2h-return-after-workshop",
+      "project": "workshop.workshop-yard.upgrade-2",
+      "seconds": {
+        "n": 4,
+        "min": 86.25,
+        "median": 93.75,
+        "p90": 101.25,
+        "p95": 101.25,
+        "max": 101.25
+      }
+    },
+    {
+      "policy": "construction-first",
+      "scenario": "continuous",
+      "project": "cart.build",
+      "seconds": {
+        "n": 16,
+        "min": 56.25,
+        "median": 75.0,
+        "p90": 90.0,
+        "p95": 90.0,
+        "max": 90.0
+      }
+    },
+    {
+      "policy": "construction-first",
+      "scenario": "continuous",
+      "project": "cart.improve",
+      "seconds": {
+        "n": 16,
+        "min": 90.0,
+        "median": 101.25,
+        "p90": 112.5,
+        "p95": 116.25,
+        "max": 116.25
+      }
+    },
+    {
+      "policy": "construction-first",
+      "scenario": "continuous",
+      "project": "cart.workshop-yard.upgrade-1",
+      "seconds": {
+        "n": 16,
+        "min": 75.0,
+        "median": 90.0,
+        "p90": 101.25,
+        "p95": 101.25,
+        "max": 101.25
+      }
+    },
+    {
+      "policy": "construction-first",
+      "scenario": "continuous",
+      "project": "cart.workshop-yard.upgrade-2",
+      "seconds": {
+        "n": 16,
+        "min": 97.5,
+        "median": 112.5,
+        "p90": 123.75,
+        "p95": 127.5,
+        "max": 127.5
+      }
+    },
+    {
+      "policy": "construction-first",
+      "scenario": "continuous",
+      "project": "house.improve",
+      "seconds": {
+        "n": 16,
+        "min": 131.25,
+        "median": 151.875,
+        "p90": 165.0,
+        "p95": 165.0,
+        "max": 165.0
+      }
+    },
+    {
+      "policy": "construction-first",
+      "scenario": "continuous",
+      "project": "house.repair",
+      "seconds": {
+        "n": 16,
+        "min": 3.5,
+        "median": 3.5,
+        "p90": 3.5,
+        "p95": 3.5,
+        "max": 3.5
+      }
+    },
+    {
+      "policy": "construction-first",
+      "scenario": "continuous",
+      "project": "house.workshop-yard.upgrade-1",
+      "seconds": {
+        "n": 16,
+        "min": 78.75,
+        "median": 97.5,
+        "p90": 97.5,
+        "p95": 105,
+        "max": 105
+      }
+    },
+    {
+      "policy": "construction-first",
+      "scenario": "continuous",
+      "project": "house.workshop-yard.upgrade-2",
+      "seconds": {
+        "n": 16,
+        "min": 108.75,
+        "median": 114.375,
+        "p90": 123.75,
+        "p95": 127.5,
+        "max": 127.5
+      }
+    },
+    {
+      "policy": "construction-first",
+      "scenario": "continuous",
+      "project": "pigeon-loft.build",
+      "seconds": {
+        "n": 16,
+        "min": 71.25,
+        "median": 86.25,
+        "p90": 97.5,
+        "p95": 97.5,
+        "max": 97.5
+      }
+    },
+    {
+      "policy": "construction-first",
+      "scenario": "continuous",
+      "project": "pigeon-loft.improve",
+      "seconds": {
+        "n": 16,
+        "min": 90,
+        "median": 93.75,
+        "p90": 105.0,
+        "p95": 105.0,
+        "max": 105.0
+      }
+    },
+    {
+      "policy": "construction-first",
+      "scenario": "continuous",
+      "project": "pigeon-loft.workshop-yard.upgrade-1",
+      "seconds": {
+        "n": 16,
+        "min": 86.25,
+        "median": 93.75,
+        "p90": 97.5,
+        "p95": 101.25,
+        "max": 101.25
+      }
+    },
+    {
+      "policy": "construction-first",
+      "scenario": "continuous",
+      "project": "pigeon-loft.workshop-yard.upgrade-2",
+      "seconds": {
+        "n": 16,
+        "min": 105.0,
+        "median": 112.5,
+        "p90": 120.0,
+        "p95": 123.75,
+        "max": 123.75
+      }
+    },
+    {
+      "policy": "construction-first",
+      "scenario": "continuous",
+      "project": "power-source.build",
+      "seconds": {
+        "n": 16,
+        "min": 63.75,
+        "median": 78.75,
+        "p90": 90,
+        "p95": 90.0,
+        "max": 90.0
+      }
+    },
+    {
+      "policy": "construction-first",
+      "scenario": "continuous",
+      "project": "power-source.improve",
+      "seconds": {
+        "n": 16,
+        "min": 82.5,
+        "median": 95.625,
+        "p90": 105.0,
+        "p95": 105.0,
+        "max": 105.0
+      }
+    },
+    {
+      "policy": "construction-first",
+      "scenario": "continuous",
+      "project": "power-source.workshop-yard.upgrade-1",
+      "seconds": {
+        "n": 16,
+        "min": 86.25,
+        "median": 95.625,
+        "p90": 101.25,
+        "p95": 108.75,
+        "max": 108.75
+      }
+    },
+    {
+      "policy": "construction-first",
+      "scenario": "continuous",
+      "project": "power-source.workshop-yard.upgrade-2",
+      "seconds": {
+        "n": 16,
+        "min": 108.75,
+        "median": 116.25,
+        "p90": 120.0,
+        "p95": 120.0,
+        "max": 120.0
+      }
+    },
+    {
+      "policy": "construction-first",
+      "scenario": "continuous",
+      "project": "recycler.build",
+      "seconds": {
+        "n": 16,
+        "min": 60.0,
+        "median": 78.75,
+        "p90": 86.25,
+        "p95": 90.0,
+        "max": 90.0
+      }
+    },
+    {
+      "policy": "construction-first",
+      "scenario": "continuous",
+      "project": "recycler.improve",
+      "seconds": {
+        "n": 16,
+        "min": 82.5,
+        "median": 95.625,
+        "p90": 105,
+        "p95": 105.0,
+        "max": 105.0
+      }
+    },
+    {
+      "policy": "construction-first",
+      "scenario": "continuous",
+      "project": "recycler.workshop-yard.upgrade-1",
+      "seconds": {
+        "n": 16,
+        "min": 78.75,
+        "median": 91.875,
+        "p90": 101.25,
+        "p95": 108.75,
+        "max": 108.75
+      }
+    },
+    {
+      "policy": "construction-first",
+      "scenario": "continuous",
+      "project": "recycler.workshop-yard.upgrade-2",
+      "seconds": {
+        "n": 16,
+        "min": 108.75,
+        "median": 112.5,
+        "p90": 120.0,
+        "p95": 120,
+        "max": 120
+      }
+    },
+    {
+      "policy": "construction-first",
+      "scenario": "continuous",
+      "project": "workshop.build",
+      "seconds": {
+        "n": 16,
+        "min": 52.5,
+        "median": 63.75,
+        "p90": 75.0,
+        "p95": 75.0,
+        "max": 75.0
+      }
+    },
+    {
+      "policy": "construction-first",
+      "scenario": "continuous",
+      "project": "workshop.improve",
+      "seconds": {
+        "n": 16,
+        "min": 75.0,
+        "median": 90.0,
+        "p90": 97.5,
+        "p95": 97.5,
+        "max": 97.5
+      }
+    },
+    {
+      "policy": "construction-first",
+      "scenario": "continuous",
+      "project": "workshop.workshop-yard.upgrade-1",
+      "seconds": {
+        "n": 16,
+        "min": 82.5,
+        "median": 93.75,
+        "p90": 101.25,
+        "p95": 101.25,
+        "max": 101.25
+      }
+    },
+    {
+      "policy": "construction-first",
+      "scenario": "continuous",
+      "project": "workshop.workshop-yard.upgrade-2",
+      "seconds": {
+        "n": 16,
+        "min": 105,
+        "median": 120.0,
+        "p90": 123.75,
+        "p95": 127.5,
+        "max": 127.5
+      }
+    },
+    {
+      "policy": "construction-first",
+      "scenario": "one-2h-return-after-workshop",
+      "project": "cart.build",
+      "seconds": {
+        "n": 4,
+        "min": 11.25,
+        "median": 20.625,
+        "p90": 22.5,
+        "p95": 22.5,
+        "max": 22.5
+      }
+    },
+    {
+      "policy": "construction-first",
+      "scenario": "one-2h-return-after-workshop",
+      "project": "cart.improve",
+      "seconds": {
+        "n": 4,
+        "min": 86.25,
+        "median": 97.5,
+        "p90": 105.0,
+        "p95": 105.0,
+        "max": 105.0
+      }
+    },
+    {
+      "policy": "construction-first",
+      "scenario": "one-2h-return-after-workshop",
+      "project": "cart.workshop-yard.upgrade-1",
+      "seconds": {
+        "n": 4,
+        "min": 86.25,
+        "median": 91.875,
+        "p90": 97.5,
+        "p95": 97.5,
+        "max": 97.5
+      }
+    },
+    {
+      "policy": "construction-first",
+      "scenario": "one-2h-return-after-workshop",
+      "project": "cart.workshop-yard.upgrade-2",
+      "seconds": {
+        "n": 4,
+        "min": 105.0,
+        "median": 114.375,
+        "p90": 116.25,
+        "p95": 116.25,
+        "max": 116.25
+      }
+    },
+    {
+      "policy": "construction-first",
+      "scenario": "one-2h-return-after-workshop",
+      "project": "house.improve",
+      "seconds": {
+        "n": 4,
+        "min": 138.75,
+        "median": 144.375,
+        "p90": 161.25,
+        "p95": 161.25,
+        "max": 161.25
+      }
+    },
+    {
+      "policy": "construction-first",
+      "scenario": "one-2h-return-after-workshop",
+      "project": "house.repair",
+      "seconds": {
+        "n": 4,
+        "min": 3.5,
+        "median": 3.5,
+        "p90": 3.5,
+        "p95": 3.5,
+        "max": 3.5
+      }
+    },
+    {
+      "policy": "construction-first",
+      "scenario": "one-2h-return-after-workshop",
+      "project": "house.workshop-yard.upgrade-1",
+      "seconds": {
+        "n": 4,
+        "min": 90.0,
+        "median": 99.375,
+        "p90": 105.0,
+        "p95": 105.0,
+        "max": 105.0
+      }
+    },
+    {
+      "policy": "construction-first",
+      "scenario": "one-2h-return-after-workshop",
+      "project": "house.workshop-yard.upgrade-2",
+      "seconds": {
+        "n": 4,
+        "min": 105,
+        "median": 116.25,
+        "p90": 120.0,
+        "p95": 120.0,
+        "max": 120.0
+      }
+    },
+    {
+      "policy": "construction-first",
+      "scenario": "one-2h-return-after-workshop",
+      "project": "pigeon-loft.build",
+      "seconds": {
+        "n": 4,
+        "min": 82.5,
+        "median": 90.0,
+        "p90": 93.75,
+        "p95": 93.75,
+        "max": 93.75
+      }
+    },
+    {
+      "policy": "construction-first",
+      "scenario": "one-2h-return-after-workshop",
+      "project": "pigeon-loft.improve",
+      "seconds": {
+        "n": 4,
+        "min": 82.5,
+        "median": 93.75,
+        "p90": 108.75,
+        "p95": 108.75,
+        "max": 108.75
+      }
+    },
+    {
+      "policy": "construction-first",
+      "scenario": "one-2h-return-after-workshop",
+      "project": "pigeon-loft.workshop-yard.upgrade-1",
+      "seconds": {
+        "n": 4,
+        "min": 90.0,
+        "median": 93.75,
+        "p90": 97.5,
+        "p95": 97.5,
+        "max": 97.5
+      }
+    },
+    {
+      "policy": "construction-first",
+      "scenario": "one-2h-return-after-workshop",
+      "project": "pigeon-loft.workshop-yard.upgrade-2",
+      "seconds": {
+        "n": 4,
+        "min": 112.5,
+        "median": 112.5,
+        "p90": 116.25,
+        "p95": 116.25,
+        "max": 116.25
+      }
+    },
+    {
+      "policy": "construction-first",
+      "scenario": "one-2h-return-after-workshop",
+      "project": "power-source.build",
+      "seconds": {
+        "n": 4,
+        "min": 71.25,
+        "median": 76.875,
+        "p90": 78.75,
+        "p95": 78.75,
+        "max": 78.75
+      }
+    },
+    {
+      "policy": "construction-first",
+      "scenario": "one-2h-return-after-workshop",
+      "project": "power-source.improve",
+      "seconds": {
+        "n": 4,
+        "min": 86.25,
+        "median": 91.875,
+        "p90": 93.75,
+        "p95": 93.75,
+        "max": 93.75
+      }
+    },
+    {
+      "policy": "construction-first",
+      "scenario": "one-2h-return-after-workshop",
+      "project": "power-source.workshop-yard.upgrade-1",
+      "seconds": {
+        "n": 4,
+        "min": 86.25,
+        "median": 88.125,
+        "p90": 101.25,
+        "p95": 101.25,
+        "max": 101.25
+      }
+    },
+    {
+      "policy": "construction-first",
+      "scenario": "one-2h-return-after-workshop",
+      "project": "power-source.workshop-yard.upgrade-2",
+      "seconds": {
+        "n": 4,
+        "min": 112.5,
+        "median": 112.5,
+        "p90": 116.25,
+        "p95": 116.25,
+        "max": 116.25
+      }
+    },
+    {
+      "policy": "construction-first",
+      "scenario": "one-2h-return-after-workshop",
+      "project": "recycler.build",
+      "seconds": {
+        "n": 4,
+        "min": 78.75,
+        "median": 88.125,
+        "p90": 93.75,
+        "p95": 93.75,
+        "max": 93.75
+      }
+    },
+    {
+      "policy": "construction-first",
+      "scenario": "one-2h-return-after-workshop",
+      "project": "recycler.improve",
+      "seconds": {
+        "n": 4,
+        "min": 93.75,
+        "median": 95.625,
+        "p90": 97.5,
+        "p95": 97.5,
+        "max": 97.5
+      }
+    },
+    {
+      "policy": "construction-first",
+      "scenario": "one-2h-return-after-workshop",
+      "project": "recycler.workshop-yard.upgrade-1",
+      "seconds": {
+        "n": 4,
+        "min": 86.25,
+        "median": 91.875,
+        "p90": 97.5,
+        "p95": 97.5,
+        "max": 97.5
+      }
+    },
+    {
+      "policy": "construction-first",
+      "scenario": "one-2h-return-after-workshop",
+      "project": "recycler.workshop-yard.upgrade-2",
+      "seconds": {
+        "n": 4,
+        "min": 108.75,
+        "median": 114.375,
+        "p90": 120.0,
+        "p95": 120.0,
+        "max": 120.0
+      }
+    },
+    {
+      "policy": "construction-first",
+      "scenario": "one-2h-return-after-workshop",
+      "project": "workshop.build",
+      "seconds": {
+        "n": 4,
+        "min": 52.5,
+        "median": 56.25,
+        "p90": 67.5,
+        "p95": 67.5,
+        "max": 67.5
+      }
+    },
+    {
+      "policy": "construction-first",
+      "scenario": "one-2h-return-after-workshop",
+      "project": "workshop.improve",
+      "seconds": {
+        "n": 4,
+        "min": 82.5,
+        "median": 93.75,
+        "p90": 101.25,
+        "p95": 101.25,
+        "max": 101.25
+      }
+    },
+    {
+      "policy": "construction-first",
+      "scenario": "one-2h-return-after-workshop",
+      "project": "workshop.workshop-yard.upgrade-1",
+      "seconds": {
+        "n": 4,
+        "min": 90.0,
+        "median": 93.75,
+        "p90": 97.5,
+        "p95": 97.5,
+        "max": 97.5
+      }
+    },
+    {
+      "policy": "construction-first",
+      "scenario": "one-2h-return-after-workshop",
+      "project": "workshop.workshop-yard.upgrade-2",
+      "seconds": {
+        "n": 4,
+        "min": 108.75,
+        "median": 114.375,
+        "p90": 116.25,
+        "p95": 116.25,
+        "max": 116.25
+      }
+    }
+  ],
+  "postchapterOrders": [
+    {
+      "policy": "affordable-skills-first",
+      "id": "order.sort-salvage",
+      "seedSamples": 16,
+      "instancesPerSeed": 3,
+      "threeInstanceSpins": {
+        "n": 16,
+        "min": 31.0,
+        "median": 48.0,
+        "p90": 58.0,
+        "p95": 62.0,
+        "max": 62.0
+      },
+      "threeInstanceManualSeconds": {
+        "n": 16,
+        "min": 108.5,
+        "median": 168.0,
+        "p90": 203.0,
+        "p95": 217.0,
+        "max": 217.0
+      },
+      "extraClaimCoinsPerNominalMinute": {
+        "n": 16,
+        "min": 99.53917050691244,
+        "median": 128.6272563736741,
+        "p90": 154.28571428571428,
+        "p95": 199.07834101382488,
+        "max": 199.07834101382488
+      }
+    },
+    {
+      "policy": "affordable-skills-first",
+      "id": "order.neighborhood-supply",
+      "seedSamples": 16,
+      "instancesPerSeed": 3,
+      "threeInstanceSpins": {
+        "n": 16,
+        "min": 25.0,
+        "median": 34.5,
+        "p90": 40.0,
+        "p95": 46.0,
+        "max": 46.0
+      },
+      "threeInstanceManualSeconds": {
+        "n": 16,
+        "min": 87.5,
+        "median": 120.75,
+        "p90": 140.0,
+        "p95": 161.0,
+        "max": 161.0
+      },
+      "extraClaimCoinsPerNominalMinute": {
+        "n": 16,
+        "min": 201.24223602484471,
+        "median": 268.3793517406963,
+        "p90": 356.04395604395603,
+        "p95": 370.2857142857143,
+        "max": 370.2857142857143
+      }
+    },
+    {
+      "policy": "construction-first",
+      "id": "order.sort-salvage",
+      "seedSamples": 16,
+      "instancesPerSeed": 3,
+      "threeInstanceSpins": {
+        "n": 16,
+        "min": 39.0,
+        "median": 46.0,
+        "p90": 58.0,
+        "p95": 60.0,
+        "max": 60.0
+      },
+      "threeInstanceManualSeconds": {
+        "n": 16,
+        "min": 136.5,
+        "median": 161.0,
+        "p90": 203.0,
+        "p95": 210.0,
+        "max": 210.0
+      },
+      "extraClaimCoinsPerNominalMinute": {
+        "n": 16,
+        "min": 102.85714285714286,
+        "median": 134.22492401215806,
+        "p90": 154.28571428571428,
+        "p95": 158.24175824175825,
+        "max": 158.24175824175825
+      }
+    },
+    {
+      "policy": "construction-first",
+      "id": "order.neighborhood-supply",
+      "seedSamples": 16,
+      "instancesPerSeed": 3,
+      "threeInstanceSpins": {
+        "n": 16,
+        "min": 27.0,
+        "median": 32.5,
+        "p90": 39.0,
+        "p95": 40.0,
+        "max": 40.0
+      },
+      "threeInstanceManualSeconds": {
+        "n": 16,
+        "min": 94.5,
+        "median": 113.75,
+        "p90": 136.5,
+        "p95": 140.0,
+        "max": 140.0
+      },
+      "extraClaimCoinsPerNominalMinute": {
+        "n": 16,
+        "min": 231.42857142857142,
+        "median": 284.9025974025974,
+        "p90": 330.61224489795916,
+        "p95": 342.85714285714283,
+        "max": 342.85714285714283
+      }
+    }
+  ],
+  "pairedPolicies": [
+    {
+      "scenario": "continuous",
+      "seed": 1,
+      "chapterSpinSaving": 35,
+      "allSkillSpinSaving": 58,
+      "eraReadyDelay": 3,
+      "longestGapSavingSeconds": 18.75
+    },
+    {
+      "scenario": "continuous",
+      "seed": 12305,
+      "chapterSpinSaving": 33,
+      "allSkillSpinSaving": 56,
+      "eraReadyDelay": 2,
+      "longestGapSavingSeconds": 15.0
+    },
+    {
+      "scenario": "continuous",
+      "seed": 305419896,
+      "chapterSpinSaving": 32,
+      "allSkillSpinSaving": 57,
+      "eraReadyDelay": 2,
+      "longestGapSavingSeconds": 7.5
+    },
+    {
+      "scenario": "continuous",
+      "seed": 2654435769,
+      "chapterSpinSaving": 37,
+      "allSkillSpinSaving": 62,
+      "eraReadyDelay": 0,
+      "longestGapSavingSeconds": 15.0
+    },
+    {
+      "scenario": "continuous",
+      "seed": 2738958700,
+      "chapterSpinSaving": 41,
+      "allSkillSpinSaving": 66,
+      "eraReadyDelay": -1,
+      "longestGapSavingSeconds": 22.5
+    },
+    {
+      "scenario": "continuous",
+      "seed": 3355524772,
+      "chapterSpinSaving": 34,
+      "allSkillSpinSaving": 59,
+      "eraReadyDelay": 2,
+      "longestGapSavingSeconds": 3.75
+    },
+    {
+      "scenario": "continuous",
+      "seed": 2911926141,
+      "chapterSpinSaving": 35,
+      "allSkillSpinSaving": 57,
+      "eraReadyDelay": 2,
+      "longestGapSavingSeconds": 11.25
+    },
+    {
+      "scenario": "continuous",
+      "seed": 2123724318,
+      "chapterSpinSaving": 35,
+      "allSkillSpinSaving": 61,
+      "eraReadyDelay": 3,
+      "longestGapSavingSeconds": 22.5
+    },
+    {
+      "scenario": "continuous",
+      "seed": 3735928559,
+      "chapterSpinSaving": 36,
+      "allSkillSpinSaving": 61,
+      "eraReadyDelay": 0,
+      "longestGapSavingSeconds": 22.5
+    },
+    {
+      "scenario": "continuous",
+      "seed": 1831565813,
+      "chapterSpinSaving": 34,
+      "allSkillSpinSaving": 58,
+      "eraReadyDelay": 2,
+      "longestGapSavingSeconds": 18.75
+    },
+    {
+      "scenario": "continuous",
+      "seed": 4027435774,
+      "chapterSpinSaving": 31,
+      "allSkillSpinSaving": 55,
+      "eraReadyDelay": 3,
+      "longestGapSavingSeconds": 18.75
+    },
+    {
+      "scenario": "continuous",
+      "seed": 324508639,
+      "chapterSpinSaving": 36,
+      "allSkillSpinSaving": 60,
+      "eraReadyDelay": 0,
+      "longestGapSavingSeconds": 18.75
+    },
+    {
+      "scenario": "continuous",
+      "seed": 610839777,
+      "chapterSpinSaving": 39,
+      "allSkillSpinSaving": 61,
+      "eraReadyDelay": 2,
+      "longestGapSavingSeconds": 18.75
+    },
+    {
+      "scenario": "continuous",
+      "seed": 2246822507,
+      "chapterSpinSaving": 35,
+      "allSkillSpinSaving": 59,
+      "eraReadyDelay": 2,
+      "longestGapSavingSeconds": 11.25
+    },
+    {
+      "scenario": "continuous",
+      "seed": 3266489909,
+      "chapterSpinSaving": 36,
+      "allSkillSpinSaving": 61,
+      "eraReadyDelay": 3,
+      "longestGapSavingSeconds": 3.75
+    },
+    {
+      "scenario": "continuous",
+      "seed": 668265263,
+      "chapterSpinSaving": 35,
+      "allSkillSpinSaving": 60,
+      "eraReadyDelay": 2,
+      "longestGapSavingSeconds": 18.75
+    },
+    {
+      "scenario": "one-2h-return-after-workshop",
+      "seed": 1,
+      "chapterSpinSaving": 35,
+      "allSkillSpinSaving": 59,
+      "eraReadyDelay": 2,
+      "longestGapSavingSeconds": 11.25
+    },
+    {
+      "scenario": "one-2h-return-after-workshop",
+      "seed": 12305,
+      "chapterSpinSaving": 36,
+      "allSkillSpinSaving": 60,
+      "eraReadyDelay": 0,
+      "longestGapSavingSeconds": 18.75
+    },
+    {
+      "scenario": "one-2h-return-after-workshop",
+      "seed": 305419896,
+      "chapterSpinSaving": 31,
+      "allSkillSpinSaving": 56,
+      "eraReadyDelay": 4,
+      "longestGapSavingSeconds": 7.5
+    },
+    {
+      "scenario": "one-2h-return-after-workshop",
+      "seed": 2654435769,
+      "chapterSpinSaving": 35,
+      "allSkillSpinSaving": 59,
+      "eraReadyDelay": 3,
+      "longestGapSavingSeconds": 11.25
+    }
+  ],
+  "offlinePairs": [
+    {
+      "policy": "construction-first",
+      "seed": 1,
+      "offlineCoins": 120,
+      "foregroundSpinsSaved": 16,
+      "extraWallSeconds": 7140
+    },
+    {
+      "policy": "construction-first",
+      "seed": 12305,
+      "offlineCoins": 120,
+      "foregroundSpinsSaved": 13,
+      "extraWallSeconds": 7151.25
+    },
+    {
+      "policy": "construction-first",
+      "seed": 305419896,
+      "offlineCoins": 120,
+      "foregroundSpinsSaved": 16,
+      "extraWallSeconds": 7140.0
+    },
+    {
+      "policy": "construction-first",
+      "seed": 2654435769,
+      "offlineCoins": 120,
+      "foregroundSpinsSaved": 15,
+      "extraWallSeconds": 7143.75
+    },
+    {
+      "policy": "affordable-skills-first",
+      "seed": 1,
+      "offlineCoins": 120,
+      "foregroundSpinsSaved": 16,
+      "extraWallSeconds": 7140.0
+    },
+    {
+      "policy": "affordable-skills-first",
+      "seed": 12305,
+      "offlineCoins": 120,
+      "foregroundSpinsSaved": 16,
+      "extraWallSeconds": 7140.0
+    },
+    {
+      "policy": "affordable-skills-first",
+      "seed": 305419896,
+      "offlineCoins": 120,
+      "foregroundSpinsSaved": 15,
+      "extraWallSeconds": 7143.75
+    },
+    {
+      "policy": "affordable-skills-first",
+      "seed": 2654435769,
+      "offlineCoins": 120,
+      "foregroundSpinsSaved": 13,
+      "extraWallSeconds": 7151.25
+    }
+  ]
+}

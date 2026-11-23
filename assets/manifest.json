@@ -1,0 +1,12 @@
+{
+  "contentVersion": 1,
+  "house": {
+    "path": "house-stages.png",
+    "atlas": "house-stages.json",
+    "frames": ["house-0", "house-1", "house-2"],
+    "scale": 0.2,
+    "origins": [[0.5368098159509203, 0.8590852904820766], [0.5, 0.8590852904820766], [0.41354466858789624, 0.8590852904820766]],
+    "status": "integrated-art-draft",
+    "pixelGridVerified": false
+  }
+}

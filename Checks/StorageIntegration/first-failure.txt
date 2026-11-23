@@ -1,0 +1,5 @@
+First run failed before any FileSnapshotStorage case was constructed.
+Harness PrivateFiles.Root retained mixed separators; Inside normalized the candidate but not the root.
+The catch receipt path hit the same guard, so no in-run receipt was produced.
+Observed error: System.IO.IOException: Fixture path escapes the exact private run.
+Fix limited to canonicalizing the harness run root; production storage unchanged.

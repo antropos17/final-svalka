@@ -1,0 +1,362 @@
+{
+  "scope": "Source-only preparation while mandatory B Unity acceptance is pending; no new execution, weak-node verdict or skill proposal",
+  "sourceCommit": "f13e007",
+  "capturedBArtifact": "Checks/ProgressionTiming/evidence/cadence-r12/wider.json",
+  "capturedBWorkingSha256": "C0D1A626FC961BC7B68A4264391E6602075B59A5D9B39146B92E0C4E494B084E",
+  "skillRevision": "skill.prices.v3",
+  "skillTotal": 610,
+  "literalPaybackUnits": [
+    {
+      "id": "slot.coin-boost",
+      "price": 120,
+      "incrementPerQualifyingUnit": 1,
+      "requiredQualifyingUnitsToRecoverPrice": 120,
+      "unit": "foreground spins"
+    },
+    {
+      "id": "skill.universal.2",
+      "price": 160,
+      "incrementPerQualifyingUnit": 1,
+      "requiredQualifyingUnitsToRecoverPrice": 160,
+      "unit": "foreground spins"
+    },
+    {
+      "id": "skill.recycling.1",
+      "price": 160,
+      "incrementPerQualifyingUnit": 1,
+      "requiredQualifyingUnitsToRecoverPrice": 160,
+      "unit": "trash appearances"
+    },
+    {
+      "id": "skill.recycling.2",
+      "price": 90,
+      "incrementPerQualifyingUnit": 1,
+      "requiredQualifyingUnitsToRecoverPrice": 90,
+      "unit": "trash appearances"
+    },
+    {
+      "id": "skill.delivery.1",
+      "price": 60,
+      "incrementPerQualifyingUnit": 1,
+      "requiredQualifyingUnitsToRecoverPrice": 60,
+      "unit": "completed deliveries"
+    },
+    {
+      "id": "skill.delivery.2",
+      "price": 20,
+      "incrementPerQualifyingUnit": 1,
+      "requiredQualifyingUnitsToRecoverPrice": 20,
+      "unit": "completed deliveries"
+    }
+  ],
+  "cases": [
+    {
+      "seed": 1,
+      "policy": "construction-first",
+      "chapterSpins": 595,
+      "allSkillsSpins": 618,
+      "purchases": [
+        {
+          "id": "skill.delivery.1",
+          "spin": 598,
+          "price": 60,
+          "walletAfter": 23,
+          "mandatoryChapterSpinsRemaining": 0
+        },
+        {
+          "id": "skill.delivery.2",
+          "spin": 598,
+          "price": 20,
+          "walletAfter": 3,
+          "mandatoryChapterSpinsRemaining": 0
+        },
+        {
+          "id": "slot.coin-boost",
+          "spin": 603,
+          "price": 120,
+          "walletAfter": 5,
+          "mandatoryChapterSpinsRemaining": 0
+        },
+        {
+          "id": "skill.recycling.1",
+          "spin": 610,
+          "price": 160,
+          "walletAfter": 25,
+          "mandatoryChapterSpinsRemaining": 0
+        },
+        {
+          "id": "skill.recycling.2",
+          "spin": 613,
+          "price": 90,
+          "walletAfter": 8,
+          "mandatoryChapterSpinsRemaining": 0
+        },
+        {
+          "id": "skill.universal.2",
+          "spin": 618,
+          "price": 160,
+          "walletAfter": 9,
+          "mandatoryChapterSpinsRemaining": 0
+        }
+      ]
+    },
+    {
+      "seed": 12305,
+      "policy": "construction-first",
+      "chapterSpins": 598,
+      "allSkillsSpins": 622,
+      "purchases": [
+        {
+          "id": "skill.delivery.1",
+          "spin": 601,
+          "price": 60,
+          "walletAfter": 17,
+          "mandatoryChapterSpinsRemaining": 0
+        },
+        {
+          "id": "skill.delivery.2",
+          "spin": 602,
+          "price": 20,
+          "walletAfter": 24,
+          "mandatoryChapterSpinsRemaining": 0
+        },
+        {
+          "id": "slot.coin-boost",
+          "spin": 606,
+          "price": 120,
+          "walletAfter": 5,
+          "mandatoryChapterSpinsRemaining": 0
+        },
+        {
+          "id": "skill.recycling.1",
+          "spin": 613,
+          "price": 160,
+          "walletAfter": 10,
+          "mandatoryChapterSpinsRemaining": 0
+        },
+        {
+          "id": "skill.recycling.2",
+          "spin": 616,
+          "price": 90,
+          "walletAfter": 11,
+          "mandatoryChapterSpinsRemaining": 0
+        },
+        {
+          "id": "skill.universal.2",
+          "spin": 622,
+          "price": 160,
+          "walletAfter": 16,
+          "mandatoryChapterSpinsRemaining": 0
+        }
+      ]
+    },
+    {
+      "seed": 305419896,
+      "policy": "construction-first",
+      "chapterSpins": 578,
+      "allSkillsSpins": 603,
+      "purchases": [
+        {
+          "id": "skill.delivery.1",
+          "spin": 580,
+          "price": 60,
+          "walletAfter": 5,
+          "mandatoryChapterSpinsRemaining": 0
+        },
+        {
+          "id": "skill.delivery.2",
+          "spin": 581,
+          "price": 20,
+          "walletAfter": 6,
+          "mandatoryChapterSpinsRemaining": 0
+        },
+        {
+          "id": "slot.coin-boost",
+          "spin": 586,
+          "price": 120,
+          "walletAfter": 13,
+          "mandatoryChapterSpinsRemaining": 0
+        },
+        {
+          "id": "skill.recycling.1",
+          "spin": 593,
+          "price": 160,
+          "walletAfter": 26,
+          "mandatoryChapterSpinsRemaining": 0
+        },
+        {
+          "id": "skill.recycling.2",
+          "spin": 596,
+          "price": 90,
+          "walletAfter": 13,
+          "mandatoryChapterSpinsRemaining": 0
+        },
+        {
+          "id": "skill.universal.2",
+          "spin": 603,
+          "price": 160,
+          "walletAfter": 25,
+          "mandatoryChapterSpinsRemaining": 0
+        }
+      ]
+    },
+    {
+      "seed": 1,
+      "policy": "affordable-skills-first",
+      "chapterSpins": 562,
+      "allSkillsSpins": 562,
+      "purchases": [
+        {
+          "id": "slot.coin-boost",
+          "spin": 33,
+          "price": 120,
+          "walletAfter": 5,
+          "mandatoryChapterSpinsRemaining": 529
+        },
+        {
+          "id": "skill.recycling.1",
+          "spin": 84,
+          "price": 160,
+          "walletAfter": 1,
+          "mandatoryChapterSpinsRemaining": 478
+        },
+        {
+          "id": "skill.delivery.1",
+          "spin": 126,
+          "price": 60,
+          "walletAfter": 25,
+          "mandatoryChapterSpinsRemaining": 436
+        },
+        {
+          "id": "skill.recycling.2",
+          "spin": 335,
+          "price": 90,
+          "walletAfter": 19,
+          "mandatoryChapterSpinsRemaining": 227
+        },
+        {
+          "id": "skill.universal.2",
+          "spin": 366,
+          "price": 160,
+          "walletAfter": 11,
+          "mandatoryChapterSpinsRemaining": 196
+        },
+        {
+          "id": "skill.delivery.2",
+          "spin": 387,
+          "price": 20,
+          "walletAfter": 5,
+          "mandatoryChapterSpinsRemaining": 175
+        }
+      ]
+    },
+    {
+      "seed": 12305,
+      "policy": "affordable-skills-first",
+      "chapterSpins": 566,
+      "allSkillsSpins": 566,
+      "purchases": [
+        {
+          "id": "slot.coin-boost",
+          "spin": 32,
+          "price": 120,
+          "walletAfter": 0,
+          "mandatoryChapterSpinsRemaining": 534
+        },
+        {
+          "id": "skill.recycling.1",
+          "spin": 82,
+          "price": 160,
+          "walletAfter": 6,
+          "mandatoryChapterSpinsRemaining": 484
+        },
+        {
+          "id": "skill.delivery.1",
+          "spin": 126,
+          "price": 60,
+          "walletAfter": 21,
+          "mandatoryChapterSpinsRemaining": 440
+        },
+        {
+          "id": "skill.recycling.2",
+          "spin": 336,
+          "price": 90,
+          "walletAfter": 15,
+          "mandatoryChapterSpinsRemaining": 230
+        },
+        {
+          "id": "skill.universal.2",
+          "spin": 367,
+          "price": 160,
+          "walletAfter": 6,
+          "mandatoryChapterSpinsRemaining": 199
+        },
+        {
+          "id": "skill.delivery.2",
+          "spin": 388,
+          "price": 20,
+          "walletAfter": 7,
+          "mandatoryChapterSpinsRemaining": 178
+        }
+      ]
+    },
+    {
+      "seed": 305419896,
+      "policy": "affordable-skills-first",
+      "chapterSpins": 546,
+      "allSkillsSpins": 546,
+      "purchases": [
+        {
+          "id": "slot.coin-boost",
+          "spin": 35,
+          "price": 120,
+          "walletAfter": 1,
+          "mandatoryChapterSpinsRemaining": 511
+        },
+        {
+          "id": "skill.recycling.1",
+          "spin": 86,
+          "price": 160,
+          "walletAfter": 9,
+          "mandatoryChapterSpinsRemaining": 460
+        },
+        {
+          "id": "skill.delivery.1",
+          "spin": 126,
+          "price": 60,
+          "walletAfter": 1,
+          "mandatoryChapterSpinsRemaining": 420
+        },
+        {
+          "id": "skill.recycling.2",
+          "spin": 329,
+          "price": 90,
+          "walletAfter": 12,
+          "mandatoryChapterSpinsRemaining": 217
+        },
+        {
+          "id": "skill.universal.2",
+          "spin": 356,
+          "price": 160,
+          "walletAfter": 0,
+          "mandatoryChapterSpinsRemaining": 190
+        },
+        {
+          "id": "skill.delivery.2",
+          "spin": 379,
+          "price": 20,
+          "walletAfter": 21,
+          "mandatoryChapterSpinsRemaining": 167
+        }
+      ]
+    }
+  ],
+  "boundaries": [
+    "Construction-first deliberately buys after chapter: zero pre-chapter horizon is not evidence a node is weak",
+    "Evaluate actual affordable windows, deferred construction and per-node prerequisites before proposing any change",
+    "Optional orders after chapter remain a separate useful horizon; B candidate runs had no order executions",
+    "No stochastic payback-time assumption or new candidate run; specific weak-node examples still required",
+    "Keep all historical skillV1/V2/V3 ownership/quote/pending/replay terms; no skill production edit before B connected qualification"
+  ],
+  "preparationCorrection": "First metadata-only extraction used absent key chapter-complete; corrected to existing chapter-end before writing output; no game/test execution"
+}

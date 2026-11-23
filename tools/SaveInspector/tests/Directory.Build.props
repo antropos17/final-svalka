@@ -1,0 +1,6 @@
+<Project>
+  <PropertyGroup>
+    <BaseIntermediateOutputPath>$(MSBuildThisFileDirectory)../../../.work/save-inspector-fix-checks/obj/</BaseIntermediateOutputPath>
+    <BaseOutputPath>$(MSBuildThisFileDirectory)../../../.work/save-inspector-fix-checks/bin/</BaseOutputPath>
+  </PropertyGroup>
+</Project>

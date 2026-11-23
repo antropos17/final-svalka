@@ -1,0 +1,73 @@
+{
+  "version": 1,
+  "texture": "prototype-symbols-v1.png",
+  "textureGuid": "7f703365fc394f81bd4a2ea474db9b8f",
+  "sha256": "0021f8ac4143ff103549459e76cd081cde9e79b59ff7f74d1b659ac0fa578acc",
+  "canvas": [
+    1254,
+    1254
+  ],
+  "cellCanvas": [
+    627,
+    627
+  ],
+  "logicalDisplayTargets": [
+    32,
+    64
+  ],
+  "pivot": [
+    0.5,
+    0.5
+  ],
+  "rectOrigin": "Unity bottom-left",
+  "symbols": [
+    {
+      "symbolIndex": 0,
+      "symbolId": "potato",
+      "spriteName": "sym_potato",
+      "fileId": 21300000,
+      "rect": [
+        0,
+        627,
+        627,
+        627
+      ]
+    },
+    {
+      "symbolIndex": 1,
+      "symbolId": "box",
+      "spriteName": "sym_box",
+      "fileId": 21300001,
+      "rect": [
+        627,
+        627,
+        627,
+        627
+      ]
+    },
+    {
+      "symbolIndex": 2,
+      "symbolId": "trash",
+      "spriteName": "sym_trash",
+      "fileId": 21300002,
+      "rect": [
+        0,
+        0,
+        627,
+        627
+      ]
+    },
+    {
+      "symbolIndex": 3,
+      "symbolId": "pigeon",
+      "spriteName": "sym_pigeon",
+      "fileId": 21300003,
+      "rect": [
+        627,
+        0,
+        627,
+        627
+      ]
+    }
+  ]
+}

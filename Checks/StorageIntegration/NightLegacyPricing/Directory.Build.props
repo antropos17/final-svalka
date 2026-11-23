@@ -1,0 +1,6 @@
+<Project>
+  <PropertyGroup>
+    <BaseIntermediateOutputPath>$(MSBuildThisFileDirectory)../../../.work/night-legacy-storage06/obj/</BaseIntermediateOutputPath>
+    <BaseOutputPath>$(MSBuildThisFileDirectory)../../../.work/night-legacy-storage06/bin/</BaseOutputPath>
+  </PropertyGroup>
+</Project>

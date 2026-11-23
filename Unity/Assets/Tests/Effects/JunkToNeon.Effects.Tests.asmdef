@@ -1,0 +1,1 @@
+{"name":"JunkToNeon.Effects.Tests","rootNamespace":"JunkToNeon.Tests","references":["JunkToNeon.Contracts","JunkToNeon.Effects"],"includePlatforms":["Editor"],"autoReferenced":false,"defineConstraints":["UNITY_INCLUDE_TESTS"],"optionalUnityReferences":["TestAssemblies"]}

@@ -1,0 +1,17 @@
+{
+ "name": "candidate-a",
+ "label": "PROPOSAL/UNAPPROVED",
+ "loaded_by_unity": false,
+ "pricing_revision": "proposed skill.prices.v4 (new revision on top of the committed v3; v1/v2/v3 receipts keep their own prices)",
+ "class": "price-only",
+ "anchored_on": "reference-committed (skill.prices.v3 at 3778ea0)",
+ "changes_vs_committed_v3": {"skill.universal.2": [160, 120], "skill.recycling.2": [90, 40], "skill.delivery.1": [60, 40]},
+ "description": "Smallest safe delta from HEAD. Price-only, every node keeps +1 to its branch scalar, so effect code, the 0..2 scalar bound and frozen spin descriptors are untouched; slot.coin-boost stays at the literal legacy 120. Starting from the committed v3 table, only nodes that miss the window criterion are changed. Each gets the largest grid price (step 20) whose best insertion saves >= 3 expected spins in all three named orders while a state where waiting is better still exists (results/grid.json, quick_criteria.py). No price achieves the window for skill.delivery.2 (best -1.35 even at 20 in workshop-first), so it keeps the committed 20 and is labelled an optional near-neutral reward, not an accelerator.",
+ "rule": "for each node failing K1(-3): price = max{p in 20,40,..: best_delta(p) <= -3 in workshop-first, family-order and building-first, and K2 holds}; otherwise keep the committed v3 price",
+ "skills": {
+  "skill.universal.2": {"price": 120},
+  "skill.recycling.2": {"price": 40},
+  "skill.delivery.1": {"price": 40},
+  "skill.delivery.2": {"price": 20}
+ }
+}

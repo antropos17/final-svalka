@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Свалка → Неон</string>
+    <string name="title_activity_main">Свалка → Неон</string>
+    <string name="package_name">com.junktoneon.prototype</string>
+    <string name="custom_url_scheme">com.junktoneon.prototype</string>
+</resources>

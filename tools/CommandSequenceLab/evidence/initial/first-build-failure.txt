@@ -1,0 +1,1 @@
+First build: CS0117 Program.cs(471,76): DeliveryState has no definition for Empty. Harness-only failure before any game execution. Corrected to the actual zero-checkpoint constructor. Subsequent scoped builds passed with zero errors/warnings.

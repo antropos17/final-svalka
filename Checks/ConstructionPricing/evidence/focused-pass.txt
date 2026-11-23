@@ -1,0 +1,10 @@
+PASS 24 explicit prices: V1 total9460, V2 total9400; repair40 and other23 prices unchanged
+PASS Fresh grant once; new repair adopts priceV2, same seed1 outcome37+8-40=5
+PASS Old selected550+8 remains unfunded at600; explicit reselection/new instant offer charges540 without RNG/grant
+PASS V1 selected term survives skill120, clock and offline120; no auto purchase, RNG or carry change
+PASS Old600 spin recovers once at four write-fault positions; applied replay, old instant600 and real-file backup recovery preserve original debit
+PASS V2 pending/selected535+8-540=3, strict revision round-trip; unknown/null/type/duplicate and stale price descriptors reject
+PASS 54 immutable existing r6/r7/r8 literal saves load/recover without repricing or eager IO
+PASS Literal skillV2 module payload and all18 V1/V2/V3 skill prices unchanged
+PASS 307 assertions; no production save or Editor access
+PASS bounded construction pricing regression

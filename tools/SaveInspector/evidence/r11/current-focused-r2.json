@@ -1,0 +1,24 @@
+{
+  "cases": [
+    {
+      "id": "r11-build-source-identity",
+      "passed": true
+    },
+    {
+      "id": "r11-literal600-is-preserved",
+      "passed": true
+    },
+    {
+      "id": "r11-selected540-and-semantic-diff",
+      "passed": true
+    },
+    {
+      "id": "r11-pending540-replays-to10-once",
+      "passed": true
+    },
+    {
+      "id": "r11-literal600-pending-replay-still4",
+      "passed": true
+    }
+  ]
+}

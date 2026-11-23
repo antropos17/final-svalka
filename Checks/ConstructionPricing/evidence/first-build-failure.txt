@@ -1,0 +1,4 @@
+X:\tmp\jtn-house-pricing03-r11\Unity\Assets\Tests\ConstructionPricingRegression.cs(84,99): error CS0136: Локальная переменная или параметр с именем "current" нельзя объявить в данной области, так как это имя используется во включающей локальной области для определения локальной переменной или параметра [X:\tmp\jtn-house-pricing03-r11\Checks\ConstructionPricing\ConstructionPricingChecks.csproj]
+X:\tmp\jtn-house-pricing03-r11\Unity\Assets\Scripts\Content\ConstructionPricing.cs(20,18): error CS0103: Имя "ChapterCatalog" не существует в текущем контексте. [X:\tmp\jtn-house-pricing03-r11\Checks\ConstructionPricing\ConstructionPricingChecks.csproj]
+
+Ошибка сборки. Устраните ошибки сборки и повторите попытку.

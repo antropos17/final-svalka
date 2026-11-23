@@ -1,0 +1,6 @@
+{
+  "name": "JunkToNeon.Presentation",
+  "rootNamespace": "JunkToNeon.Presentation",
+  "references": ["Unity.InputSystem"],
+  "autoReferenced": true
+}

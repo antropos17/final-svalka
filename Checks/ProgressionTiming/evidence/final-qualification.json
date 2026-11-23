@@ -1,0 +1,58 @@
+{
+  "scope": "Bounded source-only actual C# Core pacing and separate proposal-only price comparison",
+  "productionSource": "c0863958b1bcf8d9fbdcc18957a5371192756733",
+  "workflowBase": "3079397",
+  "currentRunCodeCheckpoint": "1785a57cbc001bc650239002af12a42743c48efc",
+  "currentRuns": 40,
+  "candidateRuns": 16,
+  "candidatePolicy": "affordable-skills-first, same16 seeds, continuous only",
+  "focusedDispatchParity": 1,
+  "pilotRuns": 4,
+  "pilotExcludedFromFinalTiming": true,
+  "status": "PASS",
+  "currentRuntimeSeconds": 331.3567551,
+  "candidateRuntimeSeconds": 137.0606199,
+  "candidateDeclaredTotalInBrief": 540,
+  "candidateActualExplicitPriceTotal": 500,
+  "currentPriceTotal": 610,
+  "candidateDeltaFields": [
+    "U2 160->120",
+    "R2 90->40",
+    "D1 60->40"
+  ],
+  "candidateBoundary": "Only exported X source has proposal V4 price resolver; production untouched; fresh cases only; no release/migration qualification",
+  "firstCandidateFailure": "Guard expected540 but actual explicit table is500; exited before simulation; corrected expected sum only",
+  "measuredTimingOwnerCommit": "c824c067cae4ea00335544b91b539539456769c5",
+  "manualMedian": 3.5150866,
+  "autoMedian": 3.7636855,
+  "measuredScope": "3stable manual,6AUTO Editor.update intervals, repaired house/no workshop, programmatic handlers, not device/fullchapter",
+  "coreManifest": "production-inputs.json",
+  "candidateManifest": "candidate-inputs.json",
+  "artifactSha256": {
+    "production-r9.json": "6D5B88502ACC5CFFE912FBAD7E25C25B81E5C23B069895F84CC1D51AD35AFFFF",
+    "analysis-r9.json": "D1002D5746CBCCBE85B49E35ACCE4A57D751E79FEF49D394787ABA6749B62786",
+    "production-inputs.json": "946179E0BAA49AFA413D72CA860F50D6DA082CDD57475734583C1BFBB7E21AA2",
+    "foreground-timing-r10.json": "9ED5214FFF01B0C47ACEDF6FE88F0D015AC234CFE600A97E9EBA4831E33619FE",
+    "candidate-a-proposal.json": "D653F9F0A1CF24BD56B447429E1EF5C5220E00B907E64EB66D2D63AA85AE4F89",
+    "candidate-a-core.json": "439B1BF793823818D4CDB2CEB0A8BECCB72FE8D8CEE304F9E9395323C2FA53D2",
+    "analysis-candidate-a.json": "57DA8D736160D423679792E1994EEC07EE25A6183FB075782915891175C8C314",
+    "candidate-inputs.json": "CFCBC1BDC5D8B7741C25D8E7CF4F7615557B9B672786F9D26B8E49C364833A4E",
+    "candidate-pairs.json": "DD47CD623985175BB7F436BF65803C1B990C406314B058B14DC93B7225D60991",
+    "candidate-first-failure.txt": "404216980D68E7DA8B705EE8A64D10D12F5A48ABEE2081B3B2236EBB301336C7",
+    "current-v3-parity.json": "52B0FA65E0F918565E1A344F34C83E3FBC5266BE767CCDFF744AA75C61195051"
+  },
+  "finalRunnerSha256": {
+    "Program.cs": "255A9AC5A6CCB981BD90D54B6E3A950B36E81448769E7ED3BEC670ECE1D2BD9D",
+    "Results.cs": "457A166218A0C26B8C0B47CB2B7AF91B3781FFAC15A69BCCE966CDA0BFD56E26",
+    "ProgressionTiming.csproj": "58BD0DAB06BE11461D428929BA1B0F4810884CE19BBBABB4B7A3CADFD59D2779",
+    "PrepareCandidateA.ps1": "AEE4020DD5C41F8AF435713DAE036677D76EDFDA9DB875123F8D32D73BF2601A",
+    "Summarize.ps1": "B3D8D58C7E9968F8E41EA29A847BA2F0361DFE691756454731CB5514FA18DC3D"
+  },
+  "limits": [
+    "Two heuristics,16 fixed probes; not exhaustive/optimized or population tails",
+    "Construction commits proxy world changes; no new UI timing",
+    "AUTO only before chapter end; decisions zero or explicitly assumed2seconds",
+    "Actual public GameSession/GameStore/strict JSON; in-memory storage so no real flush cost",
+    "No Core/runtime/scene/price/save/global changes; no Editor/import/APK/Python rerun"
+  ]
+}

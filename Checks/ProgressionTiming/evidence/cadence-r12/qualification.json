@@ -1,0 +1,365 @@
+{
+  "status": "EXPERIMENT_ECONOMICS_PASS_ORIGINAL_SCREEN_BOTH_FAIL_NO_ADOPTION_YET",
+  "baseCommit": "d914da2dff0b286e07898c1a5b6e0a3c2740fa67",
+  "acceptedProductionSource": "76a379f",
+  "policies": [
+    "construction-first",
+    "affordable-skills-first"
+  ],
+  "seeds": [
+    1,
+    12305,
+    305419896
+  ],
+  "newCandidates": 2,
+  "newRuns": 12,
+  "baselineRunsRepeated": 0,
+  "offlineOrOrderRuns": 0,
+  "unityOrApkRuns": 0,
+  "originalTargetOnlyScreen": {
+    "casesPerCandidate": 6,
+    "smallEligible": 4,
+    "widerEligible": 5,
+    "scope": "Three changed target IDs only, worst gap/order/repair/workshop/skill choice windows; original verdict unchanged"
+  },
+  "laterHumanClarification": "Zero +1-spin target regressions was producer screening, not a human requirement. Same-data all24 tradeoffs supplied separately; no relabel, rerun or third profile.",
+  "productionFilesChanged": 0,
+  "productionRawShaMatchesBeforeCapture": true,
+  "sourceFiles": [
+    {
+      "path": "Unity/Assets/Scripts/Content/CatalogData.cs",
+      "baseGitBlob": "65bf50c708fbeb0452cd8a9c60cf34ec127813a1",
+      "rawSha256": "C2DDA1B28462685F3DCD533794C8CC99EDAB8A391478814BFC5896B079063A03"
+    },
+    {
+      "path": "Unity/Assets/Scripts/Content/CatalogValidator.cs",
+      "baseGitBlob": "6f76093a24876739ceb1698eb071105f7f788fc3",
+      "rawSha256": "F45000C8A6AFCED8A26BB3E8AE6599BF40ADD3989E4023CEFBB8B0F41BB71187"
+    },
+    {
+      "path": "Unity/Assets/Scripts/Content/ChapterContentIds.cs",
+      "baseGitBlob": "7e8f61df8aeadb235c7a3202eb1422e5e7f2dc05",
+      "rawSha256": "906A21010F38B71DA0860D204CF5494434C2C65822642EDD04F391E811F6C2B8"
+    },
+    {
+      "path": "Unity/Assets/Scripts/Content/ChapterData.cs",
+      "baseGitBlob": "35ca64e18837f765ab26dd728b3a90739dd10541",
+      "rawSha256": "31A9178D7C8B7F719F31593B71FCD4E38A71D7DCD9B77AC2899B45E1FE32B953"
+    },
+    {
+      "path": "Unity/Assets/Scripts/Content/ChapterDefinitions.cs",
+      "baseGitBlob": "0e02c8bb24013dcfb6100e0136a931e34e5e0cb3",
+      "rawSha256": "AFEFDDA9C298C3F7C7C71419004022ACFF8C01008F36382E903651776FC550AF"
+    },
+    {
+      "path": "Unity/Assets/Scripts/Content/ChapterRules.cs",
+      "baseGitBlob": "d41ad4725cdab398193345aaf30f5735c048a7d0",
+      "rawSha256": "66D33258FC4FB744DE7FCD6ACA0EA364F3B72B8CB4A8B81476DD7FB2061F45DC"
+    },
+    {
+      "path": "Unity/Assets/Scripts/Content/ChapterValidator.cs",
+      "baseGitBlob": "c92e17a244a2066411f202b57800b8566d8257c6",
+      "rawSha256": "6DB14886D69D5DD5C7AB90B481F905D02F67715CA9497EECA70136BE39A3D641"
+    },
+    {
+      "path": "Unity/Assets/Scripts/Content/ConstructionPricing.cs",
+      "baseGitBlob": "45a7b9e685d226a9a7e9fd7ed3a0dca261fd090f",
+      "rawSha256": "E72776874B15C027390F58152FF5143A92C631CE37E893A9E35BDAFC51933732"
+    },
+    {
+      "path": "Unity/Assets/Scripts/Content/Definitions.cs",
+      "baseGitBlob": "a801c20c78665f9ce60ecc755c5486053f3ba343",
+      "rawSha256": "7CF6713213F4CD90F631CE8650AE144FB6579F3E8E05FA8091438B37325D4219"
+    },
+    {
+      "path": "Unity/Assets/Scripts/Content/LegacyProgress.cs",
+      "baseGitBlob": "783df77f5ee344a698de24efb1ad55e10c6e4f03",
+      "rawSha256": "70FB953785652223EF04209882924F26A0275BDC556BB972E69E7BF313E2A07E"
+    },
+    {
+      "path": "Unity/Assets/Scripts/Content/ValidatedCatalog.cs",
+      "baseGitBlob": "a9849ced32497d4ca2e7fc85a7f93df352f4ae6a",
+      "rawSha256": "460A500CE6BB9620551E975AE8CCA6B066867F1A38CD59CC2E3BEECA7BA75B9D"
+    },
+    {
+      "path": "Unity/Assets/Scripts/Contracts/ChapterContracts.cs",
+      "baseGitBlob": "8c299da3255cf5488ae12bbd964ac81b47ba4ef4",
+      "rawSha256": "6B15AE9C725BEEE596EC8886DC76D271F43551D3CC399AA9D07B3E863A64BD56"
+    },
+    {
+      "path": "Unity/Assets/Scripts/Contracts/ChapterSymbolModifiers.cs",
+      "baseGitBlob": "2171e73775ffd9dd2e5d4d4302aaf4b7c04c32ca",
+      "rawSha256": "39B974BED9F6D26652A7BF76008B883F23CBDC554BE59354F1F7226A7B08D16B"
+    },
+    {
+      "path": "Unity/Assets/Scripts/Contracts/GameplayContracts.cs",
+      "baseGitBlob": "cb1864941e3611ae313596d45e737cef018a1a1f",
+      "rawSha256": "98275361EE2E908D7F7A531BC4768C85915688371CF2609C55F8640FAF5EA5C5"
+    },
+    {
+      "path": "Unity/Assets/Scripts/Core/BoundedSnapshotReader.cs",
+      "baseGitBlob": "8cbbdbafba5966ff57e3e21a2d336d41d33d4341",
+      "rawSha256": "09193E53E9B5A462DAD1F26953F93DAB0F724C62E43C4685E09B3164ED788C45"
+    },
+    {
+      "path": "Unity/Assets/Scripts/Core/ChapterCatalog.cs",
+      "baseGitBlob": "cd12fda8e803757d6310eff0292419976c8d86d3",
+      "rawSha256": "32F3F4AA041F0483885D365955E666B261866F66EB1A736B9F27BDE1684B4BF9"
+    },
+    {
+      "path": "Unity/Assets/Scripts/Core/ChapterEconomy.cs",
+      "baseGitBlob": "c44b0bfb5dae52943c5f435ffecaa20d266f21a5",
+      "rawSha256": "2A1B121C88DAB67A840DCAA27B4CABA51A3EE44DD82C8B2FC4893697AC249D47"
+    },
+    {
+      "path": "Unity/Assets/Scripts/Core/ChapterSession.cs",
+      "baseGitBlob": "3af73b3ff1eecf599041d29281015ef24f9b03fe",
+      "rawSha256": "ECDBF744DA6A1C90984335754C97E8EBACF566FC2C360DDD3F5B6A5176567A18"
+    },
+    {
+      "path": "Unity/Assets/Scripts/Core/ChapterState.cs",
+      "baseGitBlob": "471d48d409dc800b2d5a11a5b52d078d829e484f",
+      "rawSha256": "962FA2613F3F225FC39D02FD944F2ACF135718E5F70DF35F0E5315F15E04C5D4"
+    },
+    {
+      "path": "Unity/Assets/Scripts/Core/ChapterStateCodec.cs",
+      "baseGitBlob": "09f19d25a0db74a5ed09bb948fc9216523cfe760",
+      "rawSha256": "6E1C7DDC08E608736F2703D6E594A7EBB589627E37513DA4D38DD5F88D04C478"
+    },
+    {
+      "path": "Unity/Assets/Scripts/Core/GameSession.cs",
+      "baseGitBlob": "f117bbb71bbd9ff7033c8f4f5fef9f473c5b9ed3",
+      "rawSha256": "699A65EE65B4679102314D6703100B405ACD1C04B926BB8919842D16CF49DC04"
+    },
+    {
+      "path": "Unity/Assets/Scripts/Core/JourneyEconomy.cs",
+      "baseGitBlob": "fdae94168c89ed7dfc5760d0ed098b7919360041",
+      "rawSha256": "A16B4C37FB973F6AE09A39FCDF346BA63E2A529BD52DDAB8EAF7F930F71B271E"
+    },
+    {
+      "path": "Unity/Assets/Scripts/Core/JourneySession.cs",
+      "baseGitBlob": "e3c7ba052fec0d8995117be76ffb3409f9c23999",
+      "rawSha256": "7C1CD9B0D9968EBEABA20C13386C2F296EEE27E7F924EB8EFEC739518371B022"
+    },
+    {
+      "path": "Unity/Assets/Scripts/Core/JourneyState.cs",
+      "baseGitBlob": "856a9f28f41c2d0c4020e1913a496a29be7429ed",
+      "rawSha256": "711BA469DB9A701B5F90F10A99766E699AF683D8252111277E5931CACDDFB9B9"
+    },
+    {
+      "path": "Unity/Assets/Scripts/Core/JourneyStateCodec.cs",
+      "baseGitBlob": "6f1212b8a28bcd030d45ca7b183115ac9284a7df",
+      "rawSha256": "ACE3780AA4D5D389CB06FEC44C1B1706613DD7002731F74F4492849D051CBCED"
+    },
+    {
+      "path": "Unity/Assets/Scripts/Core/JsonStateCodec.cs",
+      "baseGitBlob": "58a61f25398c0d2ed9829528c818cbca9c8fc1f1",
+      "rawSha256": "0B8775584747AEF021DC6089C77F11D40FBF4E1B8592772639EB11589CE045B0"
+    },
+    {
+      "path": "Unity/Assets/Scripts/Core/Model.cs",
+      "baseGitBlob": "206bac6bf1393357a405965294af7fe98411d8c9",
+      "rawSha256": "5E6FDD50508B0C3644B52BCAB7C867770EF86567D70650CB4162BE4A5068C696"
+    },
+    {
+      "path": "Unity/Assets/Scripts/Core/ProgressionCatalog.cs",
+      "baseGitBlob": "f98af0d592183e1fe16f05af93ef595e312c68ae",
+      "rawSha256": "FA37F5B767139DB29BAAC490BF47C6D5E6953D9ADA51BE2D5FF80001AEFCD696"
+    },
+    {
+      "path": "Unity/Assets/Scripts/Core/WaveEconomy.cs",
+      "baseGitBlob": "95b3ef48709834e43858f167a1ed7a74aacf1c8b",
+      "rawSha256": "4C98C97B01693F55A45C0A3DA89E8F393E1AB7F0B06C5531EE9528F9B112158D"
+    },
+    {
+      "path": "Unity/Assets/Scripts/Core/WaveStateCodec.cs",
+      "baseGitBlob": "edf07747ea325295e7476496489bad2e960c360a",
+      "rawSha256": "EABFF23476BBB4D450FFD648A1E4F7DACCE94874A2D82C263588B50B0D1E8F97"
+    },
+    {
+      "path": "Unity/Assets/Scripts/Effects/ChapterSpinEffects.cs",
+      "baseGitBlob": "544c3d442e50b8e0d8e05be52f52004d0ca459f5",
+      "rawSha256": "200957844006F98A8560882E2B210719F8D69E6F69FB3006D157D235F48B36AE"
+    },
+    {
+      "path": "Unity/Assets/Scripts/Effects/SpinEffects.cs",
+      "baseGitBlob": "18247819f0363ee8ce47af46992eed9b24df2736",
+      "rawSha256": "1B52D8C60E90FB5EC413C7731022AE9936F4F287A231EE9E1BF4D3D681049EC3"
+    },
+    {
+      "path": "Unity/Assets/Scripts/Guidance/GuideFlow.cs",
+      "baseGitBlob": "6fd6cc32a0ae265593d3b22bfba84fe62fad9b17",
+      "rawSha256": "581B3BD761A713F1F05304BBC67FB13E554CBDD755D35ABDCB1F995BF1B4319C"
+    },
+    {
+      "path": "Unity/Assets/Scripts/Guidance/GuideModel.cs",
+      "baseGitBlob": "9ff16eb563f1ce6fa015ba69b1d657aacf0bb220",
+      "rawSha256": "BE146B060ED91597B2A0DB9A289DC9E1CC10138BF760F0E00FB49B01A72703CC"
+    },
+    {
+      "path": "Unity/Assets/Scripts/Guidance/GuideStateCodec.cs",
+      "baseGitBlob": "169ad6f921183fa1a2d2bbfb6dae3f709695316a",
+      "rawSha256": "D51AF4FABA39BB9B4EB3AECBFAD9C836381623D3F54164FD7CF925D7E3E74DF0"
+    },
+    {
+      "path": "Unity/Assets/Scripts/Orders/OrderDefinitions.cs",
+      "baseGitBlob": "85e7d9cc6e5a0750d2059cb87e363aa42c3b4f60",
+      "rawSha256": "4F5F291C576CF3CE785CB4A09FD84CD96D4F2AAAD18A2CC1CE744BCBC0EBA985"
+    },
+    {
+      "path": "Unity/Assets/Scripts/Orders/OrderEngine.cs",
+      "baseGitBlob": "484e7d61bc04a9c43e2e98eb827b67a05ec8c895",
+      "rawSha256": "7887189FDB6D0EA9E3218FE4993B4ADF9B94BACDDDAC195D77625016487037A7"
+    },
+    {
+      "path": "Unity/Assets/Scripts/Orders/OrderProposal.cs",
+      "baseGitBlob": "43bb065f419f2ed86b05dfa29a1aebc4d80a8e91",
+      "rawSha256": "5590B29CD06A8063780BC02F7B64D3B182F1B6311A2E626F02158EC705DD1CCB"
+    },
+    {
+      "path": "Unity/Assets/Scripts/Orders/OrderState.cs",
+      "baseGitBlob": "7562be07daa4caf72dbc0da61b711f5f2d0fcb2b",
+      "rawSha256": "C055A8AB1A740D889475142CBAC4E330D7BCC4AB7E63FF51775915F47EB3AFCB"
+    },
+    {
+      "path": "Unity/Assets/Scripts/Orders/OrderStateCodec.cs",
+      "baseGitBlob": "b6a76f5bbf1faf03af26598a70d1f9c31e1f012b",
+      "rawSha256": "5925D0DCB3A05D5E80066308C83095B30FDC4CD759E6C8E4B7AD2EADB9546596"
+    },
+    {
+      "path": "Unity/Assets/Scripts/Upgrades/CoinBoostShop.cs",
+      "baseGitBlob": "4cec8cd11b56fe042cfa9d7c594c418d5ad6eb73",
+      "rawSha256": "ACCF854B226305243767BDA2C5A67B8ADAC001F9197D7008BB45C94F260D7846"
+    },
+    {
+      "path": "Unity/Assets/Scripts/Upgrades/SkillOwnershipCodec.cs",
+      "baseGitBlob": "964923fd9a1505ba9c77d58599a55a1312d2b2c8",
+      "rawSha256": "B3DD1A0279C94437D85198EA6C4E0FA534A3D51085B0406DCF9B1EFACE472FB8"
+    },
+    {
+      "path": "Unity/Assets/Scripts/Upgrades/SkillPricing.cs",
+      "baseGitBlob": "7f5b326042ecf23ff6bc83c283ea42068e6e0c54",
+      "rawSha256": "AC0F628113F781D87D5E65C057D4CD13BEEA6F97534DB495C2055912F323FBB4"
+    },
+    {
+      "path": "Unity/Assets/Scripts/Upgrades/SkillTree.cs",
+      "baseGitBlob": "6503b0b070d0b1400790b851c0d7b228d9ac9a6c",
+      "rawSha256": "7A53F7929D217BE372DEB5565080B57BC5AB27BBC3A31EB1C308CEFA07FBA175"
+    },
+    {
+      "path": "Unity/Assets/Scripts/Upgrades/UpgradeOwnershipCodec.cs",
+      "baseGitBlob": "7886d3cfa36c98d4bf2b3d7e110b7ddfe2639769",
+      "rawSha256": "E9B9EAA584E93E8482D1071F851823027ED46527E5487D2183A65652D327A6AF"
+    }
+  ],
+  "unchangedBaselineContracts": [
+    {
+      "path": "Unity/Assets/Scripts/Core/Model.cs",
+      "unchangedGitIdentity": "206bac6bf1393357a405965294af7fe98411d8c9"
+    },
+    {
+      "path": "Unity/Assets/Scripts/Contracts",
+      "unchangedGitIdentity": "12d1c10104b95f0e73fc8d525b3124dee6e59423"
+    },
+    {
+      "path": "Unity/Assets/Scripts/Effects",
+      "unchangedGitIdentity": "3245d7db979973cd4d2dfcdcaddd5bb450ff195e"
+    },
+    {
+      "path": "Unity/Assets/Scripts/Upgrades",
+      "unchangedGitIdentity": "5d34c0a04f974c53c3e081e0105de91c530eb98f"
+    },
+    {
+      "path": "Unity/Assets/Scripts/Orders",
+      "unchangedGitIdentity": "1ca7de75368aab6020805086f48f3407b40de58e"
+    },
+    {
+      "path": "Unity/Assets/Scripts/Guidance",
+      "unchangedGitIdentity": "f976b797c1331baf58cfcbf934b04841afdf624b"
+    }
+  ],
+  "candidateSources": {
+    "scope": "Experimental only; all active source restored exactly to base",
+    "wider": "overlays/ConstructionPricing-wider.cs",
+    "small": "overlays/ConstructionPricing-small.cs",
+    "coreTwoGatePrototype": "overlays/ChapterEconomy.cs"
+  },
+  "candidateBudgets": {
+    "repair": 40,
+    "wider": 9310,
+    "grant": 37,
+    "current": 9400,
+    "small": 9340,
+    "skills": 610
+  },
+  "candidateRunSeconds": [
+    14.0027557,
+    14.568814
+  ],
+  "candidateDriverSha256": {
+    "Checks/ProgressionTiming/Program.cs": "C618C194B87571FAEAD2829D9131F13DE815AF8354DBC1AB8EEDA8D3AE32909E",
+    "Checks/ProgressionTiming/Results.cs": "457A166218A0C26B8C0B47CB2B7AF91B3781FFAC15A69BCCE966CDA0BFD56E26",
+    "Checks/ProgressionTiming/ProgressionTiming.csproj": "5ECE16A75A1DB2F138918A0E180E3636F44B21C2C2524A5B531805B5C41C99F6"
+  },
+  "artifactSha256": {
+    "decision.md": "D88A717A4CFFF1F3507D14B969451533EC5AAF327E8AACB10EB70D7B04F79E43",
+    "small-first-run.txt": "A9F1287C836231369C12FD43D0B30E2586B84D0A9D9DC6C419751420DAE4EF67",
+    "small.json": "641D592B2900DEEEA8EB3E8B0CA0A5267464BD9356322CDDFA202EF32EE7BEB1",
+    "summary.json": "2523E0593352DF4D3F1CD717F4E175D3DE056522B95238910F31C7BFB54962DE",
+    "tradeoffs.json": "A8367757F49B16839678973DFDFD48CF3C4A5BBE7B01C8967F2519721D247606",
+    "wider-first-run.txt": "B2B30981587A50C92CDF125AF4E2D8621E629F55677842A89F63DFB62BAB53D7",
+    "wider.json": "C0D1A626FC961BC7B68A4264391E6602075B59A5D9B39146B92E0C4E494B084E",
+    "overlays/ChapterEconomy.cs": "27643E9B3F9F926FD8ECD304B9512A99CB57034CDE3C678774AFC2B66C9BC5A3",
+    "overlays/ConstructionPricing-small.cs": "D59A5E308F49A80B9BF1FB71B0E7742E51363AF0722378352665872A4F226021",
+    "overlays/ConstructionPricing-wider.cs": "361D90AAE651C2D67CC034B0E0E5B38ABF2220F46F224C22490047E301C4786B"
+  },
+  "captureArtifactSha256": {
+    "capture-before-current-change.txt": "0EC7D7FEAE34E7F3AECBF812FF457A94F5DE989970E031A81847B76B9D4213BF",
+    "capture-driver.cs": "E0B558A04F13B1511445081D7DEE3E3660652D20103FD592056122B74A8B8F6C",
+    "capture-inputs.json": "F82DFBE30878CBB261A9433B6034D1D5055E7B8D33963C9AC9D2E1854264DFB4",
+    "runtime-gaps.json": "2C826AB7F09BC5D4DDC80AC7C38709CE02627BB9C8D0C368989FF524EE2589E2",
+    "v2-paid540.json": "B4A263D20A85794AA6C684FD8383D6CABB19031B3885D034EF048E12079BBE73",
+    "v2-pending-instant540.json": "CAE0E886CB1E3207C39A1A00C3DA0C8F436A1B6BADD684FA0F95AB384D238924",
+    "v2-pending-select-from-v1.json": "BE28CC49478E3D509F6150C3544A94976DC0DC5CFCA17D0C07A1DC9FB1032A37",
+    "v2-pending-spin540.json": "5A1AD525BACC224ABB2E4A7FFC0BDADDBC23BB99CFED46FCA22EDE1D4C0CAD57",
+    "v2-retained-v1-spin600.json": "BA2D222251D3AF82960F1C35B69E6FFF6B35A59B8193E3C43E09E4B83F0799F3",
+    "v2-selected540.json": "CAD546964362B38ECCD057F98248F40FF43E6920839DC9125EEF5758F0CE678E"
+  },
+  "v2CaptureCount": 6,
+  "v2Capture": "Actual unmodified r11 Core before Current change; private funded fixtures, preserved raw literals; prospective V3 boundary checks NOT executed/no migration qualification",
+  "fullR11BaselineReused": {
+    "otherTwoSeeds": "Reused qualified540 actualCore records with matching price/skill/RNG/effect contracts; no claim of UI for other seeds",
+    "seed1": "e53a22b exacttwo-policy economics; accepted Runtime638route matches construction-first seed1",
+    "originalHash": "5AB11FDB1201835F39BB7BCF9BB94867865E23A0420439C33E253D1151E43943",
+    "originalCommit": "0ca71b4c962c62408a36ed224a75aeb44e1bab9f"
+  },
+  "warnings": [
+    "Each first candidate invocation passed with inherited CS0414 unused historical Profile warning; no executable retry"
+  ],
+  "resources": {
+    "afterFreePhysicalKiB": 18203908,
+    "beforeFreePhysicalKiB": 17943864,
+    "beforeCFreeBytes": 22853263360,
+    "generatedFiles": 112,
+    "retention": "Manual7days, exact closed disposable .work files only, skip links/locks; durable receipts preserved; no automaticcleanup",
+    "generatedRoot": "X:/tmp/jtn-economic-equivalence03-r11/.work",
+    "afterFreeBytes": [
+      {
+        "Name": "C",
+        "Free": 22844788736
+      },
+      {
+        "Name": "X",
+        "Free": 92317700096
+      }
+    ],
+    "generatedBytes": 5310491.0,
+    "beforeXFreeBytes": 92319338496
+  },
+  "limits": [
+    "Three fixed seeds/two policies per profile, no population/strategy/enjoyment claim",
+    "Actual Runtime wall intervals and candidate nominal gaps are distinct",
+    "Current540 authoritative, no V3 price/Core/Runtime/source changes in primary",
+    "No standalone new generictool; existing runner opt-inmode and frozen evidence only"
+  ]
+}

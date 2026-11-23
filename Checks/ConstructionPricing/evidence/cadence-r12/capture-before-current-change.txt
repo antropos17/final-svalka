@@ -1,0 +1,1 @@
+PASS froze6 actual V2 literals before Current changes; explicitly funded private legacy fixtures, no player data

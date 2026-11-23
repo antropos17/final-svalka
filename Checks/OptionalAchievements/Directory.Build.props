@@ -1,0 +1,1 @@
+<Project><PropertyGroup><BaseIntermediateOutputPath>$(MSBuildThisFileDirectory)../../.work/optional-achievements/obj/</BaseIntermediateOutputPath><BaseOutputPath>$(MSBuildThisFileDirectory)../../.work/optional-achievements/bin/</BaseOutputPath></PropertyGroup></Project>

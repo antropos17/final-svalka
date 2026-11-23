@@ -1,0 +1,7 @@
+Use case: logo-brand. Asset type: one isolated transparent mobile-game section icon/emblem.
+Input image 1 is the approved v003 STYLE reference only. Generate one NEW matching graphic, not a screen or sheet.
+Style: flat 2D cartoon, bold smooth deep blue-teal #183A4B contour, bright pleasant aqua/turquoise, honey gold #FFD34A, warm cream #FFF0CE, fresh green when appropriate, one small crisp vermilion #EF3E36 accent. One simple flat shade plane and one small hard-edged highlight; restrained thumbnail-friendly detail.
+Composition: optically centred, square canvas, one whole compact silhouette occupying about 70% of the canvas, generous transparent margin on every side.
+Background: genuine alpha transparency everywhere outside the object, no coloured plate, ground island, glow, haze, shadow or checkerboard.
+No letters, words, numbers, watermark, UI controls, panels, 3D rendering, bevels, metallic gloss, photorealism or painterly texture. Match the reference's contour weight and cheerful flat illustration style.
+Subject: Yard Finds memory mini-game emblem: two overlapping cream game cards with rounded turquoise rims, the front card showing the familiar golden packing box from the reference; the back card showing a simple golden sparkle. A balanced compact pair, no literal lettering.

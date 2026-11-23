@@ -1,0 +1,1 @@
+Largest exported canonical state=871; operation=1914; JSON=4369. This measures scoped fixtures, not all theoretical states.

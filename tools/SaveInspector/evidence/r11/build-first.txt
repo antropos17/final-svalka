@@ -1,0 +1,29 @@
+
+Вас приветствует .NET 10.0!
+---------------------
+Версия пакета SDK: 10.0.302
+
+Телеметрия
+---------
+Средства .NET собирают данные об использовании для повышения удобства. Данные собираются корпорацией Майкрософт и предоставляются сообществу. Вы можете отключить отправку данных телеметрии, установив значение "1" или "true" для переменной среды DOTNET_CLI_TELEMETRY_OPTOUT в подходящей оболочке.
+
+Дополнительные сведения о сборе данных телеметрии средствами CLI .NET см. на странице https://aka.ms/dotnet-cli-telemetry.
+
+----------------
+Как написать свое первое приложение: https://aka.ms/dotnet-hello-world
+Узнать о новых возможностях: https://aka.ms/dotnet-whats-new
+Просмотреть документацию: https://aka.ms/dotnet-docs
+Сообщить о проблемах и найти исходный код на GitHub: https://github.com/dotnet/core
+Для просмотра доступных команд введите команду "dotnet --help" или посетите следующую страницу: https://aka.ms/dotnet-cli.
+--------------------------------------------------------------------------------------
+  Определение проектов для восстановления...
+  Восстановлен X:\tmp\jtn-save-inspector-r11-04\tools\SaveInspector\SaveInspector.csproj (за 145 мс).
+  Восстановлен X:\tmp\jtn-save-inspector-r11-04\tools\SaveInspector\tests\FixChecks.csproj (за 163 мс).
+  SaveInspector -> X:\tmp\jtn-save-inspector-r11-04\.work\save-inspector\bin\Release\net10.0\junk-save-inspector.dll
+  FixChecks -> X:\tmp\jtn-save-inspector-r11-04\.work\save-inspector-fix-checks\bin\Release\net10.0\SaveInspector.FixChecks.dll
+
+Сборка успешно завершена.
+    Предупреждений: 0
+    Ошибок: 0
+
+Прошло времени 00:00:09.76

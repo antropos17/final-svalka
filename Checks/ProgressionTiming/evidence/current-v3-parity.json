@@ -1,0 +1,427 @@
+{
+  "schema": 2,
+  "profile": "current-v3",
+  "productionSource": "c086395 (r9); source manifest recorded alongside result",
+  "seeds": [
+    1
+  ],
+  "offlineSeeds": [],
+  "checks": {
+    "outcomes": 64,
+    "totalBaseCoins": 452,
+    "meanBaseCoins": 7.0625,
+    "nominalManualCoinsPerMinute": 121.07142857142857,
+    "nominalAutoCoinsPerMinute": 113,
+    "firstRepairSeed1Wallet": 5,
+    "actualOfflineCapProbe": 480
+  },
+  "assumptions": {
+    "nominalManualSeconds": 3.5,
+    "nominalAutoSeconds": 3.75,
+    "autoEligible": "only after first repair and before chapter end; postchapter skill gathering and orders use manual",
+    "extraDecisionSeconds": 2,
+    "zeroTimeDecisions": true,
+    "firstRepairIsManual": true,
+    "offlineAbsenceSeconds": 7200,
+    "perRunSpinCap": 2000,
+    "perOrderSpinCap": 100,
+    "totalSecondsCap": 600,
+    "quantile": "nearest rank; p95 at n16 is sample maximum, not a population estimate",
+    "storage": "real GameStore/strict Codec in memory; no filesystem/Unity execution"
+  },
+  "runnerWallSeconds": 9.7075369,
+  "summaries": [
+    {
+      "Policy": "affordable-skills-first",
+      "Scenario": "continuous",
+      "samples": 1,
+      "chapterSpins": {
+        "Count": 1,
+        "Minimum": 572,
+        "Median": 572,
+        "P90NearestRank": 572,
+        "P95NearestRank": 572,
+        "Maximum": 572
+      },
+      "chapterNominalAutoSeconds": {
+        "Count": 1,
+        "Minimum": 2144.75,
+        "Median": 2144.75,
+        "P90NearestRank": 2144.75,
+        "P95NearestRank": 2144.75,
+        "Maximum": 2144.75
+      },
+      "longestGapSeconds": {
+        "Count": 1,
+        "Minimum": 135,
+        "Median": 135,
+        "P90NearestRank": 135,
+        "P95NearestRank": 135,
+        "Maximum": 135
+      },
+      "allSkillSpins": {
+        "Count": 1,
+        "Minimum": 572,
+        "Median": 572,
+        "P90NearestRank": 572,
+        "P95NearestRank": 572,
+        "Maximum": 572
+      },
+      "skillsAtChapterEnd": {
+        "Count": 1,
+        "Minimum": 6,
+        "Median": 6,
+        "P90NearestRank": 6,
+        "P95NearestRank": 6,
+        "Maximum": 6
+      }
+    }
+  ],
+  "runs": [
+    {
+      "Seed": 1,
+      "Policy": "affordable-skills-first",
+      "Scenario": "continuous",
+      "Status": "complete",
+      "Spins": 572,
+      "Writes": 1213,
+      "SerializedCharacters": 13883690,
+      "FreshGrant": 37,
+      "SpinIncome": 10041,
+      "OfflineIncome": 0,
+      "AbsenceSeconds": 0,
+      "ConstructionSpend": 9460,
+      "SkillSpend": 610,
+      "WalletAfterSkills": 8,
+      "SkillsOwnedAtChapterEnd": 6,
+      "SkillSpendAtChapterEnd": 610,
+      "ConstructionCount": 24,
+      "LongestConstructionGapSpins": 36,
+      "LongestConstructionGapNominalAutoSeconds": 135,
+      "RunnerWallSeconds": 9.6809857,
+      "PeakManagedBytes": 13680688,
+      "Milestones": {
+        "fresh": {
+          "Spins": 0,
+          "ManualSeconds": 0,
+          "NominalAutoSeconds": 0,
+          "ExplicitDecisions": 0,
+          "AutoPlusTwoSecondsPerDecision": 0,
+          "Wallet": 37
+        },
+        "first-repair": {
+          "Spins": 1,
+          "ManualSeconds": 3.5,
+          "NominalAutoSeconds": 3.5,
+          "ExplicitDecisions": 1,
+          "AutoPlusTwoSecondsPerDecision": 5.5,
+          "Wallet": 5
+        },
+        "workshop": {
+          "Spins": 19,
+          "ManualSeconds": 66.5,
+          "NominalAutoSeconds": 71,
+          "ExplicitDecisions": 3,
+          "AutoPlusTwoSecondsPerDecision": 77,
+          "Wallet": 4
+        },
+        "era-ready": {
+          "Spins": 276,
+          "ManualSeconds": 966,
+          "NominalAutoSeconds": 1034.75,
+          "ExplicitDecisions": 16,
+          "AutoPlusTwoSecondsPerDecision": 1066.75,
+          "Wallet": 20
+        },
+        "era-entered": {
+          "Spins": 276,
+          "ManualSeconds": 966,
+          "NominalAutoSeconds": 1034.75,
+          "ExplicitDecisions": 17,
+          "AutoPlusTwoSecondsPerDecision": 1068.75,
+          "Wallet": 20
+        },
+        "chapter-end": {
+          "Spins": 572,
+          "ManualSeconds": 2002,
+          "NominalAutoSeconds": 2144.75,
+          "ExplicitDecisions": 33,
+          "AutoPlusTwoSecondsPerDecision": 2210.75,
+          "Wallet": 8
+        },
+        "all-skills-owned": {
+          "Spins": 572,
+          "ManualSeconds": 2002,
+          "NominalAutoSeconds": 2144.75,
+          "ExplicitDecisions": 33,
+          "AutoPlusTwoSecondsPerDecision": 2210.75,
+          "Wallet": 8
+        }
+      },
+      "Purchases": [
+        {
+          "Kind": "construction",
+          "Id": "house.repair",
+          "Spin": 1,
+          "Price": 40,
+          "Wallet": 5,
+          "NominalAutoSeconds": 3.5
+        },
+        {
+          "Kind": "construction",
+          "Id": "workshop.build",
+          "Spin": 19,
+          "Price": 120,
+          "Wallet": 4,
+          "NominalAutoSeconds": 71
+        },
+        {
+          "Kind": "skill",
+          "Id": "slot.coin-boost",
+          "Spin": 33,
+          "Price": 120,
+          "Wallet": 5,
+          "NominalAutoSeconds": 123.5
+        },
+        {
+          "Kind": "construction",
+          "Id": "cart.build",
+          "Spin": 54,
+          "Price": 160,
+          "Wallet": 20,
+          "NominalAutoSeconds": 202.25
+        },
+        {
+          "Kind": "construction",
+          "Id": "recycler.build",
+          "Spin": 69,
+          "Price": 180,
+          "Wallet": 8,
+          "NominalAutoSeconds": 258.5
+        },
+        {
+          "Kind": "skill",
+          "Id": "skill.recycling.1",
+          "Spin": 87,
+          "Price": 160,
+          "Wallet": 10,
+          "NominalAutoSeconds": 326
+        },
+        {
+          "Kind": "construction",
+          "Id": "power-source.build",
+          "Spin": 101,
+          "Price": 200,
+          "Wallet": 5,
+          "NominalAutoSeconds": 378.5
+        },
+        {
+          "Kind": "construction",
+          "Id": "pigeon-loft.build",
+          "Spin": 123,
+          "Price": 240,
+          "Wallet": 5,
+          "NominalAutoSeconds": 461
+        },
+        {
+          "Kind": "skill",
+          "Id": "skill.delivery.1",
+          "Spin": 128,
+          "Price": 60,
+          "Wallet": 7,
+          "NominalAutoSeconds": 479.75
+        },
+        {
+          "Kind": "construction",
+          "Id": "workshop.improve",
+          "Spin": 151,
+          "Price": 260,
+          "Wallet": 3,
+          "NominalAutoSeconds": 566
+        },
+        {
+          "Kind": "construction",
+          "Id": "cart.improve",
+          "Spin": 171,
+          "Price": 300,
+          "Wallet": 3,
+          "NominalAutoSeconds": 641
+        },
+        {
+          "Kind": "construction",
+          "Id": "recycler.improve",
+          "Spin": 194,
+          "Price": 320,
+          "Wallet": 15,
+          "NominalAutoSeconds": 727.25
+        },
+        {
+          "Kind": "construction",
+          "Id": "power-source.improve",
+          "Spin": 218,
+          "Price": 340,
+          "Wallet": 9,
+          "NominalAutoSeconds": 817.25
+        },
+        {
+          "Kind": "construction",
+          "Id": "pigeon-loft.improve",
+          "Spin": 240,
+          "Price": 360,
+          "Wallet": 6,
+          "NominalAutoSeconds": 899.75
+        },
+        {
+          "Kind": "construction",
+          "Id": "house.improve",
+          "Spin": 276,
+          "Price": 600,
+          "Wallet": 20,
+          "NominalAutoSeconds": 1034.75
+        },
+        {
+          "Kind": "construction",
+          "Id": "cart.workshop-yard.upgrade-1",
+          "Spin": 299,
+          "Price": 360,
+          "Wallet": 12,
+          "NominalAutoSeconds": 1121
+        },
+        {
+          "Kind": "construction",
+          "Id": "workshop.workshop-yard.upgrade-1",
+          "Spin": 319,
+          "Price": 380,
+          "Wallet": 11,
+          "NominalAutoSeconds": 1196
+        },
+        {
+          "Kind": "construction",
+          "Id": "recycler.workshop-yard.upgrade-1",
+          "Spin": 341,
+          "Price": 400,
+          "Wallet": 11,
+          "NominalAutoSeconds": 1278.5
+        },
+        {
+          "Kind": "skill",
+          "Id": "skill.recycling.2",
+          "Spin": 346,
+          "Price": 90,
+          "Wallet": 20,
+          "NominalAutoSeconds": 1297.25
+        },
+        {
+          "Kind": "construction",
+          "Id": "house.workshop-yard.upgrade-1",
+          "Spin": 368,
+          "Price": 420,
+          "Wallet": 5,
+          "NominalAutoSeconds": 1379.75
+        },
+        {
+          "Kind": "skill",
+          "Id": "skill.universal.2",
+          "Spin": 376,
+          "Price": 160,
+          "Wallet": 20,
+          "NominalAutoSeconds": 1409.75
+        },
+        {
+          "Kind": "construction",
+          "Id": "pigeon-loft.workshop-yard.upgrade-1",
+          "Spin": 397,
+          "Price": 440,
+          "Wallet": 16,
+          "NominalAutoSeconds": 1488.5
+        },
+        {
+          "Kind": "skill",
+          "Id": "skill.delivery.2",
+          "Spin": 398,
+          "Price": 20,
+          "Wallet": 37,
+          "NominalAutoSeconds": 1492.25
+        },
+        {
+          "Kind": "construction",
+          "Id": "power-source.workshop-yard.upgrade-1",
+          "Spin": 417,
+          "Price": 460,
+          "Wallet": 1,
+          "NominalAutoSeconds": 1563.5
+        },
+        {
+          "Kind": "construction",
+          "Id": "cart.workshop-yard.upgrade-2",
+          "Spin": 444,
+          "Price": 580,
+          "Wallet": 27,
+          "NominalAutoSeconds": 1664.75
+        },
+        {
+          "Kind": "construction",
+          "Id": "workshop.workshop-yard.upgrade-2",
+          "Spin": 469,
+          "Price": 620,
+          "Wallet": 14,
+          "NominalAutoSeconds": 1758.5
+        },
+        {
+          "Kind": "construction",
+          "Id": "recycler.workshop-yard.upgrade-2",
+          "Spin": 494,
+          "Price": 640,
+          "Wallet": 14,
+          "NominalAutoSeconds": 1852.25
+        },
+        {
+          "Kind": "construction",
+          "Id": "pigeon-loft.workshop-yard.upgrade-2",
+          "Spin": 520,
+          "Price": 660,
+          "Wallet": 18,
+          "NominalAutoSeconds": 1949.75
+        },
+        {
+          "Kind": "construction",
+          "Id": "house.workshop-yard.upgrade-2",
+          "Spin": 545,
+          "Price": 680,
+          "Wallet": 1,
+          "NominalAutoSeconds": 2043.5
+        },
+        {
+          "Kind": "construction",
+          "Id": "power-source.workshop-yard.upgrade-2",
+          "Spin": 572,
+          "Price": 700,
+          "Wallet": 8,
+          "NominalAutoSeconds": 2144.75
+        }
+      ],
+      "Orders": [
+        {
+          "Id": "order.sort-salvage",
+          "Instance": 1,
+          "Spins": 13,
+          "NominalManualSeconds": 45.5,
+          "SpinIncome": 343,
+          "ClaimIncome": 120,
+          "CarryBefore": 1,
+          "CarryAfter": 1
+        },
+        {
+          "Id": "order.neighborhood-supply",
+          "Instance": 1,
+          "Spins": 9,
+          "NominalManualSeconds": 31.5,
+          "SpinIncome": 241,
+          "ClaimIncome": 180,
+          "CarryBefore": 1,
+          "CarryAfter": 0
+        }
+      ]
+    }
+  ]
+}

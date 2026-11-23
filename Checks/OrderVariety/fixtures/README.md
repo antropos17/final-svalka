@@ -1,0 +1,3 @@
+# Prepared UI claim boundaries
+
+The two JSON files are synthetic, production-validated ready12 checkpoints exported from the frozen gameplay producer91b8517 on2026-10-31. Each has all24 paid constructions, wallet690, seed1, no invented last-spin receipt and one active new symbol order. They are not a natural playthrough. DirectNavigationUiTests loads them only into its owned X-drive private save; explicit claim must produce810 once, with read-only inspection and stale-claim refusal against a newer instance. Pending replay is covered separately by the producer and read-only SaveInspector receipts.

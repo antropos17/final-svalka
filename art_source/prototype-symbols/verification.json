@@ -1,0 +1,63 @@
+{
+  "mode": "RGBA",
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "alphaLevels": 256,
+  "cornersAlpha": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "midlineAlphaMax": {
+    "vertical": 1,
+    "horizontal": 1
+  },
+  "cells": [
+    {
+      "id": "potato",
+      "visibleBoundsTopLeftAlphaAbove32": [
+        88,
+        112,
+        563,
+        583
+      ]
+    },
+    {
+      "id": "box",
+      "visibleBoundsTopLeftAlphaAbove32": [
+        49,
+        85,
+        550,
+        590
+      ]
+    },
+    {
+      "id": "trash",
+      "visibleBoundsTopLeftAlphaAbove32": [
+        62,
+        22,
+        580,
+        569
+      ]
+    },
+    {
+      "id": "pigeon",
+      "visibleBoundsTopLeftAlphaAbove32": [
+        53,
+        64,
+        578,
+        569
+      ]
+    }
+  ],
+  "sourceAndUnityCopiesIdentical": true,
+  "visualInspection": "Generator view: four distinct whole subjects, no letters/digits/UI/background. No strict pixel-grid claim.",
+  "smallSizePreview": "Prepared CSS-only readability.html for 32/64px. File URL preview rejected by browser URL policy; no bypass attempted. Actual small-size rendered review remains pending integration."
+}

@@ -1,0 +1,42 @@
+{
+  "status": "Accepted source-only payoff evidence/check transfer; no production skill change",
+  "producerCommit": "353ad47d4a23140e7a06fb01d431cdf7fcb595b6",
+  "integratedCommit": "b012750",
+  "reviewer": "07 independent frozen source/arithmetic review; no executable rerun",
+  "compiledInputsCompared": 49,
+  "rawExact": 38,
+  "newlineOnlyEquivalent": [
+    "Checks/ProgressionTiming/Results.cs",
+    "Unity/Assets/Scripts/Contracts/ChapterSymbolModifiers.cs",
+    "Unity/Assets/Scripts/Contracts/GameplayContracts.cs",
+    "Unity/Assets/Scripts/Core/ChapterCatalog.cs",
+    "Unity/Assets/Scripts/Core/JourneyEconomy.cs",
+    "Unity/Assets/Scripts/Core/JourneySession.cs",
+    "Unity/Assets/Scripts/Core/JourneyState.cs",
+    "Unity/Assets/Scripts/Core/JourneyStateCodec.cs",
+    "Unity/Assets/Scripts/Core/ProgressionCatalog.cs",
+    "Unity/Assets/Scripts/Core/WaveEconomy.cs",
+    "Unity/Assets/Scripts/Core/WaveStateCodec.cs"
+  ],
+  "exactGitBlobTransfers": {
+    "Checks/ProgressionTiming/Program.cs": "E7D24091B783ED626E7BF510E34B6D5FD311AD461445F98FED28C0147D1D3FA2",
+    "Checks/ProgressionTiming/ProgressionTiming.csproj": "EDAD15F26B4EB8AAB70D7BC992142EBACCD5EDF455208223C60D45494250F143",
+    "Checks/ProgressionTiming/SkillPayoff.cs": "B9CFB3A1BC461C6DDF80DC0B9ECCB440F0AFFB99D93D09AE882D3FCD044621C0",
+    "Checks/ProgressionTiming/evidence/skill-payoff-r12/README.md": "301CE6E6C72D77DFD9919AACF364D3AD9CE326789E6A8F6C92E4FF9E61AC64A1",
+    "Checks/ProgressionTiming/evidence/skill-payoff-r12/first-run-exit.json": "C085DFC34A01670DE1D0A6678A2006B3D0A50C1F3F6482E65548F849B44F9474",
+    "Checks/ProgressionTiming/evidence/skill-payoff-r12/first-run.stderr.log": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+    "Checks/ProgressionTiming/evidence/skill-payoff-r12/first-run.stdout.log": "F6840F7CDCB58AD009DB87041EDE3E88C2494E8C134E05335418E2D065A92ED2",
+    "Checks/ProgressionTiming/evidence/skill-payoff-r12/inputs.json": "6EA1BCE9FDF7EF077C90737772608B5CA5770B83E2C5EED32E1B42014EEC1760",
+    "Checks/ProgressionTiming/evidence/skill-payoff-r12/payoff.json": "9A0ECD5175A4AC19686207D67195FBC54BDC0159015C58978444E1153C766491",
+    "Checks/ProgressionTiming/evidence/skill-payoff-r12/resources-after.json": "2DAEBF9C9C1AB097FC89E6BC22C582C3F59D03E39D8838EC027D7E0141744457",
+    "Checks/ProgressionTiming/evidence/skill-payoff-r12/resources-before.json": "7FC56106D1699D57DBC5E3F3D2591EF5CD3828137A90DE7E3A7F0487081C1E72",
+    "Checks/ProgressionTiming/evidence/skill-payoff-r12/source-freeze.json": "5E72B0BB40924E75F68D1D21477C4C8CEF566CF3F0FABA6A9EAD864A522CFA3F"
+  },
+  "skillRevision": "skill.prices.v3",
+  "skillTotal": 610,
+  "priceProfilesUsed": 0,
+  "executableReruns": 0,
+  "claimScope": "All6 own-node prices recovered in3captured early-skill routes; not global optimality/causal node speed/enjoyment. Short postchapter bundle differences are horizon-specific.",
+  "unchangedProductionSince": "f13e007",
+  "bConnectedUnityAcceptance": "Still separately pending; no UI-modal assumption or primary skill-price integration"
+}

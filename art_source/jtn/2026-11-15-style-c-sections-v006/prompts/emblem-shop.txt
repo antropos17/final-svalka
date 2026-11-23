@@ -1,0 +1,6 @@
+Use case: logo-brand. Asset type: one isolated transparent section emblem for the existing Junk to Neon mobile game.
+Input image 1 is the approved v003 STYLE reference only. Generate a NEW matching symbol, not a screen or sheet.
+Flat 2D cartoon with bold smooth deep blue-teal #183A4B contour, bright pleasant aqua/turquoise, honey gold #FFD34A, warm cream #FFF0CE, fresh green where appropriate and a small crisp vermilion #EF3E36 accent. One simple flat shade plane and one small highlight; broad clean shapes, restrained thumbnail-friendly detail.
+One compact optically centred silhouette, square canvas, whole object visible, about 70% canvas occupancy with generous margin. Genuine alpha transparency everywhere outside the emblem. No coloured backdrop or plate, ground island, glow, haze, drop shadow or checkerboard.
+No letters, numbers, words, watermark, UI buttons/panels, 3D rendering, bevels, metallic gloss, photorealism or painterly texture. Match the reference's contour weight and friendly style.
+Subject: Shop section emblem: a compact market stall with a turquoise-and-cream striped awning, one golden parcel on its counter and a small red price-tag shape without lettering. Friendly miniature storefront silhouette, no surrounding scenery.

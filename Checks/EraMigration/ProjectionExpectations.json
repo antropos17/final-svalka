@@ -1,0 +1,20 @@
+{
+  "contract": "ChapterContracts.cs published by02; expected data only, not a production migration implementation",
+  "familyOrder": ["house", "workshop", "recycler", "pigeon-loft", "cart", "power-source"],
+  "cases": [
+    {"fixture":"r6/fresh", "era":"junkyard", "absoluteLevels":[0,0,0,0,0,0], "selectedProject":null, "universal1":0, "coins":37, "seed":1, "sequence":0},
+    {"fixture":"r6/selected-workshop", "era":"junkyard", "absoluteLevels":[1,0,0,0,0,0], "selectedProject":"workshop.build", "universal1":0, "coins":119, "seed":1, "sequence":1},
+    {"fixture":"r6/old-complete", "era":"junkyard", "absoluteLevels":[2,1,0,0,0,0], "selectedProject":null, "universal1":0, "coins":42, "seed":1, "sequence":42},
+    {"fixture":"r6/pending-finish-house-spin", "era":"junkyard", "absoluteLevels":[2,1,0,0,0,0], "selectedProject":null, "universal1":0, "coins":4, "seed":2647435461, "sequence":2},
+    {"fixture":"r7/owned-selected-house", "era":"junkyard", "absoluteLevels":[1,1,1,1,0,0], "selectedProject":"house.improve", "universal1":1, "coins":340, "seed":12305, "sequence":5},
+    {"fixture":"r7/owned-offline-seen", "era":"junkyard", "absoluteLevels":[1,1,1,1,0,0], "selectedProject":"house.improve", "universal1":1, "coins":361, "seed":2451568673, "sequence":8},
+    {"fixture":"r7/offline-funded-pigeon", "era":"junkyard", "absoluteLevels":[1,1,0,0,0,0], "selectedProject":"pigeon-loft.build", "universal1":0, "coins":249, "seed":1, "sequence":2},
+    {"fixture":"r7/pending-select-recycler", "era":"junkyard", "absoluteLevels":[1,0,1,0,0,0], "selectedProject":null, "universal1":0, "coins":0, "seed":1, "sequence":1},
+    {"fixture":"r7/pending-select-pigeon", "era":"junkyard", "absoluteLevels":[1,0,0,1,0,0], "selectedProject":null, "universal1":0, "coins":0, "seed":1, "sequence":1},
+    {"fixture":"r7/pending-slot-purchase", "era":"junkyard", "absoluteLevels":[1,1,1,1,0,0], "selectedProject":null, "universal1":1, "coins":340, "seed":12305, "sequence":4}
+  ],
+  "transitions": [
+    {"beforeEra":"junkyard", "beforeLevels":[2,2,2,2,2,2], "command":"era.workshop-yard.unlock", "afterEra":"workshop-yard", "afterLevels":[3,3,3,3,3,3], "coinDelta":0, "rngDraws":0, "selectedProject":null},
+    {"era":"workshop-yard", "levels":[5,5,5,5,5,5], "chapterComplete":true, "skillNodesRequired":0}
+  ]
+}

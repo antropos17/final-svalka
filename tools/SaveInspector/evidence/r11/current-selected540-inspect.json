@@ -1,0 +1,172 @@
+{
+  "tool": {
+    "name": "junk-save-inspector",
+    "version": "1.1.0",
+    "productionSources": {
+      "algorithm": "sha256-of-utf8-path-equals-source-sha256-lines-lf",
+      "fileCount": 45,
+      "sha256": "83488B285BEB4FC0788DEC77FBF2F7A5EB0A4C97DE6A54DE710FB60039FCE454",
+      "scope": "actual-linked-pure-sources-at-build; not-runtime-or-git-qualification"
+    }
+  },
+  "command": "inspect",
+  "status": "ok",
+  "facts": {
+    "format": {
+      "schemaVersion": 1,
+      "contentVersion": 1,
+      "layer": "journey-r9",
+      "waveStored": true,
+      "chapterStored": true,
+      "journeyStored": true
+    },
+    "wallet": {
+      "source": "stored",
+      "coins": 500
+    },
+    "progression": {
+      "source": "stored",
+      "ruleRevision": "chapter.rules.v1",
+      "era": "junkyard",
+      "families": [
+        {
+          "family": "house",
+          "absolute": 1,
+          "local": 1
+        },
+        {
+          "family": "workshop",
+          "absolute": 1,
+          "local": 1
+        },
+        {
+          "family": "recycler",
+          "absolute": 1,
+          "local": 1
+        },
+        {
+          "family": "pigeon-loft",
+          "absolute": 1,
+          "local": 1
+        },
+        {
+          "family": "cart",
+          "absolute": 0,
+          "local": 0
+        },
+        {
+          "family": "power-source",
+          "absolute": 0,
+          "local": 0
+        }
+      ],
+      "completedProjects": 4,
+      "eraEntryAvailable": false,
+      "eraEntrySequence": 0,
+      "eraTransitionSeen": 0,
+      "eraTransitionPending": false,
+      "completeUnderChapterRule": false,
+      "legacyFields": {
+        "source": "derived",
+        "houseStage": 1,
+        "workshopBuilt": 1,
+        "recyclerBuilt": 1,
+        "pigeonLoftBuilt": 1,
+        "completeUnderR7Rule": false
+      }
+    },
+    "selection": {
+      "source": "stored",
+      "selectedProjectId": "house.improve",
+      "constructionPriceRevision": "construction.prices.v2",
+      "constructionPriceRevisionSource": "stored",
+      "currentOfferRevision": "construction.prices.v2",
+      "selectedPrice": 540,
+      "affordableNow": false,
+      "currentReselectionOfferPrice": 540,
+      "legacySelectedStage": 2
+    },
+    "skills": {
+      "source": "stored",
+      "ownershipCodecVersion": 2,
+      "receiptCount": 1,
+      "ownershipTokenSha256": "C99AF7432509C0C9",
+      "receipts": [
+        {
+          "node": "slot.coin-boost",
+          "legacyReceipt": true,
+          "priceRevision": "skill.prices.v1",
+          "frozenPrice": 120,
+          "sequence": 4,
+          "operationId": "legacy.slot-4",
+          "expectedWallet": 460,
+          "expectedOwnershipSha256": "2E1CFA82B035C26C"
+        }
+      ]
+    },
+    "orders": {
+      "source": "stored",
+      "unlocked": false,
+      "active": null,
+      "cursor": 0,
+      "lastCommandSequence": 0,
+      "lastEventSequence": null,
+      "latestClaim": null,
+      "journeyMarker": {
+        "adoptedSequence": 6,
+        "commandSequence": 0,
+        "commandKind": null,
+        "commandId": null,
+        "commandInstance": 0,
+        "commandCompletion": 0
+      }
+    },
+    "guidance": {
+      "source": "stored",
+      "origin": "Existing",
+      "acknowledged": [],
+      "tutorialSteps": [],
+      "lastObservedSequence": 6,
+      "latestCompletedProject": null,
+      "completionAcknowledgedSequence": 0,
+      "lastAcknowledgement": null,
+      "autoHintSeen": 1
+    },
+    "rngCarry": {
+      "seed": 12305,
+      "deliveryCarry": 0,
+      "deliveryCarrySource": "stored",
+      "deliveryLastOperationSequence": 0,
+      "lastSpin": null
+    },
+    "pending": {
+      "status": "absent"
+    },
+    "clockSequence": {
+      "sequence": 6,
+      "revision": 12,
+      "lastSettledAt": 1000,
+      "lastSettlementSeen": 0,
+      "lastSettlement": null
+    }
+  },
+  "notes": [
+    "Read-only: decoded with production JsonStateCodec.Decode and GameLogic.Validate; no migration, settlement, recovery or acknowledgement was persisted.",
+    "projected-not-persisted sections are production\u0027s in-memory projection of absent aggregates; inspection does not adopt them.",
+    "Offline clock fields are shown as stored; elapsed time is not settled against the current wall clock.",
+    "Guidance observations and acknowledgements record committed operations; they do not prove that any text was visibly seen.",
+    "lastSpin and latestClaim are retained historical receipts, not new reward proposals."
+  ],
+  "input": {
+    "role": "input",
+    "bytes": 1217,
+    "sha256": "DB01A48BF800D9480DC5ADA166CC9DDFB84C0F72B6E6E97B5E3527CC92E1DA51",
+    "canonicalSha256": "DB01A48BF800D9480DC5ADA166CC9DDFB84C0F72B6E6E97B5E3527CC92E1DA51",
+    "integrity": {
+      "bytesAfter": 1217,
+      "sha256After": "DB01A48BF800D9480DC5ADA166CC9DDFB84C0F72B6E6E97B5E3527CC92E1DA51",
+      "unchanged": true,
+      "adjacentEntriesUnchanged": true
+    }
+  }
+}

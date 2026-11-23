@@ -1,0 +1,71 @@
+{
+  "status": "PASS",
+  "sourceBase": "1b15ed9",
+  "characterCap": 65536,
+  "encodedByteCap": 262148,
+  "maximumProbeBytes": 1,
+  "privateRoot": "X:\\tmp\\jtn-effects-wave06\\.work\\bounded-reader-r10\\run-8a2e635f59d1475c9a8a6f75d342261e",
+  "fixtureBytes": 2490455,
+  "groups": [
+    {
+      "name": "utf-eight",
+      "maxCharacters": 65536,
+      "excessCharacters": 65537,
+      "rejected": true,
+      "consumedBytes": 196612
+    },
+    {
+      "name": "utf-sixteen-le",
+      "maxCharacters": 65536,
+      "excessCharacters": 65537,
+      "rejected": true,
+      "consumedBytes": 131076
+    },
+    {
+      "name": "utf-sixteen-be",
+      "maxCharacters": 65536,
+      "excessCharacters": 65537,
+      "rejected": true,
+      "consumedBytes": 131076
+    },
+    {
+      "name": "utf-thirtytwo-le",
+      "maxCharacters": 65536,
+      "excessCharacters": 65537,
+      "rejected": true,
+      "consumedBytes": 262149
+    },
+    {
+      "name": "utf-thirtytwo-be",
+      "maxCharacters": 65536,
+      "excessCharacters": 65537,
+      "rejected": true,
+      "consumedBytes": 262149
+    },
+    {
+      "name": "growing-real-file",
+      "initialBytes": 1024,
+      "finalBytes": 262152,
+      "consumedBytes": 66560,
+      "rejected": true
+    },
+    {
+      "name": "codec-and-backup-presence",
+      "baselineReturnedCharacters": 65537,
+      "codecMaxAccepted": true,
+      "invalidBackupPresenceRetained": true,
+      "healthyPrimaryOpens": true,
+      "absentPrimaryBlocksFresh": true,
+      "writeCalls": 0,
+      "wiring": "test adapter; actual GameSession wiring owned by02"
+    },
+    {
+      "name": "replacement-sharing-and-malformed-bytes",
+      "replacementError": 32,
+      "malformedCases": 4,
+      "utf16SurrogateUnits": 65536,
+      "explicitOwnership": true
+    }
+  ],
+  "limits": "Helper \u002B agreed-wiring adapter only; production GameSession.cs unchanged, no Android/power-loss claim"
+}

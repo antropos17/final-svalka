@@ -1,0 +1,7 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup><OutputType>Exe</OutputType><TargetFramework>net10.0</TargetFramework><ImplicitUsings>disable</ImplicitUsings><Nullable>disable</Nullable><EnableDefaultCompileItems>false</EnableDefaultCompileItems><LangVersion>9.0</LangVersion></PropertyGroup>
+  <ItemGroup>
+    <Compile Include="../../Unity/Assets/Scripts/Core/*.cs"/><Compile Include="../../Unity/Assets/Scripts/Contracts/*.cs"/><Compile Include="../../Unity/Assets/Scripts/Content/*.cs"/><Compile Include="../../Unity/Assets/Scripts/Effects/*.cs"/><Compile Include="../../Unity/Assets/Scripts/Upgrades/*.cs"/><Compile Include="../../Unity/Assets/Scripts/Orders/*.cs"/><Compile Include="../../Unity/Assets/Scripts/Guidance/*.cs"/>
+    <Compile Include="../../Unity/Assets/Tests/OptionalAchievements/OptionalAchievementRegression.cs"/><Compile Include="Program.cs"/>
+  </ItemGroup>
+</Project>

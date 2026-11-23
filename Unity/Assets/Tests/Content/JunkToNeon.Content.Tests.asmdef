@@ -1,0 +1,14 @@
+{
+  "name": "JunkToNeon.Content.Tests",
+  "rootNamespace": "JunkToNeon.Content.Tests",
+  "references": ["JunkToNeon.Content", "JunkToNeon.Contracts"],
+  "includePlatforms": ["Editor"],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": false,
+  "defineConstraints": ["UNITY_INCLUDE_TESTS"],
+  "versionDefines": [],
+  "optionalUnityReferences": ["TestAssemblies"]
+}

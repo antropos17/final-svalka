@@ -1,0 +1,92 @@
+{
+  "schema": 1,
+  "date": "2026-10-29",
+  "sdk": "10.0.302",
+  "checkout": "X:/tmp/jtn-command-sequence-lab",
+  "branch": "codex/command-sequence-lab",
+  "qualifiedGameplayPin": "c0863958b1bcf8d9fbdcc18957a5371192756733",
+  "checkoutBase": "6c202f4ff0d50124e0b08b20bd1f71ed23a5ff9b",
+  "linkedSourceCount": 43,
+  "productionDiffAgainstQualifiedPin": "empty",
+  "harnessHashes": {
+    "Program.cs": "489838d6200138e3454fcb3e5630689f7bf44de3a5b0b5fa798d2caa945caafb",
+    "CommandSequenceLab.csproj": "46c2c3d991ec5e05da411e900b295d2087377c326d416df49e79c3d17e1b4787",
+    "run.ps1": "57d064ff4aecb5dfe819cde343a30877dc5622cd15440f400fc5c780197a8cca",
+    "NuGet.Config": "964302159308872b9729e1828a1ba897f30634f7bd751cde11ea8e6fed8cfb97",
+    "source-manifest.json": "7840b979fea0b1c4d43864645404d74070a0eedb3e790b043718ef4487046d22"
+  },
+  "binarySha256": "0e70d8a262a658906dc9cc8ca79c515a54848a30b136a0e7c31a41eb064fad0a",
+  "evidenceHashes": {
+    "evidence/final/passing-trace-0.json": "b4bc9d64676f8efcc3f218280d873b98e4c04d99833ca56fc2c9c1108270f043",
+    "evidence/final/passing-trace-3.json": "66cd6599008de6826d08c21670aa37981fa6c5f7a21bfc51766f063053006b89",
+    "evidence/final/summary.json": "c84c1c9be4c6125bb1382ef17fffdcf49a1ff869bc85a50b96feddb65cbefe56",
+    "evidence/initial/exploration-summary.json": "ba5841ba36d49189bb7cddac43196c01025662f74293f7efbe10fe4f1bff0467",
+    "evidence/initial/smoke-summary.json": "db6bb3c50f1aa737ee86aa08e42ed4af60d3dd3ecd65dd5465bb32a225ea6d7a",
+    "evidence/initial/smoke-trace.json": "e5d4c250cdb32f722497f5a7bdd1a27dc6ac5c5813828272727d4de90fb11284",
+    "evidence/initial/first-build-failure.txt": "016d769d3604ed6a0a8694637bb24016fb25e04e0efe61bc8b18d9c6595d7d02"
+  },
+  "checks": [
+    {
+      "command": "./run.ps1 build",
+      "exit": 0,
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "command": "./run.ps1 check",
+      "exit": 0,
+      "result": "64 outcomes partition4/36/24; V1/V2 historical receipts and prices; independent synthetic reducer"
+    },
+    {
+      "command": "./run.ps1 replay artifacts/coverage-followup/passing-trace-0.json",
+      "exit": 0,
+      "commands": 139,
+      "afterStateHashes": "all match"
+    },
+    {
+      "command": "./run.ps1 replay artifacts/coverage-followup/passing-trace-3.json",
+      "exit": 0,
+      "commands": 139,
+      "afterStateHashes": "all match"
+    }
+  ],
+  "campaignEvidence": "final/summary.json",
+  "firstFailure": {
+    "kind": "harness-compile",
+    "code": "CS0117",
+    "message": "DeliveryState does not contain a definition for Empty",
+    "fix": "Use the actual zero delivery checkpoint constructor",
+    "productionExecutionOccurred": false
+  },
+  "followupReason": "Upper24-bit generation fixes low-bit correlation; new-sequence current-completion ACK is valid; historical V1/V2 fixture reused",
+  "changesAfterCampaign": "Only failure signature/retention guards changed; final build/check and two exact success-trace replays verify current sources. No game reduction ran.",
+  "resources": {
+    "before": {
+      "cFreeBytes": 8989945856,
+      "xFreeBytes": 92704210944,
+      "freeRamKiB": 4927980
+    },
+    "after": {
+      "cFreeBytes": 9017339904,
+      "xFreeBytes": 92617715712,
+      "freeRamKiB": 7109368
+    },
+    "tempBytes": 2214220,
+    "binBytes": 529142,
+    "objBytes": 688215,
+    "generatedReportsBytes": 105220,
+    "unityLibraryCreated": false,
+    "unityLogsCreated": false,
+    "retention": "Manual7 days/64MiB exact tool build/temp paths; reports hard2MiB; no automatic cleanup"
+  },
+  "scope": {
+    "productionEdits": false,
+    "normalSaveAccess": false,
+    "unityEditorLaunched": false,
+    "sharedGitConfigChanged": false,
+    "sourceMutation": false,
+    "writeFaultCampaign": false,
+    "nativeAcceptance": false,
+    "pushOrMerge": false
+  }
+}

@@ -1,0 +1,31 @@
+PASS current prices, stages and effects match the existing prototype
+PASS both purchase orders remain available and completion requires both projects
+PASS six sourced families have eighteen stages and stay disabled
+PASS draft traversal reaches every final stage without purchase-order traps
+PASS input arrays and exposed collections cannot mutate a catalog
+PASS duplicate stable IDs fail in every namespace
+PASS dangling references and orphaned stages fail
+PASS cycles and completion blocked by cycles fail
+PASS invalid, unknown and oversized IDs and versions fail closed
+PASS prices reject zero, negative, overflow-range and untuned live values
+PASS missing assets are errors even when placeholder fallback exists
+PASS closed effect whitelist rejects unknown IDs and kind mismatches
+PASS effect amounts, thresholds, AUTO rewards and contribution collisions fail
+PASS completion predicate rejects omissions, unknowns, duplicates and emptiness
+PASS stage skips, duplicate entries and missing previous-stage prerequisites fail
+PASS invalid progress snapshots never unlock or complete content
+PASS legacy projection preserves house stages, absent workshop and target IDs
+PASS null data and excessive catalogs yield diagnostics without crashing
+PASS bounded snapshots reject excess instead of accepting truncated definitions
+PASS two active eras define the same six objects, all 36 states and 24 exact prices
+PASS full seeded traversal visits 36 states and finishes with 540 coins
+PASS all 1216 reachable ownership states have a valid next action or finite end
+PASS era unlock is explicit, once per committed state, preserves ownership and pays nothing
+PASS purchases are immutable proposals and insufficient/duplicate/locked actions change nothing
+PASS all 17 valid r7 ownership combinations and every selected target project exactly
+PASS r7 effect meaning and carry cadence stay exact while symbol benefits are concrete
+PASS invalid era/ownership/cross-era snapshots fail closed without optional skills
+PASS chapter rejects broken graphs, missing assets and altered r7 meaning
+PASS unknown symbol sources, wrong symbol kinds and missing concrete benefits are rejected
+FIXTURE seed=20261029 actions=25 coins=540 era=workshop-yard owned=24 visitedStates=36
+TRACE house.repair,house.improve,pigeon-loft.build,recycler.build,workshop.build,workshop.improve,power-source.build,pigeon-loft.improve,cart.build,recycler.improve,cart.improve,power-source.improve,era.workshop-yard.unlock,recycler.workshop-yard.upgrade-1,house.workshop-yard.upgrade-1,cart.workshop-yard.upgrade-1,power-source.workshop-yard.upgrade-1,cart.workshop-yard.upgrade-2,workshop.workshop-yard.upgrade-1,house.workshop-yard.upgrade-2,power-source.workshop-yard.upgrade-2,recycler.workshop-yard.upgrade-2,workshop.workshop-yard.upgrade-2,pigeon-loft.workshop-yard.upgrade-1,pigeon-loft.workshop-yard.upgrade-2

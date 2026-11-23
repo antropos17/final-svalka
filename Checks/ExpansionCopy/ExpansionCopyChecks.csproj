@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+    <LangVersion>9.0</LangVersion>
+    <ProductionSourcesRoot Condition="'$(ProductionSourcesRoot)' == ''">../../Unity/Assets/Scripts</ProductionSourcesRoot>
+  </PropertyGroup>
+  <ItemGroup>
+    <!-- The V2 catalog references ExpansionState when choosing a pinned revision.
+         Link its actual pure dependencies, never a test substitute for that state. -->
+    <Compile Include="$(ProductionSourcesRoot)/Contracts/*.cs" />
+    <Compile Include="$(ProductionSourcesRoot)/Content/*.cs" />
+    <Compile Include="$(ProductionSourcesRoot)/Effects/*.cs" />
+    <Compile Include="$(ProductionSourcesRoot)/Guidance/*.cs" />
+    <Compile Include="$(ProductionSourcesRoot)/Orders/*.cs" />
+    <Compile Include="$(ProductionSourcesRoot)/Upgrades/*.cs" />
+    <Compile Include="$(ProductionSourcesRoot)/Core/*.cs" Exclude="$(ProductionSourcesRoot)/Core/ExpansionCopy.cs" />
+    <Compile Include="../../Unity/Assets/Scripts/Core/ExpansionCopy.cs" />
+    <Compile Include="Program.cs" />
+  </ItemGroup>
+</Project>

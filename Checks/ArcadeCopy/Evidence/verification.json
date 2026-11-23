@@ -1,0 +1,420 @@
+{
+  "taskBaseline": "6f5b9ebd09908821a6ab2186ee0b5c0269bc9373",
+  "coreDependency": "fa9f3f20df6fe71de64e6045ad7e09cb97d0b3cc",
+  "approvedContractSha256": "D8E073B67DD5C5505FA5C9031E5434A3B1A2E50FE2BF31F6F9457BE3B8AA879E",
+  "scope": "Copy and typed public projections. No GameSession/storage/Unity/UI/native or pacing acceptance.31 pure unselected spins and four pure purchases prepare valid fixtures; level affordability is synthetic. Two Sorting DTO transcripts prepare ready0/3, not a natural run.",
+  "sdk": "10.0.302",
+  "project": "Checks/ArcadeCopy/ArcadeCopyChecks.csproj",
+  "command": "dotnet run --project Checks/ArcadeCopy/ArcadeCopyChecks.csproj -p:BaseIntermediateOutputPath=<work>/obj/ -p:BaseOutputPath=<work>/bin/ -v minimal",
+  "result": {
+    "groups": 4,
+    "assertions": 126,
+    "exitCode": 0,
+    "attempt": "corrected fixture setup",
+    "buildDiagnostics": "No compiler warnings/errors emitted"
+  },
+  "firstFailure": "Incomplete Arcade retained history in synthetic test View setup. Initial successful build, product/test source, binaries/PDB/generated inputs/log/hashes retained. Only test setup changed: real bounded pure retained history and actual buys with explicit synthetic affordability. Product unchanged; no invariant/assertion was weakened.",
+  "nextProjection": "Actual current attribute values from ArcadeView; next fixed-effect description selected through actual ArcadeCatalog. Root explicitly approved this until a public numeric next projection exists.",
+  "overflow": "Label/description only. No raw clipped-quantity public field exists; no invented numeric overflow or truncated Diamond/pack result is formatted.",
+  "sourceInputs": [
+    {
+      "path": "Unity/Assets/Scripts/Contracts/ChapterContracts.cs",
+      "sha256": "6B15AE9C725BEEE596EC8886DC76D271F43551D3CC399AA9D07B3E863A64BD56"
+    },
+    {
+      "path": "Unity/Assets/Scripts/Contracts/ChapterSymbolModifiers.cs",
+      "sha256": "39B974BED9F6D26652A7BF76008B883F23CBDC554BE59354F1F7226A7B08D16B"
+    },
+    {
+      "path": "Unity/Assets/Scripts/Contracts/GameplayContracts.cs",
+      "sha256": "98275361EE2E908D7F7A531BC4768C85915688371CF2609C55F8640FAF5EA5C5"
+    },
+    {
+      "path": "Unity/Assets/Scripts/Content/CatalogData.cs",
+      "sha256": "C2DDA1B28462685F3DCD533794C8CC99EDAB8A391478814BFC5896B079063A03"
+    },
+    {
+      "path": "Unity/Assets/Scripts/Content/CatalogValidator.cs",
+      "sha256": "F45000C8A6AFCED8A26BB3E8AE6599BF40ADD3989E4023CEFBB8B0F41BB71187"
+    },
+    {
+      "path": "Unity/Assets/Scripts/Content/ChapterContentIds.cs",
+      "sha256": "906A21010F38B71DA0860D204CF5494434C2C65822642EDD04F391E811F6C2B8"
+    },
+    {
+      "path": "Unity/Assets/Scripts/Content/ChapterData.cs",
+      "sha256": "31A9178D7C8B7F719F31593B71FCD4E38A71D7DCD9B77AC2899B45E1FE32B953"
+    },
+    {
+      "path": "Unity/Assets/Scripts/Content/ChapterDefinitions.cs",
+      "sha256": "AFEFDDA9C298C3F7C7C71419004022ACFF8C01008F36382E903651776FC550AF"
+    },
+    {
+      "path": "Unity/Assets/Scripts/Content/ChapterRules.cs",
+      "sha256": "1265EB52DE149AE8C794C959CC1663A1A114B77994159C8BA9740A570B6E651E"
+    },
+    {
+      "path": "Unity/Assets/Scripts/Content/ChapterValidator.cs",
+      "sha256": "6DB14886D69D5DD5C7AB90B481F905D02F67715CA9497EECA70136BE39A3D641"
+    },
+    {
+      "path": "Unity/Assets/Scripts/Content/ConstructionPricing.cs",
+      "sha256": "361D90AAE651C2D67CC034B0E0E5B38ABF2220F46F224C22490047E301C4786B"
+    },
+    {
+      "path": "Unity/Assets/Scripts/Content/Definitions.cs",
+      "sha256": "7CF6713213F4CD90F631CE8650AE144FB6579F3E8E05FA8091438B37325D4219"
+    },
+    {
+      "path": "Unity/Assets/Scripts/Content/LegacyProgress.cs",
+      "sha256": "70FB953785652223EF04209882924F26A0275BDC556BB972E69E7BF313E2A07E"
+    },
+    {
+      "path": "Unity/Assets/Scripts/Content/ValidatedCatalog.cs",
+      "sha256": "460A500CE6BB9620551E975AE8CCA6B066867F1A38CD59CC2E3BEECA7BA75B9D"
+    },
+    {
+      "path": "Unity/Assets/Scripts/Effects/ChapterSpinEffects.cs",
+      "sha256": "200957844006F98A8560882E2B210719F8D69E6F69FB3006D157D235F48B36AE"
+    },
+    {
+      "path": "Unity/Assets/Scripts/Effects/SpinEffects.cs",
+      "sha256": "1B52D8C60E90FB5EC413C7731022AE9936F4F287A231EE9E1BF4D3D681049EC3"
+    },
+    {
+      "path": "Unity/Assets/Scripts/Guidance/ChapterNarrative.cs",
+      "sha256": "C5B956823D3AAE3DDD220F709AD82C10E277C2DA6651BCE4B91770B3D317C5D5"
+    },
+    {
+      "path": "Unity/Assets/Scripts/Guidance/GuideFlow.cs",
+      "sha256": "A0CD8E04F9F688A443813B85B544E6C69973F3C7A74C0794CAB55C4897DC2786"
+    },
+    {
+      "path": "Unity/Assets/Scripts/Guidance/GuideModel.cs",
+      "sha256": "BE146B060ED91597B2A0DB9A289DC9E1CC10138BF760F0E00FB49B01A72703CC"
+    },
+    {
+      "path": "Unity/Assets/Scripts/Guidance/GuideStateCodec.cs",
+      "sha256": "D51AF4FABA39BB9B4EB3AECBFAD9C836381623D3F54164FD7CF925D7E3E74DF0"
+    },
+    {
+      "path": "Unity/Assets/Scripts/Orders/OrderDefinitions.cs",
+      "sha256": "BC1788EA255FE39ACB129B039C64C406C87BC41850898FEE906D65810FAD660A"
+    },
+    {
+      "path": "Unity/Assets/Scripts/Orders/OrderEngine.cs",
+      "sha256": "25E709CAA9DAE2EB8E19BCD4A416E3BC00A30781FD422225ADD0DBB8B4B38012"
+    },
+    {
+      "path": "Unity/Assets/Scripts/Orders/OrderProposal.cs",
+      "sha256": "9DF4271A3486355B2E9243D534C8F288AB9C7D090CDAC850E569CF70B05891E7"
+    },
+    {
+      "path": "Unity/Assets/Scripts/Orders/OrderState.cs",
+      "sha256": "C055A8AB1A740D889475142CBAC4E330D7BCC4AB7E63FF51775915F47EB3AFCB"
+    },
+    {
+      "path": "Unity/Assets/Scripts/Orders/OrderStateCodec.cs",
+      "sha256": "5925D0DCB3A05D5E80066308C83095B30FDC4CD759E6C8E4B7AD2EADB9546596"
+    },
+    {
+      "path": "Unity/Assets/Scripts/Upgrades/CoinBoostShop.cs",
+      "sha256": "ACCF854B226305243767BDA2C5A67B8ADAC001F9197D7008BB45C94F260D7846"
+    },
+    {
+      "path": "Unity/Assets/Scripts/Upgrades/SkillOwnershipCodec.cs",
+      "sha256": "B3DD1A0279C94437D85198EA6C4E0FA534A3D51085B0406DCF9B1EFACE472FB8"
+    },
+    {
+      "path": "Unity/Assets/Scripts/Upgrades/SkillPricing.cs",
+      "sha256": "AC0F628113F781D87D5E65C057D4CD13BEEA6F97534DB495C2055912F323FBB4"
+    },
+    {
+      "path": "Unity/Assets/Scripts/Upgrades/SkillTree.cs",
+      "sha256": "7A53F7929D217BE372DEB5565080B57BC5AB27BBC3A31EB1C308CEFA07FBA175"
+    },
+    {
+      "path": "Unity/Assets/Scripts/Upgrades/UpgradeOwnershipCodec.cs",
+      "sha256": "E9B9EAA584E93E8482D1071F851823027ED46527E5487D2183A65652D327A6AF"
+    },
+    {
+      "path": "Unity/Assets/Scripts/Core/ArcadeCodec.cs",
+      "sha256": "98A7CF3CF7A6B31D2501033A89B7A5C2AB79E21E3991823EBEDA57447FF3659F"
+    },
+    {
+      "path": "Unity/Assets/Scripts/Core/ArcadeCopy.cs",
+      "sha256": "6F5E1C1DB807A5B1B4F89FB4287702B098A988F6EFE115D9460D56F5F510FA67"
+    },
+    {
+      "path": "Unity/Assets/Scripts/Core/ArcadeEconomy.cs",
+      "sha256": "C7F51E5489B83EB2200F68CE9E035D37EC69C4A8C4C26572161495FF86D4ADC0"
+    },
+    {
+      "path": "Unity/Assets/Scripts/Core/ArcadeRules.cs",
+      "sha256": "02A02D5298DDCAF415B45E6552C00E04B4349F448A00D5783082864881518E15"
+    },
+    {
+      "path": "Unity/Assets/Scripts/Core/ArcadeSession.cs",
+      "sha256": "D1C787A293FF4E37FF3659C2FE89227F507C501BC64909515664F1BF09171A2B"
+    },
+    {
+      "path": "Unity/Assets/Scripts/Core/ArcadeState.cs",
+      "sha256": "F417CACF777EA49826FD6BA03A28698E2E2AEEC8745C8A3E3887BF5C0ADC6CE4"
+    },
+    {
+      "path": "Unity/Assets/Scripts/Core/BoundedSnapshotReader.cs",
+      "sha256": "09193E53E9B5A462DAD1F26953F93DAB0F724C62E43C4685E09B3164ED788C45"
+    },
+    {
+      "path": "Unity/Assets/Scripts/Core/ChapterCatalog.cs",
+      "sha256": "32F3F4AA041F0483885D365955E666B261866F66EB1A736B9F27BDE1684B4BF9"
+    },
+    {
+      "path": "Unity/Assets/Scripts/Core/ChapterEconomy.cs",
+      "sha256": "4E3A6BB2DACEE2A2A5F09184B3D0790D511B205F6F5C29C2E670597798F3B0B3"
+    },
+    {
+      "path": "Unity/Assets/Scripts/Core/ChapterMilestones.cs",
+      "sha256": "FE1DDD2EC8D302F4BB3B53F3455EE65E932A91BBA1900444AB4DFD0A4A23E8D4"
+    },
+    {
+      "path": "Unity/Assets/Scripts/Core/ChapterSession.cs",
+      "sha256": "303E0B1CAC03631664611063B38F08C6028A5D66E99EA9F6B030C7238F67481B"
+    },
+    {
+      "path": "Unity/Assets/Scripts/Core/ChapterState.cs",
+      "sha256": "BB311AE726DB2ED7AECCCA3EB57B8B35A18BA12CCA30CEA09C0719C0B040C526"
+    },
+    {
+      "path": "Unity/Assets/Scripts/Core/ChapterStateCodec.cs",
+      "sha256": "6E1C7DDC08E608736F2703D6E594A7EBB589627E37513DA4D38DD5F88D04C478"
+    },
+    {
+      "path": "Unity/Assets/Scripts/Core/ExpansionCodec.cs",
+      "sha256": "343980C01B1EB5C3A543C5F3ABD7B0E67FE4E29144AFBD1359387F2895A2104E"
+    },
+    {
+      "path": "Unity/Assets/Scripts/Core/ExpansionCopy.cs",
+      "sha256": "F85BC411FB31A3A0675D4D4759A9B2E874B86428A6017D9DBE3ECFA933FD9BFE"
+    },
+    {
+      "path": "Unity/Assets/Scripts/Core/ExpansionEconomy.cs",
+      "sha256": "2D3C833523FE81095DB73DFEA7D9063BD23C8789C235B35ED2726AE3F17D0FD8"
+    },
+    {
+      "path": "Unity/Assets/Scripts/Core/ExpansionRules.cs",
+      "sha256": "56F81512B76FC1B10F9CED018D4CCA663923DDF7ED3B4B0F13651729EB0F4389"
+    },
+    {
+      "path": "Unity/Assets/Scripts/Core/ExpansionSession.cs",
+      "sha256": "899FF4AC36D2FA641529AC85DCE1E438C1E8A3A44F81C1F48E97AB955EF506E3"
+    },
+    {
+      "path": "Unity/Assets/Scripts/Core/ExpansionState.cs",
+      "sha256": "F8BE97FA8A3351154251D50FDBCC9C3D2011E5C03415208A44B382A19B3FB91B"
+    },
+    {
+      "path": "Unity/Assets/Scripts/Core/GameSession.cs",
+      "sha256": "699A65EE65B4679102314D6703100B405ACD1C04B926BB8919842D16CF49DC04"
+    },
+    {
+      "path": "Unity/Assets/Scripts/Core/JourneyEconomy.cs",
+      "sha256": "CDE54516E6D6C41877DA48A0665DE7C0EB0B303F2A8C13BA2A9BB40DD89C3FC5"
+    },
+    {
+      "path": "Unity/Assets/Scripts/Core/JourneySession.cs",
+      "sha256": "7C1CD9B0D9968EBEABA20C13386C2F296EEE27E7F924EB8EFEC739518371B022"
+    },
+    {
+      "path": "Unity/Assets/Scripts/Core/JourneyState.cs",
+      "sha256": "711BA469DB9A701B5F90F10A99766E699AF683D8252111277E5931CACDDFB9B9"
+    },
+    {
+      "path": "Unity/Assets/Scripts/Core/JourneyStateCodec.cs",
+      "sha256": "ACE3780AA4D5D389CB06FEC44C1B1706613DD7002731F74F4492849D051CBCED"
+    },
+    {
+      "path": "Unity/Assets/Scripts/Core/JsonStateCodec.cs",
+      "sha256": "B2D57D790F5EB930AB153802B1C6202F1A99B0BE9662A7506C405DCB3A90D351"
+    },
+    {
+      "path": "Unity/Assets/Scripts/Core/MilestoneSession.cs",
+      "sha256": "82152F065A95E3CC1EEE0FE95E3A2DACC96B3666771827A2ECA19163A990FFAA"
+    },
+    {
+      "path": "Unity/Assets/Scripts/Core/Model.cs",
+      "sha256": "A4D99AE5389E61BDE76985271EC4033D4186FC40ACD54C3CA2DCDE869BD3A7AD"
+    },
+    {
+      "path": "Unity/Assets/Scripts/Core/OptionalAchievements.cs",
+      "sha256": "011B295DE4ACC1F2E15E0FA4D6AE37AA9225C6EBB92F139013ED27198EDE039A"
+    },
+    {
+      "path": "Unity/Assets/Scripts/Core/OptionalAchievementSession.cs",
+      "sha256": "49312EDDC326209832A16DE2964DFA3373937D9B8F8B35CA88200203BBCFC7EC"
+    },
+    {
+      "path": "Unity/Assets/Scripts/Core/ProgressionCatalog.cs",
+      "sha256": "FA37F5B767139DB29BAAC490BF47C6D5E6953D9ADA51BE2D5FF80001AEFCD696"
+    },
+    {
+      "path": "Unity/Assets/Scripts/Core/WaveEconomy.cs",
+      "sha256": "4C98C97B01693F55A45C0A3DA89E8F393E1AB7F0B06C5531EE9528F9B112158D"
+    },
+    {
+      "path": "Unity/Assets/Scripts/Core/WaveStateCodec.cs",
+      "sha256": "EABFF23476BBB4D450FFD648A1E4F7DACCE94874A2D82C263588B50B0D1E8F97"
+    },
+    {
+      "path": "Unity/Assets/Scripts/Core/ArcadeCopy.cs.meta",
+      "sha256": "3BC45626A1FC6570458A7EAE8AAD278F096716B3584C02FE339937D0FFCB36C6"
+    },
+    {
+      "path": "Checks/ArcadeCopy/Program.cs",
+      "sha256": "B0093473B053C13F19AFF6E83F3666EFC898FDD7B440D5E7B80CFFA9BF9B9861"
+    },
+    {
+      "path": "Checks/ArcadeCopy/ArcadeCopyChecks.csproj",
+      "sha256": "6A0FEE2F7023A2E827631D18759A15E07CF76D36DDB9E5A9EA62CF171AA63989"
+    }
+  ],
+  "generatedInputs": [
+    {
+      "path": "obj/Debug/net10.0/.NETCoreApp,Version=v10.0.AssemblyAttributes.cs",
+      "sha256": "93D67476196EBFC80D1D7D8844B91146CFD678D105F5CE635EB900CA40610C9B"
+    },
+    {
+      "path": "obj/Debug/net10.0/ArcadeCopyChecks.AssemblyInfo.cs",
+      "sha256": "653134C0D2238B7868FE48D0D1B7E00DCD124188F11260014D5D78F1D3E162BD"
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "check-first.log",
+      "sha256": "A9DCB8E4F7B0C38B83CD4DD8C4A5F10B82BF2BA58222D13DF0256AC49B32FD53",
+      "bytes": 1184
+    },
+    {
+      "path": "check-corrected.log",
+      "sha256": "2247EF241252702C052630368B3FA1B2164DDB36E5B2DEB94EE6FD5B8C11EE53",
+      "bytes": 818
+    },
+    {
+      "path": "bin/Debug/net10.0/ArcadeCopyChecks.deps.json",
+      "sha256": "21F5957C3554FFB3BD3F97ADE2B6E0D28B6003A157C2472966296FC8C91BFA72",
+      "bytes": 442
+    },
+    {
+      "path": "bin/Debug/net10.0/ArcadeCopyChecks.dll",
+      "sha256": "22AF3A193507D86C7A44B342C5BB8BEFD626E57E92C4B125A4BA2D84D14E95EB",
+      "bytes": 379392
+    },
+    {
+      "path": "bin/Debug/net10.0/ArcadeCopyChecks.exe",
+      "sha256": "DFE3F66B9EB0DF174E6370731E81399A0CF5CB307B4E7F53984C21BA1C2C593D",
+      "bytes": 162304
+    },
+    {
+      "path": "bin/Debug/net10.0/ArcadeCopyChecks.pdb",
+      "sha256": "29877E3B977785E2CDAABF611CE79DB253D7BCADCA3F5ADBAF15C6CCD35350D3",
+      "bytes": 122736
+    },
+    {
+      "path": "bin/Debug/net10.0/ArcadeCopyChecks.runtimeconfig.json",
+      "sha256": "256DDA2706E1151BB95987B6B5BE610BF68D64E058285B19E7E958222FC90414",
+      "bytes": 270
+    },
+    {
+      "path": "failure-first/ArcadeCopy.cs",
+      "sha256": "6F5E1C1DB807A5B1B4F89FB4287702B098A988F6EFE115D9460D56F5F510FA67",
+      "bytes": 20905
+    },
+    {
+      "path": "failure-first/ArcadeCopy.cs.meta",
+      "sha256": "3BC45626A1FC6570458A7EAE8AAD278F096716B3584C02FE339937D0FFCB36C6",
+      "bytes": 62
+    },
+    {
+      "path": "failure-first/ArcadeCopyChecks.csproj",
+      "sha256": "6A0FEE2F7023A2E827631D18759A15E07CF76D36DDB9E5A9EA62CF171AA63989",
+      "bytes": 1103
+    },
+    {
+      "path": "failure-first/input-sha256.json",
+      "sha256": "C08EF4EB22EF49BD6AAC8DD978283163ACF8A1F70E2419E4CB170E11E02130DA",
+      "bytes": 12971
+    },
+    {
+      "path": "failure-first/Program.cs",
+      "sha256": "B5A271B4586F10DEA4E7C9D5DBC9C47ED2442C70F2C3A7C50236D252A31AFDD4",
+      "bytes": 9810
+    },
+    {
+      "path": "failure-first/binaries/ArcadeCopyChecks.deps.json",
+      "sha256": "21F5957C3554FFB3BD3F97ADE2B6E0D28B6003A157C2472966296FC8C91BFA72",
+      "bytes": 442
+    },
+    {
+      "path": "failure-first/binaries/ArcadeCopyChecks.dll",
+      "sha256": "1F818D2B62C7DC7AC232D84AF4DAECFB59938E652A06B3673D2AEB9105A3E968",
+      "bytes": 378368
+    },
+    {
+      "path": "failure-first/binaries/ArcadeCopyChecks.exe",
+      "sha256": "DFE3F66B9EB0DF174E6370731E81399A0CF5CB307B4E7F53984C21BA1C2C593D",
+      "bytes": 162304
+    },
+    {
+      "path": "failure-first/binaries/ArcadeCopyChecks.pdb",
+      "sha256": "1A30D5C32664C107BD7BA676FAFA3C1E9181B277F71D980C2331D54368F20E9F",
+      "bytes": 122356
+    },
+    {
+      "path": "failure-first/binaries/ArcadeCopyChecks.runtimeconfig.json",
+      "sha256": "256DDA2706E1151BB95987B6B5BE610BF68D64E058285B19E7E958222FC90414",
+      "bytes": 270
+    },
+    {
+      "path": "failure-first/generated/.NETCoreApp,Version=v10.0.AssemblyAttributes.cs",
+      "sha256": "93D67476196EBFC80D1D7D8844B91146CFD678D105F5CE635EB900CA40610C9B",
+      "bytes": 200
+    },
+    {
+      "path": "failure-first/generated/ArcadeCopyChecks.AssemblyInfo.cs",
+      "sha256": "653134C0D2238B7868FE48D0D1B7E00DCD124188F11260014D5D78F1D3E162BD",
+      "bytes": 1022
+    }
+  ],
+  "diskBefore": [
+    {
+      "Name": "C",
+      "Free": 18049818624
+    },
+    {
+      "Name": "X",
+      "Free": 90977513472
+    }
+  ],
+  "diskAfterFirst": [
+    {
+      "Name": "C",
+      "Free": 18048561152
+    },
+    {
+      "Name": "X",
+      "Free": 90975952896
+    }
+  ],
+  "diskAfterCorrected": [
+    {
+      "Name": "C",
+      "Free": 17991716864
+    },
+    {
+      "Name": "X",
+      "Free": 90972565504
+    }
+  ],
+  "taskBytesAfterCorrected": 2230435,
+  "retention": "X-local TEMP/TMP/NuGet/cache/bin/obj; reused initialized private .NET home; DOTNET_GENERATE_ASPNET_CERTIFICATE=false. Closed disposable logs seven-day eligibility,32MiB stream budget; receipts preserved, no cleanup/rotation installed."
+}

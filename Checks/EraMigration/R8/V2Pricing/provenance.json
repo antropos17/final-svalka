@@ -1,0 +1,20 @@
+{
+  "revision": "bff8b564bc55eeec24376a7cfa6c08631e4d27b0",
+  "scope": "Pinned Upgrades module proposal/ownership payloads, NOT a historical full Core snapshot",
+  "sourceBlobs": {
+    "Unity/Assets/Scripts/Contracts/ChapterContracts.cs": "8c299da3255cf5488ae12bbd964ac81b47ba4ef4",
+    "Unity/Assets/Scripts/Contracts/ChapterSymbolModifiers.cs": "2171e73775ffd9dd2e5d4d4302aaf4b7c04c32ca",
+    "Unity/Assets/Scripts/Contracts/GameplayContracts.cs": "cb1864941e3611ae313596d45e737cef018a1a1f",
+    "Unity/Assets/Scripts/Upgrades/CoinBoostShop.cs": "4cec8cd11b56fe042cfa9d7c594c418d5ad6eb73",
+    "Unity/Assets/Scripts/Upgrades/SkillOwnershipCodec.cs": "964923fd9a1505ba9c77d58599a55a1312d2b2c8",
+    "Unity/Assets/Scripts/Upgrades/SkillPricing.cs": "836b4c4a194532fae13f36a8dcc45dfe3af5af2c",
+    "Unity/Assets/Scripts/Upgrades/SkillTree.cs": "8a86dc7ce87bf5b808960402b79f6f5668c7a03e",
+    "Unity/Assets/Scripts/Upgrades/UpgradeOwnershipCodec.cs": "7886d3cfa36c98d4bf2b3d7e110b7ddfe2639769"
+  },
+  "generatorSha256": "9E736833AD34C143B907A3BF776EE74854EDCAC870D4B735ED2800C91CBC4038",
+  "r8InputSha256": "197DBD3F8FC76D5C65C0E6F64585A68BE70EB161FA363CE5E88FCF654EB5612B",
+  "fixtureSha256": {
+    "delivery2-price5-owned.json": "340A309C274398A86CD47A550D1E79967B11196C64DB7BCE0010417BC792CA6D",
+    "delivery2-price5-proposal.json": "EF41DD15E548C3CF3C3428AB499B34D1658D5928E44F13580F64C2389457A4D5"
+  }
+}

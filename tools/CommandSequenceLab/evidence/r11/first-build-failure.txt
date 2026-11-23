@@ -1,0 +1,1 @@
+First r11 build failed before game execution: CS0136 Program.cs(529,18), local variable old conflicts with the existing historical-receipt variable. Corrected the new construction-oracle variable to legacyPrice. No production source or game state was changed; slot released before retry.

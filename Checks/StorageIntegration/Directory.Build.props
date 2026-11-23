@@ -1,0 +1,6 @@
+<Project>
+  <PropertyGroup>
+    <BaseIntermediateOutputPath>$(MSBuildThisFileDirectory)../../.work/storage-integration-checks/obj/</BaseIntermediateOutputPath>
+    <BaseOutputPath>$(MSBuildThisFileDirectory)../../.work/storage-integration-checks/bin/</BaseOutputPath>
+  </PropertyGroup>
+</Project>

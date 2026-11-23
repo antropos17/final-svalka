@@ -1,0 +1,163 @@
+{
+  "tool": {
+    "name": "junk-save-inspector",
+    "version": "1.1.0",
+    "productionSources": {
+      "algorithm": "sha256-of-utf8-path-equals-source-sha256-lines-lf",
+      "fileCount": 45,
+      "sha256": "83488B285BEB4FC0788DEC77FBF2F7A5EB0A4C97DE6A54DE710FB60039FCE454",
+      "scope": "actual-linked-pure-sources-at-build; not-runtime-or-git-qualification"
+    }
+  },
+  "command": "diff",
+  "status": "ok",
+  "equal": false,
+  "changeCount": 16,
+  "groupsChanged": [
+    "format",
+    "progression",
+    "selection",
+    "skills",
+    "orders",
+    "guidance",
+    "clockSequence"
+  ],
+  "observed": [
+    "sequence 5 -\u003E 6",
+    "wallet unchanged at 500"
+  ],
+  "inferred": [
+    "The chapter aggregate is now stored; before it was absent and only projected in memory.",
+    "The journey aggregate is now stored; before it was absent and only projected in memory."
+  ],
+  "computed": [],
+  "changes": [
+    {
+      "group": "format",
+      "path": "format.layer",
+      "before": "legacy-wave-r7",
+      "after": "journey-r9"
+    },
+    {
+      "group": "format",
+      "path": "format.chapterStored",
+      "before": "false",
+      "after": "true"
+    },
+    {
+      "group": "format",
+      "path": "format.journeyStored",
+      "before": "false",
+      "after": "true"
+    },
+    {
+      "group": "progression",
+      "path": "progression.source",
+      "before": "projected-not-persisted",
+      "after": "stored"
+    },
+    {
+      "group": "progression",
+      "path": "progression.legacyFields.source",
+      "before": "stored",
+      "after": "derived"
+    },
+    {
+      "group": "selection",
+      "path": "selection.source",
+      "before": "projected-not-persisted",
+      "after": "stored"
+    },
+    {
+      "group": "selection",
+      "path": "selection.constructionPriceRevision",
+      "before": "construction.prices.v1",
+      "after": "construction.prices.v2"
+    },
+    {
+      "group": "selection",
+      "path": "selection.constructionPriceRevisionSource",
+      "before": "projected-not-persisted",
+      "after": "stored"
+    },
+    {
+      "group": "selection",
+      "path": "selection.selectedPrice",
+      "before": "600",
+      "after": "540"
+    },
+    {
+      "group": "skills",
+      "path": "skills.source",
+      "before": "projected-not-persisted",
+      "after": "stored"
+    },
+    {
+      "group": "orders",
+      "path": "orders.source",
+      "before": "projected-not-persisted",
+      "after": "stored"
+    },
+    {
+      "group": "orders",
+      "path": "orders.journeyMarker.adoptedSequence",
+      "before": "null",
+      "after": "6"
+    },
+    {
+      "group": "guidance",
+      "path": "guidance.source",
+      "before": "projected-not-persisted",
+      "after": "stored"
+    },
+    {
+      "group": "guidance",
+      "path": "guidance.lastObservedSequence",
+      "before": "0",
+      "after": "6"
+    },
+    {
+      "group": "clockSequence",
+      "path": "clockSequence.sequence",
+      "before": "5",
+      "after": "6"
+    },
+    {
+      "group": "clockSequence",
+      "path": "clockSequence.revision",
+      "before": "10",
+      "after": "12"
+    }
+  ],
+  "caveats": [
+    "Explanations are inferences from two snapshots; they do not prove which UI action occurred.",
+    "Two valid snapshots cannot prove that the history between them was not modified.",
+    "No merge, repair or rollback is performed."
+  ],
+  "inputs": [
+    {
+      "role": "before",
+      "bytes": 453,
+      "sha256": "1DA7D785262195D4743F13669CFA82886D88C823DF6ED6E06BBC9E6E5D90C89B",
+      "canonicalSha256": "1DA7D785262195D4743F13669CFA82886D88C823DF6ED6E06BBC9E6E5D90C89B",
+      "integrity": {
+        "bytesAfter": 453,
+        "sha256After": "1DA7D785262195D4743F13669CFA82886D88C823DF6ED6E06BBC9E6E5D90C89B",
+        "unchanged": true,
+        "adjacentEntriesUnchanged": true
+      }
+    },
+    {
+      "role": "after",
+      "bytes": 1217,
+      "sha256": "DB01A48BF800D9480DC5ADA166CC9DDFB84C0F72B6E6E97B5E3527CC92E1DA51",
+      "canonicalSha256": "DB01A48BF800D9480DC5ADA166CC9DDFB84C0F72B6E6E97B5E3527CC92E1DA51",
+      "integrity": {
+        "bytesAfter": 1217,
+        "sha256After": "DB01A48BF800D9480DC5ADA166CC9DDFB84C0F72B6E6E97B5E3527CC92E1DA51",
+        "unchanged": true,
+        "adjacentEntriesUnchanged": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+Fixtures/** -text
+Fixtures/provenance.json text eol=lf
+V2Pricing/** -text
+V2Pricing/provenance.json text eol=lf
+*.cs text eol=lf
+*.ps1 text eol=lf
+*.csproj text eol=lf

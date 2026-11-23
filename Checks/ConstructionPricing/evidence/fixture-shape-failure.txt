@@ -1,0 +1,5 @@
+Unhandled exception. System.FormatException: Invalid save object shape
+   at JunkToNeon.Core.JsonStateCodec.Object(Object value, String[] keys) in X:\tmp\jtn-house-pricing03-r11\Unity\Assets\Scripts\Core\JsonStateCodec.cs:line 15
+   at JunkToNeon.Core.JsonStateCodec.Decode(String json) in X:\tmp\jtn-house-pricing03-r11\Unity\Assets\Scripts\Core\JsonStateCodec.cs:line 53
+   at JunkToNeon.Tests.ConstructionPricingRegression.Run(String root, String repository) in X:\tmp\jtn-house-pricing03-r11\Unity\Assets\Tests\ConstructionPricingRegression.cs:line 157
+   at Program.<Main>$(String[] args) in X:\tmp\jtn-house-pricing03-r11\Checks\ConstructionPricing\Program.cs:line 9

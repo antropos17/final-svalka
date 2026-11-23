@@ -1,0 +1,38 @@
+{
+  "sourceCommit": "12e491375dbf896ceddf0668f0ce9b21eb615659",
+  "status": "PASS first directly affected producer run",
+  "exitCode": 0,
+  "groups": 12,
+  "sourceChangedAfterFreeze": false,
+  "oldFixtureOraclesChanged": false,
+  "primaryIntegrated": false,
+  "unityEditorUiNativeDeviceChecked": false,
+  "workdir": "X:\\tmp\\jtn-expansion07-20261031-03-gameplay",
+  "command": "dotnet run --project Checks/ArcadeCore/ArcadeCoreChecks.csproj -p:BaseIntermediateOutputPath=\"X:\\tmp\\jtn-expansion07-20261031-03-gameplay\\.work\\ten-hour-core\\slot-attributes-01/obj/\" -p:BaseOutputPath=\"X:\\tmp\\jtn-expansion07-20261031-03-gameplay\\.work\\ten-hour-core\\slot-attributes-01/bin/\" -- \"X:\\tmp\\jtn-expansion07-20261031-03-gameplay\" \"X:\\tmp\\jtn-expansion07-20261031-03-gameplay\\.work\\ten-hour-core\\slot-attributes-01/evidence\"",
+  "environment": {
+    "TEMP": "X:\\tmp\\jtn-expansion07-20261031-03-gameplay\\.work\\ten-hour-core\\temp",
+    "TMP": "X:\\tmp\\jtn-expansion07-20261031-03-gameplay\\.work\\ten-hour-core\\temp",
+    "DOTNET_CLI_HOME": "X:\\tmp\\jtn-expansion07-20261031-03-gameplay\\.work\\five-hour-core\\dotnet-home",
+    "DOTNET_GENERATE_ASPNET_CERTIFICATE": "false",
+    "DOTNET_CLI_TELEMETRY_OPTOUT": "1",
+    "DOTNET_NOLOGO": "1"
+  },
+  "inputManifest": "03-core/slot-attributes-input.json",
+  "gitManifest": "03-core/slot-attributes-frozen-manifest.txt",
+  "actualFirstLog": "X:\\tmp\\jtn-expansion07-20261031-03-gameplay\\.work\\ten-hour-core\\slot-attributes-01\\producer-first.log",
+  "actualLogSha256": "1C3722A84520925677209CC51DEE4E3D9F91EE8348F538FF95E1638869A951DF",
+  "newWorkFiles": 37,
+  "newWorkBytes": 1576683.0,
+  "firstLogBytes": 495,
+  "diskAfter": [
+    {
+      "drive": "C",
+      "freeBytes": 17545580544
+    },
+    {
+      "drive": "X",
+      "freeBytes": 90935705600
+    }
+  ],
+  "utc": "2026-10-31T13:43:00.6028222+00:00"
+}

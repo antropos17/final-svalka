@@ -1,0 +1,9 @@
+Use case: precise-object-edit. Image1 is approved game screen reference; image2 is exact v003 cartoon style reference. Create ONE 3 columns x2 rows transparent atlas of the FIVE INITIAL UNBUILT SITE sprites from the courtyard around the house in image1. Final lower-right cell stays completely empty. No house, background, text or UI. Same clean deep blue-teal outline, gold timber, aqua/teal, warm cream stones and a little crisp red. Elevated shallow three-quarter view. Each whole compact object fits within central65% of its equal cell, with generous truly transparent gutters for cutting, and no opaque ground island/cast shadow.
+EXACT grid:
+Row1 col1 WORKSHOP initial site: four slim golden support posts with a loose sagging aqua tarp and two small packing crates beneath. Clearly an unfinished salvage footprint, not an operational workshop or roofed building.
+Row1 col2 RECYCLER initial site: low incomplete rectangular cream/red brick foundation outline with two short unfinished golden posts, open empty center; no bins or machine.
+Row1 col3 PIGEON LOFT initial site: two slim golden posts joined by two short low horizontal rails, a couple cream stones at feet, no enclosed shelter or bird.
+Row2 col1 CART initial site: two separate aqua wheels joined only by one loose low golden frame beam and a single small unfinished packing crate, no complete cart body/handle.
+Row2 col2 POWER initial site: one dark blue rubber tyre, two bare golden posts and one low small golden crate, no wires, lamp or operational equipment.
+Row2 col3 EMPTY TRANSPARENT.
+These are exactly the starting unbuilt0/24 site identities shown in reference, not earned stage1+ objects. Chunky clean simple silhouettes at thumbnail size, one flat highlight and one colored shade plane, no painterly noise or 3D material. True alpha around every isolated site.

@@ -1,0 +1,778 @@
+{
+  "scope": "Arithmetic only from same frozen12runs; original strict screening verdict unchanged; any later human tradeoff decision is separate",
+  "smallInputSha256": "641D592B2900DEEEA8EB3E8B0CA0A5267464BD9356322CDDFA202EF32EE7BEB1",
+  "widerInputSha256": "C0D1A626FC961BC7B68A4264391E6602075B59A5D9B39146B92E0C4E494B084E",
+  "all24IDsIncludedInPositiveDeltaSearch": true,
+  "rows": [
+    {
+      "seed": 1,
+      "policy": "construction-first",
+      "baseline": {
+        "constructionSpend": 9400,
+        "allSkillSpins": 626,
+        "maxGapSpins": 37,
+        "skillSpend": 610,
+        "chapterSpins": 603,
+        "houseGapSpins": 37
+      },
+      "smallA": {
+        "maxGapSpins": 32,
+        "houseGapSpins": 32,
+        "chapterSpins": 598,
+        "allSkillSpins": 621,
+        "chapterSpinsSaved": 5,
+        "allSkillSpinsSaved": 5,
+        "constructionSpend": 9340,
+        "skillSpend": 610,
+        "purchaseOrderUnchanged": true,
+        "earlySkillWindowPreserved": true,
+        "originalScreeningEligible": true,
+        "positiveGapChangesAcrossAll24": [
+          {
+            "project": "pigeon-loft.build",
+            "oldSpins": 22,
+            "newSpins": 24,
+            "delta": 2
+          },
+          {
+            "project": "recycler.improve",
+            "oldSpins": 24,
+            "newSpins": 25,
+            "delta": 1
+          },
+          {
+            "project": "power-source.improve",
+            "oldSpins": 26,
+            "newSpins": 27,
+            "delta": 1
+          },
+          {
+            "project": "cart.workshop-yard.upgrade-1",
+            "oldSpins": 26,
+            "newSpins": 28,
+            "delta": 2
+          },
+          {
+            "project": "pigeon-loft.workshop-yard.upgrade-1",
+            "oldSpins": 24,
+            "newSpins": 25,
+            "delta": 1
+          },
+          {
+            "project": "workshop.workshop-yard.upgrade-2",
+            "oldSpins": 29,
+            "newSpins": 30,
+            "delta": 1
+          },
+          {
+            "project": "pigeon-loft.workshop-yard.upgrade-2",
+            "oldSpins": 30,
+            "newSpins": 31,
+            "delta": 1
+          }
+        ]
+      },
+      "widerB": {
+        "maxGapSpins": 32,
+        "houseGapSpins": 31,
+        "chapterSpins": 595,
+        "allSkillSpins": 618,
+        "chapterSpinsSaved": 8,
+        "allSkillSpinsSaved": 8,
+        "constructionSpend": 9310,
+        "skillSpend": 610,
+        "purchaseOrderUnchanged": true,
+        "earlySkillWindowPreserved": true,
+        "originalScreeningEligible": true,
+        "positiveGapChangesAcrossAll24": [
+          {
+            "project": "recycler.build",
+            "oldSpins": 21,
+            "newSpins": 22,
+            "delta": 1
+          },
+          {
+            "project": "pigeon-loft.build",
+            "oldSpins": 22,
+            "newSpins": 24,
+            "delta": 2
+          },
+          {
+            "project": "power-source.improve",
+            "oldSpins": 26,
+            "newSpins": 27,
+            "delta": 1
+          },
+          {
+            "project": "cart.workshop-yard.upgrade-1",
+            "oldSpins": 26,
+            "newSpins": 28,
+            "delta": 2
+          },
+          {
+            "project": "pigeon-loft.workshop-yard.upgrade-1",
+            "oldSpins": 24,
+            "newSpins": 25,
+            "delta": 1
+          },
+          {
+            "project": "workshop.workshop-yard.upgrade-2",
+            "oldSpins": 29,
+            "newSpins": 30,
+            "delta": 1
+          }
+        ]
+      }
+    },
+    {
+      "seed": 12305,
+      "policy": "construction-first",
+      "baseline": {
+        "constructionSpend": 9400,
+        "allSkillSpins": 629,
+        "maxGapSpins": 37,
+        "skillSpend": 610,
+        "chapterSpins": 606,
+        "houseGapSpins": 37
+      },
+      "smallA": {
+        "maxGapSpins": 36,
+        "houseGapSpins": 36,
+        "chapterSpins": 601,
+        "allSkillSpins": 624,
+        "chapterSpinsSaved": 5,
+        "allSkillSpinsSaved": 5,
+        "constructionSpend": 9340,
+        "skillSpend": 610,
+        "purchaseOrderUnchanged": true,
+        "earlySkillWindowPreserved": true,
+        "originalScreeningEligible": true,
+        "positiveGapChangesAcrossAll24": [
+          {
+            "project": "recycler.build",
+            "oldSpins": 21,
+            "newSpins": 22,
+            "delta": 1
+          },
+          {
+            "project": "workshop.improve",
+            "oldSpins": 22,
+            "newSpins": 23,
+            "delta": 1
+          },
+          {
+            "project": "power-source.improve",
+            "oldSpins": 22,
+            "newSpins": 23,
+            "delta": 1
+          },
+          {
+            "project": "recycler.workshop-yard.upgrade-1",
+            "oldSpins": 27,
+            "newSpins": 28,
+            "delta": 1
+          },
+          {
+            "project": "pigeon-loft.workshop-yard.upgrade-1",
+            "oldSpins": 24,
+            "newSpins": 25,
+            "delta": 1
+          },
+          {
+            "project": "cart.workshop-yard.upgrade-2",
+            "oldSpins": 31,
+            "newSpins": 32,
+            "delta": 1
+          },
+          {
+            "project": "recycler.workshop-yard.upgrade-2",
+            "oldSpins": 31,
+            "newSpins": 32,
+            "delta": 1
+          }
+        ]
+      },
+      "widerB": {
+        "maxGapSpins": 34,
+        "houseGapSpins": 34,
+        "chapterSpins": 598,
+        "allSkillSpins": 622,
+        "chapterSpinsSaved": 8,
+        "allSkillSpinsSaved": 7,
+        "constructionSpend": 9310,
+        "skillSpend": 610,
+        "purchaseOrderUnchanged": true,
+        "earlySkillWindowPreserved": true,
+        "originalScreeningEligible": true,
+        "positiveGapChangesAcrossAll24": [
+          {
+            "project": "recycler.build",
+            "oldSpins": 21,
+            "newSpins": 23,
+            "delta": 2
+          },
+          {
+            "project": "workshop.improve",
+            "oldSpins": 22,
+            "newSpins": 24,
+            "delta": 2
+          },
+          {
+            "project": "power-source.improve",
+            "oldSpins": 22,
+            "newSpins": 23,
+            "delta": 1
+          },
+          {
+            "project": "house.workshop-yard.upgrade-1",
+            "oldSpins": 27,
+            "newSpins": 28,
+            "delta": 1
+          },
+          {
+            "project": "recycler.workshop-yard.upgrade-2",
+            "oldSpins": 31,
+            "newSpins": 32,
+            "delta": 1
+          }
+        ]
+      }
+    },
+    {
+      "seed": 305419896,
+      "policy": "construction-first",
+      "baseline": {
+        "constructionSpend": 9400,
+        "allSkillSpins": 610,
+        "maxGapSpins": 35,
+        "skillSpend": 610,
+        "chapterSpins": 585,
+        "houseGapSpins": 35
+      },
+      "smallA": {
+        "maxGapSpins": 32,
+        "houseGapSpins": 32,
+        "chapterSpins": 580,
+        "allSkillSpins": 605,
+        "chapterSpinsSaved": 5,
+        "allSkillSpinsSaved": 5,
+        "constructionSpend": 9340,
+        "skillSpend": 610,
+        "purchaseOrderUnchanged": true,
+        "earlySkillWindowPreserved": true,
+        "originalScreeningEligible": true,
+        "positiveGapChangesAcrossAll24": [
+          {
+            "project": "pigeon-loft.build",
+            "oldSpins": 22,
+            "newSpins": 23,
+            "delta": 1
+          },
+          {
+            "project": "pigeon-loft.improve",
+            "oldSpins": 25,
+            "newSpins": 27,
+            "delta": 2
+          },
+          {
+            "project": "cart.workshop-yard.upgrade-1",
+            "oldSpins": 24,
+            "newSpins": 25,
+            "delta": 1
+          },
+          {
+            "project": "pigeon-loft.workshop-yard.upgrade-1",
+            "oldSpins": 24,
+            "newSpins": 26,
+            "delta": 2
+          },
+          {
+            "project": "cart.workshop-yard.upgrade-2",
+            "oldSpins": 29,
+            "newSpins": 30,
+            "delta": 1
+          },
+          {
+            "project": "workshop.workshop-yard.upgrade-2",
+            "oldSpins": 29,
+            "newSpins": 30,
+            "delta": 1
+          },
+          {
+            "project": "pigeon-loft.workshop-yard.upgrade-2",
+            "oldSpins": 28,
+            "newSpins": 29,
+            "delta": 1
+          }
+        ]
+      },
+      "widerB": {
+        "maxGapSpins": 32,
+        "houseGapSpins": 32,
+        "chapterSpins": 578,
+        "allSkillSpins": 603,
+        "chapterSpinsSaved": 7,
+        "allSkillSpinsSaved": 7,
+        "constructionSpend": 9310,
+        "skillSpend": 610,
+        "purchaseOrderUnchanged": true,
+        "earlySkillWindowPreserved": true,
+        "originalScreeningEligible": true,
+        "positiveGapChangesAcrossAll24": [
+          {
+            "project": "pigeon-loft.build",
+            "oldSpins": 22,
+            "newSpins": 24,
+            "delta": 2
+          },
+          {
+            "project": "pigeon-loft.improve",
+            "oldSpins": 25,
+            "newSpins": 26,
+            "delta": 1
+          },
+          {
+            "project": "cart.workshop-yard.upgrade-2",
+            "oldSpins": 29,
+            "newSpins": 30,
+            "delta": 1
+          },
+          {
+            "project": "pigeon-loft.workshop-yard.upgrade-2",
+            "oldSpins": 28,
+            "newSpins": 29,
+            "delta": 1
+          }
+        ]
+      }
+    },
+    {
+      "seed": 1,
+      "policy": "affordable-skills-first",
+      "baseline": {
+        "constructionSpend": 9400,
+        "allSkillSpins": 569,
+        "maxGapSpins": 35,
+        "skillSpend": 610,
+        "chapterSpins": 569,
+        "houseGapSpins": 32
+      },
+      "smallA": {
+        "maxGapSpins": 33,
+        "houseGapSpins": 29,
+        "chapterSpins": 563,
+        "allSkillSpins": 563,
+        "chapterSpinsSaved": 6,
+        "allSkillSpinsSaved": 6,
+        "constructionSpend": 9340,
+        "skillSpend": 610,
+        "purchaseOrderUnchanged": true,
+        "earlySkillWindowPreserved": true,
+        "originalScreeningEligible": false,
+        "positiveGapChangesAcrossAll24": [
+          {
+            "project": "recycler.build",
+            "oldSpins": 15,
+            "newSpins": 16,
+            "delta": 1
+          },
+          {
+            "project": "power-source.build",
+            "oldSpins": 32,
+            "newSpins": 33,
+            "delta": 1
+          },
+          {
+            "project": "power-source.improve",
+            "oldSpins": 24,
+            "newSpins": 25,
+            "delta": 1
+          },
+          {
+            "project": "cart.workshop-yard.upgrade-1",
+            "oldSpins": 23,
+            "newSpins": 24,
+            "delta": 1
+          },
+          {
+            "project": "workshop.workshop-yard.upgrade-1",
+            "oldSpins": 21,
+            "newSpins": 22,
+            "delta": 1
+          },
+          {
+            "project": "pigeon-loft.workshop-yard.upgrade-1",
+            "oldSpins": 28,
+            "newSpins": 29,
+            "delta": 1
+          }
+        ]
+      },
+      "widerB": {
+        "maxGapSpins": 33,
+        "houseGapSpins": 28,
+        "chapterSpins": 562,
+        "allSkillSpins": 562,
+        "chapterSpinsSaved": 7,
+        "allSkillSpinsSaved": 7,
+        "constructionSpend": 9310,
+        "skillSpend": 610,
+        "purchaseOrderUnchanged": true,
+        "earlySkillWindowPreserved": true,
+        "originalScreeningEligible": false,
+        "positiveGapChangesAcrossAll24": [
+          {
+            "project": "recycler.build",
+            "oldSpins": 15,
+            "newSpins": 16,
+            "delta": 1
+          },
+          {
+            "project": "power-source.build",
+            "oldSpins": 32,
+            "newSpins": 33,
+            "delta": 1
+          },
+          {
+            "project": "power-source.improve",
+            "oldSpins": 24,
+            "newSpins": 25,
+            "delta": 1
+          },
+          {
+            "project": "cart.workshop-yard.upgrade-1",
+            "oldSpins": 23,
+            "newSpins": 24,
+            "delta": 1
+          },
+          {
+            "project": "pigeon-loft.workshop-yard.upgrade-1",
+            "oldSpins": 28,
+            "newSpins": 29,
+            "delta": 1
+          }
+        ]
+      }
+    },
+    {
+      "seed": 12305,
+      "policy": "affordable-skills-first",
+      "baseline": {
+        "constructionSpend": 9400,
+        "allSkillSpins": 573,
+        "maxGapSpins": 38,
+        "skillSpend": 610,
+        "chapterSpins": 573,
+        "houseGapSpins": 32
+      },
+      "smallA": {
+        "maxGapSpins": 36,
+        "houseGapSpins": 29,
+        "chapterSpins": 568,
+        "allSkillSpins": 568,
+        "chapterSpinsSaved": 5,
+        "allSkillSpinsSaved": 5,
+        "constructionSpend": 9340,
+        "skillSpend": 610,
+        "purchaseOrderUnchanged": true,
+        "earlySkillWindowPreserved": true,
+        "originalScreeningEligible": true,
+        "positiveGapChangesAcrossAll24": [
+          {
+            "project": "recycler.build",
+            "oldSpins": 18,
+            "newSpins": 19,
+            "delta": 1
+          },
+          {
+            "project": "pigeon-loft.build",
+            "oldSpins": 19,
+            "newSpins": 21,
+            "delta": 2
+          },
+          {
+            "project": "recycler.improve",
+            "oldSpins": 22,
+            "newSpins": 23,
+            "delta": 1
+          },
+          {
+            "project": "pigeon-loft.improve",
+            "oldSpins": 24,
+            "newSpins": 26,
+            "delta": 2
+          },
+          {
+            "project": "house.workshop-yard.upgrade-1",
+            "oldSpins": 28,
+            "newSpins": 29,
+            "delta": 1
+          },
+          {
+            "project": "power-source.workshop-yard.upgrade-1",
+            "oldSpins": 20,
+            "newSpins": 21,
+            "delta": 1
+          },
+          {
+            "project": "workshop.workshop-yard.upgrade-2",
+            "oldSpins": 26,
+            "newSpins": 27,
+            "delta": 1
+          },
+          {
+            "project": "pigeon-loft.workshop-yard.upgrade-2",
+            "oldSpins": 24,
+            "newSpins": 25,
+            "delta": 1
+          }
+        ]
+      },
+      "widerB": {
+        "maxGapSpins": 35,
+        "houseGapSpins": 30,
+        "chapterSpins": 566,
+        "allSkillSpins": 566,
+        "chapterSpinsSaved": 7,
+        "allSkillSpinsSaved": 7,
+        "constructionSpend": 9310,
+        "skillSpend": 610,
+        "purchaseOrderUnchanged": true,
+        "earlySkillWindowPreserved": true,
+        "originalScreeningEligible": true,
+        "positiveGapChangesAcrossAll24": [
+          {
+            "project": "recycler.build",
+            "oldSpins": 18,
+            "newSpins": 19,
+            "delta": 1
+          },
+          {
+            "project": "pigeon-loft.build",
+            "oldSpins": 19,
+            "newSpins": 21,
+            "delta": 2
+          },
+          {
+            "project": "pigeon-loft.improve",
+            "oldSpins": 24,
+            "newSpins": 25,
+            "delta": 1
+          },
+          {
+            "project": "workshop.workshop-yard.upgrade-1",
+            "oldSpins": 22,
+            "newSpins": 23,
+            "delta": 1
+          },
+          {
+            "project": "power-source.workshop-yard.upgrade-1",
+            "oldSpins": 20,
+            "newSpins": 21,
+            "delta": 1
+          },
+          {
+            "project": "workshop.workshop-yard.upgrade-2",
+            "oldSpins": 26,
+            "newSpins": 27,
+            "delta": 1
+          },
+          {
+            "project": "pigeon-loft.workshop-yard.upgrade-2",
+            "oldSpins": 24,
+            "newSpins": 26,
+            "delta": 2
+          }
+        ]
+      }
+    },
+    {
+      "seed": 305419896,
+      "policy": "affordable-skills-first",
+      "baseline": {
+        "constructionSpend": 9400,
+        "allSkillSpins": 553,
+        "maxGapSpins": 37,
+        "skillSpend": 610,
+        "chapterSpins": 553,
+        "houseGapSpins": 30
+      },
+      "smallA": {
+        "maxGapSpins": 35,
+        "houseGapSpins": 28,
+        "chapterSpins": 549,
+        "allSkillSpins": 549,
+        "chapterSpinsSaved": 4,
+        "allSkillSpinsSaved": 4,
+        "constructionSpend": 9340,
+        "skillSpend": 610,
+        "purchaseOrderUnchanged": true,
+        "earlySkillWindowPreserved": true,
+        "originalScreeningEligible": false,
+        "positiveGapChangesAcrossAll24": [
+          {
+            "project": "recycler.build",
+            "oldSpins": 19,
+            "newSpins": 20,
+            "delta": 1
+          },
+          {
+            "project": "power-source.build",
+            "oldSpins": 32,
+            "newSpins": 33,
+            "delta": 1
+          },
+          {
+            "project": "cart.improve",
+            "oldSpins": 20,
+            "newSpins": 21,
+            "delta": 1
+          },
+          {
+            "project": "power-source.improve",
+            "oldSpins": 22,
+            "newSpins": 23,
+            "delta": 1
+          },
+          {
+            "project": "cart.workshop-yard.upgrade-1",
+            "oldSpins": 21,
+            "newSpins": 22,
+            "delta": 1
+          },
+          {
+            "project": "house.workshop-yard.upgrade-1",
+            "oldSpins": 24,
+            "newSpins": 25,
+            "delta": 1
+          },
+          {
+            "project": "cart.workshop-yard.upgrade-2",
+            "oldSpins": 25,
+            "newSpins": 26,
+            "delta": 1
+          },
+          {
+            "project": "house.workshop-yard.upgrade-2",
+            "oldSpins": 24,
+            "newSpins": 25,
+            "delta": 1
+          }
+        ]
+      },
+      "widerB": {
+        "maxGapSpins": 35,
+        "houseGapSpins": 26,
+        "chapterSpins": 546,
+        "allSkillSpins": 546,
+        "chapterSpinsSaved": 7,
+        "allSkillSpinsSaved": 7,
+        "constructionSpend": 9310,
+        "skillSpend": 610,
+        "purchaseOrderUnchanged": true,
+        "earlySkillWindowPreserved": true,
+        "originalScreeningEligible": true,
+        "positiveGapChangesAcrossAll24": [
+          {
+            "project": "cart.improve",
+            "oldSpins": 20,
+            "newSpins": 21,
+            "delta": 1
+          },
+          {
+            "project": "power-source.improve",
+            "oldSpins": 22,
+            "newSpins": 23,
+            "delta": 1
+          },
+          {
+            "project": "cart.workshop-yard.upgrade-1",
+            "oldSpins": 21,
+            "newSpins": 22,
+            "delta": 1
+          },
+          {
+            "project": "house.workshop-yard.upgrade-1",
+            "oldSpins": 24,
+            "newSpins": 25,
+            "delta": 1
+          },
+          {
+            "project": "house.workshop-yard.upgrade-2",
+            "oldSpins": 24,
+            "newSpins": 25,
+            "delta": 1
+          }
+        ]
+      }
+    }
+  ],
+  "policyAggregates": [
+    {
+      "policy": "construction-first",
+      "baselineMaxGapSpins": {
+        "min": 35,
+        "median": 37,
+        "max": 37
+      },
+      "smallMaxGapSpins": {
+        "min": 32,
+        "median": 32,
+        "max": 36
+      },
+      "widerMaxGapSpins": {
+        "min": 32,
+        "median": 32,
+        "max": 34
+      },
+      "baselineHouseGapSpins": {
+        "min": 35,
+        "median": 37,
+        "max": 37
+      },
+      "smallHouseGapSpins": {
+        "min": 32,
+        "median": 32,
+        "max": 36
+      },
+      "widerHouseGapSpins": {
+        "min": 31,
+        "median": 32,
+        "max": 34
+      }
+    },
+    {
+      "policy": "affordable-skills-first",
+      "baselineMaxGapSpins": {
+        "min": 35,
+        "median": 37,
+        "max": 38
+      },
+      "smallMaxGapSpins": {
+        "min": 33,
+        "median": 35,
+        "max": 36
+      },
+      "widerMaxGapSpins": {
+        "min": 33,
+        "median": 35,
+        "max": 35
+      },
+      "baselineHouseGapSpins": {
+        "min": 30,
+        "median": 32,
+        "max": 32
+      },
+      "smallHouseGapSpins": {
+        "min": 28,
+        "median": 29,
+        "max": 29
+      },
+      "widerHouseGapSpins": {
+        "min": 26,
+        "median": 28,
+        "max": 30
+      }
+    }
+  ]
+}

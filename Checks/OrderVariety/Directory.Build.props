@@ -1,0 +1,4 @@
+<Project><PropertyGroup>
+  <BaseIntermediateOutputPath>$(MSBuildThisFileDirectory)../../.work/order-variety-20261031/obj/</BaseIntermediateOutputPath>
+  <BaseOutputPath>$(MSBuildThisFileDirectory)../../.work/order-variety-20261031/bin/</BaseOutputPath>
+</PropertyGroup></Project>

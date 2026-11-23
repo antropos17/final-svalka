@@ -1,0 +1,120 @@
+{
+  "baseline": "b2b2ae6ec19cfc9a13ccc0b73ec74db22f00e22f",
+  "scope": "Stateless copy/catalog checks only. No GameSession, persistence, Runtime, Unity, native, pacing or user-save acceptance.",
+  "sdk": "10.0.302",
+  "project": "Checks/ExpansionCopy/ExpansionCopyChecks.csproj",
+  "command": "dotnet run --project Checks/ExpansionCopy/ExpansionCopyChecks.csproj -p:ExpansionRulesSource=<work>/inputs/ExpansionRules.cs -p:BaseIntermediateOutputPath=<work>/obj/ -p:BaseOutputPath=<work>/bin/ -v minimal",
+  "catalogProvenance": "Snapshot copied from03 producer actual Core/ExpansionRules.cs after five-module update; source still matched snapshot after execution. Actual catalog/API is not a final03 gameplay qualification.",
+  "result": {
+    "attempt": "first",
+    "exitCode": 0,
+    "groups": 3,
+    "assertions": 395,
+    "actualOffers": 27,
+    "modules": 5,
+    "maxLabel": 25,
+    "maxDescription": 136,
+    "firstUseLength": 201,
+    "buildDiagnostics": "No compiler warnings/errors emitted"
+  },
+  "sourceInputs": [
+    {
+      "path": "Unity/Assets/Scripts/Contracts/ChapterContracts.cs",
+      "sha256": "6B15AE9C725BEEE596EC8886DC76D271F43551D3CC399AA9D07B3E863A64BD56"
+    },
+    {
+      "path": "Unity/Assets/Scripts/Contracts/ChapterSymbolModifiers.cs",
+      "sha256": "39B974BED9F6D26652A7BF76008B883F23CBDC554BE59354F1F7226A7B08D16B"
+    },
+    {
+      "path": "Unity/Assets/Scripts/Contracts/GameplayContracts.cs",
+      "sha256": "98275361EE2E908D7F7A531BC4768C85915688371CF2609C55F8640FAF5EA5C5"
+    },
+    {
+      "path": "Unity/Assets/Scripts/Core/ExpansionCopy.cs",
+      "sha256": "0260E264FF3F018D9D4A40904D485257586F325C22F46C43872ADD7CDC675BB7"
+    },
+    {
+      "path": "Checks/ExpansionCopy/Program.cs",
+      "sha256": "1D7053E884C1BBD4E441E6420EC26A3916E933BA99C265607F18A5B8D3782F0F"
+    },
+    {
+      "path": "Checks/ExpansionCopy/ExpansionCopyChecks.csproj",
+      "sha256": "4563ABF4B240A4A5313ED7A2B4756DE51ADAF8D50CB4C9D75C1818230B2A5611"
+    }
+  ],
+  "generatedInputs": [
+    {
+      "path": "obj/Debug/net10.0/.NETCoreApp,Version=v10.0.AssemblyAttributes.cs",
+      "sha256": "93D67476196EBFC80D1D7D8844B91146CFD678D105F5CE635EB900CA40610C9B"
+    },
+    {
+      "path": "obj/Debug/net10.0/ExpansionCopyChecks.AssemblyInfo.cs",
+      "sha256": "5E30432581F271CC3E840430FBE409D8B2322B0B4DA8BD0F0F79C6B458AD8CBF"
+    }
+  ],
+  "retainedArtifacts": [
+    {
+      "path": "inputs/ExpansionRules.cs",
+      "sha256": "FC369D967324DC8A0B83B4A2FC0CF78C00D1D803D3F945E1466C100EC379F3EA",
+      "bytes": 6537
+    },
+    {
+      "path": "inputs/api.md",
+      "sha256": "A9D7F9E17E835B1F406195F726E99AD4EC5F85C508FD8A848E3F8432EB7F6C33",
+      "bytes": 7484
+    },
+    {
+      "path": "check-first.log",
+      "sha256": "2771A605E2591389D141BEE3B42599699388D60375F139A17269561F7AF72B6B",
+      "bytes": 820
+    },
+    {
+      "path": "bin/Debug/net10.0/ExpansionCopyChecks.deps.json",
+      "sha256": "AFDEF8DC3BF81F65C3A50298FF488B6ED01875DD6DF7665BD3FE2F493773F30F",
+      "bytes": 451
+    },
+    {
+      "path": "bin/Debug/net10.0/ExpansionCopyChecks.dll",
+      "sha256": "0DBD232BC58FBC7D8E616DF5A61FF212A44FECCAF87FF7662B54C215CEA0771C",
+      "bytes": 46080
+    },
+    {
+      "path": "bin/Debug/net10.0/ExpansionCopyChecks.exe",
+      "sha256": "88809963C9487D03F5A3690B207F6F3112884E7B7D0C360DA662997D52F8B1EE",
+      "bytes": 162816
+    },
+    {
+      "path": "bin/Debug/net10.0/ExpansionCopyChecks.pdb",
+      "sha256": "6A6D600D52B2E573CFF9C7974A065780670AB7C3778D40CB6F0CC48C51738CD7",
+      "bytes": 19352
+    },
+    {
+      "path": "bin/Debug/net10.0/ExpansionCopyChecks.runtimeconfig.json",
+      "sha256": "256DDA2706E1151BB95987B6B5BE610BF68D64E058285B19E7E958222FC90414",
+      "bytes": 270
+    }
+  ],
+  "diskBefore": [
+    {
+      "Name": "C",
+      "Free": 19148496896
+    },
+    {
+      "Name": "X",
+      "Free": 91080556544
+    }
+  ],
+  "diskAfter": [
+    {
+      "Name": "C",
+      "Free": 19148365824
+    },
+    {
+      "Name": "X",
+      "Free": 91079942144
+    }
+  ],
+  "artifactBytesAfterRun": 558141,
+  "retention": "Process TEMP/TMP, NuGet, CLI home and bin/obj on X. Disposable closed diagnostics eligible after7days;32MiB stream budget. No cleanup/rotation installed. Preserve source/check receipts."
+}

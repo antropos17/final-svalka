@@ -1,0 +1,7 @@
+X:\tmp\jtn-economic-equivalence03-r11\Checks\ProgressionTiming\Program.cs(19,19): warning CS0414: Полю "Program.Profile" присвоено значение, но оно ни разу не использовано. [X:\tmp\jtn-economic-equivalence03-r11\Checks\ProgressionTiming\ProgressionTiming.csproj]
+PASS small seed=1 construction-first chapter=598 longest=120 eligible=True
+PASS small seed=12305 construction-first chapter=601 longest=135 eligible=True
+PASS small seed=305419896 construction-first chapter=580 longest=120 eligible=True
+PASS small seed=1 affordable-skills-first chapter=563 longest=123,75 eligible=False
+PASS small seed=12305 affordable-skills-first chapter=568 longest=135 eligible=True
+PASS small seed=305419896 affordable-skills-first chapter=549 longest=131,25 eligible=False

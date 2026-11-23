@@ -1,0 +1,1 @@
+X:\tmp\jtn-effects-wave06\Checks\StorageIntegration\BoundedReaderChecks.cs(34,21): error CS0136: Локальная переменная или параметр с именем "before" нельзя объявить в данной области, так как это имя используется во включающей локальной области для определения локальной переменной или параметра [X:\tmp\jtn-effects-wave06\Checks\StorageIntegration\StorageIntegrationChecks.csproj]

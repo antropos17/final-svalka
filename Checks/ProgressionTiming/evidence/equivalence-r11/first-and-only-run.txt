@@ -1,0 +1,3 @@
+X:\tmp\jtn-economic-equivalence03-r11\Checks\ProgressionTiming\Program.cs(19,19): warning CS0414: Полю "Program.Profile" присвоено значение, но оно ни разу не использовано. [X:\tmp\jtn-economic-equivalence03-r11\Checks\ProgressionTiming\ProgressionTiming.csproj]
+PASS seed1 construction-first chapter=603 allSkills=626 wallet=5 seed=392404096 carry=2
+PASS seed1 affordable-skills-first chapter=569 allSkills=569 wallet=25 seed=197992699 carry=1

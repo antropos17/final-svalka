@@ -1,0 +1,29 @@
+{
+  "cases": [
+    {
+      "id": "r11-build-source-identity",
+      "passed": false,
+      "failure": "TypeInitializationException: The type initializer for \u0027JunkToNeon.SaveInspector.Cli\u0027 threw an exception."
+    },
+    {
+      "id": "r11-literal600-is-preserved",
+      "passed": false,
+      "failure": "TypeInitializationException: The type initializer for \u0027JunkToNeon.SaveInspector.Cli\u0027 threw an exception."
+    },
+    {
+      "id": "r11-selected540-and-semantic-diff",
+      "passed": false,
+      "failure": "TypeInitializationException: The type initializer for \u0027JunkToNeon.SaveInspector.Cli\u0027 threw an exception."
+    },
+    {
+      "id": "r11-pending540-replays-to10-once",
+      "passed": false,
+      "failure": "TypeInitializationException: The type initializer for \u0027JunkToNeon.SaveInspector.Cli\u0027 threw an exception."
+    },
+    {
+      "id": "r11-literal600-pending-replay-still4",
+      "passed": false,
+      "failure": "TypeInitializationException: The type initializer for \u0027JunkToNeon.SaveInspector.Cli\u0027 threw an exception."
+    }
+  ]
+}

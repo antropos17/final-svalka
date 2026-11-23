@@ -1,0 +1,74 @@
+{
+  "date": "2026-11-15",
+  "assetId": "jtn-main-screen-c-colour-v004",
+  "task": "Generated main-screen visual concept bringing the existing v003 house, symbols, button skins and icons together.",
+  "generationTool": "built-in image_gen",
+  "backendModel": "not exposed by tool",
+  "higgsfieldUsed": false,
+  "selected": "main-screen-v004.png",
+  "state": "Illustrative existing opening-state snapshot from the preserved screenshot: Junkyard 0/24, 173 Coins, 0 Diamonds, 17/30 Energy, Parts20/200, Potatoes8/200, 2Tickets; not a read of the currently running save.",
+  "house": "v003 state00 ruin, with five initial/unbuilt other family sites; no late-stage house furniture.",
+  "symbols": "Pigeon/Trash/Potato on three reels; Box as Parts resource icon.",
+  "references": [
+    {
+      "index": 1,
+      "path": "X:/PROJECTS/FINAL-SVALKA/docs/evidence/unity/visual-emil-wave5-20261114/before-normal-root.png",
+      "role": "existing actual game layout/copy snapshot"
+    },
+    {
+      "index": 2,
+      "path": "X:/PROJECTS/FINAL-SVALKA/art_source/jtn/2026-11-15-style-c-colour-v003/review/all-assets-navy.png",
+      "role": "complete v003 style/icon asset board"
+    },
+    {
+      "index": 3,
+      "path": "X:/PROJECTS/FINAL-SVALKA/art_source/jtn/2026-11-15-style-c-colour-v003/originals/house-s00.png",
+      "role": "exact stage0 house identity"
+    },
+    {
+      "index": 4,
+      "path": "X:/PROJECTS/FINAL-SVALKA/art_source/jtn/2026-11-15-style-c-colour-v003/originals/buttons-atlas.png",
+      "role": "v003 empty button skins"
+    },
+    {
+      "index": 5,
+      "path": "X:/PROJECTS/FINAL-SVALKA/art_source/jtn/2026-11-15-style-c-main-screen-v004/references/symbols-v003-reference.png",
+      "role": "exact v003 symbols, arranged in a reference grid"
+    }
+  ],
+  "referenceGridInputs": [
+    "../2026-11-15-style-c-colour-v003/originals/symbol-pigeon.png",
+    "../2026-11-15-style-c-colour-v003/originals/symbol-trash.png",
+    "../2026-11-15-style-c-colour-v003/originals/symbol-potato.png",
+    "../2026-11-15-style-c-colour-v003/originals/symbol-box.png"
+  ],
+  "generations": [
+    {
+      "prompt": "prompts/main-screen-v004.txt",
+      "original": "originals/main-screen-composition-v001.png",
+      "status": "retained composition draft; some utility icons remained from the old UI"
+    },
+    {
+      "prompt": "prompts/main-screen-icons-refinement.txt",
+      "original": "originals/main-screen-icons-refinement-v002.png",
+      "references": [
+        "originals/main-screen-composition-v001.png",
+        "../2026-11-15-style-c-colour-v003/originals/icons-primary-atlas.png",
+        "../2026-11-15-style-c-colour-v003/originals/icons-utility-atlas.png"
+      ],
+      "status": "selected after targeted six-icon refinement"
+    }
+  ],
+  "qa": {
+    "files": "file-checks.json",
+    "visualReview": "Inspected full generated screen: copy/numbers, three reels and four symbol uses, six initial sites, stage0 house, relevant v003 icons, gold SPIN and five footer tabs. Final refinement retains layout while matching Profile/Settings/Map/Event/Guide/goal-house glyphs to v003.",
+    "toolGap": "First request rejected before generation: at most5 reference paths. Resolved by arranging the four existing symbols into one reference image; subsequent generation and targeted edit succeeded."
+  },
+  "scope": "Image concept and art-source provenance only. No live Unity integration, import, save/scene/settings edits, test/build/device or publication.",
+  "limitations": [
+    "Generated concept, not a live game capture or installed update.",
+    "Reference matching is image generation, not guaranteed pixel-identical runtime sprite compositing.",
+    "Requested portrait size is a prompt target; actual file dimensions are in file-checks.json.",
+    "Exact typography, contrast, disabled treatment and touch/action behavior require later implementation verification."
+  ]
+}

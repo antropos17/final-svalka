@@ -1,0 +1,125 @@
+{
+  "status": "PASS",
+  "sourceCommit": "061ad0eed23b54304dc05dc8b861d4d3ae949268",
+  "workspace": "X:\\tmp\\jtn-effects-wave06",
+  "privateRoot": "X:\\tmp\\jtn-effects-wave06\\.work\\storage-integration-r10\\run-d09f959a8a104318b2ed0ca8299ec68f",
+  "os": "Microsoft Windows NT 10.0.26200.0",
+  "filesystem": "NTFS",
+  "sourceHashes": {
+    "Unity/Assets/Scripts/Core/ChapterCatalog.cs": "32F3F4AA041F0483885D365955E666B261866F66EB1A736B9F27BDE1684B4BF9",
+    "Unity/Assets/Scripts/Core/ChapterEconomy.cs": "4CC8E7696BD49790308A1FEB886F78F58171574FD620BE255A34B8EF3B7EA976",
+    "Unity/Assets/Scripts/Core/ChapterSession.cs": "ECDBF744DA6A1C90984335754C97E8EBACF566FC2C360DDD3F5B6A5176567A18",
+    "Unity/Assets/Scripts/Core/ChapterState.cs": "4D970BEFB23790A0B1BFC876249232BEDBCAF4D65156149B49FE915ABB8030FB",
+    "Unity/Assets/Scripts/Core/ChapterStateCodec.cs": "F70E82185A2F326FC1A44ED3BE677BCB178DAD485C022F9F897CA191ADFF51D6",
+    "Unity/Assets/Scripts/Core/GameSession.cs": "C92407813E2CFC0AD879FDD7E87FFC86069A2825240467ABEA4481944A834A09",
+    "Unity/Assets/Scripts/Core/JourneyEconomy.cs": "A16B4C37FB973F6AE09A39FCDF346BA63E2A529BD52DDAB8EAF7F930F71B271E",
+    "Unity/Assets/Scripts/Core/JourneySession.cs": "7C1CD9B0D9968EBEABA20C13386C2F296EEE27E7F924EB8EFEC739518371B022",
+    "Unity/Assets/Scripts/Core/JourneyState.cs": "711BA469DB9A701B5F90F10A99766E699AF683D8252111277E5931CACDDFB9B9",
+    "Unity/Assets/Scripts/Core/JourneyStateCodec.cs": "ACE3780AA4D5D389CB06FEC44C1B1706613DD7002731F74F4492849D051CBCED",
+    "Unity/Assets/Scripts/Core/JsonStateCodec.cs": "0B8775584747AEF021DC6089C77F11D40FBF4E1B8592772639EB11589CE045B0",
+    "Unity/Assets/Scripts/Core/Model.cs": "5E6FDD50508B0C3644B52BCAB7C867770EF86567D70650CB4162BE4A5068C696",
+    "Unity/Assets/Scripts/Core/ProgressionCatalog.cs": "FA37F5B767139DB29BAAC490BF47C6D5E6953D9ADA51BE2D5FF80001AEFCD696",
+    "Unity/Assets/Scripts/Core/WaveEconomy.cs": "4C98C97B01693F55A45C0A3DA89E8F393E1AB7F0B06C5531EE9528F9B112158D",
+    "Unity/Assets/Scripts/Core/WaveStateCodec.cs": "EABFF23476BBB4D450FFD648A1E4F7DACCE94874A2D82C263588B50B0D1E8F97",
+    "Unity/Assets/Scripts/Contracts/ChapterContracts.cs": "6B15AE9C725BEEE596EC8886DC76D271F43551D3CC399AA9D07B3E863A64BD56",
+    "Unity/Assets/Scripts/Contracts/ChapterSymbolModifiers.cs": "39B974BED9F6D26652A7BF76008B883F23CBDC554BE59354F1F7226A7B08D16B",
+    "Unity/Assets/Scripts/Contracts/GameplayContracts.cs": "98275361EE2E908D7F7A531BC4768C85915688371CF2609C55F8640FAF5EA5C5",
+    "Unity/Assets/Scripts/Content/CatalogData.cs": "C2DDA1B28462685F3DCD533794C8CC99EDAB8A391478814BFC5896B079063A03",
+    "Unity/Assets/Scripts/Content/CatalogValidator.cs": "F45000C8A6AFCED8A26BB3E8AE6599BF40ADD3989E4023CEFBB8B0F41BB71187",
+    "Unity/Assets/Scripts/Content/ChapterContentIds.cs": "906A21010F38B71DA0860D204CF5494434C2C65822642EDD04F391E811F6C2B8",
+    "Unity/Assets/Scripts/Content/ChapterData.cs": "31A9178D7C8B7F719F31593B71FCD4E38A71D7DCD9B77AC2899B45E1FE32B953",
+    "Unity/Assets/Scripts/Content/ChapterDefinitions.cs": "AFEFDDA9C298C3F7C7C71419004022ACFF8C01008F36382E903651776FC550AF",
+    "Unity/Assets/Scripts/Content/ChapterRules.cs": "66D33258FC4FB744DE7FCD6ACA0EA364F3B72B8CB4A8B81476DD7FB2061F45DC",
+    "Unity/Assets/Scripts/Content/ChapterValidator.cs": "6DB14886D69D5DD5C7AB90B481F905D02F67715CA9497EECA70136BE39A3D641",
+    "Unity/Assets/Scripts/Content/Definitions.cs": "7CF6713213F4CD90F631CE8650AE144FB6579F3E8E05FA8091438B37325D4219",
+    "Unity/Assets/Scripts/Content/LegacyProgress.cs": "70FB953785652223EF04209882924F26A0275BDC556BB972E69E7BF313E2A07E",
+    "Unity/Assets/Scripts/Content/ValidatedCatalog.cs": "460A500CE6BB9620551E975AE8CCA6B066867F1A38CD59CC2E3BEECA7BA75B9D",
+    "Unity/Assets/Scripts/Effects/ChapterSpinEffects.cs": "34B6F603733214FB5AB1F68B4989A6AC19F5422FFBFD499CAB1DA5729D7329BE",
+    "Unity/Assets/Scripts/Effects/SpinEffects.cs": "CBE74D7E07F45381B9765ED3315B70420F7127D1296288462E7E48F18C13185F",
+    "Unity/Assets/Scripts/Upgrades/CoinBoostShop.cs": "ACCF854B226305243767BDA2C5A67B8ADAC001F9197D7008BB45C94F260D7846",
+    "Unity/Assets/Scripts/Upgrades/SkillOwnershipCodec.cs": "B3DD1A0279C94437D85198EA6C4E0FA534A3D51085B0406DCF9B1EFACE472FB8",
+    "Unity/Assets/Scripts/Upgrades/SkillPricing.cs": "AC0F628113F781D87D5E65C057D4CD13BEEA6F97534DB495C2055912F323FBB4",
+    "Unity/Assets/Scripts/Upgrades/SkillTree.cs": "7A53F7929D217BE372DEB5565080B57BC5AB27BBC3A31EB1C308CEFA07FBA175",
+    "Unity/Assets/Scripts/Upgrades/UpgradeOwnershipCodec.cs": "E9B9EAA584E93E8482D1071F851823027ED46527E5487D2183A65652D327A6AF",
+    "Unity/Assets/Scripts/Orders/OrderDefinitions.cs": "4F5F291C576CF3CE785CB4A09FD84CD96D4F2AAAD18A2CC1CE744BCBC0EBA985",
+    "Unity/Assets/Scripts/Orders/OrderEngine.cs": "7887189FDB6D0EA9E3218FE4993B4ADF9B94BACDDDAC195D77625016487037A7",
+    "Unity/Assets/Scripts/Orders/OrderProposal.cs": "5590B29CD06A8063780BC02F7B64D3B182F1B6311A2E626F02158EC705DD1CCB",
+    "Unity/Assets/Scripts/Orders/OrderState.cs": "C055A8AB1A740D889475142CBAC4E330D7BCC4AB7E63FF51775915F47EB3AFCB",
+    "Unity/Assets/Scripts/Orders/OrderStateCodec.cs": "5925D0DCB3A05D5E80066308C83095B30FDC4CD759E6C8E4B7AD2EADB9546596",
+    "Unity/Assets/Scripts/Guidance/GuideFlow.cs": "0B3AFBA9CC432FFC97399FCC24DBA05A813EC1C7B0342A3B6AC701AE83B02938",
+    "Unity/Assets/Scripts/Guidance/GuideModel.cs": "71D24E85F4C6BF68B90B43A993C59771CC4D2EC45864A7903CC6E2B11D75B853",
+    "Unity/Assets/Scripts/Guidance/GuideStateCodec.cs": "C65061767A282ED2FD73C257E690A10F5A12FD3C6CF4AE2D90CDFE44783C91DB"
+  },
+  "cases": [
+    {
+      "name": "modern-journal-backup",
+      "passed": true,
+      "writes": 5,
+      "finalCoins": 5,
+      "sequence": 2,
+      "exactPreviousBackups": true,
+      "inventory": {
+        "jtn.backup.v1.json": "05DAE18BB1EABA071C87F1D98FDA9537C275A4524C65BBF40665644C75D2B83D:639288451387274888",
+        "jtn.save.v1.json": "385CAE663FE2EBEA23590E6E2CBEA50733B05387B31DBC132F0E99833DA022FD:639288451387553119"
+      }
+    },
+    {
+      "name": "reservation-replace-denied",
+      "passed": true,
+      "expectedFailure": {
+        "type": "IOException",
+        "hresult": -2147024864,
+        "win32Code": 32
+      },
+      "blockedRetryWrites": 0,
+      "reopenCoins": 37,
+      "explicitNewSpinCoins": 45,
+      "unpromotedReservationPaid": false,
+      "inventory": {
+        "jtn.backup.v1.json": "C63DF34CB354A8E1372C9625DFB02680C7C1720629E858FBDA292C0E2EF7FF28:639288451388445826",
+        "jtn.interrupted-write.v1.json": "C63DF34CB354A8E1372C9625DFB02680C7C1720629E858FBDA292C0E2EF7FF28:639288451388170976",
+        "jtn.save.v1.json": "DC5C119F0C96B9335B0F21F7F205ACC16C88C0646DEBDF2F820757A352C5A88B:639288451388547262"
+      }
+    },
+    {
+      "name": "commit-replace-denied",
+      "passed": true,
+      "expectedFailure": {
+        "type": "IOException",
+        "hresult": -2147024864,
+        "win32Code": 32
+      },
+      "finalCoins": 45,
+      "reward": 8,
+      "repeatedReopens": 3,
+      "replayWrites": 0,
+      "appliedOrphanPreserved": true,
+      "inventory": {
+        "jtn.backup.v1.json": "C63DF34CB354A8E1372C9625DFB02680C7C1720629E858FBDA292C0E2EF7FF28:639288451388887553",
+        "jtn.interrupted-write.v1.json": "DC5C119F0C96B9335B0F21F7F205ACC16C88C0646DEBDF2F820757A352C5A88B:639288451388988543",
+        "jtn.save.v1.json": "DC5C119F0C96B9335B0F21F7F205ACC16C88C0646DEBDF2F820757A352C5A88B:639288451389145264"
+      }
+    },
+    {
+      "name": "cancel-then-explicit-modern-restore",
+      "passed": true,
+      "cancelWrites": 0,
+      "cancelRestoreCalls": 0,
+      "explicitRestoreCalls": 1,
+      "finalCoins": 5,
+      "sequence": 2,
+      "originalEvidencePreserved": true,
+      "inventory": {
+        "jtn.backup.v1.json": "05DAE18BB1EABA071C87F1D98FDA9537C275A4524C65BBF40665644C75D2B83D:639288451389728212",
+        "jtn.recovery-backup.v1.json": "05DAE18BB1EABA071C87F1D98FDA9537C275A4524C65BBF40665644C75D2B83D:639288451390023688",
+        "jtn.recovery-pending.v1.json": "6E6E7A9A14A820C41EE5B10A76A7D40348241C1B84EC706F4F69C266E9A21956:639288451390074084",
+        "jtn.recovery-primary.v1.json": "7B2C1DA064186129B6EE317BC9BB60D71F7A05196DA19DD7BE96833DED7FE5D4:639288451390054084",
+        "jtn.save.v1.json": "385CAE663FE2EBEA23590E6E2CBEA50733B05387B31DBC132F0E99833DA022FD:639288451390089253"
+      }
+    }
+  ],
+  "fixtureBytes": 30203,
+  "currentCase": "complete",
+  "failure": null,
+  "scope": "Actual Windows FileSnapshotStorage/GameStore/JsonStateCodec; no process termination, power loss, Android or ordinary-save claim"
+}

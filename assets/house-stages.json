@@ -1,0 +1,8 @@
+{
+  "frames": {
+    "house-0": {"frame":{"x":0,"y":0,"w":652,"h":809},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":652,"h":809},"sourceSize":{"w":652,"h":809}},
+    "house-1": {"frame":{"x":652,"y":0,"w":596,"h":809},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":596,"h":809},"sourceSize":{"w":596,"h":809}},
+    "house-2": {"frame":{"x":1248,"y":0,"w":694,"h":809},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":694,"h":809},"sourceSize":{"w":694,"h":809}}
+  },
+  "meta": {"image":"house-stages.png","format":"RGBA8888","size":{"w":1942,"h":809},"scale":"1"}
+}

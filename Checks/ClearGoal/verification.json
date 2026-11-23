@@ -1,0 +1,953 @@
+{
+  "scope": "Isolated explicit goal-clear Core regression and prepared Unity UI candidate; no Editor/native/physical-durability execution",
+  "utc": "2026-10-30T14:14:58.262271+00:00",
+  "primaryBaseline": "2250323abbd2b50ac59fe6b03df73c46db74a2f2",
+  "frozenCoreCommit": "24826650595fc9f329cc3d037778f38579d2cd86",
+  "contract": "Old committed/recovered requests strictly refuse stale with zero IO; only durable pending recovers frozen Before/After once. No retained cancellation identity/history.",
+  "results": {
+    "focusedGroups": 8,
+    "existingCoreGroups": 49,
+    "buildErrors": 0,
+    "buildWarnings": 0,
+    "uiCase": "UNEXECUTED",
+    "editModeWrapper": "UNEXECUTED; one focused eight-group wrapper added to existing mandatory assembly"
+  },
+  "firstFailure": {
+    "reason": "Test assumed late23 fixture had a selected target; actual validated fixture has no selected goal. Runtime correctly refused.",
+    "correction": "Only test fixture setup changed to explicit valid synthetic selected700 variant; original fixture and first source/logs/binaries retained in failure-01. No product code correction."
+  },
+  "commands": [
+    "dotnet build Checks/ClearGoal/ClearGoalChecks.csproj --configfile Checks/ClearGoal/NuGet.Config -p:UseSharedCompilation=false -p:NuGetAudit=false",
+    "dotnet .work/clear-goal-20261030/bin/Debug/net10.0/ClearGoalChecks.dll X:/tmp/jtn-sections-map-20261030",
+    "dotnet build Checks/ClearGoal/ClearGoalChecks.csproj --no-restore -p:UseSharedCompilation=false",
+    "dotnet build Checks/CoreChecks.csproj --configfile Checks/ClearGoal/NuGet.Config -p:UseSharedCompilation=false -p:NuGetAudit=false -p:BaseIntermediateOutputPath=X:/tmp/jtn-sections-map-20261030/.work/clear-goal-20261030/core-obj/ -p:BaseOutputPath=X:/tmp/jtn-sections-map-20261030/.work/clear-goal-20261030/core-bin/",
+    "dotnet .work/clear-goal-20261030/core-bin/Debug/net10.0/CoreChecks.dll"
+  ],
+  "processEnvironment": {
+    "TEMP/TMP": "X:\\tmp\\jtn-sections-map-20261030\\.work\\clear-goal-20261030\\temp",
+    "DOTNET_CLI_HOME": "X:\\tmp\\jtn-sections-map-20261030\\.work\\clear-goal-20261030\\cli-home",
+    "NUGET_PACKAGES": "X:\\tmp\\jtn-sections-map-20261030\\.work\\clear-goal-20261030\\packages",
+    "DOTNET_SKIP_FIRST_TIME_EXPERIENCE": "1",
+    "DOTNET_GENERATE_ASPNET_CERTIFICATE": "false",
+    "DOTNET_CLI_TELEMETRY_OPTOUT": "1",
+    "DOTNET_CLI_WORKLOAD_UPDATE_NOTIFY_DISABLE": "true"
+  },
+  "resources": {
+    "preflight": {
+      "CFreeBytes": 19367104512,
+      "XFreeBytes": 91910975488,
+      "freeRamKiB": 11513884
+    },
+    "postflight": {
+      "CFreeBytes": 19353767936,
+      "XFreeBytes": 91905806336,
+      "freeRamKiB": 11443460,
+      "diagnosticFiles": 80,
+      "diagnosticBytes": 3237304,
+      "primaryUnityLogsBytes": 622025
+    },
+    "policy": "Preserve this bounded batch and first failure as evidence; no automatic deletion of receipts. No further producer heavy process. <=32MiB batch."
+  },
+  "transferSources": [
+    {
+      "path": "Unity/Assets/Scripts/Core/ChapterSession.cs",
+      "bytes": 4975,
+      "sha256": "303E0B1CAC03631664611063B38F08C6028A5D66E99EA9F6B030C7238F67481B"
+    },
+    {
+      "path": "Unity/Assets/Scripts/Core/ChapterState.cs",
+      "bytes": 4975,
+      "sha256": "BB311AE726DB2ED7AECCCA3EB57B8B35A18BA12CCA30CEA09C0719C0B040C526"
+    },
+    {
+      "path": "Unity/Assets/Scripts/Core/ChapterEconomy.cs",
+      "bytes": 25075,
+      "sha256": "88A609573F40BD4B2099CEF2B38A40BAAAB4EE31E019BF65C34E259A51F2E2DC"
+    },
+    {
+      "path": "Unity/Assets/Tests/ClearGoalRegression.cs",
+      "bytes": 16197,
+      "sha256": "66CEAFD49A339AFE68AC8A09503A453D0AF0B25ED6172421F4BDF0FA6A10AA06"
+    },
+    {
+      "path": "Checks/ClearGoal/ClearGoalChecks.csproj",
+      "bytes": 850,
+      "sha256": "75D9B30BD3470D32DA705A4551C4B79FED69837400665262616FA41C38F982E2"
+    },
+    {
+      "path": "Checks/ClearGoal/Directory.Build.props",
+      "bytes": 268,
+      "sha256": "41533C337F61F7AAC7A74377B33D753ED6C93E78605D84F535C42ED602E4BB4D"
+    },
+    {
+      "path": "Checks/ClearGoal/Program.cs",
+      "bytes": 184,
+      "sha256": "261F060BDAA5FFF00CB6ED597F703DEB3AD4B7118B02A75731A05768CE73BC8F"
+    },
+    {
+      "path": "Checks/ClearGoal/NuGet.Config",
+      "bytes": 112,
+      "sha256": "F719F158740BBD8C4EABC6D2659325E6CB516D0FD32E1208C768E846081F50ED"
+    },
+    {
+      "path": "Unity/Assets/Scripts/Runtime/JunkGame.Sections.cs",
+      "bytes": 21512,
+      "sha256": "38FBBA0A3E2DA155F2D216DAAEC40AE6A23AAFB20973D680F0FB5EE2DEE8F3B2"
+    },
+    {
+      "path": "Unity/Assets/Scripts/Runtime/JunkGame.Chapter.cs",
+      "bytes": 26208,
+      "sha256": "747274A1693001CD98D3BD66AB17F68A060AFB355C33F6116A11573278171394"
+    },
+    {
+      "path": "Unity/Assets/Tests/PlayMode/ClearGoalUiTests.cs",
+      "bytes": 10907,
+      "sha256": "95E4A02F8A6AA45DFC343A9C52559E3DBC88FBFBFF61E49FB4D82320529D2DBA"
+    },
+    {
+      "path": "docs/GAME_RULES.md",
+      "bytes": 29923,
+      "sha256": "3D2748D4960F3DABB64E810956C13503F564802099D1EAA307504700EC71C1C9"
+    }
+  ],
+  "compiledInputs": {
+    "frozenCoreCommit": "24826650595fc9f329cc3d037778f38579d2cd86",
+    "pureSourceCount": 50,
+    "focusedCompilerSources": [
+      {
+        "path": "Unity/Assets/Scripts/Core/BoundedSnapshotReader.cs",
+        "sha256": "09193E53E9B5A462DAD1F26953F93DAB0F724C62E43C4685E09B3164ED788C45",
+        "bytes": 4229
+      },
+      {
+        "path": "Unity/Assets/Scripts/Core/ChapterCatalog.cs",
+        "sha256": "A9D2E742ADD7AEDB061770B6A89C160DFE8668783938DACB243B340B8528F7AE",
+        "bytes": 2455
+      },
+      {
+        "path": "Unity/Assets/Scripts/Core/ChapterEconomy.cs",
+        "sha256": "88A609573F40BD4B2099CEF2B38A40BAAAB4EE31E019BF65C34E259A51F2E2DC",
+        "bytes": 25075
+      },
+      {
+        "path": "Unity/Assets/Scripts/Core/ChapterMilestones.cs",
+        "sha256": "582D483DDE460ECEAAC44B7640343FE70713EB0CABADF8D83E741D18161B96CA",
+        "bytes": 4506
+      },
+      {
+        "path": "Unity/Assets/Scripts/Core/ChapterSession.cs",
+        "sha256": "303E0B1CAC03631664611063B38F08C6028A5D66E99EA9F6B030C7238F67481B",
+        "bytes": 4975
+      },
+      {
+        "path": "Unity/Assets/Scripts/Core/ChapterState.cs",
+        "sha256": "BB311AE726DB2ED7AECCCA3EB57B8B35A18BA12CCA30CEA09C0719C0B040C526",
+        "bytes": 4975
+      },
+      {
+        "path": "Unity/Assets/Scripts/Core/ChapterStateCodec.cs",
+        "sha256": "6E1C7DDC08E608736F2703D6E594A7EBB589627E37513DA4D38DD5F88D04C478",
+        "bytes": 12852
+      },
+      {
+        "path": "Unity/Assets/Scripts/Core/GameSession.cs",
+        "sha256": "699A65EE65B4679102314D6703100B405ACD1C04B926BB8919842D16CF49DC04",
+        "bytes": 16962
+      },
+      {
+        "path": "Unity/Assets/Scripts/Core/JourneyEconomy.cs",
+        "sha256": "50AF4E5CB0C85563AEC2009BE9EEB7BB54810171110497159ED8C32F72C28468",
+        "bytes": 17418
+      },
+      {
+        "path": "Unity/Assets/Scripts/Core/JourneySession.cs",
+        "sha256": "A18C0A9B1D3B898F0DA992B8B9D169677D7D11490D9F082DAADA4C3722EB646F",
+        "bytes": 1774
+      },
+      {
+        "path": "Unity/Assets/Scripts/Core/JourneyState.cs",
+        "sha256": "395E1649CE0192A089578805E4EAF84401922344232E45CEB2CA2FFCBB4114A1",
+        "bytes": 3746
+      },
+      {
+        "path": "Unity/Assets/Scripts/Core/JourneyStateCodec.cs",
+        "sha256": "42436617DB08C1C7C97CA264E0742035014E3747DCCDD51543A7C8DF31BA2B2D",
+        "bytes": 3229
+      },
+      {
+        "path": "Unity/Assets/Scripts/Core/JsonStateCodec.cs",
+        "sha256": "0B8775584747AEF021DC6089C77F11D40FBF4E1B8592772639EB11589CE045B0",
+        "bytes": 12764
+      },
+      {
+        "path": "Unity/Assets/Scripts/Core/MilestoneSession.cs",
+        "sha256": "1ABECA2E8AB46B83543284D346DBA261B0A5A60B87DDE2F581062F34E1D245BB",
+        "bytes": 609
+      },
+      {
+        "path": "Unity/Assets/Scripts/Core/Model.cs",
+        "sha256": "5E6FDD50508B0C3644B52BCAB7C867770EF86567D70650CB4162BE4A5068C696",
+        "bytes": 16827
+      },
+      {
+        "path": "Unity/Assets/Scripts/Core/OptionalAchievements.cs",
+        "sha256": "D814C6D963E05F8128129977A5978A23AAE33FE88CA6261496F52F3CA8EB3D7A",
+        "bytes": 2545
+      },
+      {
+        "path": "Unity/Assets/Scripts/Core/OptionalAchievementSession.cs",
+        "sha256": "4629D9D838764CE4388FDFBF6282E46B36CCB3FFF03A7253B1296C16F1ADCF16",
+        "bytes": 689
+      },
+      {
+        "path": "Unity/Assets/Scripts/Core/ProgressionCatalog.cs",
+        "sha256": "2F7527012C40C969EA3A1B943B34B1412AFC927AA9FCD859C5836A185DA199F3",
+        "bytes": 7680
+      },
+      {
+        "path": "Unity/Assets/Scripts/Core/WaveEconomy.cs",
+        "sha256": "1FB6C217968DA12791EC0C62687C43C250F29D654C8FB896BAF2744ED49BEB6A",
+        "bytes": 9355
+      },
+      {
+        "path": "Unity/Assets/Scripts/Core/WaveStateCodec.cs",
+        "sha256": "70DAE1A5992473D622CACA70F572E86A0DAEB8A3AF3579790B7FE7E8DB79C39B",
+        "bytes": 5526
+      },
+      {
+        "path": "Unity/Assets/Scripts/Contracts/ChapterContracts.cs",
+        "sha256": "6B15AE9C725BEEE596EC8886DC76D271F43551D3CC399AA9D07B3E863A64BD56",
+        "bytes": 5234
+      },
+      {
+        "path": "Unity/Assets/Scripts/Contracts/ChapterSymbolModifiers.cs",
+        "sha256": "0A56E06E0031FD88762684D6BA18064E69FB0020ECF7B91DD5553BF90699A49D",
+        "bytes": 2689
+      },
+      {
+        "path": "Unity/Assets/Scripts/Contracts/GameplayContracts.cs",
+        "sha256": "AB26AFFF86CBDCEE9AE53DE5A9823C04127B649A698EFE9DBE66557A73B26E3A",
+        "bytes": 3518
+      },
+      {
+        "path": "Unity/Assets/Scripts/Content/CatalogData.cs",
+        "sha256": "C2DDA1B28462685F3DCD533794C8CC99EDAB8A391478814BFC5896B079063A03",
+        "bytes": 5183
+      },
+      {
+        "path": "Unity/Assets/Scripts/Content/CatalogValidator.cs",
+        "sha256": "F45000C8A6AFCED8A26BB3E8AE6599BF40ADD3989E4023CEFBB8B0F41BB71187",
+        "bytes": 13234
+      },
+      {
+        "path": "Unity/Assets/Scripts/Content/ChapterContentIds.cs",
+        "sha256": "906A21010F38B71DA0860D204CF5494434C2C65822642EDD04F391E811F6C2B8",
+        "bytes": 1653
+      },
+      {
+        "path": "Unity/Assets/Scripts/Content/ChapterData.cs",
+        "sha256": "31A9178D7C8B7F719F31593B71FCD4E38A71D7DCD9B77AC2899B45E1FE32B953",
+        "bytes": 4237
+      },
+      {
+        "path": "Unity/Assets/Scripts/Content/ChapterDefinitions.cs",
+        "sha256": "AFEFDDA9C298C3F7C7C71419004022ACFF8C01008F36382E903651776FC550AF",
+        "bytes": 3160
+      },
+      {
+        "path": "Unity/Assets/Scripts/Content/ChapterRules.cs",
+        "sha256": "1265EB52DE149AE8C794C959CC1663A1A114B77994159C8BA9740A570B6E651E",
+        "bytes": 11022
+      },
+      {
+        "path": "Unity/Assets/Scripts/Content/ChapterValidator.cs",
+        "sha256": "6DB14886D69D5DD5C7AB90B481F905D02F67715CA9497EECA70136BE39A3D641",
+        "bytes": 7111
+      },
+      {
+        "path": "Unity/Assets/Scripts/Content/ConstructionPricing.cs",
+        "sha256": "361D90AAE651C2D67CC034B0E0E5B38ABF2220F46F224C22490047E301C4786B",
+        "bytes": 2261
+      },
+      {
+        "path": "Unity/Assets/Scripts/Content/Definitions.cs",
+        "sha256": "7CF6713213F4CD90F631CE8650AE144FB6579F3E8E05FA8091438B37325D4219",
+        "bytes": 5200
+      },
+      {
+        "path": "Unity/Assets/Scripts/Content/LegacyProgress.cs",
+        "sha256": "70FB953785652223EF04209882924F26A0275BDC556BB972E69E7BF313E2A07E",
+        "bytes": 1770
+      },
+      {
+        "path": "Unity/Assets/Scripts/Content/ValidatedCatalog.cs",
+        "sha256": "460A500CE6BB9620551E975AE8CCA6B066867F1A38CD59CC2E3BEECA7BA75B9D",
+        "bytes": 2959
+      },
+      {
+        "path": "Unity/Assets/Scripts/Effects/ChapterSpinEffects.cs",
+        "sha256": "200957844006F98A8560882E2B210719F8D69E6F69FB3006D157D235F48B36AE",
+        "bytes": 11013
+      },
+      {
+        "path": "Unity/Assets/Scripts/Effects/SpinEffects.cs",
+        "sha256": "1B52D8C60E90FB5EC413C7731022AE9936F4F287A231EE9E1BF4D3D681049EC3",
+        "bytes": 10024
+      },
+      {
+        "path": "Unity/Assets/Scripts/Upgrades/CoinBoostShop.cs",
+        "sha256": "ACCF854B226305243767BDA2C5A67B8ADAC001F9197D7008BB45C94F260D7846",
+        "bytes": 8894
+      },
+      {
+        "path": "Unity/Assets/Scripts/Upgrades/SkillOwnershipCodec.cs",
+        "sha256": "B3DD1A0279C94437D85198EA6C4E0FA534A3D51085B0406DCF9B1EFACE472FB8",
+        "bytes": 9789
+      },
+      {
+        "path": "Unity/Assets/Scripts/Upgrades/SkillPricing.cs",
+        "sha256": "AC0F628113F781D87D5E65C057D4CD13BEEA6F97534DB495C2055912F323FBB4",
+        "bytes": 1418
+      },
+      {
+        "path": "Unity/Assets/Scripts/Upgrades/SkillTree.cs",
+        "sha256": "7A53F7929D217BE372DEB5565080B57BC5AB27BBC3A31EB1C308CEFA07FBA175",
+        "bytes": 24658
+      },
+      {
+        "path": "Unity/Assets/Scripts/Upgrades/UpgradeOwnershipCodec.cs",
+        "sha256": "E9B9EAA584E93E8482D1071F851823027ED46527E5487D2183A65652D327A6AF",
+        "bytes": 3296
+      },
+      {
+        "path": "Unity/Assets/Scripts/Orders/OrderDefinitions.cs",
+        "sha256": "4F5F291C576CF3CE785CB4A09FD84CD96D4F2AAAD18A2CC1CE744BCBC0EBA985",
+        "bytes": 4185
+      },
+      {
+        "path": "Unity/Assets/Scripts/Orders/OrderEngine.cs",
+        "sha256": "7887189FDB6D0EA9E3218FE4993B4ADF9B94BACDDDAC195D77625016487037A7",
+        "bytes": 12058
+      },
+      {
+        "path": "Unity/Assets/Scripts/Orders/OrderProposal.cs",
+        "sha256": "5590B29CD06A8063780BC02F7B64D3B182F1B6311A2E626F02158EC705DD1CCB",
+        "bytes": 1388
+      },
+      {
+        "path": "Unity/Assets/Scripts/Orders/OrderState.cs",
+        "sha256": "C055A8AB1A740D889475142CBAC4E330D7BCC4AB7E63FF51775915F47EB3AFCB",
+        "bytes": 6126
+      },
+      {
+        "path": "Unity/Assets/Scripts/Orders/OrderStateCodec.cs",
+        "sha256": "5925D0DCB3A05D5E80066308C83095B30FDC4CD759E6C8E4B7AD2EADB9546596",
+        "bytes": 3763
+      },
+      {
+        "path": "Unity/Assets/Scripts/Guidance/ChapterNarrative.cs",
+        "sha256": "230EDF921E6769114C1B4AABBD0157EA165930723F4D0576BF00551E793696F6",
+        "bytes": 8787
+      },
+      {
+        "path": "Unity/Assets/Scripts/Guidance/GuideFlow.cs",
+        "sha256": "07C8986E3FB1244D2D4516B3AB95EA09C22D8CCD039EA72D92CBEEAF692575D5",
+        "bytes": 18607
+      },
+      {
+        "path": "Unity/Assets/Scripts/Guidance/GuideModel.cs",
+        "sha256": "BE146B060ED91597B2A0DB9A289DC9E1CC10138BF760F0E00FB49B01A72703CC",
+        "bytes": 12378
+      },
+      {
+        "path": "Unity/Assets/Scripts/Guidance/GuideStateCodec.cs",
+        "sha256": "D51AF4FABA39BB9B4EB3AECBFAD9C836381623D3F54164FD7CF925D7E3E74DF0",
+        "bytes": 3233
+      },
+      {
+        "path": "Unity/Assets/Tests/ClearGoalRegression.cs",
+        "sha256": "66CEAFD49A339AFE68AC8A09503A453D0AF0B25ED6172421F4BDF0FA6A10AA06",
+        "bytes": 16197
+      },
+      {
+        "path": "Checks/ClearGoal/Program.cs",
+        "sha256": "261F060BDAA5FFF00CB6ED597F703DEB3AD4B7118B02A75731A05768CE73BC8F",
+        "bytes": 184
+      }
+    ],
+    "coreCompilerSources": [
+      {
+        "path": "Unity/Assets/Scripts/Core/BoundedSnapshotReader.cs",
+        "sha256": "09193E53E9B5A462DAD1F26953F93DAB0F724C62E43C4685E09B3164ED788C45",
+        "bytes": 4229
+      },
+      {
+        "path": "Unity/Assets/Scripts/Core/ChapterCatalog.cs",
+        "sha256": "A9D2E742ADD7AEDB061770B6A89C160DFE8668783938DACB243B340B8528F7AE",
+        "bytes": 2455
+      },
+      {
+        "path": "Unity/Assets/Scripts/Core/ChapterEconomy.cs",
+        "sha256": "88A609573F40BD4B2099CEF2B38A40BAAAB4EE31E019BF65C34E259A51F2E2DC",
+        "bytes": 25075
+      },
+      {
+        "path": "Unity/Assets/Scripts/Core/ChapterMilestones.cs",
+        "sha256": "582D483DDE460ECEAAC44B7640343FE70713EB0CABADF8D83E741D18161B96CA",
+        "bytes": 4506
+      },
+      {
+        "path": "Unity/Assets/Scripts/Core/ChapterSession.cs",
+        "sha256": "303E0B1CAC03631664611063B38F08C6028A5D66E99EA9F6B030C7238F67481B",
+        "bytes": 4975
+      },
+      {
+        "path": "Unity/Assets/Scripts/Core/ChapterState.cs",
+        "sha256": "BB311AE726DB2ED7AECCCA3EB57B8B35A18BA12CCA30CEA09C0719C0B040C526",
+        "bytes": 4975
+      },
+      {
+        "path": "Unity/Assets/Scripts/Core/ChapterStateCodec.cs",
+        "sha256": "6E1C7DDC08E608736F2703D6E594A7EBB589627E37513DA4D38DD5F88D04C478",
+        "bytes": 12852
+      },
+      {
+        "path": "Unity/Assets/Scripts/Core/GameSession.cs",
+        "sha256": "699A65EE65B4679102314D6703100B405ACD1C04B926BB8919842D16CF49DC04",
+        "bytes": 16962
+      },
+      {
+        "path": "Unity/Assets/Scripts/Core/JourneyEconomy.cs",
+        "sha256": "50AF4E5CB0C85563AEC2009BE9EEB7BB54810171110497159ED8C32F72C28468",
+        "bytes": 17418
+      },
+      {
+        "path": "Unity/Assets/Scripts/Core/JourneySession.cs",
+        "sha256": "A18C0A9B1D3B898F0DA992B8B9D169677D7D11490D9F082DAADA4C3722EB646F",
+        "bytes": 1774
+      },
+      {
+        "path": "Unity/Assets/Scripts/Core/JourneyState.cs",
+        "sha256": "395E1649CE0192A089578805E4EAF84401922344232E45CEB2CA2FFCBB4114A1",
+        "bytes": 3746
+      },
+      {
+        "path": "Unity/Assets/Scripts/Core/JourneyStateCodec.cs",
+        "sha256": "42436617DB08C1C7C97CA264E0742035014E3747DCCDD51543A7C8DF31BA2B2D",
+        "bytes": 3229
+      },
+      {
+        "path": "Unity/Assets/Scripts/Core/JsonStateCodec.cs",
+        "sha256": "0B8775584747AEF021DC6089C77F11D40FBF4E1B8592772639EB11589CE045B0",
+        "bytes": 12764
+      },
+      {
+        "path": "Unity/Assets/Scripts/Core/MilestoneSession.cs",
+        "sha256": "1ABECA2E8AB46B83543284D346DBA261B0A5A60B87DDE2F581062F34E1D245BB",
+        "bytes": 609
+      },
+      {
+        "path": "Unity/Assets/Scripts/Core/Model.cs",
+        "sha256": "5E6FDD50508B0C3644B52BCAB7C867770EF86567D70650CB4162BE4A5068C696",
+        "bytes": 16827
+      },
+      {
+        "path": "Unity/Assets/Scripts/Core/OptionalAchievements.cs",
+        "sha256": "D814C6D963E05F8128129977A5978A23AAE33FE88CA6261496F52F3CA8EB3D7A",
+        "bytes": 2545
+      },
+      {
+        "path": "Unity/Assets/Scripts/Core/OptionalAchievementSession.cs",
+        "sha256": "4629D9D838764CE4388FDFBF6282E46B36CCB3FFF03A7253B1296C16F1ADCF16",
+        "bytes": 689
+      },
+      {
+        "path": "Unity/Assets/Scripts/Core/ProgressionCatalog.cs",
+        "sha256": "2F7527012C40C969EA3A1B943B34B1412AFC927AA9FCD859C5836A185DA199F3",
+        "bytes": 7680
+      },
+      {
+        "path": "Unity/Assets/Scripts/Core/WaveEconomy.cs",
+        "sha256": "1FB6C217968DA12791EC0C62687C43C250F29D654C8FB896BAF2744ED49BEB6A",
+        "bytes": 9355
+      },
+      {
+        "path": "Unity/Assets/Scripts/Core/WaveStateCodec.cs",
+        "sha256": "70DAE1A5992473D622CACA70F572E86A0DAEB8A3AF3579790B7FE7E8DB79C39B",
+        "bytes": 5526
+      },
+      {
+        "path": "Unity/Assets/Scripts/Contracts/ChapterContracts.cs",
+        "sha256": "6B15AE9C725BEEE596EC8886DC76D271F43551D3CC399AA9D07B3E863A64BD56",
+        "bytes": 5234
+      },
+      {
+        "path": "Unity/Assets/Scripts/Contracts/ChapterSymbolModifiers.cs",
+        "sha256": "0A56E06E0031FD88762684D6BA18064E69FB0020ECF7B91DD5553BF90699A49D",
+        "bytes": 2689
+      },
+      {
+        "path": "Unity/Assets/Scripts/Contracts/GameplayContracts.cs",
+        "sha256": "AB26AFFF86CBDCEE9AE53DE5A9823C04127B649A698EFE9DBE66557A73B26E3A",
+        "bytes": 3518
+      },
+      {
+        "path": "Unity/Assets/Scripts/Content/CatalogData.cs",
+        "sha256": "C2DDA1B28462685F3DCD533794C8CC99EDAB8A391478814BFC5896B079063A03",
+        "bytes": 5183
+      },
+      {
+        "path": "Unity/Assets/Scripts/Content/CatalogValidator.cs",
+        "sha256": "F45000C8A6AFCED8A26BB3E8AE6599BF40ADD3989E4023CEFBB8B0F41BB71187",
+        "bytes": 13234
+      },
+      {
+        "path": "Unity/Assets/Scripts/Content/ChapterContentIds.cs",
+        "sha256": "906A21010F38B71DA0860D204CF5494434C2C65822642EDD04F391E811F6C2B8",
+        "bytes": 1653
+      },
+      {
+        "path": "Unity/Assets/Scripts/Content/ChapterData.cs",
+        "sha256": "31A9178D7C8B7F719F31593B71FCD4E38A71D7DCD9B77AC2899B45E1FE32B953",
+        "bytes": 4237
+      },
+      {
+        "path": "Unity/Assets/Scripts/Content/ChapterDefinitions.cs",
+        "sha256": "AFEFDDA9C298C3F7C7C71419004022ACFF8C01008F36382E903651776FC550AF",
+        "bytes": 3160
+      },
+      {
+        "path": "Unity/Assets/Scripts/Content/ChapterRules.cs",
+        "sha256": "1265EB52DE149AE8C794C959CC1663A1A114B77994159C8BA9740A570B6E651E",
+        "bytes": 11022
+      },
+      {
+        "path": "Unity/Assets/Scripts/Content/ChapterValidator.cs",
+        "sha256": "6DB14886D69D5DD5C7AB90B481F905D02F67715CA9497EECA70136BE39A3D641",
+        "bytes": 7111
+      },
+      {
+        "path": "Unity/Assets/Scripts/Content/ConstructionPricing.cs",
+        "sha256": "361D90AAE651C2D67CC034B0E0E5B38ABF2220F46F224C22490047E301C4786B",
+        "bytes": 2261
+      },
+      {
+        "path": "Unity/Assets/Scripts/Content/Definitions.cs",
+        "sha256": "7CF6713213F4CD90F631CE8650AE144FB6579F3E8E05FA8091438B37325D4219",
+        "bytes": 5200
+      },
+      {
+        "path": "Unity/Assets/Scripts/Content/LegacyProgress.cs",
+        "sha256": "70FB953785652223EF04209882924F26A0275BDC556BB972E69E7BF313E2A07E",
+        "bytes": 1770
+      },
+      {
+        "path": "Unity/Assets/Scripts/Content/ValidatedCatalog.cs",
+        "sha256": "460A500CE6BB9620551E975AE8CCA6B066867F1A38CD59CC2E3BEECA7BA75B9D",
+        "bytes": 2959
+      },
+      {
+        "path": "Unity/Assets/Scripts/Effects/ChapterSpinEffects.cs",
+        "sha256": "200957844006F98A8560882E2B210719F8D69E6F69FB3006D157D235F48B36AE",
+        "bytes": 11013
+      },
+      {
+        "path": "Unity/Assets/Scripts/Effects/SpinEffects.cs",
+        "sha256": "1B52D8C60E90FB5EC413C7731022AE9936F4F287A231EE9E1BF4D3D681049EC3",
+        "bytes": 10024
+      },
+      {
+        "path": "Unity/Assets/Scripts/Upgrades/CoinBoostShop.cs",
+        "sha256": "ACCF854B226305243767BDA2C5A67B8ADAC001F9197D7008BB45C94F260D7846",
+        "bytes": 8894
+      },
+      {
+        "path": "Unity/Assets/Scripts/Upgrades/SkillOwnershipCodec.cs",
+        "sha256": "B3DD1A0279C94437D85198EA6C4E0FA534A3D51085B0406DCF9B1EFACE472FB8",
+        "bytes": 9789
+      },
+      {
+        "path": "Unity/Assets/Scripts/Upgrades/SkillPricing.cs",
+        "sha256": "AC0F628113F781D87D5E65C057D4CD13BEEA6F97534DB495C2055912F323FBB4",
+        "bytes": 1418
+      },
+      {
+        "path": "Unity/Assets/Scripts/Upgrades/SkillTree.cs",
+        "sha256": "7A53F7929D217BE372DEB5565080B57BC5AB27BBC3A31EB1C308CEFA07FBA175",
+        "bytes": 24658
+      },
+      {
+        "path": "Unity/Assets/Scripts/Upgrades/UpgradeOwnershipCodec.cs",
+        "sha256": "E9B9EAA584E93E8482D1071F851823027ED46527E5487D2183A65652D327A6AF",
+        "bytes": 3296
+      },
+      {
+        "path": "Unity/Assets/Scripts/Orders/OrderDefinitions.cs",
+        "sha256": "4F5F291C576CF3CE785CB4A09FD84CD96D4F2AAAD18A2CC1CE744BCBC0EBA985",
+        "bytes": 4185
+      },
+      {
+        "path": "Unity/Assets/Scripts/Orders/OrderEngine.cs",
+        "sha256": "7887189FDB6D0EA9E3218FE4993B4ADF9B94BACDDDAC195D77625016487037A7",
+        "bytes": 12058
+      },
+      {
+        "path": "Unity/Assets/Scripts/Orders/OrderProposal.cs",
+        "sha256": "5590B29CD06A8063780BC02F7B64D3B182F1B6311A2E626F02158EC705DD1CCB",
+        "bytes": 1388
+      },
+      {
+        "path": "Unity/Assets/Scripts/Orders/OrderState.cs",
+        "sha256": "C055A8AB1A740D889475142CBAC4E330D7BCC4AB7E63FF51775915F47EB3AFCB",
+        "bytes": 6126
+      },
+      {
+        "path": "Unity/Assets/Scripts/Orders/OrderStateCodec.cs",
+        "sha256": "5925D0DCB3A05D5E80066308C83095B30FDC4CD759E6C8E4B7AD2EADB9546596",
+        "bytes": 3763
+      },
+      {
+        "path": "Unity/Assets/Scripts/Guidance/ChapterNarrative.cs",
+        "sha256": "230EDF921E6769114C1B4AABBD0157EA165930723F4D0576BF00551E793696F6",
+        "bytes": 8787
+      },
+      {
+        "path": "Unity/Assets/Scripts/Guidance/GuideFlow.cs",
+        "sha256": "07C8986E3FB1244D2D4516B3AB95EA09C22D8CCD039EA72D92CBEEAF692575D5",
+        "bytes": 18607
+      },
+      {
+        "path": "Unity/Assets/Scripts/Guidance/GuideModel.cs",
+        "sha256": "BE146B060ED91597B2A0DB9A289DC9E1CC10138BF760F0E00FB49B01A72703CC",
+        "bytes": 12378
+      },
+      {
+        "path": "Unity/Assets/Scripts/Guidance/GuideStateCodec.cs",
+        "sha256": "D51AF4FABA39BB9B4EB3AECBFAD9C836381623D3F54164FD7CF925D7E3E74DF0",
+        "bytes": 3233
+      },
+      {
+        "path": "Unity/Assets/Tests/CoreRegression.cs",
+        "sha256": "005E34E6C67732932E1E4FD74630278E9C4D32DDAFAB11531151921E717DF6B7",
+        "bytes": 18212
+      },
+      {
+        "path": "Unity/Assets/Tests/RecoveryRegression.cs",
+        "sha256": "9EDC2C58DD46A342D8A9FD41A86D8C5C85A470F778F900494ECBA653B6F09FA1",
+        "bytes": 11353
+      },
+      {
+        "path": "Unity/Assets/Tests/WorkshopRegression.cs",
+        "sha256": "44B8EC562CEA52553217D4B6086999797CAEEECEDFAD9B9144AF7A63290FE776",
+        "bytes": 6932
+      },
+      {
+        "path": "Unity/Assets/Tests/OfflineRegression.cs",
+        "sha256": "9C87D2A8E75D0CD6FC56A1438F4A33EC60C1A7E30735EBBE2CE4AAAF04084533",
+        "bytes": 6917
+      },
+      {
+        "path": "Unity/Assets/Tests/WaveCatalogRegression.cs",
+        "sha256": "822AC881A1CE2BDB1C0AF021DAEB9E678BA0A737F7B669A0835B41C661DD0AC1",
+        "bytes": 6435
+      },
+      {
+        "path": "Unity/Assets/Tests/WaveEconomyRegression.cs",
+        "sha256": "95FFB53F5814D45624413D464ABC0482B8DC6A36BF2EC3EEDF62A2D3B8ECABCB",
+        "bytes": 17802
+      },
+      {
+        "path": "Unity/Assets/Tests/ChapterEconomyRegression.cs",
+        "sha256": "B5EEC76BD175AB1CA13928E161F7294F559BCBCF2291AB316D509994EA85E14D",
+        "bytes": 31336
+      },
+      {
+        "path": "Unity/Assets/Tests/JourneyEconomyRegression.cs",
+        "sha256": "1FBCF69EDBD6035C79D353E026A821C1B905B12F61D179E19F65421D6B057DC0",
+        "bytes": 29681
+      },
+      {
+        "path": "Unity/Assets/Tests/StoreCodecBoundaryRegression.cs",
+        "sha256": "6B7FDF0FFFCD871424BB746CCA0952622D2CD50C7A8765A498105372570B16D8",
+        "bytes": 2342
+      },
+      {
+        "path": "Unity/Assets/Tests/BoundedStorageRegression.cs",
+        "sha256": "62897FF8A742ECF44F73589F765C502A4BFF3FED5B7EA58FED6F41719AAC98B5",
+        "bytes": 3569
+      },
+      {
+        "path": "Checks/Program.cs",
+        "sha256": "B4821E5FC65D0BBEC9224246A9376D29E53F91736F4AA0C84DFA453BC8B35B33",
+        "bytes": 696
+      }
+    ],
+    "projects": [
+      {
+        "path": "Checks/ClearGoal/ClearGoalChecks.csproj",
+        "sha256": "75D9B30BD3470D32DA705A4551C4B79FED69837400665262616FA41C38F982E2",
+        "bytes": 850
+      },
+      {
+        "path": "Checks/ClearGoal/Directory.Build.props",
+        "sha256": "41533C337F61F7AAC7A74377B33D753ED6C93E78605D84F535C42ED602E4BB4D",
+        "bytes": 268
+      },
+      {
+        "path": "Checks/ClearGoal/Program.cs",
+        "sha256": "261F060BDAA5FFF00CB6ED597F703DEB3AD4B7118B02A75731A05768CE73BC8F",
+        "bytes": 184
+      },
+      {
+        "path": "Checks/ClearGoal/NuGet.Config",
+        "sha256": "F719F158740BBD8C4EABC6D2659325E6CB516D0FD32E1208C768E846081F50ED",
+        "bytes": 112
+      },
+      {
+        "path": "Checks/CoreChecks.csproj",
+        "sha256": "E798BA6F491DD649E388880B1FE51C5EF16474C634E29257BD6C4ED8ACC07293",
+        "bytes": 1606
+      },
+      {
+        "path": "Checks/Program.cs",
+        "sha256": "B4821E5FC65D0BBEC9224246A9376D29E53F91736F4AA0C84DFA453BC8B35B33",
+        "bytes": 696
+      }
+    ],
+    "fixtures": [
+      {
+        "path": "Checks/Milestones/fixtures/v2-selected540.json",
+        "sha256": "CAD546964362B38ECCD057F98248F40FF43E6920839DC9125EEF5758F0CE678E",
+        "bytes": 958
+      },
+      {
+        "path": "Checks/Milestones/fixtures/late23-skills6.json",
+        "sha256": "024AF09393E3FABCE2A1193B6A458674B849A5AF173FA6F7F2ED3AC293312BFC",
+        "bytes": 12579
+      },
+      {
+        "path": "Checks/EraMigration/Fixtures/r7/owned-carry-two.json",
+        "sha256": "0ADE7DF7D97174EF8062BF7CDE148D60F6320F01D696065B52733809D78C1CDD",
+        "bytes": 887
+      },
+      {
+        "path": "Checks/EraMigration/R8/Fixtures/all-skills-owned.json",
+        "sha256": "7845208797FA9BA787F1A560711F474489FD1A1743680BCED3A9767B0E528B2A",
+        "bytes": 3716
+      }
+    ],
+    "generated": [
+      {
+        "path": ".work/clear-goal-20261030/obj/Debug/net10.0/.NETCoreApp,Version=v10.0.AssemblyAttributes.cs",
+        "sha256": "93D67476196EBFC80D1D7D8844B91146CFD678D105F5CE635EB900CA40610C9B",
+        "bytes": 200
+      },
+      {
+        "path": ".work/clear-goal-20261030/obj/Debug/net10.0/ClearGoalChecks.AssemblyInfo.cs",
+        "sha256": "C310EF14CCBFE38552EF31051320EB768A4BE366AE759DF3FEAE27B0733AA43D",
+        "bytes": 1019
+      },
+      {
+        "path": ".work/clear-goal-20261030/core-obj/Debug/net10.0/.NETCoreApp,Version=v10.0.AssemblyAttributes.cs",
+        "sha256": "93D67476196EBFC80D1D7D8844B91146CFD678D105F5CE635EB900CA40610C9B",
+        "bytes": 200
+      },
+      {
+        "path": ".work/clear-goal-20261030/core-obj/Debug/net10.0/CoreChecks.AssemblyInfo.cs",
+        "sha256": "A23924C3D33EAAC98ABE0025141DA62E9D9BCF5525E67337AE470EF2879AAF1D",
+        "bytes": 1004
+      }
+    ],
+    "artifacts": [
+      {
+        "path": ".work/clear-goal-20261030/bin/Debug/net10.0/ClearGoalChecks.deps.json",
+        "sha256": "633913065DF3940EE8D7EA7989BBE49B1148B4B9DC447235C49C35AD5A926A69",
+        "bytes": 439
+      },
+      {
+        "path": ".work/clear-goal-20261030/bin/Debug/net10.0/ClearGoalChecks.dll",
+        "sha256": "E72AC99B1D82362BA1BF36157542C117945D5D44AD0F7892A6DFAC20DAF83B3C",
+        "bytes": 262656
+      },
+      {
+        "path": ".work/clear-goal-20261030/bin/Debug/net10.0/ClearGoalChecks.exe",
+        "sha256": "EC7174954C5B4D4DACF87462EE063A5FCFA4A2AA6CE7AFCAC6074DA246ECD022",
+        "bytes": 162304
+      },
+      {
+        "path": ".work/clear-goal-20261030/bin/Debug/net10.0/ClearGoalChecks.pdb",
+        "sha256": "E63B521D7C20ECD38B54BB6C30A2F1B58C2F5FAA6C79E7A3FFE5D572C5231E99",
+        "bytes": 91988
+      },
+      {
+        "path": ".work/clear-goal-20261030/bin/Debug/net10.0/ClearGoalChecks.runtimeconfig.json",
+        "sha256": "256DDA2706E1151BB95987B6B5BE610BF68D64E058285B19E7E958222FC90414",
+        "bytes": 270
+      },
+      {
+        "path": ".work/clear-goal-20261030/core-bin/Debug/net10.0/CoreChecks.deps.json",
+        "sha256": "5092B8BFEE4A2C59D5CDF4FFDBD751DFD4385F6B6D407D48DE5AFB976AD05333",
+        "bytes": 424
+      },
+      {
+        "path": ".work/clear-goal-20261030/core-bin/Debug/net10.0/CoreChecks.dll",
+        "sha256": "C225D5740562922627E4377AE1E525140DB4B1E1B6875BC9990783F3C8881CFA",
+        "bytes": 357888
+      },
+      {
+        "path": ".work/clear-goal-20261030/core-bin/Debug/net10.0/CoreChecks.exe",
+        "sha256": "E51113684634CEDF17BA80A20A237203A1B064D9CF2C4269A94DE66346B9E9FA",
+        "bytes": 162304
+      },
+      {
+        "path": ".work/clear-goal-20261030/core-bin/Debug/net10.0/CoreChecks.pdb",
+        "sha256": "6DB8F88A1594AE798A9EBD119EF4C2EDAEA87AEA47884430715132EED0A6A09F",
+        "bytes": 119148
+      },
+      {
+        "path": ".work/clear-goal-20261030/core-bin/Debug/net10.0/CoreChecks.runtimeconfig.json",
+        "sha256": "256DDA2706E1151BB95987B6B5BE610BF68D64E058285B19E7E958222FC90414",
+        "bytes": 270
+      }
+    ]
+  },
+  "retainedReceiptFiles": [
+    {
+      "path": ".work/clear-goal-20261030/core-first-build.log",
+      "bytes": 451,
+      "sha256": "FBEA55FD6FB4B0E4D4AD8485E91330FD59A4C1BFB69936538214089A5979C8CE"
+    },
+    {
+      "path": ".work/clear-goal-20261030/core-first-run.log",
+      "bytes": 6389,
+      "sha256": "9174BC505E1638C3940FFCC69672169C5526DAE72A78FAFE06DDCCB73CCF0D8B"
+    },
+    {
+      "path": ".work/clear-goal-20261030/corrected-build.log",
+      "bytes": 271,
+      "sha256": "B0504CC75E864AB3827AC379CF83FFEE834656E5D779017DF18B9E83695CF6EC"
+    },
+    {
+      "path": ".work/clear-goal-20261030/corrected-run.log",
+      "bytes": 723,
+      "sha256": "442A187E0C0BE003D37968649BC03AA09F595F1065D248EE2684B0E5D95D2A98"
+    },
+    {
+      "path": ".work/clear-goal-20261030/first-build.log",
+      "bytes": 1272,
+      "sha256": "A727971FABE52E62B8EDC0B9A00F55CA434FFDB3627954E69A1FB6AD84485CF3"
+    },
+    {
+      "path": ".work/clear-goal-20261030/first-run.log",
+      "bytes": 980,
+      "sha256": "1ABD744B3AABAD0DEB341E633FA2C328B966283CCEDF849C2C5B2EE165CEE116"
+    },
+    {
+      "path": ".work/clear-goal-20261030/baseline-pure-inputs.json",
+      "bytes": 9389,
+      "sha256": "4777E4215E6753247B94F622318370E95C81186A37CDC483A52BF19F276641DB"
+    },
+    {
+      "path": ".work/clear-goal-20261030/core-first-build.json",
+      "bytes": 338,
+      "sha256": "388BC9D7D80C56A229C47910C2265A3F5EDA655E669B8E172E4EA7F613160D10"
+    },
+    {
+      "path": ".work/clear-goal-20261030/core-first-run.json",
+      "bytes": 158,
+      "sha256": "D7413C7B368662CEF33EA2E1E2FC04371E0DA93A8AB319C872267DE2AB834191"
+    },
+    {
+      "path": ".work/clear-goal-20261030/corrected-build.json",
+      "bytes": 224,
+      "sha256": "8389796CDD8C941D186E66BF28EC224167036426786DE0A29861C1DFBEF8FAB3"
+    },
+    {
+      "path": ".work/clear-goal-20261030/corrected-run.json",
+      "bytes": 191,
+      "sha256": "B9D420FFD430B32642CEFBB61D17C23CCEAB877A72C0B783B7D5C7757C73672A"
+    },
+    {
+      "path": ".work/clear-goal-20261030/first-build.json",
+      "bytes": 233,
+      "sha256": "1F8A57913265F016558EFAF74D13A7DF98843DA31098C14026B6D0EB682A68BF"
+    },
+    {
+      "path": ".work/clear-goal-20261030/first-run.json",
+      "bytes": 200,
+      "sha256": "FC08EE854ECEEA33A99C35558DF5FF1F221BD5DCC29812099201C2E11A9DA876"
+    },
+    {
+      "path": ".work/clear-goal-20261030/failure-01/.NETCoreApp,Version=v10.0.AssemblyAttributes.cs",
+      "bytes": 200,
+      "sha256": "93D67476196EBFC80D1D7D8844B91146CFD678D105F5CE635EB900CA40610C9B"
+    },
+    {
+      "path": ".work/clear-goal-20261030/failure-01/ClearGoalChecks.AssemblyInfo.cs",
+      "bytes": 1019,
+      "sha256": "C310EF14CCBFE38552EF31051320EB768A4BE366AE759DF3FEAE27B0733AA43D"
+    },
+    {
+      "path": ".work/clear-goal-20261030/failure-01/ClearGoalChecks.deps.json",
+      "bytes": 439,
+      "sha256": "633913065DF3940EE8D7EA7989BBE49B1148B4B9DC447235C49C35AD5A926A69"
+    },
+    {
+      "path": ".work/clear-goal-20261030/failure-01/ClearGoalChecks.dll",
+      "bytes": 262656,
+      "sha256": "DB701D1C0951EE5007A62409097949B112964ABD8EDBC5D3E27CE994DFDE1485"
+    },
+    {
+      "path": ".work/clear-goal-20261030/failure-01/ClearGoalChecks.exe",
+      "bytes": 162304,
+      "sha256": "EC7174954C5B4D4DACF87462EE063A5FCFA4A2AA6CE7AFCAC6074DA246ECD022"
+    },
+    {
+      "path": ".work/clear-goal-20261030/failure-01/ClearGoalChecks.pdb",
+      "bytes": 91912,
+      "sha256": "60360AA25A2C42B96096AB1E7AAFE361BDC1576F3D50158E1CC23467A3D0B64A"
+    },
+    {
+      "path": ".work/clear-goal-20261030/failure-01/ClearGoalChecks.runtimeconfig.json",
+      "bytes": 270,
+      "sha256": "256DDA2706E1151BB95987B6B5BE610BF68D64E058285B19E7E958222FC90414"
+    },
+    {
+      "path": ".work/clear-goal-20261030/failure-01/ClearGoalRegression.executed.cs",
+      "bytes": 15689,
+      "sha256": "B53982AB98C5A7E468E193223CC89AF6469F66AAD28E7008B8EB0373D6911217"
+    },
+    {
+      "path": ".work/clear-goal-20261030/failure-01/executed-pure-inputs.json",
+      "bytes": 7990,
+      "sha256": "5474A786EC5D56770529B5E65896C385D6910D6D0F971340FAB0DE93966EA3E0"
+    },
+    {
+      "path": ".work/clear-goal-20261030/failure-01/first-build.json",
+      "bytes": 233,
+      "sha256": "1F8A57913265F016558EFAF74D13A7DF98843DA31098C14026B6D0EB682A68BF"
+    },
+    {
+      "path": ".work/clear-goal-20261030/failure-01/first-build.log",
+      "bytes": 1272,
+      "sha256": "A727971FABE52E62B8EDC0B9A00F55CA434FFDB3627954E69A1FB6AD84485CF3"
+    },
+    {
+      "path": ".work/clear-goal-20261030/failure-01/first-run.json",
+      "bytes": 200,
+      "sha256": "FC08EE854ECEEA33A99C35558DF5FF1F221BD5DCC29812099201C2E11A9DA876"
+    },
+    {
+      "path": ".work/clear-goal-20261030/failure-01/first-run.log",
+      "bytes": 980,
+      "sha256": "1ABD744B3AABAD0DEB341E633FA2C328B966283CCEDF849C2C5B2EE165CEE116"
+    }
+  ],
+  "acceptanceLimits": [
+    "In-memory storage fault cases, not Windows physical failure or Android durability.",
+    "Core49 unchanged suite ran once against exact new Core; focused test-only corrected fixture rerun once.",
+    "One prepared private Unity case covers600 and540 confirmations, Back/Close/pause refusal, state/files/mtime, explicit clear535 and later480 purchase55; not executed by producer.",
+    "No scene geometry/ref/control creation; existing left chapterPrevious borrowed only in Progress. Existing shared Select confirmation consent and Close/Back lifecycle preserved.",
+    "No canonical Inspector modification. Strict older binary rejects new kind; refresh exact50 embedded Core inputs after transfer and qualify pending preview/derive facts."
+  ]
+}

@@ -1,0 +1,6 @@
+<Project>
+  <PropertyGroup>
+    <BaseIntermediateOutputPath>$(MSBuildThisFileDirectory)../../.work/claim-backup-rollback-checks/obj/</BaseIntermediateOutputPath>
+    <BaseOutputPath>$(MSBuildThisFileDirectory)../../.work/claim-backup-rollback-checks/bin/</BaseOutputPath>
+  </PropertyGroup>
+</Project>

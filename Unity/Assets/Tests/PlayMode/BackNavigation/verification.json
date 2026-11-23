@@ -1,0 +1,214 @@
+{
+  "date": "2026-10-29",
+  "timezone": "Asia/Baku",
+  "sourceBase": "0f7a80072cdfbca93c842c6978ba4e04b2ba1c2b",
+  "editor": "6000.3.21f1",
+  "integrationRequired": true,
+  "runtimeAndSceneUntouched": true,
+  "automaticEscapeDeliveryQualified": false,
+  "androidInputQualified": false,
+  "compile": {
+    "status": "completed",
+    "compiling": false,
+    "failed": false,
+    "compilationFailed": false,
+    "errors": [],
+    "warnings": [],
+    "summary": {
+      "errors": 0,
+      "warnings": 0
+    }
+  },
+  "playMode": {
+    "status": "completed",
+    "duration": 9.65,
+    "summary": {
+      "total": 7,
+      "passed": 7,
+      "failed": 0,
+      "skipped": 0,
+      "inconclusive": 0
+    },
+    "results": [
+      {
+        "FullName": "JunkToNeon.Tests.BackNavigation.BackNavigationTests.AdapterRequestsRootConfirmationAndCancelsWithoutConfirmingOrRepeating",
+        "Status": "Passed",
+        "Duration": 0.0587866,
+        "Message": null,
+        "StackTrace": null
+      },
+      {
+        "FullName": "JunkToNeon.Tests.BackNavigation.BackNavigationTests.PreviewBackClosesWithoutSelectingOrSpinningAndRootIsHarmless",
+        "Status": "Passed",
+        "Duration": 0.4789902,
+        "Message": null,
+        "StackTrace": null
+      },
+      {
+        "FullName": "JunkToNeon.Tests.BackNavigation.BackNavigationTests.RestoreWarningBackCancelsWithoutWritingAndBlockingErrorStaysBlocked",
+        "Status": "Passed",
+        "Duration": 0.1407725,
+        "Message": null,
+        "StackTrace": null
+      },
+      {
+        "FullName": "JunkToNeon.Tests.PlayMode.ReelUiLifecycleTests.AffordablePreviewNeedsSelectionAndHintAcknowledgementSurvivesReentry",
+        "Status": "Passed",
+        "Duration": 0.3401804,
+        "Message": null,
+        "StackTrace": null
+      },
+      {
+        "FullName": "JunkToNeon.Tests.PlayMode.ReelUiLifecycleTests.AuthoredGoalPlacementSurvivesAwake",
+        "Status": "Passed",
+        "Duration": 0.117862,
+        "Message": null,
+        "StackTrace": null
+      },
+      {
+        "FullName": "JunkToNeon.Tests.PlayMode.ReelUiLifecycleTests.FinalAutoSpinStopsAndRestoresExactCommittedResultWithoutFuturePurchase",
+        "Status": "Passed",
+        "Duration": 4.2517206,
+        "Message": null,
+        "StackTrace": null
+      },
+      {
+        "FullName": "JunkToNeon.Tests.PlayMode.ReelUiLifecycleTests.RepeatedSpinPointersCommitOneOutcomeAndDoNotQueue",
+        "Status": "Passed",
+        "Duration": 4.1329811,
+        "Message": null,
+        "StackTrace": null
+      }
+    ]
+  },
+  "editMode": {
+    "Summary": {
+      "Total": 1,
+      "Passed": 1,
+      "Failed": 0,
+      "Skipped": 0,
+      "Inconclusive": 0
+    },
+    "Results": [
+      {
+        "FullName": "JunkToNeon.Tests.CoreRegressionUnity.EconomyAndPersistenceBehavior",
+        "Status": "Passed",
+        "Duration": 0.3848125,
+        "Message": null,
+        "StackTrace": null
+      }
+    ],
+    "Duration": 0.8,
+    "StatusPath": null,
+    "Mode": "EditMode",
+    "FilterApplied": "testname: JunkToNeon",
+    "success": true,
+    "result": null
+  },
+  "standaloneCore": "13 regression groups passed",
+  "sourceHashes": {
+    "Unity\\Assets\\Scripts\\Presentation\\JtnBackNavigation.cs": "7c8e3b27d9dd53bc5ef7e7c14787553491f54a685fbabe0616af79cfea966118",
+    "Unity\\Assets\\Tests\\PlayMode\\BackNavigation\\BackNavigationTests.cs": "718c07bfd287bb4aea188e86777c4771ed18340bc1539ee1298ff32835829441",
+    "Unity\\Assets\\Tests\\PlayMode\\ReelUiLifecycleTests.cs": "e9eadc595a79f3f25118b97eafa30d643579b5fb5da64175fc88e9ea2958da6f"
+  },
+  "firstRun": {
+    "summary": {
+      "total": 7,
+      "passed": 5,
+      "failed": 2,
+      "skipped": 0,
+      "inconclusive": 0
+    },
+    "failures": [
+      "Queued Escape did not reach adapter Update in unfocused batch Editor.",
+      "Old SPIN case behavioral checks passed; global normal-save equality failed during concurrent primary AUTO."
+    ],
+    "rawReceipt": ".work/back/playmode-first-verdict.json"
+  },
+  "secondRun": {
+    "summary": {
+      "total": 3,
+      "passed": 1,
+      "failed": 2,
+      "skipped": 0,
+      "inconclusive": 0
+    },
+    "failures": [
+      "Preview global-directory observer raced a primary pending-write.",
+      "Explicit queued-event processing still did not establish player key state."
+    ],
+    "rawReceipt": ".work/back/playmode-second-verdict.json"
+  },
+  "isolation": {
+    "before": {
+      "pid": 41400,
+      "project": "C:/Users/murtu/.codex/worktrees/jtn-ui-lifecycle/FINAL-SVALKA/Unity/Assets",
+      "temp": "X:/tmp/jtn-ui-lifecycle-20261029/Temp\\",
+      "processTEMP": "X:/tmp/jtn-ui-lifecycle-20261029/Temp",
+      "processTMP": "X:/tmp/jtn-ui-lifecycle-20261029/Temp",
+      "temporaryCache": "X:/tmp/jtn-ui-lifecycle-20261029/Temp/JunkToNeonPrototype/Свалка — Неон",
+      "overridePath": null,
+      "normal": "C:/Users/murtu/AppData/LocalLow/JunkToNeonPrototype/Свалка — Неон",
+      "loadedGame": false
+    },
+    "configured": {
+      "privateBaseline": "X:/tmp/jtn-ui-lifecycle-20261029/Temp/back-editor-41400",
+      "temp": "X:/tmp/jtn-ui-lifecycle-20261029/Temp\\",
+      "temporaryCache": "X:/tmp/jtn-ui-lifecycle-20261029/Temp/JunkToNeonPrototype/Свалка — Неон",
+      "loadedGame": false
+    },
+    "final": {
+      "pid": 41400,
+      "loadedGame": false,
+      "privateBaselineBeforeClear": "X:/tmp/jtn-ui-lifecycle-20261029/Temp/back-editor-41400",
+      "temp": "X:/tmp/jtn-ui-lifecycle-20261029/Temp\\",
+      "temporaryCache": "X:/tmp/jtn-ui-lifecycle-20261029/Temp/JunkToNeonPrototype/Свалка — Неон",
+      "overrideCleared": true
+    },
+    "actualSessionStorage": "Each loaded session and authored clone assert every one of the eight private FileSnapshotStorage paths against its GUID directory. UI cases compare the complete committed private primary; Back cancel compares every owned file byte-for-byte and requires exactly the two initial files.",
+    "ordinaryWriter": "Integration owner confirmed primary Editor AUTO legitimately writes ordinary saves. No control/read-only eval was sent to that Editor. No ordinary snapshot was restored or overwritten.",
+    "ordinaryObservation": "Changes or files racing reads are logged read-only; no whole-directory equality invariant across independent processes.",
+    "retainedFirstFailurePrivateFixtures": {
+      "X:\\tmp\\jtn-ui-lifecycle-20261029\\Temp\\jtn-back-tests-00fcf59e26f64c40971a5f7417752d0b\\jtn.save.v1.json": {
+        "bytes": 165,
+        "sequence": 0,
+        "coins": 37
+      },
+      "X:\\tmp\\jtn-ui-lifecycle-20261029\\Temp\\jtn-ui-tests-70f18e04c4164b5c82fad5b816666250\\jtn.save.v1.json": {
+        "bytes": 213,
+        "sequence": 1,
+        "coins": 45
+      }
+    }
+  },
+  "shutdown": {
+    "success": true,
+    "command": "close",
+    "data": {
+      "project": "C:\\Users\\murtu\\.codex\\worktrees\\jtn-ui-lifecycle\\FINAL-SVALKA\\Unity",
+      "pid": 41400,
+      "closed": true,
+      "method": "graceful",
+      "reason": "closed"
+    },
+    "errors": [],
+    "warnings": []
+  },
+  "storage": {
+    "initialFreeBytes": {
+      "C": 10511945728,
+      "X": 95941550080
+    },
+    "finalFreeBytes": {
+      "C": 10487033856,
+      "X": 95898390528
+    },
+    "taskBytes": {
+      "Library": 1459479815,
+      "Logs": 6034154,
+      "Temp": 390314
+    },
+    "projectUnityTempBytes": 0,
+    "retention": "Task-owned closed logs/Temp: inspect exact X: path before reuse; 7-day retention and 8 MiB log budget; preserve receipts; no installed global rotation."
+  }
+}

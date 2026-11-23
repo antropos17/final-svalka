@@ -1,0 +1,415 @@
+{
+  "copyBaseline": "4fab17f0465c3c36c3403b06846111c9c4afae8a",
+  "productionDependency": "12e491375dbf896ceddf0668f0ce9b21eb615659",
+  "dependencyMethod": "Git archive of exact immutable production tree; Core not cherry-picked into copy branch",
+  "scope": "Selected-offer copy projection only; no spins, state mutation, session, storage, campaigns, Unity/UI/native execution",
+  "project": "Checks/ArcadeCopy/ArcadeCopyChecks.csproj",
+  "command": "dotnet run --project Checks/ArcadeCopy/ArcadeCopyChecks.csproj -p:ProductionSourcesRoot=<work>/inputs/Unity/Assets/Scripts -p:BaseIntermediateOutputPath=<work>/obj/ -p:BaseOutputPath=<work>/bin/ -v minimal -- offer-attributes",
+  "result": {
+    "attempt": "FIRST",
+    "exitCode": 0,
+    "groups": 1,
+    "assertions": 24,
+    "priorGroupsExecuted": 0,
+    "buildDiagnostics": "No compiler warnings/errors emitted",
+    "sdk": "10.0.302"
+  },
+  "independentCases": "Selected III1111, I1000, II1100 in nonprogression order; exact selected Level; four-line/256char bound; once-presence/raw order/caps; no owned/buy/next implication; three non-slot offers/null; preserved old labels",
+  "unchangedScope": "CurrentAttributes/NextAttributes behavior, all prior labels and four prior test groups preserved. Only old Next comment updated and new focused selector/default fifth group added. Prior4groups/126 evidence remains scoped historical evidence, not rerun.",
+  "sourceInputs": [
+    {
+      "scope": "immutable12e4913",
+      "path": "Contracts/ChapterContracts.cs",
+      "sha256": "6B15AE9C725BEEE596EC8886DC76D271F43551D3CC399AA9D07B3E863A64BD56"
+    },
+    {
+      "scope": "immutable12e4913",
+      "path": "Contracts/ChapterSymbolModifiers.cs",
+      "sha256": "39B974BED9F6D26652A7BF76008B883F23CBDC554BE59354F1F7226A7B08D16B"
+    },
+    {
+      "scope": "immutable12e4913",
+      "path": "Contracts/GameplayContracts.cs",
+      "sha256": "98275361EE2E908D7F7A531BC4768C85915688371CF2609C55F8640FAF5EA5C5"
+    },
+    {
+      "scope": "immutable12e4913",
+      "path": "Content/CatalogData.cs",
+      "sha256": "C2DDA1B28462685F3DCD533794C8CC99EDAB8A391478814BFC5896B079063A03"
+    },
+    {
+      "scope": "immutable12e4913",
+      "path": "Content/CatalogValidator.cs",
+      "sha256": "F45000C8A6AFCED8A26BB3E8AE6599BF40ADD3989E4023CEFBB8B0F41BB71187"
+    },
+    {
+      "scope": "immutable12e4913",
+      "path": "Content/ChapterContentIds.cs",
+      "sha256": "906A21010F38B71DA0860D204CF5494434C2C65822642EDD04F391E811F6C2B8"
+    },
+    {
+      "scope": "immutable12e4913",
+      "path": "Content/ChapterData.cs",
+      "sha256": "31A9178D7C8B7F719F31593B71FCD4E38A71D7DCD9B77AC2899B45E1FE32B953"
+    },
+    {
+      "scope": "immutable12e4913",
+      "path": "Content/ChapterDefinitions.cs",
+      "sha256": "AFEFDDA9C298C3F7C7C71419004022ACFF8C01008F36382E903651776FC550AF"
+    },
+    {
+      "scope": "immutable12e4913",
+      "path": "Content/ChapterRules.cs",
+      "sha256": "1265EB52DE149AE8C794C959CC1663A1A114B77994159C8BA9740A570B6E651E"
+    },
+    {
+      "scope": "immutable12e4913",
+      "path": "Content/ChapterValidator.cs",
+      "sha256": "6DB14886D69D5DD5C7AB90B481F905D02F67715CA9497EECA70136BE39A3D641"
+    },
+    {
+      "scope": "immutable12e4913",
+      "path": "Content/ConstructionPricing.cs",
+      "sha256": "361D90AAE651C2D67CC034B0E0E5B38ABF2220F46F224C22490047E301C4786B"
+    },
+    {
+      "scope": "immutable12e4913",
+      "path": "Content/Definitions.cs",
+      "sha256": "7CF6713213F4CD90F631CE8650AE144FB6579F3E8E05FA8091438B37325D4219"
+    },
+    {
+      "scope": "immutable12e4913",
+      "path": "Content/LegacyProgress.cs",
+      "sha256": "70FB953785652223EF04209882924F26A0275BDC556BB972E69E7BF313E2A07E"
+    },
+    {
+      "scope": "immutable12e4913",
+      "path": "Content/ValidatedCatalog.cs",
+      "sha256": "460A500CE6BB9620551E975AE8CCA6B066867F1A38CD59CC2E3BEECA7BA75B9D"
+    },
+    {
+      "scope": "immutable12e4913",
+      "path": "Effects/ChapterSpinEffects.cs",
+      "sha256": "200957844006F98A8560882E2B210719F8D69E6F69FB3006D157D235F48B36AE"
+    },
+    {
+      "scope": "immutable12e4913",
+      "path": "Effects/SpinEffects.cs",
+      "sha256": "1B52D8C60E90FB5EC413C7731022AE9936F4F287A231EE9E1BF4D3D681049EC3"
+    },
+    {
+      "scope": "immutable12e4913",
+      "path": "Guidance/ChapterNarrative.cs",
+      "sha256": "C5B956823D3AAE3DDD220F709AD82C10E277C2DA6651BCE4B91770B3D317C5D5"
+    },
+    {
+      "scope": "immutable12e4913",
+      "path": "Guidance/GuideFlow.cs",
+      "sha256": "A0CD8E04F9F688A443813B85B544E6C69973F3C7A74C0794CAB55C4897DC2786"
+    },
+    {
+      "scope": "immutable12e4913",
+      "path": "Guidance/GuideModel.cs",
+      "sha256": "BE146B060ED91597B2A0DB9A289DC9E1CC10138BF760F0E00FB49B01A72703CC"
+    },
+    {
+      "scope": "immutable12e4913",
+      "path": "Guidance/GuideStateCodec.cs",
+      "sha256": "D51AF4FABA39BB9B4EB3AECBFAD9C836381623D3F54164FD7CF925D7E3E74DF0"
+    },
+    {
+      "scope": "immutable12e4913",
+      "path": "Orders/OrderDefinitions.cs",
+      "sha256": "BC1788EA255FE39ACB129B039C64C406C87BC41850898FEE906D65810FAD660A"
+    },
+    {
+      "scope": "immutable12e4913",
+      "path": "Orders/OrderEngine.cs",
+      "sha256": "25E709CAA9DAE2EB8E19BCD4A416E3BC00A30781FD422225ADD0DBB8B4B38012"
+    },
+    {
+      "scope": "immutable12e4913",
+      "path": "Orders/OrderProposal.cs",
+      "sha256": "9DF4271A3486355B2E9243D534C8F288AB9C7D090CDAC850E569CF70B05891E7"
+    },
+    {
+      "scope": "immutable12e4913",
+      "path": "Orders/OrderState.cs",
+      "sha256": "C055A8AB1A740D889475142CBAC4E330D7BCC4AB7E63FF51775915F47EB3AFCB"
+    },
+    {
+      "scope": "immutable12e4913",
+      "path": "Orders/OrderStateCodec.cs",
+      "sha256": "5925D0DCB3A05D5E80066308C83095B30FDC4CD759E6C8E4B7AD2EADB9546596"
+    },
+    {
+      "scope": "immutable12e4913",
+      "path": "Upgrades/CoinBoostShop.cs",
+      "sha256": "ACCF854B226305243767BDA2C5A67B8ADAC001F9197D7008BB45C94F260D7846"
+    },
+    {
+      "scope": "immutable12e4913",
+      "path": "Upgrades/SkillOwnershipCodec.cs",
+      "sha256": "B3DD1A0279C94437D85198EA6C4E0FA534A3D51085B0406DCF9B1EFACE472FB8"
+    },
+    {
+      "scope": "immutable12e4913",
+      "path": "Upgrades/SkillPricing.cs",
+      "sha256": "AC0F628113F781D87D5E65C057D4CD13BEEA6F97534DB495C2055912F323FBB4"
+    },
+    {
+      "scope": "immutable12e4913",
+      "path": "Upgrades/SkillTree.cs",
+      "sha256": "7A53F7929D217BE372DEB5565080B57BC5AB27BBC3A31EB1C308CEFA07FBA175"
+    },
+    {
+      "scope": "immutable12e4913",
+      "path": "Upgrades/UpgradeOwnershipCodec.cs",
+      "sha256": "E9B9EAA584E93E8482D1071F851823027ED46527E5487D2183A65652D327A6AF"
+    },
+    {
+      "scope": "immutable12e4913",
+      "path": "Core/ArcadeCodec.cs",
+      "sha256": "98A7CF3CF7A6B31D2501033A89B7A5C2AB79E21E3991823EBEDA57447FF3659F"
+    },
+    {
+      "scope": "immutable12e4913",
+      "path": "Core/ArcadeEconomy.cs",
+      "sha256": "C7F51E5489B83EB2200F68CE9E035D37EC69C4A8C4C26572161495FF86D4ADC0"
+    },
+    {
+      "scope": "immutable12e4913",
+      "path": "Core/ArcadeRules.cs",
+      "sha256": "310C87E2D0928AA90171AA39E6D1A52C5CAD169CD89ACBBECF026C6256593D65"
+    },
+    {
+      "scope": "immutable12e4913",
+      "path": "Core/ArcadeSession.cs",
+      "sha256": "D1C787A293FF4E37FF3659C2FE89227F507C501BC64909515664F1BF09171A2B"
+    },
+    {
+      "scope": "immutable12e4913",
+      "path": "Core/ArcadeState.cs",
+      "sha256": "073ABDDE5A59412ED8425348DB8BA90F0159A606D2DD5697901E635E78AD8B11"
+    },
+    {
+      "scope": "immutable12e4913",
+      "path": "Core/BoundedSnapshotReader.cs",
+      "sha256": "09193E53E9B5A462DAD1F26953F93DAB0F724C62E43C4685E09B3164ED788C45"
+    },
+    {
+      "scope": "immutable12e4913",
+      "path": "Core/ChapterCatalog.cs",
+      "sha256": "32F3F4AA041F0483885D365955E666B261866F66EB1A736B9F27BDE1684B4BF9"
+    },
+    {
+      "scope": "immutable12e4913",
+      "path": "Core/ChapterEconomy.cs",
+      "sha256": "4E3A6BB2DACEE2A2A5F09184B3D0790D511B205F6F5C29C2E670597798F3B0B3"
+    },
+    {
+      "scope": "immutable12e4913",
+      "path": "Core/ChapterMilestones.cs",
+      "sha256": "FE1DDD2EC8D302F4BB3B53F3455EE65E932A91BBA1900444AB4DFD0A4A23E8D4"
+    },
+    {
+      "scope": "immutable12e4913",
+      "path": "Core/ChapterSession.cs",
+      "sha256": "303E0B1CAC03631664611063B38F08C6028A5D66E99EA9F6B030C7238F67481B"
+    },
+    {
+      "scope": "immutable12e4913",
+      "path": "Core/ChapterState.cs",
+      "sha256": "BB311AE726DB2ED7AECCCA3EB57B8B35A18BA12CCA30CEA09C0719C0B040C526"
+    },
+    {
+      "scope": "immutable12e4913",
+      "path": "Core/ChapterStateCodec.cs",
+      "sha256": "6E1C7DDC08E608736F2703D6E594A7EBB589627E37513DA4D38DD5F88D04C478"
+    },
+    {
+      "scope": "immutable12e4913",
+      "path": "Core/ExpansionCodec.cs",
+      "sha256": "343980C01B1EB5C3A543C5F3ABD7B0E67FE4E29144AFBD1359387F2895A2104E"
+    },
+    {
+      "scope": "immutable12e4913",
+      "path": "Core/ExpansionCopy.cs",
+      "sha256": "3446AF501F44A305CC9949226A8417F8B0970E86E9646C929CBE5412429E2391"
+    },
+    {
+      "scope": "immutable12e4913",
+      "path": "Core/ExpansionEconomy.cs",
+      "sha256": "3AE9BEB44A9D797C14B373E3F83BDB31920006C061E249041D3C9DBB0002D340"
+    },
+    {
+      "scope": "immutable12e4913",
+      "path": "Core/ExpansionRules.cs",
+      "sha256": "56F81512B76FC1B10F9CED018D4CCA663923DDF7ED3B4B0F13651729EB0F4389"
+    },
+    {
+      "scope": "immutable12e4913",
+      "path": "Core/ExpansionSession.cs",
+      "sha256": "899FF4AC36D2FA641529AC85DCE1E438C1E8A3A44F81C1F48E97AB955EF506E3"
+    },
+    {
+      "scope": "immutable12e4913",
+      "path": "Core/ExpansionState.cs",
+      "sha256": "F8BE97FA8A3351154251D50FDBCC9C3D2011E5C03415208A44B382A19B3FB91B"
+    },
+    {
+      "scope": "immutable12e4913",
+      "path": "Core/GameSession.cs",
+      "sha256": "699A65EE65B4679102314D6703100B405ACD1C04B926BB8919842D16CF49DC04"
+    },
+    {
+      "scope": "immutable12e4913",
+      "path": "Core/JourneyEconomy.cs",
+      "sha256": "CDE54516E6D6C41877DA48A0665DE7C0EB0B303F2A8C13BA2A9BB40DD89C3FC5"
+    },
+    {
+      "scope": "immutable12e4913",
+      "path": "Core/JourneySession.cs",
+      "sha256": "7C1CD9B0D9968EBEABA20C13386C2F296EEE27E7F924EB8EFEC739518371B022"
+    },
+    {
+      "scope": "immutable12e4913",
+      "path": "Core/JourneyState.cs",
+      "sha256": "711BA469DB9A701B5F90F10A99766E699AF683D8252111277E5931CACDDFB9B9"
+    },
+    {
+      "scope": "immutable12e4913",
+      "path": "Core/JourneyStateCodec.cs",
+      "sha256": "ACE3780AA4D5D389CB06FEC44C1B1706613DD7002731F74F4492849D051CBCED"
+    },
+    {
+      "scope": "immutable12e4913",
+      "path": "Core/JsonStateCodec.cs",
+      "sha256": "B2D57D790F5EB930AB153802B1C6202F1A99B0BE9662A7506C405DCB3A90D351"
+    },
+    {
+      "scope": "immutable12e4913",
+      "path": "Core/MilestoneSession.cs",
+      "sha256": "82152F065A95E3CC1EEE0FE95E3A2DACC96B3666771827A2ECA19163A990FFAA"
+    },
+    {
+      "scope": "immutable12e4913",
+      "path": "Core/Model.cs",
+      "sha256": "A4D99AE5389E61BDE76985271EC4033D4186FC40ACD54C3CA2DCDE869BD3A7AD"
+    },
+    {
+      "scope": "immutable12e4913",
+      "path": "Core/OptionalAchievements.cs",
+      "sha256": "011B295DE4ACC1F2E15E0FA4D6AE37AA9225C6EBB92F139013ED27198EDE039A"
+    },
+    {
+      "scope": "immutable12e4913",
+      "path": "Core/OptionalAchievementSession.cs",
+      "sha256": "49312EDDC326209832A16DE2964DFA3373937D9B8F8B35CA88200203BBCFC7EC"
+    },
+    {
+      "scope": "immutable12e4913",
+      "path": "Core/ProgressionCatalog.cs",
+      "sha256": "FA37F5B767139DB29BAAC490BF47C6D5E6953D9ADA51BE2D5FF80001AEFCD696"
+    },
+    {
+      "scope": "immutable12e4913",
+      "path": "Core/WaveEconomy.cs",
+      "sha256": "4C98C97B01693F55A45C0A3DA89E8F393E1AB7F0B06C5531EE9528F9B112158D"
+    },
+    {
+      "scope": "immutable12e4913",
+      "path": "Core/WaveStateCodec.cs",
+      "sha256": "EABFF23476BBB4D450FFD648A1E4F7DACCE94874A2D82C263588B50B0D1E8F97"
+    },
+    {
+      "scope": "copy-producer",
+      "path": "Unity/Assets/Scripts/Core/ArcadeCopy.cs",
+      "sha256": "BE01543BEA4A58D98713CBEDDB27A29F21DF00C4877087CD4CC0550CFCE8E7D2"
+    },
+    {
+      "scope": "copy-producer",
+      "path": "Unity/Assets/Scripts/Core/ArcadeCopy.cs.meta",
+      "sha256": "3BC45626A1FC6570458A7EAE8AAD278F096716B3584C02FE339937D0FFCB36C6"
+    },
+    {
+      "scope": "copy-producer",
+      "path": "Checks/ArcadeCopy/Program.cs",
+      "sha256": "5A186973AE831F34017D54F427F9C13568DD5A127030EA36644246079F43F9B2"
+    },
+    {
+      "scope": "copy-producer",
+      "path": "Checks/ArcadeCopy/ArcadeCopyChecks.csproj",
+      "sha256": "6A0FEE2F7023A2E827631D18759A15E07CF76D36DDB9E5A9EA62CF171AA63989"
+    }
+  ],
+  "generatedInputs": [
+    {
+      "path": "obj/Debug/net10.0/.NETCoreApp,Version=v10.0.AssemblyAttributes.cs",
+      "sha256": "93D67476196EBFC80D1D7D8844B91146CFD678D105F5CE635EB900CA40610C9B"
+    },
+    {
+      "path": "obj/Debug/net10.0/ArcadeCopyChecks.AssemblyInfo.cs",
+      "sha256": "093595DF17B4761E335DFAF5AE59B7B48A9E89E6CB803888A3506031418441A8"
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "inputs.tar",
+      "sha256": "9DBA28835EF3265D5F8C5D88EA09682249939E8249713C145CED37F12C05CB78",
+      "bytes": 634880
+    },
+    {
+      "path": "check-first.log",
+      "sha256": "570F65B3131CC871EBF18FF4FFD361D7CA18DCCF4EF05B51D6BCFD00D56D6636",
+      "bytes": 536
+    },
+    {
+      "path": "bin/Debug/net10.0/ArcadeCopyChecks.deps.json",
+      "sha256": "21F5957C3554FFB3BD3F97ADE2B6E0D28B6003A157C2472966296FC8C91BFA72",
+      "bytes": 442
+    },
+    {
+      "path": "bin/Debug/net10.0/ArcadeCopyChecks.dll",
+      "sha256": "4AFF46D24EDC5F6D6990DD248CC8821B6A50F22BFF47C99E076CC22F86F0F0F8",
+      "bytes": 382976
+    },
+    {
+      "path": "bin/Debug/net10.0/ArcadeCopyChecks.exe",
+      "sha256": "616B7CB5ABDD731C4F60915795F570356062627DC5B378BC5121DD431CF3F47D",
+      "bytes": 162304
+    },
+    {
+      "path": "bin/Debug/net10.0/ArcadeCopyChecks.pdb",
+      "sha256": "3B08342B6EC23C3BF69F732E56FE4E64892797500D2C12DA8428E9ECF7FDE1AA",
+      "bytes": 252500
+    },
+    {
+      "path": "bin/Debug/net10.0/ArcadeCopyChecks.runtimeconfig.json",
+      "sha256": "256DDA2706E1151BB95987B6B5BE610BF68D64E058285B19E7E958222FC90414",
+      "bytes": 270
+    }
+  ],
+  "diskBefore": [
+    {
+      "Name": "C",
+      "Free": 17520500736
+    },
+    {
+      "Name": "X",
+      "Free": 90934349824
+    }
+  ],
+  "diskAfter": [
+    {
+      "Name": "C",
+      "Free": 17528279040
+    },
+    {
+      "Name": "X",
+      "Free": 90932518912
+    }
+  ],
+  "workBytesAfterRun": 2928427,
+  "retention": "X-local TEMP/TMP/cache/NuGet/bin/obj/immutable inputs; initialized private .NET home; DOTNET_GENERATE_ASPNET_CERTIFICATE=false. Closed disposable logs seven-day eligibility/32MiB stream budget. No cleanup/rotation/global configuration change; receipts preserved."
+}

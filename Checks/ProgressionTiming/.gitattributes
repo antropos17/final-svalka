@@ -1,0 +1,4 @@
+*.cs text eol=lf
+*.csproj text eol=lf
+*.ps1 text eol=lf
+evidence/** -text whitespace=cr-at-eol

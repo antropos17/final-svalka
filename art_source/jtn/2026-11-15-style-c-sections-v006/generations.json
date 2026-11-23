@@ -1,0 +1,114 @@
+{
+  "tool": "image_gen.imagegen",
+  "transparentBackground": true,
+  "images": [
+    {
+      "id": "emblem-district",
+      "generatedFile": "C:\\Users\\murtu\\.codex\\generated_images\\01a1dbc7-b5d2-7191-bcd1-0ea366c26489\\exec-ec31f700-8642-49cb-93ad-d17c32e2b534.png",
+      "original": "originals/emblem-district.png",
+      "prompt": "prompts/emblem-district.txt"
+    },
+    {
+      "id": "emblem-events",
+      "generatedFile": "C:\\Users\\murtu\\.codex\\generated_images\\01a1dbc7-b5d2-7191-bcd1-0ea366c26489\\exec-7f380407-4bab-4262-8442-e69c66d206d3.png",
+      "original": "originals/emblem-events.png",
+      "prompt": "prompts/emblem-events.txt"
+    },
+    {
+      "id": "emblem-shop",
+      "generatedFile": "C:\\Users\\murtu\\.codex\\generated_images\\01a1dbc7-b5d2-7191-bcd1-0ea366c26489\\exec-b606970a-d75f-43a5-9710-0e26f9abf0d7.png",
+      "original": "originals/emblem-shop.png",
+      "prompt": "prompts/emblem-shop.txt"
+    },
+    {
+      "id": "emblem-upgrades",
+      "generatedFile": "C:\\Users\\murtu\\.codex\\generated_images\\01a1dbc7-b5d2-7191-bcd1-0ea366c26489\\exec-0f0bf0b2-8731-488c-9b50-d146dc4aa098.png",
+      "original": "originals/emblem-upgrades.png",
+      "prompt": "prompts/emblem-upgrades.txt"
+    },
+    {
+      "id": "emblem-energy",
+      "generatedFile": "C:\\Users\\murtu\\.codex\\generated_images\\01a1dbc7-b5d2-7191-bcd1-0ea366c26489\\exec-97c5b598-2c55-4de1-981a-e8794bcfc0e0.png",
+      "original": "originals/emblem-energy.png",
+      "prompt": "prompts/emblem-energy.txt"
+    },
+    {
+      "id": "emblem-profile",
+      "generatedFile": "C:\\Users\\murtu\\.codex\\generated_images\\01a1dbc7-b5d2-7191-bcd1-0ea366c26489\\exec-17a5b1eb-ca9e-43d4-9e44-c5d5c34ab91c.png",
+      "original": "originals/emblem-profile.png",
+      "prompt": "prompts/emblem-profile.txt"
+    },
+    {
+      "id": "emblem-settings",
+      "generatedFile": "C:\\Users\\murtu\\.codex\\generated_images\\01a1dbc7-b5d2-7191-bcd1-0ea366c26489\\exec-a9f3d9bf-72a7-4d40-aa80-6fb4f52dd675.png",
+      "original": "originals/emblem-settings.png",
+      "prompt": "prompts/emblem-settings.txt"
+    },
+    {
+      "id": "emblem-memory",
+      "generatedFile": "C:\\Users\\murtu\\.codex\\generated_images\\01a1dbc7-b5d2-7191-bcd1-0ea366c26489\\exec-921cc4ff-8203-409f-b181-6a5a9d67b951.png",
+      "original": "originals/emblem-memory.png",
+      "prompt": "prompts/emblem-memory.txt"
+    },
+    {
+      "id": "emblem-sorting",
+      "generatedFile": "C:\\Users\\murtu\\.codex\\generated_images\\01a1dbc7-b5d2-7191-bcd1-0ea366c26489\\exec-7863a864-b931-4ea5-b5e9-a7572518158d.png",
+      "original": "originals/emblem-sorting.png",
+      "prompt": "prompts/emblem-sorting.txt"
+    },
+    {
+      "id": "emblem-parcels",
+      "generatedFile": "C:\\Users\\murtu\\.codex\\generated_images\\01a1dbc7-b5d2-7191-bcd1-0ea366c26489\\exec-f8d7652e-aaa8-444a-b0c9-b278a0b03fba.png",
+      "original": "originals/emblem-parcels.png",
+      "prompt": "prompts/emblem-parcels.txt"
+    },
+    {
+      "id": "icon-modules",
+      "generatedFile": "C:\\Users\\murtu\\.codex\\generated_images\\01a1dbc7-b5d2-7191-bcd1-0ea366c26489\\exec-0f33ae1e-84f9-4612-8a27-d8fe7ba4ef69.png",
+      "original": "originals/icon-modules.png",
+      "prompt": "prompts/icon-modules.txt"
+    },
+    {
+      "id": "icon-sockets",
+      "generatedFile": "C:\\Users\\murtu\\.codex\\generated_images\\01a1dbc7-b5d2-7191-bcd1-0ea366c26489\\exec-933d5826-7621-4bce-859b-d214cd8c3fba.png",
+      "original": "originals/icon-sockets.png",
+      "prompt": "prompts/icon-sockets.txt"
+    },
+    {
+      "id": "icon-equipment",
+      "generatedFile": "C:\\Users\\murtu\\.codex\\generated_images\\01a1dbc7-b5d2-7191-bcd1-0ea366c26489\\exec-106e3474-2997-4565-8297-33788a6e54a7.png",
+      "original": "originals/icon-equipment.png",
+      "prompt": "prompts/icon-equipment.txt"
+    },
+    {
+      "id": "icon-skills",
+      "generatedFile": "C:\\Users\\murtu\\.codex\\generated_images\\01a1dbc7-b5d2-7191-bcd1-0ea366c26489\\exec-03892596-df75-4d1f-8212-b829111efab3.png",
+      "original": "originals/icon-skills.png",
+      "prompt": "prompts/icon-skills.txt"
+    },
+    {
+      "id": "icon-orders",
+      "generatedFile": "C:\\Users\\murtu\\.codex\\generated_images\\01a1dbc7-b5d2-7191-bcd1-0ea366c26489\\exec-14a3e27e-1cfc-44c2-bc7b-8e242d7cb8ce.png",
+      "original": "originals/icon-orders.png",
+      "prompt": "prompts/icon-orders.txt"
+    },
+    {
+      "id": "icon-progress",
+      "generatedFile": "C:\\Users\\murtu\\.codex\\generated_images\\01a1dbc7-b5d2-7191-bcd1-0ea366c26489\\exec-734299ff-6e15-42c1-a205-1599edad97f8.png",
+      "original": "originals/icon-progress.png",
+      "prompt": "prompts/icon-progress.txt"
+    },
+    {
+      "id": "icon-appearance",
+      "generatedFile": "C:\\Users\\murtu\\.codex\\generated_images\\01a1dbc7-b5d2-7191-bcd1-0ea366c26489\\exec-d1fbce81-8209-4d65-bcea-8e378b24f4f6.png",
+      "original": "originals/icon-appearance.png",
+      "prompt": "prompts/icon-appearance.txt"
+    },
+    {
+      "id": "icon-trades",
+      "generatedFile": "C:\\Users\\murtu\\.codex\\generated_images\\01a1dbc7-b5d2-7191-bcd1-0ea366c26489\\exec-49a4ca2b-302d-4da9-af41-76253a518205.png",
+      "original": "originals/icon-trades.png",
+      "prompt": "prompts/icon-trades.txt"
+    }
+  ]
+}

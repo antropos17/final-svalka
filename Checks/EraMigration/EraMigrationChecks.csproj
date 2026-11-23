@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+    <LangVersion>9.0</LangVersion>
+    <ProductionRoot Condition="'$(ProductionRoot)' == ''">$(MSBuildThisFileDirectory)../../</ProductionRoot>
+    <DefineConstants Condition="'$(ChapterContractPath)' != '' or '$(EnableChapterContentChecks)' == 'true' or '$(EnableChapterContractChecks)' == 'true' or '$(EnableChapterCoreChecks)' == 'true'">$(DefineConstants);CHAPTER_CONTRACT</DefineConstants>
+    <ContentSourceRoot Condition="'$(ContentSourceRoot)' == ''">$(ProductionRoot)/Unity/Assets/Scripts/Content</ContentSourceRoot>
+    <DefineConstants Condition="'$(EnableChapterContentChecks)' == 'true'">$(DefineConstants);CHAPTER_CONTENT</DefineConstants>
+    <DefineConstants Condition="'$(EnableChapterCoreChecks)' == 'true'">$(DefineConstants);CHAPTER_CORE</DefineConstants>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(ProductionRoot)/Unity/Assets/Scripts/Core/*.cs" />
+    <Compile Include="$(ProductionRoot)/Unity/Assets/Scripts/Contracts/*.cs" />
+    <Compile Include="$(ContentSourceRoot)/*.cs" />
+    <Compile Include="$(ProductionRoot)/Unity/Assets/Scripts/Effects/*.cs" />
+    <Compile Include="$(ProductionRoot)/Unity/Assets/Scripts/Upgrades/*.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="ReplayFaultMatrix.cs" />
+    <Compile Include="ProjectionContractChecks.cs" />
+    <Compile Include="ChapterContentMigrationChecks.cs" />
+    <Compile Include="ChapterCoreMigrationChecks.cs" />
+    <Compile Include="$(ChapterContractPath)" Condition="'$(ChapterContractPath)' != ''" />
+    <Compile Include="$(ChapterSymbolContractPath)" Condition="'$(ChapterSymbolContractPath)' != ''" />
+    <None Include="ProjectionExpectations.json" CopyToOutputDirectory="PreserveNewest" />
+    <None Include="Fixtures/**/*.json" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,1799 @@
+{
+  "tool": {
+    "name": "junk-save-inspector",
+    "version": "1.1.0",
+    "productionSources": {
+      "algorithm": "sha256-of-utf8-path-equals-source-sha256-lines-lf",
+      "fileCount": 45,
+      "sha256": "83488B285BEB4FC0788DEC77FBF2F7A5EB0A4C97DE6A54DE710FB60039FCE454",
+      "scope": "actual-linked-pure-sources-at-build; not-runtime-or-git-qualification"
+    }
+  },
+  "command": "self-test",
+  "status": "passed",
+  "caseCount": 55,
+  "cliRuns": 198,
+  "failures": [],
+  "repositoryOriginalsUnchanged": true,
+  "copiedFixtures": [
+    {
+      "fixture": "Checks/EraMigration/Fixtures/r6/fresh.json",
+      "copy": "inputs/r6-fresh.json",
+      "bytes": 184,
+      "sha256": "A8D9D1FE4C3B5E8DBF100670AFCB4F33852CE2C5CACF4406A70F1B384F9A65A7"
+    },
+    {
+      "fixture": "Checks/EraMigration/Fixtures/r6/pending-finish-house-spin.json",
+      "copy": "inputs/r6-pending-finish-house-spin.json",
+      "bytes": 261,
+      "sha256": "624C6BF2E0315DD3F2E9D3FD0F3FFE088E96342AAF39E560FA094D79AAAD83A0"
+    },
+    {
+      "fixture": "Checks/EraMigration/Fixtures/r6/committed-finish-house-spin.json",
+      "copy": "inputs/r6-committed-finish-house-spin.json",
+      "bytes": 241,
+      "sha256": "24C135FE2B60D1947191A8D4250A09C93015D15B9040292AE9BFA1D9823400B3"
+    },
+    {
+      "fixture": "Checks/EraMigration/Fixtures/r7/old-complete.json",
+      "copy": "inputs/r7-old-complete.json",
+      "bytes": 249,
+      "sha256": "8FF3EE1172E75673F36622F90A3A871E42DBCB29D7653980DC7823D787A2E2B9"
+    },
+    {
+      "fixture": "Checks/EraMigration/Fixtures/r7/pending-effects-spin.json",
+      "copy": "inputs/r7-pending-effects-spin.json",
+      "bytes": 881,
+      "sha256": "B23A9D43F1EE4200EA3B0DA442ABA7F7D02375DC840C98591EC44AD2C7977027"
+    },
+    {
+      "fixture": "Checks/EraMigration/R8/Fixtures/owned-universal-2.json",
+      "copy": "inputs/fixtures-owned-universal-2.json",
+      "bytes": 1321,
+      "sha256": "B17B5ABFC7D9DD1BE481E5BF981D3E34ED960B1798745C5C9C1EE3FC6CF666FA"
+    },
+    {
+      "fixture": "Checks/EraMigration/R8/Fixtures/pending-universal-2.json",
+      "copy": "inputs/fixtures-pending-universal-2.json",
+      "bytes": 2973,
+      "sha256": "D7461E38F5B80686DC4AAA8E44F49710252FFB0F8F17F7D3ECBA2E7F7F6AC10B"
+    },
+    {
+      "fixture": "Checks/EraMigration/R8/Fixtures/pending-all-skills-spin.json",
+      "copy": "inputs/fixtures-pending-all-skills-spin.json",
+      "bytes": 11655,
+      "sha256": "829C64E63E0367D0E5C554118F6F424EA53D50DE5187816E4660942C7B877589"
+    },
+    {
+      "fixture": "Checks/EraMigration/R8/Fixtures/committed-all-skills-spin.json",
+      "copy": "inputs/fixtures-committed-all-skills-spin.json",
+      "bytes": 11667,
+      "sha256": "6AA2FD4B3F47004A3F593A23E8DB901FA1366E9BFF91D9AA3345F8C6721D3B77"
+    },
+    {
+      "fixture": "Checks/EraMigration/R8/V2Pricing/delivery2-price5-owned.json",
+      "copy": "inputs/v2pricing-delivery2-price5-owned.json",
+      "bytes": 677,
+      "sha256": "340A309C274398A86CD47A550D1E79967B11196C64DB7BCE0010417BC792CA6D"
+    }
+  ],
+  "generatedInputs": [
+    {
+      "copy": "inputs/r11-complete.json",
+      "bytes": 992,
+      "sha256": "57E62821AE3B9062B47E4DB04BD371A9A6F7C59F1017863EB2CF5F10F6168A77"
+    },
+    {
+      "copy": "inputs/r11-skill-v3-pending.json",
+      "bytes": 3183,
+      "sha256": "092E556B8094B6B6614DD0B0187E6CFBABC724ED28282A9BB46F9DA8647EE8AA"
+    },
+    {
+      "copy": "inputs/r11-skill-v3-committed.json",
+      "bytes": 1282,
+      "sha256": "98B76629D72F98F0F86900BC5D72CCD13FEF867BB885B3C376970D8F07B82B09"
+    },
+    {
+      "copy": "inputs/r11-order-accepted.json",
+      "bytes": 1102,
+      "sha256": "73FD2E73ACF5CE200BE07E6FD7D300DC77FB3BBBCE284444CF294D144A556BD7"
+    },
+    {
+      "copy": "inputs/r11-order-ready.json",
+      "bytes": 4896,
+      "sha256": "43CFD27BDE313D0B2CF3E7F61E7774A19C494A814622479A41E9B8BD3EC83986"
+    },
+    {
+      "copy": "inputs/r11-claim-pending.json",
+      "bytes": 6235,
+      "sha256": "CFEAD3A5AC0A0BA30345C42E60F6158663231817E44DDF3608B62F25E8D2008B"
+    },
+    {
+      "copy": "inputs/r11-claimed.json",
+      "bytes": 4906,
+      "sha256": "13D5F3C360BDD0BACC41B7778E71A2898BA29A7A7FDC314B4858C40A985D1417"
+    },
+    {
+      "copy": "inputs/r11-reaccepted.json",
+      "bytes": 4911,
+      "sha256": "5A308E3F51EE9ED65E004FE098249251ED7AFD57F65C873B2FECFB8441F18AB1"
+    },
+    {
+      "copy": "inputs/r11-cancelled.json",
+      "bytes": 4895,
+      "sha256": "9F5667CB2E76411CCA4CCF65A18638C8026657563391B40C671B23C057BC7F79"
+    },
+    {
+      "copy": "inputs/r11-clock-only.json",
+      "bytes": 4914,
+      "sha256": "4F44BBA3A17C7CBA0D40C1EEA1348A200DAA90C67B63C553F2399EC9A148B52F"
+    },
+    {
+      "copy": "inputs/r8-mixed-v3-pending.json",
+      "bytes": 5440,
+      "sha256": "F0E94072FD33ED6290B77A5C3090B23DEDC22FBE4C0070FAFA2EBEEDB89D59C8"
+    },
+    {
+      "copy": "inputs/r8-mixed-v3-committed.json",
+      "bytes": 2200,
+      "sha256": "193BF67859E4F1E8AD08ED377783CFC84237C373E5A0F91F56E8911F7FAF2C33"
+    },
+    {
+      "copy": "inputs/synthetic-v2-owned.json",
+      "bytes": 1390,
+      "sha256": "814CFF890FB4A0A0EE4B1ED491A3C5D5056A64AC6FAC6D26D92A676BF72A5D29"
+    },
+    {
+      "copy": "inputs/bad-truncated.json",
+      "bytes": 179,
+      "sha256": "4F268D692591939AFA37C68F7556E54766FBC87ABED98987BE6B7587C7399EF1"
+    },
+    {
+      "copy": "inputs/bad-duplicate-field.json",
+      "bytes": 195,
+      "sha256": "5C4715BEB40482CAE46BEED3E51CF662B707277DBF202E2CCC2726EB4C5FEEE2"
+    },
+    {
+      "copy": "inputs/bad-unknown-marker.json",
+      "bytes": 222,
+      "sha256": "CD4116DE106693E1D218E90F9DFCC7E8F81C292EB2D275E915CC751BCF6DF9AF"
+    },
+    {
+      "copy": "inputs/bad-unknown-modern-field.json",
+      "bytes": 4921,
+      "sha256": "45339550F43997D51B09CE110916BCB607DEA56AA08EDE3E39814E30A21FF262"
+    },
+    {
+      "copy": "inputs/bad-duplicate-modern-field.json",
+      "bytes": 4922,
+      "sha256": "9F7B4A6D5813D29357DC94487AE302E8CFDC5D6F45B9D78C6BF4F27540106E1D"
+    },
+    {
+      "copy": "inputs/bad-duplicate-skill-payload-field.json",
+      "bytes": 1296,
+      "sha256": "7F1BD99D19C32C68B7828B2069EC3006CD1F8A4268CB8E41F89D6506A04E634D"
+    },
+    {
+      "copy": "inputs/bad-over-character-limit.json",
+      "bytes": 65720,
+      "sha256": "0722DD76C27E39790F5DAF6935C160EEC70DF5CAC1310545C6AFBA528207D467"
+    },
+    {
+      "copy": "inputs/bad-frozen-legacy-spin.json",
+      "bytes": 261,
+      "sha256": "E7395E85838447883783D17AA92529E441917BB89F45C08A2FC478128ED6E052"
+    },
+    {
+      "copy": "inputs/bad-frozen-claim-reward.json",
+      "bytes": 6235,
+      "sha256": "C08A7CD950D35C2E7523139E84DE6253F2DE3E3731847DA0124FCF4CF04B8E7E"
+    },
+    {
+      "copy": "inputs/fmt-bom-fresh.json",
+      "bytes": 187,
+      "sha256": "64CEF66D7F2E04EC6FF074504E0DDA335EA253EC951895367DCF366713953810"
+    },
+    {
+      "copy": "inputs/fmt-pretty-effects-spin.json",
+      "bytes": 1135,
+      "sha256": "74F7032D60325799F1A618E42B88D494700835FD6820689488067F591E3A52B8"
+    },
+    {
+      "copy": "inputs/bad-over-byte-bound.json",
+      "bytes": 262149,
+      "sha256": "28DC1F270EFCBE476D66709DA779DCD3922DA1C30D6E683A1CF09C6F5F7F77D2"
+    }
+  ],
+  "cases": [
+    {
+      "id": "c01-legacy-fresh",
+      "purpose": "pre-wave r6 snapshot inspected without migration or grant",
+      "passed": true,
+      "checks": [
+        {
+          "expect": "exit 0",
+          "passed": true,
+          "observed": "0"
+        },
+        {
+          "expect": "facts.format.layer == legacy-pre-wave",
+          "passed": true,
+          "observed": "legacy-pre-wave"
+        },
+        {
+          "expect": "facts.wallet.coins == 37",
+          "passed": true,
+          "observed": "37"
+        },
+        {
+          "expect": "facts.format.journeyStored == false",
+          "passed": true,
+          "observed": "false"
+        },
+        {
+          "expect": "facts.format.chapterStored == false",
+          "passed": true,
+          "observed": "false"
+        },
+        {
+          "expect": "facts.guidance.source == projected-not-persisted",
+          "passed": true,
+          "observed": "projected-not-persisted"
+        },
+        {
+          "expect": "facts.guidance.origin == Existing",
+          "passed": true,
+          "observed": "Existing"
+        },
+        {
+          "expect": "facts.guidance.acknowledged == []",
+          "passed": true,
+          "observed": "[]"
+        },
+        {
+          "expect": "facts.guidance.tutorialSteps == []",
+          "passed": true,
+          "observed": "[]"
+        },
+        {
+          "expect": "facts.orders.active == null",
+          "passed": true,
+          "observed": "null"
+        },
+        {
+          "expect": "facts.orders.latestClaim == null",
+          "passed": true,
+          "observed": "null"
+        },
+        {
+          "expect": "facts.orders.journeyMarker.adoptedSequence == null",
+          "passed": true,
+          "observed": "null"
+        },
+        {
+          "expect": "facts.pending.status == absent",
+          "passed": true,
+          "observed": "absent"
+        },
+        {
+          "expect": "facts.clockSequence.sequence == 0",
+          "passed": true,
+          "observed": "0"
+        },
+        {
+          "expect": "input.integrity.unchanged == true",
+          "passed": true,
+          "observed": "true"
+        },
+        {
+          "expect": "input.integrity.adjacentEntriesUnchanged == true",
+          "passed": true,
+          "observed": "true"
+        }
+      ]
+    },
+    {
+      "id": "c02-modern-r11",
+      "purpose": "r11 journey snapshot: completed chapter, stored journey, no order",
+      "passed": true,
+      "checks": [
+        {
+          "expect": "exit 0",
+          "passed": true,
+          "observed": "0"
+        },
+        {
+          "expect": "facts.format.layer == journey-r9",
+          "passed": true,
+          "observed": "journey-r9"
+        },
+        {
+          "expect": "facts.format.journeyStored == true",
+          "passed": true,
+          "observed": "true"
+        },
+        {
+          "expect": "facts.wallet.coins == 600",
+          "passed": true,
+          "observed": "600"
+        },
+        {
+          "expect": "facts.progression.completeUnderChapterRule == true",
+          "passed": true,
+          "observed": "true"
+        },
+        {
+          "expect": "facts.progression.era == workshop-yard",
+          "passed": true,
+          "observed": "workshop-yard"
+        },
+        {
+          "expect": "facts.orders.unlocked == true",
+          "passed": true,
+          "observed": "true"
+        },
+        {
+          "expect": "facts.orders.active == null",
+          "passed": true,
+          "observed": "null"
+        },
+        {
+          "expect": "facts.guidance.source == stored",
+          "passed": true,
+          "observed": "stored"
+        },
+        {
+          "expect": "input.integrity.unchanged == true",
+          "passed": true,
+          "observed": "true"
+        },
+        {
+          "expect": "input.integrity.adjacentEntriesUnchanged == true",
+          "passed": true,
+          "observed": "true"
+        }
+      ]
+    },
+    {
+      "id": "c03-legacy-old-complete",
+      "purpose": "old completed-house r7 save: no chapter completion, no settlement, no acknowledgement",
+      "passed": true,
+      "checks": [
+        {
+          "expect": "exit 0",
+          "passed": true,
+          "observed": "0"
+        },
+        {
+          "expect": "facts.wallet.coins == 42",
+          "passed": true,
+          "observed": "42"
+        },
+        {
+          "expect": "facts.progression.source == projected-not-persisted",
+          "passed": true,
+          "observed": "projected-not-persisted"
+        },
+        {
+          "expect": "facts.progression.completeUnderChapterRule == false",
+          "passed": true,
+          "observed": "false"
+        },
+        {
+          "expect": "facts.progression.legacyFields.completeUnderR7Rule == false",
+          "passed": true,
+          "observed": "false"
+        },
+        {
+          "expect": "facts.clockSequence.lastSettledAt == 0",
+          "passed": true,
+          "observed": "0"
+        },
+        {
+          "expect": "facts.clockSequence.lastSettlement == null",
+          "passed": true,
+          "observed": "null"
+        },
+        {
+          "expect": "facts.guidance.acknowledged == []",
+          "passed": true,
+          "observed": "[]"
+        },
+        {
+          "expect": "facts.guidance.origin == Existing",
+          "passed": true,
+          "observed": "Existing"
+        },
+        {
+          "expect": "facts.rngCarry.deliveryCarrySource == default-zero-absent-field",
+          "passed": true,
+          "observed": "default-zero-absent-field"
+        },
+        {
+          "expect": "facts.format.chapterStored == false",
+          "passed": true,
+          "observed": "false"
+        },
+        {
+          "expect": "input.integrity.unchanged == true",
+          "passed": true,
+          "observed": "true"
+        },
+        {
+          "expect": "input.integrity.adjacentEntriesUnchanged == true",
+          "passed": true,
+          "observed": "true"
+        }
+      ]
+    },
+    {
+      "id": "c04-r6-pending-preview",
+      "purpose": "pair 8 \u002B workshop 1 lifts 595 to 604, then house improvement 600 is bought: 4",
+      "passed": true,
+      "checks": [
+        {
+          "expect": "exit 0",
+          "passed": true,
+          "observed": "0"
+        },
+        {
+          "expect": "status == replayed-in-memory",
+          "passed": true,
+          "observed": "replayed-in-memory"
+        },
+        {
+          "expect": "operation.coinsBefore == 595",
+          "passed": true,
+          "observed": "595"
+        },
+        {
+          "expect": "operation.coinsAfter == 4",
+          "passed": true,
+          "observed": "4"
+        },
+        {
+          "expect": "operation.seedAfter == 2647435461",
+          "passed": true,
+          "observed": "2647435461"
+        },
+        {
+          "expect": "replayed canonical hash equals literal committed fixture",
+          "passed": true,
+          "observed": "0D95C9B1E0BBA52C9EF309F408FD93A6D7D078717329FE480A9BD538A58FB694"
+        },
+        {
+          "expect": "input.integrity.unchanged == true",
+          "passed": true,
+          "observed": "true"
+        },
+        {
+          "expect": "input.integrity.adjacentEntriesUnchanged == true",
+          "passed": true,
+          "observed": "true"
+        }
+      ]
+    },
+    {
+      "id": "c05-r6-committed-preview",
+      "purpose": "committed snapshot is not previewed as another payable grant",
+      "passed": true,
+      "checks": [
+        {
+          "expect": "exit 5",
+          "passed": true,
+          "observed": "5"
+        },
+        {
+          "expect": "status == not-applicable",
+          "passed": true,
+          "observed": "not-applicable"
+        },
+        {
+          "expect": "no operation block",
+          "passed": true,
+          "observed": null
+        },
+        {
+          "expect": "input.integrity.unchanged == true",
+          "passed": true,
+          "observed": "true"
+        },
+        {
+          "expect": "input.integrity.adjacentEntriesUnchanged == true",
+          "passed": true,
+          "observed": "true"
+        }
+      ]
+    },
+    {
+      "id": "c06-r7-effects-preview",
+      "purpose": "base8\u002Bworkshop1\u002Bslot1\u002Brecycler1 = 351 (\u003C600, no purchase); two pigeons carry 0-\u003E2",
+      "passed": true,
+      "checks": [
+        {
+          "expect": "exit 0",
+          "passed": true,
+          "observed": "0"
+        },
+        {
+          "expect": "operation.coinsAfter == 351",
+          "passed": true,
+          "observed": "351"
+        },
+        {
+          "expect": "operation.walletDelta == 11",
+          "passed": true,
+          "observed": "11"
+        },
+        {
+          "expect": "operation.deliveryCarryBefore == 0",
+          "passed": true,
+          "observed": "0"
+        },
+        {
+          "expect": "operation.deliveryCarryAfter == 2",
+          "passed": true,
+          "observed": "2"
+        },
+        {
+          "expect": "input.integrity.unchanged == true",
+          "passed": true,
+          "observed": "true"
+        },
+        {
+          "expect": "input.integrity.adjacentEntriesUnchanged == true",
+          "passed": true,
+          "observed": "true"
+        }
+      ]
+    },
+    {
+      "id": "c07-r8-v1-pending",
+      "purpose": "frozen V1 universal2 purchase debits exactly 360 and equals the literal owned fixture",
+      "passed": true,
+      "checks": [
+        {
+          "expect": "exit 0",
+          "passed": true,
+          "observed": "0"
+        },
+        {
+          "expect": "operation.walletDelta == -360",
+          "passed": true,
+          "observed": "-360"
+        },
+        {
+          "expect": "operation.coinsAfter == 9520",
+          "passed": true,
+          "observed": "9520"
+        },
+        {
+          "expect": "operation.frozenChapterMatches == true",
+          "passed": true,
+          "observed": "true"
+        },
+        {
+          "expect": "replayed canonical hash equals literal owned-universal-2 fixture",
+          "passed": true,
+          "observed": null
+        },
+        {
+          "expect": "input.integrity.unchanged == true",
+          "passed": true,
+          "observed": "true"
+        },
+        {
+          "expect": "input.integrity.adjacentEntriesUnchanged == true",
+          "passed": true,
+          "observed": "true"
+        }
+      ]
+    },
+    {
+      "id": "c08-claim-preview",
+      "purpose": "pending explicit claim credits exactly the trash order reward 120",
+      "passed": true,
+      "checks": [
+        {
+          "expect": "exit 0",
+          "passed": true,
+          "observed": "0"
+        },
+        {
+          "expect": "operation.kind == order-claim",
+          "passed": true,
+          "observed": "order-claim"
+        },
+        {
+          "expect": "operation.walletDelta == 120",
+          "passed": true,
+          "observed": "120"
+        },
+        {
+          "expect": "operation.frozenJourneyMatches == true",
+          "passed": true,
+          "observed": "true"
+        },
+        {
+          "expect": "operation.seedBefore == 2371448660",
+          "passed": true,
+          "observed": "2371448660"
+        },
+        {
+          "expect": "facts.orders.active.ready == true",
+          "passed": true,
+          "observed": "true"
+        },
+        {
+          "expect": "facts.orders.active.claimed == false",
+          "passed": true,
+          "observed": "false"
+        },
+        {
+          "expect": "facts.orders.active.progress == 12",
+          "passed": true,
+          "observed": "12"
+        },
+        {
+          "expect": "input.integrity.unchanged == true",
+          "passed": true,
+          "observed": "true"
+        },
+        {
+          "expect": "input.integrity.adjacentEntriesUnchanged == true",
+          "passed": true,
+          "observed": "true"
+        }
+      ]
+    },
+    {
+      "id": "c09-v1-receipts",
+      "purpose": "V1 receipts keep 120/360 under codec version2",
+      "passed": true,
+      "checks": [
+        {
+          "expect": "facts.skills.ownershipCodecVersion == 2",
+          "passed": true,
+          "observed": "2"
+        },
+        {
+          "expect": "facts.skills.receipts[1].node == skill.universal.2",
+          "passed": true,
+          "observed": "skill.universal.2"
+        },
+        {
+          "expect": "facts.skills.receipts[1].priceRevision == skill.prices.v1",
+          "passed": true,
+          "observed": "skill.prices.v1"
+        },
+        {
+          "expect": "facts.skills.receipts[1].frozenPrice == 360",
+          "passed": true,
+          "observed": "360"
+        },
+        {
+          "expect": "facts.skills.receipts[0].frozenPrice == 120",
+          "passed": true,
+          "observed": "120"
+        }
+      ]
+    },
+    {
+      "id": "c10-mixed-v1-v3",
+      "purpose": "new V3 recycling1 costs 160; old V1 receipts stay 120/360; purchase binds the prior ownership token",
+      "passed": true,
+      "checks": [
+        {
+          "expect": "exit 0",
+          "passed": true,
+          "observed": "0"
+        },
+        {
+          "expect": "operation.walletDelta == -160",
+          "passed": true,
+          "observed": "-160"
+        },
+        {
+          "expect": "facts.skills.ownershipCodecVersion == 3",
+          "passed": true,
+          "observed": "3"
+        },
+        {
+          "expect": "facts.skills.receipts[0].priceRevision == skill.prices.v1",
+          "passed": true,
+          "observed": "skill.prices.v1"
+        },
+        {
+          "expect": "facts.skills.receipts[1].frozenPrice == 360",
+          "passed": true,
+          "observed": "360"
+        },
+        {
+          "expect": "facts.skills.receipts[1].priceRevision == skill.prices.v1",
+          "passed": true,
+          "observed": "skill.prices.v1"
+        },
+        {
+          "expect": "facts.skills.receipts[2].priceRevision == skill.prices.v3",
+          "passed": true,
+          "observed": "skill.prices.v3"
+        },
+        {
+          "expect": "facts.skills.receipts[2].frozenPrice == 160",
+          "passed": true,
+          "observed": "160"
+        },
+        {
+          "expect": "facts.skills.receipts[0].sequence == 20",
+          "passed": true,
+          "observed": "20"
+        },
+        {
+          "expect": "facts.skills.receipts[1].operationId == skillbuy.21",
+          "passed": true,
+          "observed": "skillbuy.21"
+        },
+        {
+          "expect": "new receipt\u0027s expected ownership equals the pre-purchase token",
+          "passed": true,
+          "observed": null
+        },
+        {
+          "expect": "input.integrity.unchanged == true",
+          "passed": true,
+          "observed": "true"
+        },
+        {
+          "expect": "input.integrity.adjacentEntriesUnchanged == true",
+          "passed": true,
+          "observed": "true"
+        }
+      ]
+    },
+    {
+      "id": "c11-v2-owned",
+      "purpose": "literal V2 payload: delivery2 keeps price 5 under skill.prices.v2; delivery1 keeps V1 180",
+      "passed": true,
+      "checks": [
+        {
+          "expect": "exit 0",
+          "passed": true,
+          "observed": "0"
+        },
+        {
+          "expect": "facts.skills.ownershipCodecVersion == 3",
+          "passed": true,
+          "observed": "3"
+        },
+        {
+          "expect": "facts.skills.receipts[1].priceRevision == skill.prices.v2",
+          "passed": true,
+          "observed": "skill.prices.v2"
+        },
+        {
+          "expect": "facts.skills.receipts[1].frozenPrice == 5",
+          "passed": true,
+          "observed": "5"
+        },
+        {
+          "expect": "facts.skills.receipts[0].priceRevision == skill.prices.v1",
+          "passed": true,
+          "observed": "skill.prices.v1"
+        },
+        {
+          "expect": "facts.skills.receipts[0].frozenPrice == 180",
+          "passed": true,
+          "observed": "180"
+        },
+        {
+          "expect": "input.integrity.unchanged == true",
+          "passed": true,
+          "observed": "true"
+        },
+        {
+          "expect": "input.integrity.adjacentEntriesUnchanged == true",
+          "passed": true,
+          "observed": "true"
+        }
+      ]
+    },
+    {
+      "id": "c12-v3-skill",
+      "purpose": "current V3 universal1 quote debits 120 from 600",
+      "passed": true,
+      "checks": [
+        {
+          "expect": "exit 0",
+          "passed": true,
+          "observed": "0"
+        },
+        {
+          "expect": "operation.coinsAfter == 480",
+          "passed": true,
+          "observed": "480"
+        },
+        {
+          "expect": "facts.skills.receipts[0].priceRevision == skill.prices.v3",
+          "passed": true,
+          "observed": "skill.prices.v3"
+        },
+        {
+          "expect": "facts.skills.ownershipCodecVersion == 3",
+          "passed": true,
+          "observed": "3"
+        },
+        {
+          "expect": "replayed canonical hash equals committed snapshot",
+          "passed": true,
+          "observed": null
+        }
+      ]
+    },
+    {
+      "id": "c13-all-skills-spin",
+      "purpose": "a spin never changes skill ownership; replay equals the literal committed fixture",
+      "passed": true,
+      "checks": [
+        {
+          "expect": "exit 0",
+          "passed": true,
+          "observed": "0"
+        },
+        {
+          "expect": "no skills group change",
+          "passed": true,
+          "observed": "[\u0022wallet\u0022,\u0022progression\u0022,\u0022selection\u0022,\u0022rngCarry\u0022,\u0022pending\u0022,\u0022clockSequence\u0022]"
+        },
+        {
+          "expect": "facts.skills.ownershipTokenSha256 == 4B6614EB05DAA10C",
+          "passed": true,
+          "observed": "4B6614EB05DAA10C"
+        },
+        {
+          "expect": "replayed canonical hash equals literal committed fixture",
+          "passed": true,
+          "observed": null
+        },
+        {
+          "expect": "input.integrity.unchanged == true",
+          "passed": true,
+          "observed": "true"
+        },
+        {
+          "expect": "input.integrity.adjacentEntriesUnchanged == true",
+          "passed": true,
+          "observed": "true"
+        }
+      ]
+    },
+    {
+      "id": "c14-repeated-order",
+      "purpose": "new instance starts at 0/12 while the old claim stays a retained, already credited receipt",
+      "passed": true,
+      "checks": [
+        {
+          "expect": "exit 0",
+          "passed": true,
+          "observed": "0"
+        },
+        {
+          "expect": "facts.orders.active.orderId == order.sort-salvage",
+          "passed": true,
+          "observed": "order.sort-salvage"
+        },
+        {
+          "expect": "facts.orders.active.progress == 0",
+          "passed": true,
+          "observed": "0"
+        },
+        {
+          "expect": "facts.orders.active.target == 12",
+          "passed": true,
+          "observed": "12"
+        },
+        {
+          "expect": "facts.orders.active.ready == false",
+          "passed": true,
+          "observed": "false"
+        },
+        {
+          "expect": "facts.orders.active.instanceSequence == 45",
+          "passed": true,
+          "observed": "45"
+        },
+        {
+          "expect": "facts.orders.latestClaim.instanceSequence == 27",
+          "passed": true,
+          "observed": "27"
+        },
+        {
+          "expect": "facts.orders.latestClaim.claimSequence == 44",
+          "passed": true,
+          "observed": "44"
+        },
+        {
+          "expect": "facts.orders.latestClaim.rewardCoins == 120",
+          "passed": true,
+          "observed": "120"
+        },
+        {
+          "expect": "facts.orders.latestClaim.status == retained-historical-already-credited",
+          "passed": true,
+          "observed": "retained-historical-already-credited"
+        },
+        {
+          "expect": "facts.wallet.coins == 1092",
+          "passed": true,
+          "observed": "1092"
+        }
+      ]
+    },
+    {
+      "id": "c15-diff-claim",
+      "purpose": "ready -\u003E claimed: wallet \u002B120, claim inferred and computed equal to reward",
+      "passed": true,
+      "checks": [
+        {
+          "expect": "exit 0",
+          "passed": true,
+          "observed": "0"
+        },
+        {
+          "expect": "equal == false",
+          "passed": true,
+          "observed": "false"
+        },
+        {
+          "expect": "computed[0].check == walletDeltaEqualsNewClaimReward",
+          "passed": true,
+          "observed": "walletDeltaEqualsNewClaimReward"
+        },
+        {
+          "expect": "computed[0].result == true",
+          "passed": true,
+          "observed": "true"
+        },
+        {
+          "expect": "inferred mentions claim",
+          "passed": true,
+          "observed": null
+        },
+        {
+          "expect": "inputs[0].integrity.unchanged == true",
+          "passed": true,
+          "observed": "true"
+        },
+        {
+          "expect": "inputs[0].integrity.adjacentEntriesUnchanged == true",
+          "passed": true,
+          "observed": "true"
+        },
+        {
+          "expect": "inputs[1].integrity.unchanged == true",
+          "passed": true,
+          "observed": "true"
+        },
+        {
+          "expect": "inputs[1].integrity.adjacentEntriesUnchanged == true",
+          "passed": true,
+          "observed": "true"
+        }
+      ]
+    },
+    {
+      "id": "c16-diff-reaccept",
+      "purpose": "claimed -\u003E reaccepted: no wallet change, new instance inferred, claim not re-credited",
+      "passed": true,
+      "checks": [
+        {
+          "expect": "exit 0",
+          "passed": true,
+          "observed": "0"
+        },
+        {
+          "expect": "no wallet group",
+          "passed": true,
+          "observed": "[\u0022orders\u0022,\u0022clockSequence\u0022]"
+        },
+        {
+          "expect": "new instance inferred",
+          "passed": true,
+          "observed": null
+        },
+        {
+          "expect": "no claim inferred",
+          "passed": true,
+          "observed": null
+        }
+      ]
+    },
+    {
+      "id": "c16b-diff-cancel",
+      "purpose": "cancellation forfeits progress without reward; the older claim stays retained unchanged",
+      "passed": true,
+      "checks": [
+        {
+          "expect": "exit 0",
+          "passed": true,
+          "observed": "0"
+        },
+        {
+          "expect": "no wallet group",
+          "passed": true,
+          "observed": "[\u0022orders\u0022,\u0022clockSequence\u0022]"
+        },
+        {
+          "expect": "cancellation inferred",
+          "passed": true,
+          "observed": null
+        },
+        {
+          "expect": "no claim inferred",
+          "passed": true,
+          "observed": null
+        },
+        {
+          "expect": "facts.orders.active == null",
+          "passed": true,
+          "observed": "null"
+        },
+        {
+          "expect": "facts.orders.latestClaim.instanceSequence == 27",
+          "passed": true,
+          "observed": "27"
+        },
+        {
+          "expect": "facts.orders.latestClaim.claimSequence == 44",
+          "passed": true,
+          "observed": "44"
+        },
+        {
+          "expect": "facts.wallet.coins == 1092",
+          "passed": true,
+          "observed": "1092"
+        }
+      ]
+    },
+    {
+      "id": "c17-format-equal",
+      "purpose": "whitespace/newline reformatting is semantically identical",
+      "passed": true,
+      "checks": [
+        {
+          "expect": "exit 0",
+          "passed": true,
+          "observed": "0"
+        },
+        {
+          "expect": "equal == true",
+          "passed": true,
+          "observed": "true"
+        },
+        {
+          "expect": "changeCount == 0",
+          "passed": true,
+          "observed": "0"
+        },
+        {
+          "expect": "raw hashes differ",
+          "passed": true,
+          "observed": null
+        }
+      ]
+    },
+    {
+      "id": "c18-bom-equal",
+      "purpose": "UTF-8 BOM is accepted exactly as File.ReadAllText accepts it",
+      "passed": true,
+      "checks": [
+        {
+          "expect": "exit 0",
+          "passed": true,
+          "observed": "0"
+        },
+        {
+          "expect": "equal == true",
+          "passed": true,
+          "observed": "true"
+        }
+      ]
+    },
+    {
+      "id": "c19-truncated",
+      "purpose": "production rejects bad-truncated.json",
+      "passed": true,
+      "checks": [
+        {
+          "expect": "exit 4",
+          "passed": true,
+          "observed": "4"
+        },
+        {
+          "expect": "status == snapshot-rejected",
+          "passed": true,
+          "observed": "snapshot-rejected"
+        },
+        {
+          "expect": "error.category == json-format-or-shape",
+          "passed": true,
+          "observed": "json-format-or-shape"
+        },
+        {
+          "expect": "no facts",
+          "passed": true,
+          "observed": null
+        },
+        {
+          "expect": "input.integrity.unchanged == true",
+          "passed": true,
+          "observed": "true"
+        },
+        {
+          "expect": "input.integrity.adjacentEntriesUnchanged == true",
+          "passed": true,
+          "observed": "true"
+        }
+      ]
+    },
+    {
+      "id": "c20-duplicate",
+      "purpose": "production rejects bad-duplicate-field.json",
+      "passed": true,
+      "checks": [
+        {
+          "expect": "exit 4",
+          "passed": true,
+          "observed": "4"
+        },
+        {
+          "expect": "status == snapshot-rejected",
+          "passed": true,
+          "observed": "snapshot-rejected"
+        },
+        {
+          "expect": "error.category == json-format-or-shape",
+          "passed": true,
+          "observed": "json-format-or-shape"
+        },
+        {
+          "expect": "no facts",
+          "passed": true,
+          "observed": null
+        },
+        {
+          "expect": "input.integrity.unchanged == true",
+          "passed": true,
+          "observed": "true"
+        },
+        {
+          "expect": "input.integrity.adjacentEntriesUnchanged == true",
+          "passed": true,
+          "observed": "true"
+        }
+      ]
+    },
+    {
+      "id": "c21-unknown-modern",
+      "purpose": "production rejects bad-unknown-modern-field.json",
+      "passed": true,
+      "checks": [
+        {
+          "expect": "exit 4",
+          "passed": true,
+          "observed": "4"
+        },
+        {
+          "expect": "status == snapshot-rejected",
+          "passed": true,
+          "observed": "snapshot-rejected"
+        },
+        {
+          "expect": "error.category == json-format-or-shape",
+          "passed": true,
+          "observed": "json-format-or-shape"
+        },
+        {
+          "expect": "no facts",
+          "passed": true,
+          "observed": null
+        },
+        {
+          "expect": "input.integrity.unchanged == true",
+          "passed": true,
+          "observed": "true"
+        },
+        {
+          "expect": "input.integrity.adjacentEntriesUnchanged == true",
+          "passed": true,
+          "observed": "true"
+        }
+      ]
+    },
+    {
+      "id": "c21b-duplicate-modern",
+      "purpose": "production rejects bad-duplicate-modern-field.json",
+      "passed": true,
+      "checks": [
+        {
+          "expect": "exit 4",
+          "passed": true,
+          "observed": "4"
+        },
+        {
+          "expect": "status == snapshot-rejected",
+          "passed": true,
+          "observed": "snapshot-rejected"
+        },
+        {
+          "expect": "error.category == json-format-or-shape",
+          "passed": true,
+          "observed": "json-format-or-shape"
+        },
+        {
+          "expect": "no facts",
+          "passed": true,
+          "observed": null
+        },
+        {
+          "expect": "input.integrity.unchanged == true",
+          "passed": true,
+          "observed": "true"
+        },
+        {
+          "expect": "input.integrity.adjacentEntriesUnchanged == true",
+          "passed": true,
+          "observed": "true"
+        }
+      ]
+    },
+    {
+      "id": "c21c-duplicate-skill-payload",
+      "purpose": "production rejects bad-duplicate-skill-payload-field.json",
+      "passed": true,
+      "checks": [
+        {
+          "expect": "exit 4",
+          "passed": true,
+          "observed": "4"
+        },
+        {
+          "expect": "status == snapshot-rejected",
+          "passed": true,
+          "observed": "snapshot-rejected"
+        },
+        {
+          "expect": "error.category == json-format-or-shape",
+          "passed": true,
+          "observed": "json-format-or-shape"
+        },
+        {
+          "expect": "no facts",
+          "passed": true,
+          "observed": null
+        },
+        {
+          "expect": "input.integrity.unchanged == true",
+          "passed": true,
+          "observed": "true"
+        },
+        {
+          "expect": "input.integrity.adjacentEntriesUnchanged == true",
+          "passed": true,
+          "observed": "true"
+        }
+      ]
+    },
+    {
+      "id": "c22-over-characters",
+      "purpose": "production rejects bad-over-character-limit.json",
+      "passed": true,
+      "checks": [
+        {
+          "expect": "exit 4",
+          "passed": true,
+          "observed": "4"
+        },
+        {
+          "expect": "status == snapshot-rejected",
+          "passed": true,
+          "observed": "snapshot-rejected"
+        },
+        {
+          "expect": "error.category == json-format-or-shape",
+          "passed": true,
+          "observed": "json-format-or-shape"
+        },
+        {
+          "expect": "no facts",
+          "passed": true,
+          "observed": null
+        },
+        {
+          "expect": "input.integrity.unchanged == true",
+          "passed": true,
+          "observed": "true"
+        },
+        {
+          "expect": "input.integrity.adjacentEntriesUnchanged == true",
+          "passed": true,
+          "observed": "true"
+        }
+      ]
+    },
+    {
+      "id": "c23-invalid-frozen-legacy",
+      "purpose": "production rejects bad-frozen-legacy-spin.json",
+      "passed": true,
+      "checks": [
+        {
+          "expect": "exit 4",
+          "passed": true,
+          "observed": "4"
+        },
+        {
+          "expect": "status == snapshot-rejected",
+          "passed": true,
+          "observed": "snapshot-rejected"
+        },
+        {
+          "expect": "error.category == production-validation",
+          "passed": true,
+          "observed": "production-validation"
+        },
+        {
+          "expect": "no facts",
+          "passed": true,
+          "observed": null
+        },
+        {
+          "expect": "input.integrity.unchanged == true",
+          "passed": true,
+          "observed": "true"
+        },
+        {
+          "expect": "input.integrity.adjacentEntriesUnchanged == true",
+          "passed": true,
+          "observed": "true"
+        }
+      ]
+    },
+    {
+      "id": "c23-invalid-frozen-legacy-hint",
+      "purpose": "invalid frozen spin is reported as rejected with a pending hint, never repaired",
+      "passed": true,
+      "checks": [
+        {
+          "expect": "pendingFieldPresentHint == true",
+          "passed": true,
+          "observed": "true"
+        },
+        {
+          "expect": "no facts",
+          "passed": true,
+          "observed": null
+        }
+      ]
+    },
+    {
+      "id": "c24-invalid-frozen-claim",
+      "purpose": "production rejects bad-frozen-claim-reward.json",
+      "passed": true,
+      "checks": [
+        {
+          "expect": "exit 4",
+          "passed": true,
+          "observed": "4"
+        },
+        {
+          "expect": "status == snapshot-rejected",
+          "passed": true,
+          "observed": "snapshot-rejected"
+        },
+        {
+          "expect": "error.category == production-validation",
+          "passed": true,
+          "observed": "production-validation"
+        },
+        {
+          "expect": "no facts",
+          "passed": true,
+          "observed": null
+        },
+        {
+          "expect": "input.integrity.unchanged == true",
+          "passed": true,
+          "observed": "true"
+        },
+        {
+          "expect": "input.integrity.adjacentEntriesUnchanged == true",
+          "passed": true,
+          "observed": "true"
+        }
+      ]
+    },
+    {
+      "id": "c24-preview-refused",
+      "purpose": "preview refuses an invalid frozen claim without a fabricated state",
+      "passed": true,
+      "checks": [
+        {
+          "expect": "exit 4",
+          "passed": true,
+          "observed": "4"
+        },
+        {
+          "expect": "no afterCanonicalSha256",
+          "passed": true,
+          "observed": null
+        },
+        {
+          "expect": "input.integrity.unchanged == true",
+          "passed": true,
+          "observed": "true"
+        },
+        {
+          "expect": "input.integrity.adjacentEntriesUnchanged == true",
+          "passed": true,
+          "observed": "true"
+        }
+      ]
+    },
+    {
+      "id": "c25-marker",
+      "purpose": "production rejects bad-unknown-marker.json",
+      "passed": true,
+      "checks": [
+        {
+          "expect": "exit 4",
+          "passed": true,
+          "observed": "4"
+        },
+        {
+          "expect": "status == snapshot-rejected",
+          "passed": true,
+          "observed": "snapshot-rejected"
+        },
+        {
+          "expect": "error.category == json-format-or-shape",
+          "passed": true,
+          "observed": "json-format-or-shape"
+        },
+        {
+          "expect": "no facts",
+          "passed": true,
+          "observed": null
+        },
+        {
+          "expect": "input.integrity.unchanged == true",
+          "passed": true,
+          "observed": "true"
+        },
+        {
+          "expect": "input.integrity.adjacentEntriesUnchanged == true",
+          "passed": true,
+          "observed": "true"
+        }
+      ]
+    },
+    {
+      "id": "c25-marker-not-echoed",
+      "purpose": "unknown field names/values from the payload never reach the report",
+      "passed": true,
+      "checks": [
+        {
+          "expect": "JSON omits marker",
+          "passed": true,
+          "observed": null
+        },
+        {
+          "expect": "text omits marker",
+          "passed": true,
+          "observed": null
+        }
+      ]
+    },
+    {
+      "id": "c26-over-bytes",
+      "purpose": "input above the derived byte bound is refused before reading or decoding",
+      "passed": true,
+      "checks": [
+        {
+          "expect": "exit 3",
+          "passed": true,
+          "observed": "3"
+        },
+        {
+          "expect": "error.category == too-large",
+          "passed": true,
+          "observed": "too-large"
+        }
+      ]
+    },
+    {
+      "id": "c27-directory",
+      "purpose": "boundary refuses not-a-file",
+      "passed": true,
+      "checks": [
+        {
+          "expect": "exit 3",
+          "passed": true,
+          "observed": "3"
+        },
+        {
+          "expect": "error.category == not-a-file",
+          "passed": true,
+          "observed": "not-a-file"
+        }
+      ]
+    },
+    {
+      "id": "c28-outside",
+      "purpose": "boundary refuses outside-workspace",
+      "passed": true,
+      "checks": [
+        {
+          "expect": "exit 3",
+          "passed": true,
+          "observed": "3"
+        },
+        {
+          "expect": "error.category == outside-workspace",
+          "passed": true,
+          "observed": "outside-workspace"
+        }
+      ]
+    },
+    {
+      "id": "c29-stream",
+      "purpose": "boundary refuses alternate-stream",
+      "passed": true,
+      "checks": [
+        {
+          "expect": "exit 3",
+          "passed": true,
+          "observed": "3"
+        },
+        {
+          "expect": "error.category == alternate-stream",
+          "passed": true,
+          "observed": "alternate-stream"
+        }
+      ]
+    },
+    {
+      "id": "c30-device",
+      "purpose": "boundary refuses device-path",
+      "passed": true,
+      "checks": [
+        {
+          "expect": "exit 3",
+          "passed": true,
+          "observed": "3"
+        },
+        {
+          "expect": "error.category == device-path",
+          "passed": true,
+          "observed": "device-path"
+        }
+      ]
+    },
+    {
+      "id": "c31-unc",
+      "purpose": "boundary refuses device-path",
+      "passed": true,
+      "checks": [
+        {
+          "expect": "exit 3",
+          "passed": true,
+          "observed": "3"
+        },
+        {
+          "expect": "error.category == device-path",
+          "passed": true,
+          "observed": "device-path"
+        }
+      ]
+    },
+    {
+      "id": "c32-missing",
+      "purpose": "boundary refuses missing",
+      "passed": true,
+      "checks": [
+        {
+          "expect": "exit 3",
+          "passed": true,
+          "observed": "3"
+        },
+        {
+          "expect": "error.category == missing",
+          "passed": true,
+          "observed": "missing"
+        }
+      ]
+    },
+    {
+      "id": "c33-protected-location",
+      "purpose": "normal game data location (AppData\\LocalLow) is refused (string check)",
+      "passed": true,
+      "checks": [
+        {
+          "expect": "LocalLow path protected",
+          "passed": true,
+          "observed": null
+        },
+        {
+          "expect": "profile-relative LocalLow protected",
+          "passed": true,
+          "observed": null
+        },
+        {
+          "expect": "task workspace not protected",
+          "passed": true,
+          "observed": null
+        }
+      ]
+    },
+    {
+      "id": "c34-reparse-point",
+      "purpose": "symbolic link input is refused",
+      "passed": true,
+      "checks": [
+        {
+          "expect": "exit 3",
+          "passed": true,
+          "observed": "3"
+        },
+        {
+          "expect": "error.category == reparse-point",
+          "passed": true,
+          "observed": "reparse-point"
+        }
+      ]
+    },
+    {
+      "id": "c35-clock-only",
+      "purpose": "zero-income clock checkpoint changes only clock/sequence metadata",
+      "passed": true,
+      "checks": [
+        {
+          "expect": "exit 0",
+          "passed": true,
+          "observed": "0"
+        },
+        {
+          "expect": "groupsChanged == [\u0022clockSequence\u0022]",
+          "passed": true,
+          "observed": "[\u0022clockSequence\u0022]"
+        },
+        {
+          "expect": "clock-only inference",
+          "passed": true,
+          "observed": null
+        },
+        {
+          "expect": "no income/claim wording",
+          "passed": true,
+          "observed": null
+        }
+      ]
+    },
+    {
+      "id": "c36-diff-commit",
+      "purpose": "literal pending -\u003E committed pair matches the in-memory replay",
+      "passed": true,
+      "checks": [
+        {
+          "expect": "exit 0",
+          "passed": true,
+          "observed": "0"
+        },
+        {
+          "expect": "computed[0].check == afterEqualsInMemoryReplayOfBeforePending",
+          "passed": true,
+          "observed": "afterEqualsInMemoryReplayOfBeforePending"
+        },
+        {
+          "expect": "computed[0].result == true",
+          "passed": true,
+          "observed": "true"
+        }
+      ]
+    },
+    {
+      "id": "c37-diff-adoption",
+      "purpose": "first journey-era command stores previously projected journey metadata",
+      "passed": true,
+      "checks": [
+        {
+          "expect": "exit 0",
+          "passed": true,
+          "observed": "0"
+        },
+        {
+          "expect": "journey adoption inferred",
+          "passed": true,
+          "observed": null
+        }
+      ]
+    },
+    {
+      "id": "c38-usage",
+      "purpose": "missing workspace or unknown option is a usage error",
+      "passed": true,
+      "checks": [
+        {
+          "expect": "exit 2",
+          "passed": true,
+          "observed": "2"
+        },
+        {
+          "expect": "exit 2",
+          "passed": true,
+          "observed": "2"
+        }
+      ]
+    },
+    {
+      "id": "c39-integrity-detector",
+      "purpose": "integrity check reports an untouched input, then detects an adjacent file and a changed byte",
+      "passed": true,
+      "checks": [
+        {
+          "expect": "clean input intact",
+          "passed": true,
+          "observed": null
+        },
+        {
+          "expect": "adjacent file detected",
+          "passed": true,
+          "observed": null
+        },
+        {
+          "expect": "changed byte detected",
+          "passed": true,
+          "observed": null
+        }
+      ]
+    },
+    {
+      "id": "fix01-missing-workspace-link-ancestor",
+      "passed": true
+    },
+    {
+      "id": "fix02-valid-retained-chapter-at-difference",
+      "passed": true
+    },
+    {
+      "id": "fix03-length-mismatch-never-opens-input",
+      "passed": true
+    },
+    {
+      "id": "fix04-replacement-and-growth-read-bound",
+      "passed": true
+    },
+    {
+      "id": "fix05-same-length-change-and-link-replacement",
+      "passed": true
+    },
+    {
+      "id": "r11-build-source-identity",
+      "passed": true
+    },
+    {
+      "id": "r11-literal600-is-preserved",
+      "passed": true
+    },
+    {
+      "id": "r11-selected540-and-semantic-diff",
+      "passed": true
+    },
+    {
+      "id": "r11-pending540-replays-to10-once",
+      "passed": true
+    },
+    {
+      "id": "r11-literal600-pending-replay-still4",
+      "passed": true
+    }
+  ]
+}

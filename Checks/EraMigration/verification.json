@@ -1,0 +1,57 @@
+{
+  "baseline": "f5bfc34ae54c2fd33ea0b370f97fe14f5f89ac27",
+  "historicalFixtures": {
+    "r7": 25,
+    "r6": 8
+  },
+  "execution": {
+    "coreSource": "unchanged own r7 snapshot",
+    "contentProjection": "passed 10 old-fixture mappings and explicit era/chapter pure boundary checks",
+    "coreFormat2Migration": "NOT RUN: actual Core API not yet available",
+    "countedAssertions": 439,
+    "contractCheck": "passed fixed 6fc9ee2 shared types/identities",
+    "historicalGroupsPassed": 5,
+    "exitCode": 0
+  },
+  "contracts": {
+    "sha256": {
+      "ChapterContracts.cs": "6B15AE9C725BEEE596EC8886DC76D271F43551D3CC399AA9D07B3E863A64BD56",
+      "ChapterSymbolModifiers.cs": "0A56E06E0031FD88762684D6BA18064E69FB0020ECF7B91DD5553BF90699A49D"
+    },
+    "revision": "6fc9ee2266da35091dd64e843a8158593a01fdd9"
+  },
+  "contentSnapshot": {
+    "sha256": {
+      "CatalogData.cs": "12DFB39DE71AFEC9C79AAC0B09AC90EA51F8DF5A5CE1E8E010905CDF211E9194",
+      "CatalogValidator.cs": "52AA7A0F3DEA75055F1F5F36814B1A2EA443B7DAB04112EDCD6ACD29113CF55D",
+      "ChapterContentIds.cs": "4B2F4A0C3410A2BF8C62FD020B6292413FA36187C145F62DD71E19E5A709BB9E",
+      "ChapterData.cs": "86537A36C6CC5C60A785F87682D2C747328764BB0B4A916136FE4EFB9DD1C44F",
+      "ChapterDefinitions.cs": "8E155469C51F601CB66D6E6FC7022303DC536324CEE55A1A99344694F9CFDC58",
+      "ChapterRules.cs": "1314EAE874D001F4E2CA4DFD59EE885D7B4DF181B4B7F4EB997AC8122CA69108",
+      "ChapterValidator.cs": "5485855ECBD28CA36425CE05AA5228EE15715D4489C51CEE0B239FF2806CAF29",
+      "Definitions.cs": "395F23F7210963A03EB28B054B3C737384A78EF9AF3D8AF1375B8564D8072BA0",
+      "LegacyProgress.cs": "BC9E1F1A3900DDFB0E0A53A25055CF4900FEC89BF2BCD3B9607C351E59E13A2A",
+      "ValidatedCatalog.cs": "46886B3A6A24FF663A679C7AB707167F4F25DD5BF7DA20E8B9284D0DF57B9289"
+    },
+    "state": "All tested Content C# SHA256 match immutable 284babd; no rerun needed",
+    "revision": "284babd2e3fee883a46de425851a227744384ce6"
+  },
+  "pendingActualIntegration": [
+    "modern six-family saved aggregate",
+    "legacy boost receipt migration",
+    "new format2 strict descriptor",
+    "interrupted era unlock",
+    "interrupted chapter purchase",
+    "interrupted skill purchase",
+    "transition acknowledgement/reload",
+    "optional-skill saved chapter end"
+  ],
+  "sourceSha256": {
+    "Checks/EraMigration/Program.cs": "E25AFE15E25C025EF4B9CC6E08B8C81AE0921BD88FBA7D2DF7B73D5FBCD4A9B9",
+    "Checks/EraMigration/ReplayFaultMatrix.cs": "5C4503F8A1EBDC87F926818065CF1FFCEB73FB471D23DF54D9397D32147B1555",
+    "Checks/EraMigration/ProjectionContractChecks.cs": "7A8B08B058F89295B986A742B136B77597E5A7020DB4DC6E2CEB05208CB40D9B",
+    "Checks/EraMigration/ChapterContentMigrationChecks.cs": "44A05709DFDE765F1F95749D88ECC349353CEBD14CC3148A9BB405C31D6C9399",
+    "Checks/EraMigration/ProjectionExpectations.json": "E895C2233912D36326ABE45B844EF25AF35283FEC52C55E3D70B0544682BC6C8",
+    "Checks/EraMigration/LegacyGenerator.cs": "4257B79C915F86607B996BB77A88AD8670A3E2BACC8CA1C8441AF300D8FFF63E"
+  }
+}

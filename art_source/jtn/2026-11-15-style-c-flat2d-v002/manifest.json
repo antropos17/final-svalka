@@ -1,0 +1,128 @@
+{
+  "date": "2026-11-15",
+  "style": "C · flat cartoon 2D v002",
+  "reviewStatus": "awaiting_user_style_review",
+  "generationTool": "built-in image_gen",
+  "backendModel": "not exposed by tool; no exact model/version claim",
+  "higgsfieldUsed": false,
+  "previousChatId": "01a1d9b9-5821-7940-9d38-4ad72a7196cb",
+  "styleReference": "../2026-11-15-neighbourhood-chat-v001/originals/root-c.png",
+  "scope": {
+    "houseStages": 5,
+    "sharedSymbols": 4,
+    "buttonSkins": 12,
+    "icons": 32,
+    "totalIndividualExports": 53
+  },
+  "files": [
+    {
+      "id": "house-s00",
+      "prompt": "prompts/house-s00.txt",
+      "original": "originals/house-s00.png",
+      "generatedSource": "C:\\Users\\murtu\\.codex\\generated_images\\01a1dbc7-b5d2-7191-bcd1-0ea366c26489\\exec-7fa541eb-3ddb-486b-b09d-d42bb96c7263.png",
+      "tool": "built-in image_gen",
+      "transparentBackgroundRequested": true
+    },
+    {
+      "id": "house-s01",
+      "prompt": "prompts/house-s01.txt",
+      "original": "originals/house-s01.png",
+      "generatedSource": "C:\\Users\\murtu\\.codex\\generated_images\\01a1dbc7-b5d2-7191-bcd1-0ea366c26489\\exec-70ce2ef6-6d60-4dc9-bc9d-836c8985326c.png",
+      "tool": "built-in image_gen",
+      "transparentBackgroundRequested": true
+    },
+    {
+      "id": "house-s02",
+      "prompt": "prompts/house-s02.txt",
+      "original": "originals/house-s02.png",
+      "generatedSource": "C:\\Users\\murtu\\.codex\\generated_images\\01a1dbc7-b5d2-7191-bcd1-0ea366c26489\\exec-385465ca-5068-45f3-ac64-c5e3d3cec8e4.png",
+      "tool": "built-in image_gen",
+      "transparentBackgroundRequested": true
+    },
+    {
+      "id": "house-s03",
+      "prompt": "prompts/house-s03.txt",
+      "original": "originals/house-s03.png",
+      "generatedSource": "C:\\Users\\murtu\\.codex\\generated_images\\01a1dbc7-b5d2-7191-bcd1-0ea366c26489\\exec-99e51426-b793-4507-9fa3-ca1e5b13bc04.png",
+      "tool": "built-in image_gen",
+      "transparentBackgroundRequested": true
+    },
+    {
+      "id": "house-s04",
+      "prompt": "prompts/house-s04.txt",
+      "original": "originals/house-s04.png",
+      "generatedSource": "C:\\Users\\murtu\\.codex\\generated_images\\01a1dbc7-b5d2-7191-bcd1-0ea366c26489\\exec-59b0a319-0b79-4006-91e0-48db9bb245e3.png",
+      "tool": "built-in image_gen",
+      "transparentBackgroundRequested": true
+    },
+    {
+      "id": "symbol-potato",
+      "prompt": "prompts/symbol-potato.txt",
+      "original": "originals/symbol-potato.png",
+      "generatedSource": "C:\\Users\\murtu\\.codex\\generated_images\\01a1dbc7-b5d2-7191-bcd1-0ea366c26489\\exec-f04f7b08-d83c-4b77-a27e-148f918f0036.png",
+      "tool": "built-in image_gen",
+      "transparentBackgroundRequested": true
+    },
+    {
+      "id": "symbol-box",
+      "prompt": "prompts/symbol-box.txt",
+      "original": "originals/symbol-box.png",
+      "generatedSource": "C:\\Users\\murtu\\.codex\\generated_images\\01a1dbc7-b5d2-7191-bcd1-0ea366c26489\\exec-0dacd0d9-7a9c-4116-adcb-881bc7c7bbd7.png",
+      "tool": "built-in image_gen",
+      "transparentBackgroundRequested": true
+    },
+    {
+      "id": "symbol-trash",
+      "prompt": "prompts/symbol-trash.txt",
+      "original": "originals/symbol-trash.png",
+      "generatedSource": "C:\\Users\\murtu\\.codex\\generated_images\\01a1dbc7-b5d2-7191-bcd1-0ea366c26489\\exec-47a8c24d-fe41-4a2c-9ffe-4166715697b5.png",
+      "tool": "built-in image_gen",
+      "transparentBackgroundRequested": true
+    },
+    {
+      "id": "symbol-pigeon",
+      "prompt": "prompts/symbol-pigeon.txt",
+      "original": "originals/symbol-pigeon.png",
+      "generatedSource": "C:\\Users\\murtu\\.codex\\generated_images\\01a1dbc7-b5d2-7191-bcd1-0ea366c26489\\exec-b422234e-9522-4df8-b84e-4fb34c3a8961.png",
+      "tool": "built-in image_gen",
+      "transparentBackgroundRequested": true
+    },
+    {
+      "id": "icons-primary-atlas",
+      "prompt": "prompts/icons-primary-atlas.txt",
+      "original": "originals/icons-primary-atlas.png",
+      "generatedSource": "C:\\Users\\murtu\\.codex\\generated_images\\01a1dbc7-b5d2-7191-bcd1-0ea366c26489\\exec-33c80080-10a2-4453-8935-5d14d0a0964e.png",
+      "tool": "built-in image_gen",
+      "transparentBackgroundRequested": true
+    },
+    {
+      "id": "icons-utility-atlas",
+      "prompt": "prompts/icons-utility-atlas.txt",
+      "original": "originals/icons-utility-atlas.png",
+      "generatedSource": "C:\\Users\\murtu\\.codex\\generated_images\\01a1dbc7-b5d2-7191-bcd1-0ea366c26489\\exec-8410bf03-5664-46a1-998a-ad38c4f80294.png",
+      "tool": "built-in image_gen",
+      "transparentBackgroundRequested": true
+    },
+    {
+      "id": "buttons-atlas",
+      "prompt": "prompts/buttons-atlas.txt",
+      "original": "originals/buttons-atlas.png",
+      "generatedSource": "C:\\Users\\murtu\\.codex\\generated_images\\01a1dbc7-b5d2-7191-bcd1-0ea366c26489\\exec-a70d7629-9bd2-4a06-897d-9185e28b5b7e.png",
+      "tool": "built-in image_gen",
+      "transparentBackgroundRequested": true
+    }
+  ],
+  "qa": "alpha-qa.json",
+  "reviewSheets": [
+    "review/all-assets-navy.png",
+    "review/all-assets-transparent.png"
+  ],
+  "exportMethod": "Retained full untrimmed house/symbol originals. Icon/button atlases separated through empty alpha gutters and centered/resized without redrawing; original atlases retained.",
+  "integration": "Art-source review assets only; Unity source/scene/settings/Resources and saves unchanged.",
+  "limitations": [
+    "Art direction is a review candidate, not user approval.",
+    "No SVG output and no exact requested prompt resolution guarantee; actual PNG sizes recorded in alpha-qa.json.",
+    "No Unity import, native build or device acceptance is established.",
+    "House states retain full 1254x1254 canvases; runtime pivots/import/9-slicing need integration verification."
+  ]
+}

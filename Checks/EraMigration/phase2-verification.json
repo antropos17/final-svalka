@@ -1,0 +1,106 @@
+{
+  "phase": "actual modern Core compatibility qualification",
+  "productionInputs": {
+    "sourceRoot": "X:/PROJECTS/FINAL-SVALKA",
+    "head": "606088666e83bcbb2ad6d1f9cffb7d827123fe76",
+    "dirty": [
+      " M Unity/Assets/Scripts/Core/GameSession.cs",
+      " M Unity/Assets/Scripts/Core/JsonStateCodec.cs",
+      " M Unity/Assets/Scripts/Core/Model.cs",
+      "?? Unity/Assets/Scripts/Core/ChapterCatalog.cs",
+      "?? Unity/Assets/Scripts/Core/ChapterCatalog.cs.meta",
+      "?? Unity/Assets/Scripts/Core/ChapterEconomy.cs",
+      "?? Unity/Assets/Scripts/Core/ChapterEconomy.cs.meta",
+      "?? Unity/Assets/Scripts/Core/ChapterSession.cs",
+      "?? Unity/Assets/Scripts/Core/ChapterSession.cs.meta",
+      "?? Unity/Assets/Scripts/Core/ChapterState.cs",
+      "?? Unity/Assets/Scripts/Core/ChapterState.cs.meta",
+      "?? Unity/Assets/Scripts/Core/ChapterStateCodec.cs",
+      "?? Unity/Assets/Scripts/Core/ChapterStateCodec.cs.meta"
+    ],
+    "sha256": {
+      "Unity/Assets/Scripts/Content/CatalogData.cs": "C2DDA1B28462685F3DCD533794C8CC99EDAB8A391478814BFC5896B079063A03",
+      "Unity/Assets/Scripts/Content/CatalogValidator.cs": "F45000C8A6AFCED8A26BB3E8AE6599BF40ADD3989E4023CEFBB8B0F41BB71187",
+      "Unity/Assets/Scripts/Content/ChapterContentIds.cs": "906A21010F38B71DA0860D204CF5494434C2C65822642EDD04F391E811F6C2B8",
+      "Unity/Assets/Scripts/Content/ChapterData.cs": "31A9178D7C8B7F719F31593B71FCD4E38A71D7DCD9B77AC2899B45E1FE32B953",
+      "Unity/Assets/Scripts/Content/ChapterDefinitions.cs": "AFEFDDA9C298C3F7C7C71419004022ACFF8C01008F36382E903651776FC550AF",
+      "Unity/Assets/Scripts/Content/ChapterRules.cs": "66D33258FC4FB744DE7FCD6ACA0EA364F3B72B8CB4A8B81476DD7FB2061F45DC",
+      "Unity/Assets/Scripts/Content/ChapterValidator.cs": "6DB14886D69D5DD5C7AB90B481F905D02F67715CA9497EECA70136BE39A3D641",
+      "Unity/Assets/Scripts/Content/Definitions.cs": "7CF6713213F4CD90F631CE8650AE144FB6579F3E8E05FA8091438B37325D4219",
+      "Unity/Assets/Scripts/Content/LegacyProgress.cs": "70FB953785652223EF04209882924F26A0275BDC556BB972E69E7BF313E2A07E",
+      "Unity/Assets/Scripts/Content/ValidatedCatalog.cs": "460A500CE6BB9620551E975AE8CCA6B066867F1A38CD59CC2E3BEECA7BA75B9D",
+      "Unity/Assets/Scripts/Contracts/ChapterContracts.cs": "6B15AE9C725BEEE596EC8886DC76D271F43551D3CC399AA9D07B3E863A64BD56",
+      "Unity/Assets/Scripts/Contracts/ChapterSymbolModifiers.cs": "0A56E06E0031FD88762684D6BA18064E69FB0020ECF7B91DD5553BF90699A49D",
+      "Unity/Assets/Scripts/Contracts/GameplayContracts.cs": "AB26AFFF86CBDCEE9AE53DE5A9823C04127B649A698EFE9DBE66557A73B26E3A",
+      "Unity/Assets/Scripts/Core/ChapterCatalog.cs": "A9D2E742ADD7AEDB061770B6A89C160DFE8668783938DACB243B340B8528F7AE",
+      "Unity/Assets/Scripts/Core/ChapterEconomy.cs": "BD5371E73B4143F0632DA4EE69D7D46264E8A4058592F706CF1BF717100A3241",
+      "Unity/Assets/Scripts/Core/ChapterSession.cs": "6F1D2BAB8FC3E44768C858C5071EBB25D305A359470DF6CB92AF860ACC557972",
+      "Unity/Assets/Scripts/Core/ChapterState.cs": "EC29BA4F50F8A6E7162B92F74539DF8876777EB9B09987B728E9ED4C9241437C",
+      "Unity/Assets/Scripts/Core/ChapterStateCodec.cs": "AB1FD8B74908398E35A26BE6019D0C5B4915A76BF15949C25A243B0C193D1F76",
+      "Unity/Assets/Scripts/Core/GameSession.cs": "FF25388023D5722682FA6D83DE29A007690499AF7DA6B675FED6B0EB13057864",
+      "Unity/Assets/Scripts/Core/JsonStateCodec.cs": "56991F02F0D8A0503A4C7BB2CEF1ECED2DB48952F6C45FF55ED5B211C369FFA6",
+      "Unity/Assets/Scripts/Core/Model.cs": "EA3D6B0C18793C946D97F189B607ACC848664E09E0094B77C5D4411EB2DA7C43",
+      "Unity/Assets/Scripts/Core/ProgressionCatalog.cs": "2F7527012C40C969EA3A1B943B34B1412AFC927AA9FCD859C5836A185DA199F3",
+      "Unity/Assets/Scripts/Core/WaveEconomy.cs": "1FB6C217968DA12791EC0C62687C43C250F29D654C8FB896BAF2744ED49BEB6A",
+      "Unity/Assets/Scripts/Core/WaveStateCodec.cs": "70DAE1A5992473D622CACA70F572E86A0DAEB8A3AF3579790B7FE7E8DB79C39B",
+      "Unity/Assets/Scripts/Effects/ChapterSpinEffects.cs": "200957844006F98A8560882E2B210719F8D69E6F69FB3006D157D235F48B36AE",
+      "Unity/Assets/Scripts/Effects/SpinEffects.cs": "1B52D8C60E90FB5EC413C7731022AE9936F4F287A231EE9E1BF4D3D681049EC3",
+      "Unity/Assets/Scripts/Upgrades/CoinBoostShop.cs": "ACCF854B226305243767BDA2C5A67B8ADAC001F9197D7008BB45C94F260D7846",
+      "Unity/Assets/Scripts/Upgrades/SkillOwnershipCodec.cs": "3587A04AF99AC3DF1E4044DAFC02AC3C70CDB7963C6EDBB46F5AA01853592AFE",
+      "Unity/Assets/Scripts/Upgrades/SkillTree.cs": "73C2C84A9B2A786C8EF11ECD40FBE0FE73D747ADEE9140E08AB1142A5BA83F90",
+      "Unity/Assets/Scripts/Upgrades/UpgradeOwnershipCodec.cs": "E9B9EAA584E93E8482D1071F851823027ED46527E5487D2183A65652D327A6AF"
+    }
+  },
+  "liveSourceDifferencesAtHandoff": [],
+  "sourceSnapshot": "X:/tmp/jtn-era-migration03/phase2-source-2",
+  "historical": {
+    "status": "PASS",
+    "countedAssertions": 439,
+    "groups": 5,
+    "literalFixtures": 33
+  },
+  "pureContent": {
+    "status": "PASS",
+    "independentProjectionCases": 10
+  },
+  "actualCore": {
+    "optionalSkillFreeEndWallet": 540,
+    "groups": 4,
+    "status": "PASS",
+    "countedAssertions": 426,
+    "postEndManualSpinWallet": 565,
+    "modernCommandsWithFourWriteFaultPositions": 6
+  },
+  "command": "dotnet run --project Checks/EraMigration/EraMigrationChecks.csproj -p:ProductionRoot=X:/tmp/jtn-era-migration03/phase2-source-2 -p:EnableChapterCoreChecks=true -p:EnableChapterContentChecks=true -p:BaseIntermediateOutputPath=X:/tmp/jtn-era-migration03/phase2-checks-obj/ -p:BaseOutputPath=X:/tmp/jtn-era-migration03/phase2-checks-bin/",
+  "exitCode": 0,
+  "finalOutput": [
+    "PASS Literal real-r6/r7 corpus loads without grant/reset, pending resolves once, reload and strict round-trip preserve committed state",
+    "PASS Independent numeric expectations: 1000-120-180-240-120=340; [3,3,2] yields11/carry2; next [3,0,2] yields9/carry0; offline+10; acquisition excludes new effect",
+    "PASS Historical pending spin/construction/slot/offline recovery interrupted before or after durable write blocks, then resolves once on reload",
+    "PASS Strict present-descriptor completeness, legacy frozen-result semantics and exact boost/offline receipt checkpoints",
+    "PASS Portable four-boundary replay driver exercised against real r7 slot command; independent wallet/ownership expectations",
+    "PASS published ChapterContracts identities/DTO bounds and independent projection dataset; this group checks shared contracts only",
+    "PASS actual Content.ProjectR7 10 literal-fixture projections, exact qualified selection, no pure-query writes, era2 proposal and skill-independent chapter boundary; persistence qualification is separate",
+    "PASS modern compatibility: all33 actual Core projections preserve old identities without eager writes; persisted migration/legacy skill receipt and next spin361+9=370",
+    "PASS modern compatibility: real modern spin/selected purchase/skill APIs pass all four write-fault positions, frozen recovery and duplicate command suppression",
+    "PASS modern compatibility: legacy carry/boost/offline history survives actual era entry, four-boundary unlock/ack/era2 purchase, cancel-before-command and reload/skip semantics",
+    "PASS modern compatibility: actual optional-skill chapter end, full19-source journal below65k, named-source parsing and malformed modern descriptor rejection",
+    "PASS 4 modern Core compatibility groups / 426 counted assertions, plus portable four-position replay checks",
+    "PASS 5 historical groups / 439 independent assertions"
+  ],
+  "testSourceSha256": {
+    "Program.cs": "92DBD0E3455FE909981BC1B646BF1D8D7038F1B6CA25D829D8F8849B116350A0",
+    "ChapterCoreMigrationChecks.cs": "0EF929309B506D9B2A3A59B980AB15886771AA63E3D908043CD98E8034505DF8",
+    "ReplayFaultMatrix.cs": "5C4503F8A1EBDC87F926818065CF1FFCEB73FB471D23DF54D9397D32147B1555",
+    "ProjectionContractChecks.cs": "EB4C209A825BFDE43374EBC17E600A9CABE3E365BEF8DA3DF21CD928ABE7F9B3",
+    "ChapterContentMigrationChecks.cs": "03C5CAF615C72D95ECBE70C070353F16659FFE3611C005B42885F259378235B6",
+    "EraMigrationChecks.csproj": "CC358D301A9EB8A5D260CB090C58BA69D8EF4508531828DA625C05AF19E46286",
+    "FreezeProduction.ps1": "71A02AC285BF3180DB7AC1F8404F9DB823C1B87EF64D101A680EAE00E22BD169"
+  },
+  "limits": [
+    "Synthetic private funded fixtures; no pacing claim",
+    "Economic cancel/ack/marker semantics only; no UI animation or button acceptance",
+    "No Editor/OS/device/APK/real-save writes",
+    "HEAD alone is not the qualified source; match all recorded dirty input hashes"
+  ]
+}

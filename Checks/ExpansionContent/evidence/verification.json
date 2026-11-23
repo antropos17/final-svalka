@@ -1,0 +1,188 @@
+{
+  "baseline": "53276a25197131c463590eef6daecb673375947f",
+  "scope": "Pure content lookups only: no Core/session, gameplay IO, Unity Editor, runtime UI, APK or device acceptance.",
+  "sdk": "10.0.302",
+  "project": "Checks/ExpansionContent/ExpansionContentChecks.csproj",
+  "command": "dotnet run --project Checks/ExpansionContent/ExpansionContentChecks.csproj -p:BaseIntermediateOutputPath=<work>/obj/ -p:BaseOutputPath=<work>/bin/ -v minimal",
+  "result": {
+    "groups": 3,
+    "assertions": 156,
+    "exitCode": 0,
+    "buildDiagnostics": "No compiler warnings/errors emitted"
+  },
+  "firstFailure": "Ownership-word test rejected workshop character intention (already wants to be boss). First source/binaries/log retained. Retry only narrowed test from any already to already built; production text unchanged.",
+  "preservedCompletionRegionSha256Lf": "DC3093D2E47ADA696060BA002236F0673EF74248DB02FF4EE3A50B37A1EC05EB",
+  "preservedCompletionRegion": "Entire original24-entry completions source region, normalized CRLF to LF, baseline and final match.",
+  "candidateOrderTerms": "12 symbol appearances /120 coins are assigned integration expectations, not duplicated in narrative. New Orders catalog was not compiled here.",
+  "sourceInputs": [
+    {
+      "path": "Unity/Assets/Scripts/Contracts/ChapterContracts.cs",
+      "sha256": "6B15AE9C725BEEE596EC8886DC76D271F43551D3CC399AA9D07B3E863A64BD56"
+    },
+    {
+      "path": "Unity/Assets/Scripts/Contracts/ChapterSymbolModifiers.cs",
+      "sha256": "39B974BED9F6D26652A7BF76008B883F23CBDC554BE59354F1F7226A7B08D16B"
+    },
+    {
+      "path": "Unity/Assets/Scripts/Contracts/GameplayContracts.cs",
+      "sha256": "98275361EE2E908D7F7A531BC4768C85915688371CF2609C55F8640FAF5EA5C5"
+    },
+    {
+      "path": "Unity/Assets/Scripts/Content/CatalogData.cs",
+      "sha256": "C2DDA1B28462685F3DCD533794C8CC99EDAB8A391478814BFC5896B079063A03"
+    },
+    {
+      "path": "Unity/Assets/Scripts/Content/CatalogValidator.cs",
+      "sha256": "F45000C8A6AFCED8A26BB3E8AE6599BF40ADD3989E4023CEFBB8B0F41BB71187"
+    },
+    {
+      "path": "Unity/Assets/Scripts/Content/ChapterContentIds.cs",
+      "sha256": "906A21010F38B71DA0860D204CF5494434C2C65822642EDD04F391E811F6C2B8"
+    },
+    {
+      "path": "Unity/Assets/Scripts/Content/ChapterData.cs",
+      "sha256": "31A9178D7C8B7F719F31593B71FCD4E38A71D7DCD9B77AC2899B45E1FE32B953"
+    },
+    {
+      "path": "Unity/Assets/Scripts/Content/ChapterDefinitions.cs",
+      "sha256": "AFEFDDA9C298C3F7C7C71419004022ACFF8C01008F36382E903651776FC550AF"
+    },
+    {
+      "path": "Unity/Assets/Scripts/Content/ChapterRules.cs",
+      "sha256": "1265EB52DE149AE8C794C959CC1663A1A114B77994159C8BA9740A570B6E651E"
+    },
+    {
+      "path": "Unity/Assets/Scripts/Content/ChapterValidator.cs",
+      "sha256": "6DB14886D69D5DD5C7AB90B481F905D02F67715CA9497EECA70136BE39A3D641"
+    },
+    {
+      "path": "Unity/Assets/Scripts/Content/ConstructionPricing.cs",
+      "sha256": "361D90AAE651C2D67CC034B0E0E5B38ABF2220F46F224C22490047E301C4786B"
+    },
+    {
+      "path": "Unity/Assets/Scripts/Content/Definitions.cs",
+      "sha256": "7CF6713213F4CD90F631CE8650AE144FB6579F3E8E05FA8091438B37325D4219"
+    },
+    {
+      "path": "Unity/Assets/Scripts/Content/LegacyProgress.cs",
+      "sha256": "70FB953785652223EF04209882924F26A0275BDC556BB972E69E7BF313E2A07E"
+    },
+    {
+      "path": "Unity/Assets/Scripts/Content/ValidatedCatalog.cs",
+      "sha256": "460A500CE6BB9620551E975AE8CCA6B066867F1A38CD59CC2E3BEECA7BA75B9D"
+    },
+    {
+      "path": "Unity/Assets/Scripts/Guidance/ChapterNarrative.cs",
+      "sha256": "C5B956823D3AAE3DDD220F709AD82C10E277C2DA6651BCE4B91770B3D317C5D5"
+    },
+    {
+      "path": "Checks/ExpansionContent/Program.cs",
+      "sha256": "88A292D5400F9691754BFE0777E278677D31663C887D024895A6F1EF52600688"
+    },
+    {
+      "path": "Checks/ExpansionContent/ExpansionContentChecks.csproj",
+      "sha256": "42E18B0A5FD5F686764FD8B0C2A10CCA19B0549E291D33CD70CF6174B486CB94"
+    }
+  ],
+  "generatedInputs": [
+    {
+      "path": "obj/Debug/net10.0/.NETCoreApp,Version=v10.0.AssemblyAttributes.cs",
+      "sha256": "93D67476196EBFC80D1D7D8844B91146CFD678D105F5CE635EB900CA40610C9B"
+    },
+    {
+      "path": "obj/Debug/net10.0/ExpansionContentChecks.AssemblyInfo.cs",
+      "sha256": "304325954D59399FDB99002E49199F5D6A23AB2E0586A092EEA0B79CEC913201"
+    }
+  ],
+  "retainedArtifacts": [
+    {
+      "path": "bin/Debug/net10.0/ExpansionContentChecks.deps.json",
+      "sha256": "AC729C2C499341A1C558F50878EF955FDC8DCB9DB843E764A1B5CC65AC50005F",
+      "bytes": 460
+    },
+    {
+      "path": "bin/Debug/net10.0/ExpansionContentChecks.dll",
+      "sha256": "C55B7AF1A6E632B80644E4F7D414EFC1F5E82E374EE3C69603CC0F849A95444B",
+      "bytes": 82432
+    },
+    {
+      "path": "bin/Debug/net10.0/ExpansionContentChecks.exe",
+      "sha256": "76927A0EA1E17069B4460EB676B6C327EC3C1982B61EAE7DF153E5BC026A3FB3",
+      "bytes": 162816
+    },
+    {
+      "path": "bin/Debug/net10.0/ExpansionContentChecks.pdb",
+      "sha256": "845BF1F401F6F393C46BC31D98EE89D155BFC334D32AD7CAD8F29AD12968BE28",
+      "bytes": 30876
+    },
+    {
+      "path": "bin/Debug/net10.0/ExpansionContentChecks.runtimeconfig.json",
+      "sha256": "256DDA2706E1151BB95987B6B5BE610BF68D64E058285B19E7E958222FC90414",
+      "bytes": 270
+    },
+    {
+      "path": "check-first.log",
+      "sha256": "43FD0A001A3323535ADF9EDFF6E9CA8CFE14705596DB267FE3EEE36079572F00",
+      "bytes": 933
+    },
+    {
+      "path": "check-corrected.log",
+      "sha256": "8ABE8404D423DA14BE6211F7EA3BA7D87753FE0E6D5878F3D17D67435396DF7C",
+      "bytes": 658
+    },
+    {
+      "path": "failure-first/ChapterNarrative.cs",
+      "sha256": "C5B956823D3AAE3DDD220F709AD82C10E277C2DA6651BCE4B91770B3D317C5D5",
+      "bytes": 13793
+    },
+    {
+      "path": "failure-first/ExpansionContentChecks.csproj",
+      "sha256": "42E18B0A5FD5F686764FD8B0C2A10CCA19B0549E291D33CD70CF6174B486CB94",
+      "bytes": 622
+    },
+    {
+      "path": "failure-first/input-sha256.json",
+      "sha256": "7C2D28FC9FE976E52A6316AC7836236878AEAB5589995F8D351F87A120247BB0",
+      "bytes": 3493
+    },
+    {
+      "path": "failure-first/Program.cs",
+      "sha256": "E218AAC6B43BA12B7060716BD9A08A3F468EAF7EA3637E95CBDDDE3C74B8AD5E",
+      "bytes": 7542
+    },
+    {
+      "path": "failure-first/binaries/ExpansionContentChecks.deps.json",
+      "sha256": "AC729C2C499341A1C558F50878EF955FDC8DCB9DB843E764A1B5CC65AC50005F",
+      "bytes": 460
+    },
+    {
+      "path": "failure-first/binaries/ExpansionContentChecks.dll",
+      "sha256": "8E4687505D3B275FD95F8EBDED98BCBA7AD3F3B8340AC71182AAB53C7FF2CCD1",
+      "bytes": 82432
+    },
+    {
+      "path": "failure-first/binaries/ExpansionContentChecks.exe",
+      "sha256": "76927A0EA1E17069B4460EB676B6C327EC3C1982B61EAE7DF153E5BC026A3FB3",
+      "bytes": 162816
+    },
+    {
+      "path": "failure-first/binaries/ExpansionContentChecks.pdb",
+      "sha256": "7DBDC8A0E078339BA6B98E02B5A21544FEA91B891185ABCDF698DF2245476C43",
+      "bytes": 30872
+    },
+    {
+      "path": "failure-first/binaries/ExpansionContentChecks.runtimeconfig.json",
+      "sha256": "256DDA2706E1151BB95987B6B5BE610BF68D64E058285B19E7E958222FC90414",
+      "bytes": 270
+    }
+  ],
+  "retention": "Disposable closed stream diagnostics eligible after7 days;32MiB budget. No deletion or automatic rotation installed. Task-local working artifacts958112 bytes after run.",
+  "diskBeforeBytes": {
+    "X": 91120418816,
+    "C": 20337061888
+  },
+  "diskAfterBytes": {
+    "X": 91116089344,
+    "C": 20317491200
+  }
+}

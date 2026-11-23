@@ -1,0 +1,30 @@
+[
+  {
+    "file": "main-screen-v004.png",
+    "width": 852,
+    "height": 1846,
+    "cornerAlpha": 255,
+    "sha256": "38712b989640f8b99e7bde352b1f6c7b6b2e21fa29b8158d898b5706b2d3798a"
+  },
+  {
+    "file": "originals/main-screen-composition-v001.png",
+    "width": 852,
+    "height": 1846,
+    "cornerAlpha": 255,
+    "sha256": "234270025397b4c293417b1e91bb3ea2faadf23c27ea0c6f92f9e02ce91deb97"
+  },
+  {
+    "file": "originals/main-screen-icons-refinement-v002.png",
+    "width": 852,
+    "height": 1846,
+    "cornerAlpha": 255,
+    "sha256": "38712b989640f8b99e7bde352b1f6c7b6b2e21fa29b8158d898b5706b2d3798a"
+  },
+  {
+    "file": "references/symbols-v003-reference.png",
+    "width": 1024,
+    "height": 1024,
+    "cornerAlpha": 0,
+    "sha256": "942befeba92a2bfde631dcdf52bbe08b82bb809314b7d4bd8bb970fa4346b828"
+  }
+]

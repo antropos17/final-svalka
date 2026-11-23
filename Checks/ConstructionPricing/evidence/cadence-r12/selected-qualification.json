@@ -1,0 +1,106 @@
+{
+  "status": "SELECTED_B_PRODUCER_PASS_PENDING_07_AND_PRIMARY_ACCEPTANCE",
+  "evidenceFreeze": "704e03d3fbeb304f6a271e90a4a875448c218c14",
+  "baseProduction": "d914da2",
+  "selectedProfile": "Unchanged capturedB480/140/190; explicit coordinator00 decision after full24 tradeoffs",
+  "originalScreening": {
+    "A": "FAIL2of6",
+    "relabelled": false,
+    "B": "FAIL1of6"
+  },
+  "selectedConstructionTotal": 9310,
+  "skillSpend": 610,
+  "repair": 40,
+  "grant": 37,
+  "legacyConstructionTotals": [
+    9460,
+    9400
+  ],
+  "productionChanges": "ContentConstructionPricing plus exactly two historical validation expressions in ChapterEconomy; no other Core/Runtime/schema/scene",
+  "activeSourceRawHashesEqualExecutedB": {
+    "content": "361D90AAE651C2D67CC034B0E0E5B38ABF2220F46F224C22490047E301C4786B",
+    "core": "27643E9B3F9F926FD8ECD304B9512A99CB57034CDE3C678774AFC2B66C9BC5A3"
+  },
+  "sourceFiles": [
+    {
+      "path": "Unity/Assets/Scripts/Content/ConstructionPricing.cs",
+      "rawSha256": "361D90AAE651C2D67CC034B0E0E5B38ABF2220F46F224C22490047E301C4786B",
+      "gitBlob": "a5842c81e90ed9e176221d94931bc04d4b6d6ffd"
+    },
+    {
+      "path": "Unity/Assets/Scripts/Core/ChapterEconomy.cs",
+      "rawSha256": "27643E9B3F9F926FD8ECD304B9512A99CB57034CDE3C678774AFC2B66C9BC5A3",
+      "gitBlob": "45564963216fc3c0de93319a38044bb97fcd5ef1"
+    },
+    {
+      "path": "Checks/ConstructionPricing/ConstructionPricingChecks.csproj",
+      "rawSha256": "DF53B8BD0B279F4CEE9806F4EC7C8B285FA1B96EE1128A7EEEF50EBF5D68CDF2",
+      "gitBlob": "7a613c4f23bd893cd14cfb681d2560713a4b2895"
+    },
+    {
+      "path": "Checks/ConstructionPricing/Program.cs",
+      "rawSha256": "5ADD8183ACAEBA5374ACBD548003B9781BFE7AC5CBAC7A7CAAE17ABC5B4F7844",
+      "gitBlob": "37479e7f16f9bd92d05bfe61e742b003512d129a"
+    },
+    {
+      "path": "Checks/ConstructionPricing/SelectedRevisionChecks.cs",
+      "rawSha256": "DAC2F2010522D0F3A8EDC9AA9F71DB0EF413316D210CB857AA755919B5856886",
+      "gitBlob": "4f21f4baebdcc519fcf68da2fcdd4f501530f3b0"
+    }
+  ],
+  "assertions": 390,
+  "selectedQualificationInvocations": 1,
+  "candidateReruns": 0,
+  "captureReruns": 0,
+  "prechangeV2Snapshots": 6,
+  "allPrechangeSnapshotHashesUnchanged": true,
+  "oldLiteralSaves": 54,
+  "knownRevisionMatrix": "Literal9pairs plus unknown/backward refusals",
+  "selectedReplay": "V2selected535+8 remains old540; explicit535-480=55. V1selected550+8remains558at600; explicit480 leaves78. Exact old540/600pending/paid/replay preserve amounts/noeagerIO",
+  "realPrivateFileBackupCases": 2,
+  "backupExpectedCoins": [
+    3,
+    4
+  ],
+  "currentOnlyFreshQuotes": "New construction/reservation stillCurrentV3; oldskillV2quote rejectswithoutwrite/sessionpoison; nonselectrevisionjump rejects",
+  "firstFailure": null,
+  "checksReused": "All12 executed candidate progressions/independentwallet/RNG/skillschoicefacts and original verdicts from704e03d; no re-execution",
+  "reservedFilesUnchanged": [
+    "Unity/Assets/Tests/ConstructionPricingRegression.cs",
+    "Unity/Assets/Tests/CoreRegression.cs",
+    "Unity/Assets/Tests/CoreRegressionUnity.cs",
+    "Checks/CoreChecks.csproj",
+    "Unity/Assets/Scripts/Core/GameSession.cs",
+    "Unity/Assets/Scripts/Core/ChapterState.cs",
+    "Unity/Assets/Scripts/Core/ChapterStateCodec.cs",
+    "Unity/Assets/Scripts/Content/ChapterData.cs",
+    "Unity/Assets/Scripts/Content/ChapterValidator.cs"
+  ],
+  "artifactSha256": {
+    "selected-first-pass.txt": "A4699B03613518D4745BB2333672A010931B262696EC4F72078EF2424139433C",
+    "selection.md": "8FB2B44953A1C38FE16369F62F97276B7E19D4E03BAC9C2D9A06C32CD2023B80",
+    "capture-inputs.json": "F82DFBE30878CBB261A9433B6034D1D5055E7B8D33963C9AC9D2E1854264DFB4",
+    "capture-before-current-change.txt": "0EC7D7FEAE34E7F3AECBF812FF457A94F5DE989970E031A81847B76B9D4213BF"
+  },
+  "resources": {
+    "generatedFiles": 145,
+    "beforeCFreeBytes": 22841098240,
+    "afterFreePhysicalKiB": 17155148,
+    "exactDisposableRoot": "X:/tmp/jtn-economic-equivalence03-r11/.work",
+    "beforeXFreeBytes": 92315885568,
+    "retention": "Manual7days closeddisposablefiles only, skiplinks/lockedfiles, preservecommittedreceipts; noautomaticcleanup",
+    "generatedBytes": 6494188.0,
+    "beforeFreePhysicalKiB": 18175900,
+    "afterFreeBytes": [
+      {
+        "Name": "C",
+        "Free": 22833844224
+      },
+      {
+        "Name": "X",
+        "Free": 92313939968
+      }
+    ]
+  },
+  "remaining": "07frozenwholepatch review, then02ownedprimaryintegration/current-commandexpectations/fullaffectedCore/Unity/Runtimeacceptance; noAPK/finalvisual/deviceclaim"
+}

@@ -1,0 +1,8 @@
+Use case: logo-brand.
+Asset type: one transparent section emblem for the Yard Events screen of the existing Junk to Neon mobile game.
+Input image 1 is a STYLE reference only: the approved v003 flat 2D cartoon asset family. Generate a NEW matching emblem, not a screen or sheet.
+Subject: one clear warm-red admission ticket with a golden four-point sparkle tucked behind it and a small turquoise ribbon loop. A compact, balanced symbol for optional yard events, recognisable at 64 pixels.
+Style: clean flat 2D cartoon; bold smooth deep blue-teal contour #183A4B, cheerful aqua/turquoise, honey gold #FFD34A, warm cream #FFF0CE, one crisp vermilion #EF3E36 accent. One simple shade plane and one small flat highlight; restrained detail, rounded friendly corners.
+Composition: a SINGLE isolated emblem, centred optically, entire silhouette visible, square canvas, about 70% canvas occupancy with generous transparent margin on every side.
+Background: genuine alpha transparency, including all space around the emblem. No coloured backdrop, no glow, no haze, no drop shadow, no checkerboard.
+Text: none. No letters, numerals, wordmarks, UI panels, buttons or extra objects. Preserve the reference family's outline weight and flat rendering; no 3D render, metal gloss, photorealism or painterly texture.

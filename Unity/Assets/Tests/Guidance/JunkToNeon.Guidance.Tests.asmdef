@@ -1,0 +1,1 @@
+{"name":"JunkToNeon.Guidance.Tests","rootNamespace":"JunkToNeon.Tests","references":["JunkToNeon.Contracts","JunkToNeon.Guidance"],"includePlatforms":["Editor"],"autoReferenced":false,"defineConstraints":["UNITY_INCLUDE_TESTS"],"optionalUnityReferences":["TestAssemblies"]}

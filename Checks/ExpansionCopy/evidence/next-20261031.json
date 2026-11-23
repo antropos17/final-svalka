@@ -1,0 +1,382 @@
+{
+  "baseline": "6cceb66cf12ffd6b9ce29bee4d72630b027f3ba5",
+  "coreInputCommit": "a48a7161cb64f2c2671b4eaa1249e984708fb9fb",
+  "rulesSha256": "1DDB9A209E8C600C3A541E73BD9CD345713E271A509166DE87A57CC21ABFE05F",
+  "scope": "Copy/catalog checks only. Actual pure Core dependencies linked because V2 catalog references ExpansionState; no GameSession/storage/business tests, Runtime, Unity, native or pacing execution.",
+  "sdk": "10.0.302",
+  "project": "Checks/ExpansionCopy/ExpansionCopyChecks.csproj",
+  "command": "dotnet run --project Checks/ExpansionCopy/ExpansionCopyChecks.csproj -p:ProductionSourcesRoot=<work>/inputs/Unity/Assets/Scripts -p:BaseIntermediateOutputPath=<work>/obj/ -p:BaseOutputPath=<work>/bin/ -v minimal",
+  "result": {
+    "attempt": "first",
+    "exitCode": 0,
+    "groups": 4,
+    "assertions": 503,
+    "actualOffers": 31,
+    "maxLabel": 25,
+    "maxDescription": 136,
+    "firstUseLength": 201,
+    "buildDiagnostics": "No compiler warnings/errors emitted"
+  },
+  "preservation": "ExpansionCopy diff against6cceb66 adds34 lines and removes0; every existing string, FirstUse and public signature remains exact. Prior verification.json is retained separately.",
+  "sourceInputs": [
+    {
+      "scope": "frozen-a48a716",
+      "path": "Contracts/ChapterContracts.cs",
+      "sha256": "6B15AE9C725BEEE596EC8886DC76D271F43551D3CC399AA9D07B3E863A64BD56"
+    },
+    {
+      "scope": "frozen-a48a716",
+      "path": "Contracts/ChapterSymbolModifiers.cs",
+      "sha256": "39B974BED9F6D26652A7BF76008B883F23CBDC554BE59354F1F7226A7B08D16B"
+    },
+    {
+      "scope": "frozen-a48a716",
+      "path": "Contracts/GameplayContracts.cs",
+      "sha256": "98275361EE2E908D7F7A531BC4768C85915688371CF2609C55F8640FAF5EA5C5"
+    },
+    {
+      "scope": "frozen-a48a716",
+      "path": "Content/CatalogData.cs",
+      "sha256": "C2DDA1B28462685F3DCD533794C8CC99EDAB8A391478814BFC5896B079063A03"
+    },
+    {
+      "scope": "frozen-a48a716",
+      "path": "Content/CatalogValidator.cs",
+      "sha256": "F45000C8A6AFCED8A26BB3E8AE6599BF40ADD3989E4023CEFBB8B0F41BB71187"
+    },
+    {
+      "scope": "frozen-a48a716",
+      "path": "Content/ChapterContentIds.cs",
+      "sha256": "906A21010F38B71DA0860D204CF5494434C2C65822642EDD04F391E811F6C2B8"
+    },
+    {
+      "scope": "frozen-a48a716",
+      "path": "Content/ChapterData.cs",
+      "sha256": "31A9178D7C8B7F719F31593B71FCD4E38A71D7DCD9B77AC2899B45E1FE32B953"
+    },
+    {
+      "scope": "frozen-a48a716",
+      "path": "Content/ChapterDefinitions.cs",
+      "sha256": "AFEFDDA9C298C3F7C7C71419004022ACFF8C01008F36382E903651776FC550AF"
+    },
+    {
+      "scope": "frozen-a48a716",
+      "path": "Content/ChapterRules.cs",
+      "sha256": "1265EB52DE149AE8C794C959CC1663A1A114B77994159C8BA9740A570B6E651E"
+    },
+    {
+      "scope": "frozen-a48a716",
+      "path": "Content/ChapterValidator.cs",
+      "sha256": "6DB14886D69D5DD5C7AB90B481F905D02F67715CA9497EECA70136BE39A3D641"
+    },
+    {
+      "scope": "frozen-a48a716",
+      "path": "Content/ConstructionPricing.cs",
+      "sha256": "361D90AAE651C2D67CC034B0E0E5B38ABF2220F46F224C22490047E301C4786B"
+    },
+    {
+      "scope": "frozen-a48a716",
+      "path": "Content/Definitions.cs",
+      "sha256": "7CF6713213F4CD90F631CE8650AE144FB6579F3E8E05FA8091438B37325D4219"
+    },
+    {
+      "scope": "frozen-a48a716",
+      "path": "Content/LegacyProgress.cs",
+      "sha256": "70FB953785652223EF04209882924F26A0275BDC556BB972E69E7BF313E2A07E"
+    },
+    {
+      "scope": "frozen-a48a716",
+      "path": "Content/ValidatedCatalog.cs",
+      "sha256": "460A500CE6BB9620551E975AE8CCA6B066867F1A38CD59CC2E3BEECA7BA75B9D"
+    },
+    {
+      "scope": "frozen-a48a716",
+      "path": "Effects/ChapterSpinEffects.cs",
+      "sha256": "200957844006F98A8560882E2B210719F8D69E6F69FB3006D157D235F48B36AE"
+    },
+    {
+      "scope": "frozen-a48a716",
+      "path": "Effects/SpinEffects.cs",
+      "sha256": "1B52D8C60E90FB5EC413C7731022AE9936F4F287A231EE9E1BF4D3D681049EC3"
+    },
+    {
+      "scope": "frozen-a48a716",
+      "path": "Guidance/ChapterNarrative.cs",
+      "sha256": "C5B956823D3AAE3DDD220F709AD82C10E277C2DA6651BCE4B91770B3D317C5D5"
+    },
+    {
+      "scope": "frozen-a48a716",
+      "path": "Guidance/GuideFlow.cs",
+      "sha256": "A0CD8E04F9F688A443813B85B544E6C69973F3C7A74C0794CAB55C4897DC2786"
+    },
+    {
+      "scope": "frozen-a48a716",
+      "path": "Guidance/GuideModel.cs",
+      "sha256": "BE146B060ED91597B2A0DB9A289DC9E1CC10138BF760F0E00FB49B01A72703CC"
+    },
+    {
+      "scope": "frozen-a48a716",
+      "path": "Guidance/GuideStateCodec.cs",
+      "sha256": "D51AF4FABA39BB9B4EB3AECBFAD9C836381623D3F54164FD7CF925D7E3E74DF0"
+    },
+    {
+      "scope": "frozen-a48a716",
+      "path": "Orders/OrderDefinitions.cs",
+      "sha256": "BC1788EA255FE39ACB129B039C64C406C87BC41850898FEE906D65810FAD660A"
+    },
+    {
+      "scope": "frozen-a48a716",
+      "path": "Orders/OrderEngine.cs",
+      "sha256": "25E709CAA9DAE2EB8E19BCD4A416E3BC00A30781FD422225ADD0DBB8B4B38012"
+    },
+    {
+      "scope": "frozen-a48a716",
+      "path": "Orders/OrderProposal.cs",
+      "sha256": "9DF4271A3486355B2E9243D534C8F288AB9C7D090CDAC850E569CF70B05891E7"
+    },
+    {
+      "scope": "frozen-a48a716",
+      "path": "Orders/OrderState.cs",
+      "sha256": "C055A8AB1A740D889475142CBAC4E330D7BCC4AB7E63FF51775915F47EB3AFCB"
+    },
+    {
+      "scope": "frozen-a48a716",
+      "path": "Orders/OrderStateCodec.cs",
+      "sha256": "5925D0DCB3A05D5E80066308C83095B30FDC4CD759E6C8E4B7AD2EADB9546596"
+    },
+    {
+      "scope": "frozen-a48a716",
+      "path": "Upgrades/CoinBoostShop.cs",
+      "sha256": "ACCF854B226305243767BDA2C5A67B8ADAC001F9197D7008BB45C94F260D7846"
+    },
+    {
+      "scope": "frozen-a48a716",
+      "path": "Upgrades/SkillOwnershipCodec.cs",
+      "sha256": "B3DD1A0279C94437D85198EA6C4E0FA534A3D51085B0406DCF9B1EFACE472FB8"
+    },
+    {
+      "scope": "frozen-a48a716",
+      "path": "Upgrades/SkillPricing.cs",
+      "sha256": "AC0F628113F781D87D5E65C057D4CD13BEEA6F97534DB495C2055912F323FBB4"
+    },
+    {
+      "scope": "frozen-a48a716",
+      "path": "Upgrades/SkillTree.cs",
+      "sha256": "7A53F7929D217BE372DEB5565080B57BC5AB27BBC3A31EB1C308CEFA07FBA175"
+    },
+    {
+      "scope": "frozen-a48a716",
+      "path": "Upgrades/UpgradeOwnershipCodec.cs",
+      "sha256": "E9B9EAA584E93E8482D1071F851823027ED46527E5487D2183A65652D327A6AF"
+    },
+    {
+      "scope": "frozen-a48a716",
+      "path": "Core/BoundedSnapshotReader.cs",
+      "sha256": "09193E53E9B5A462DAD1F26953F93DAB0F724C62E43C4685E09B3164ED788C45"
+    },
+    {
+      "scope": "frozen-a48a716",
+      "path": "Core/ChapterCatalog.cs",
+      "sha256": "32F3F4AA041F0483885D365955E666B261866F66EB1A736B9F27BDE1684B4BF9"
+    },
+    {
+      "scope": "frozen-a48a716",
+      "path": "Core/ChapterEconomy.cs",
+      "sha256": "4E3A6BB2DACEE2A2A5F09184B3D0790D511B205F6F5C29C2E670597798F3B0B3"
+    },
+    {
+      "scope": "frozen-a48a716",
+      "path": "Core/ChapterMilestones.cs",
+      "sha256": "FE1DDD2EC8D302F4BB3B53F3455EE65E932A91BBA1900444AB4DFD0A4A23E8D4"
+    },
+    {
+      "scope": "frozen-a48a716",
+      "path": "Core/ChapterSession.cs",
+      "sha256": "303E0B1CAC03631664611063B38F08C6028A5D66E99EA9F6B030C7238F67481B"
+    },
+    {
+      "scope": "frozen-a48a716",
+      "path": "Core/ChapterState.cs",
+      "sha256": "BB311AE726DB2ED7AECCCA3EB57B8B35A18BA12CCA30CEA09C0719C0B040C526"
+    },
+    {
+      "scope": "frozen-a48a716",
+      "path": "Core/ChapterStateCodec.cs",
+      "sha256": "6E1C7DDC08E608736F2703D6E594A7EBB589627E37513DA4D38DD5F88D04C478"
+    },
+    {
+      "scope": "frozen-a48a716",
+      "path": "Core/ExpansionCodec.cs",
+      "sha256": "C80A9450A81F2791A6AB2B31856639AB51A18472A849F6545674755D9F16CC9D"
+    },
+    {
+      "scope": "frozen-a48a716",
+      "path": "Core/ExpansionEconomy.cs",
+      "sha256": "B51E63080147F3EE38C93F2DE8FB68A8D01BBFB60EAFFE8A49467468D96129D7"
+    },
+    {
+      "scope": "frozen-a48a716",
+      "path": "Core/ExpansionRules.cs",
+      "sha256": "1DDB9A209E8C600C3A541E73BD9CD345713E271A509166DE87A57CC21ABFE05F"
+    },
+    {
+      "scope": "frozen-a48a716",
+      "path": "Core/ExpansionSession.cs",
+      "sha256": "899FF4AC36D2FA641529AC85DCE1E438C1E8A3A44F81C1F48E97AB955EF506E3"
+    },
+    {
+      "scope": "frozen-a48a716",
+      "path": "Core/ExpansionState.cs",
+      "sha256": "368F5CC85C592F6CBA12E5325C8A0B6EC6ACFA7041539D9929D001F95692EE6F"
+    },
+    {
+      "scope": "frozen-a48a716",
+      "path": "Core/GameSession.cs",
+      "sha256": "699A65EE65B4679102314D6703100B405ACD1C04B926BB8919842D16CF49DC04"
+    },
+    {
+      "scope": "frozen-a48a716",
+      "path": "Core/JourneyEconomy.cs",
+      "sha256": "CDE54516E6D6C41877DA48A0665DE7C0EB0B303F2A8C13BA2A9BB40DD89C3FC5"
+    },
+    {
+      "scope": "frozen-a48a716",
+      "path": "Core/JourneySession.cs",
+      "sha256": "7C1CD9B0D9968EBEABA20C13386C2F296EEE27E7F924EB8EFEC739518371B022"
+    },
+    {
+      "scope": "frozen-a48a716",
+      "path": "Core/JourneyState.cs",
+      "sha256": "711BA469DB9A701B5F90F10A99766E699AF683D8252111277E5931CACDDFB9B9"
+    },
+    {
+      "scope": "frozen-a48a716",
+      "path": "Core/JourneyStateCodec.cs",
+      "sha256": "ACE3780AA4D5D389CB06FEC44C1B1706613DD7002731F74F4492849D051CBCED"
+    },
+    {
+      "scope": "frozen-a48a716",
+      "path": "Core/JsonStateCodec.cs",
+      "sha256": "B2D57D790F5EB930AB153802B1C6202F1A99B0BE9662A7506C405DCB3A90D351"
+    },
+    {
+      "scope": "frozen-a48a716",
+      "path": "Core/MilestoneSession.cs",
+      "sha256": "82152F065A95E3CC1EEE0FE95E3A2DACC96B3666771827A2ECA19163A990FFAA"
+    },
+    {
+      "scope": "frozen-a48a716",
+      "path": "Core/Model.cs",
+      "sha256": "A4D99AE5389E61BDE76985271EC4033D4186FC40ACD54C3CA2DCDE869BD3A7AD"
+    },
+    {
+      "scope": "frozen-a48a716",
+      "path": "Core/OptionalAchievements.cs",
+      "sha256": "011B295DE4ACC1F2E15E0FA4D6AE37AA9225C6EBB92F139013ED27198EDE039A"
+    },
+    {
+      "scope": "frozen-a48a716",
+      "path": "Core/OptionalAchievementSession.cs",
+      "sha256": "49312EDDC326209832A16DE2964DFA3373937D9B8F8B35CA88200203BBCFC7EC"
+    },
+    {
+      "scope": "frozen-a48a716",
+      "path": "Core/ProgressionCatalog.cs",
+      "sha256": "FA37F5B767139DB29BAAC490BF47C6D5E6953D9ADA51BE2D5FF80001AEFCD696"
+    },
+    {
+      "scope": "frozen-a48a716",
+      "path": "Core/WaveEconomy.cs",
+      "sha256": "4C98C97B01693F55A45C0A3DA89E8F393E1AB7F0B06C5531EE9528F9B112158D"
+    },
+    {
+      "scope": "frozen-a48a716",
+      "path": "Core/WaveStateCodec.cs",
+      "sha256": "EABFF23476BBB4D450FFD648A1E4F7DACCE94874A2D82C263588B50B0D1E8F97"
+    },
+    {
+      "scope": "copy-producer",
+      "path": "Unity/Assets/Scripts/Core/ExpansionCopy.cs",
+      "sha256": "F85BC411FB31A3A0675D4D4759A9B2E874B86428A6017D9DBE3ECFA933FD9BFE"
+    },
+    {
+      "scope": "copy-producer",
+      "path": "Checks/ExpansionCopy/Program.cs",
+      "sha256": "5E4C15A48D9EA813BC098E7A26D106F967F6253D885F0ED8DE5B281D780000AC"
+    },
+    {
+      "scope": "copy-producer",
+      "path": "Checks/ExpansionCopy/ExpansionCopyChecks.csproj",
+      "sha256": "584B4DA9DA16FFFB9DD5EE20BF86EDC0EDBFBEDCBBABBB7EC88B20D23903D5DA"
+    }
+  ],
+  "generatedInputs": [
+    {
+      "path": "obj/Debug/net10.0/.NETCoreApp,Version=v10.0.AssemblyAttributes.cs",
+      "sha256": "93D67476196EBFC80D1D7D8844B91146CFD678D105F5CE635EB900CA40610C9B"
+    },
+    {
+      "path": "obj/Debug/net10.0/ExpansionCopyChecks.AssemblyInfo.cs",
+      "sha256": "1F88FC7EC5D8EAC121668AF9A2D9323FD56D1D91CB65A5A5013B68D7FC98621D"
+    }
+  ],
+  "retainedArtifacts": [
+    {
+      "path": "check-first.log",
+      "sha256": "67D69B69D77C31593E7283E15490D475B043B529EB119BA23F5B5740FC6D8520",
+      "bytes": 925
+    },
+    {
+      "path": "inputs.tar",
+      "sha256": "85023E2981DEEB50192259D720A783A51E3B0E607A12414E55754CE8CF738C56",
+      "bytes": 573440
+    },
+    {
+      "path": "bin/Debug/net10.0/ExpansionCopyChecks.deps.json",
+      "sha256": "AFDEF8DC3BF81F65C3A50298FF488B6ED01875DD6DF7665BD3FE2F493773F30F",
+      "bytes": 451
+    },
+    {
+      "path": "bin/Debug/net10.0/ExpansionCopyChecks.dll",
+      "sha256": "F56AB6014B72870E1128262D11B5536E7D914F0E99057C8221EC2D4EE1882F8A",
+      "bytes": 330240
+    },
+    {
+      "path": "bin/Debug/net10.0/ExpansionCopyChecks.exe",
+      "sha256": "EC262FE7CDFAB761BC327695E4FE4E88B1467930B6FB349F6DC29B3262C7C8D6",
+      "bytes": 162816
+    },
+    {
+      "path": "bin/Debug/net10.0/ExpansionCopyChecks.pdb",
+      "sha256": "A50178108A417E5FB39C4869EB76DECB2FF897F84EE8F72BCC186486FC742820",
+      "bytes": 221824
+    },
+    {
+      "path": "bin/Debug/net10.0/ExpansionCopyChecks.runtimeconfig.json",
+      "sha256": "256DDA2706E1151BB95987B6B5BE610BF68D64E058285B19E7E958222FC90414",
+      "bytes": 270
+    }
+  ],
+  "diskBefore": [
+    {
+      "Name": "C",
+      "Free": 18939244544
+    },
+    {
+      "Name": "X",
+      "Free": 91019399168
+    }
+  ],
+  "diskAfter": [
+    {
+      "Name": "C",
+      "Free": 18938630144
+    },
+    {
+      "Name": "X",
+      "Free": 91017715712
+    }
+  ],
+  "artifactBytesAfterRun": 2647766,
+  "retention": "TEMP/TMP, CLI home, NuGet, frozen inputs and bin/obj process-local on X. Closed disposable logs eligible after7days;32MiB stream budget. No cleanup/automatic rotation installed; preserve receipts."
+}

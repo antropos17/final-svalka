@@ -1,0 +1,9 @@
+PASS {"name":"utf-eight","maxCharacters":65536,"excessCharacters":65537,"rejected":true,"consumedBytes":196612}
+PASS {"name":"utf-sixteen-le","maxCharacters":65536,"excessCharacters":65537,"rejected":true,"consumedBytes":131076}
+PASS {"name":"utf-sixteen-be","maxCharacters":65536,"excessCharacters":65537,"rejected":true,"consumedBytes":131076}
+PASS {"name":"utf-thirtytwo-le","maxCharacters":65536,"excessCharacters":65537,"rejected":true,"consumedBytes":262149}
+PASS {"name":"utf-thirtytwo-be","maxCharacters":65536,"excessCharacters":65537,"rejected":true,"consumedBytes":262149}
+PASS {"name":"growing-real-file","initialBytes":1024,"finalBytes":262152,"consumedBytes":66560,"rejected":true}
+PASS {"name":"codec-and-backup-presence","baselineReturnedCharacters":65537,"codecMaxAccepted":true,"invalidBackupPresenceRetained":true,"healthyPrimaryOpens":true,"absentPrimaryBlocksFresh":true,"writeCalls":0,"wiring":"test adapter; actual GameSession wiring owned by02"}
+PASS {"name":"replacement-sharing-and-malformed-bytes","replacementError":32,"malformedCases":4,"utf16SurrogateUnits":65536,"explicitOwnership":true}
+PASS bounded reader; receipt X:\tmp\jtn-effects-wave06\.work\bounded-reader-r10\run-8a2e635f59d1475c9a8a6f75d342261e\receipt.json

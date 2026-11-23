@@ -1,0 +1,18 @@
+{
+  "acceptedSource": "docs/evidence/unity/optional-achievements-20261030/inspector-producer/optional-fixture-identities.json",
+  "acceptedGameCheckpoint": "7a3448fdb5c7477f9d13f220427f9e37a391bc18",
+  "producer": "tools/SaveInspector/src/OptionalAchievementRegressions.cs at4c2d551",
+  "fixtures": [
+    {
+      "originalName": "ready-never-claimed.json",
+      "name": "ready-sort-no-claim.json",
+      "sha256": "F438F5618D1FCC08F05909E4A34A926B3C28F08C9B03DC6D7C1C3559799E8D17"
+    },
+    {
+      "originalName": "complete-no-skills-no-claim.json",
+      "name": "earlier-no-order.json",
+      "sha256": "2064DB59C0F2ED5C65AD55988D71931651E06E1256B00D01A4E2631BE7C3CE65"
+    }
+  ],
+  "scope": "Previously accepted explicitly funded valid fixture history created via actual pure commands; no natural pacing or physical-device claim."
+}

@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+    <DefineConstants>$(DefineConstants);UNITY_5_3_OR_NEWER</DefineConstants>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="../../Unity/Assets/Scripts/Platform/JtnSafeArea.cs" />
+    <Compile Include="Program.cs" />
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>$(UnityManagedPath)/UnityEngine.CoreModule.dll</HintPath>
+      <Private>true</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UIModule">
+      <HintPath>$(UnityManagedPath)/UnityEngine.UIModule.dll</HintPath>
+      <Private>true</Private>
+    </Reference>
+  </ItemGroup>
+  <Target Name="RequireUnityAssemblies" BeforeTargets="ResolveReferences"
+          Condition="!Exists('$(UnityManagedPath)/UnityEngine.CoreModule.dll')">
+    <Error Text="Pass -p:UnityManagedPath=.../Editor/Data/Managed/UnityEngine for the installed project Editor. No download is needed." />
+  </Target>
+</Project>

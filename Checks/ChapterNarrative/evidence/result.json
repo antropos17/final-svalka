@@ -1,0 +1,26 @@
+{
+  "scope": "Pure narrative \u002B actual Core/private in-memory save behavior; no Unity/UI/native claim",
+  "groups": [
+    "literal24 catalog coverage, immutable API, unknown/null fallbacks and bounded own-stage copy",
+    "house-first/forward legal24 purchases; persisted completion/reload/ACK/stale guard; both boundaries and optional order read/cancel",
+    "house-last/reversed legal24 purchases; persisted completion/reload/ACK/stale guard; both boundaries and optional order read/cancel",
+    "real fresh grant once, spin completion, retained AUTO/read/reload and current V3 owned skill",
+    "seven genuine legacy/current historical snapshots: pending/paid600/540 and V1 skill540; separate pinned V2 module180/5 round-trip"
+  ],
+  "assertions": 4730,
+  "readChecks": 138,
+  "actualSpins": 2,
+  "privateFundedChapterPaths": 2,
+  "naturalBalanceCampaigns": 0,
+  "inputHashes": {
+    "Checks/EraMigration/Fixtures/r6/pending-finish-house-spin.json": "624C6BF2E0315DD3F2E9D3FD0F3FFE088E96342AAF39E560FA094D79AAAD83A0",
+    "Checks/EraMigration/Fixtures/r6/committed-finish-house-spin.json": "24C135FE2B60D1947191A8D4250A09C93015D15B9040292AE9BFA1D9823400B3",
+    "Checks/ConstructionPricing/evidence/cadence-r12/v2/v2-pending-spin540.json": "5A1AD525BACC224ABB2E4A7FFC0BDADDBC23BB99CFED46FCA22EDE1D4C0CAD57",
+    "Checks/ConstructionPricing/evidence/cadence-r12/v2/v2-paid540.json": "B4A263D20A85794AA6C684FD8383D6CABB19031B3885D034EF048E12079BBE73",
+    "Checks/ConstructionPricing/evidence/cadence-r12/v2/v2-retained-v1-spin600.json": "BA2D222251D3AF82960F1C35B69E6FFF6B35A59B8193E3C43E09E4B83F0799F3",
+    "Checks/EraMigration/R8/Fixtures/pending-delivery-2.json": "C0008119D58E5A777111B2BBC4DA01A11DC21879E65078D75397073E769AB0BD",
+    "Checks/EraMigration/R8/Fixtures/owned-delivery-2.json": "C9134DF9EEDA35F260832BAC9EAAA766CCFF23580812F88AE94386DACD7FFEBD",
+    "Checks/EraMigration/R8/V2Pricing/delivery2-price5-owned.json": "340A309C274398A86CD47A550D1E79967B11196C64DB7BCE0010417BC792CA6D"
+  },
+  "wallSeconds": 0.4942914
+}

@@ -1,0 +1,60 @@
+{
+  "id": "warm-editor-foreground-timing-r10",
+  "sourceCodeCommit": "c0863958b1bcf8d9fbdcc18957a5371192756733",
+  "observedHead": "acb50ea7871bdb705f97c0995fa806f79f5aa324",
+  "changes": "No game source, timing rule, price, save schema or APK change",
+  "samples": {
+    "autoPeriods": 6,
+    "stableManual": 3,
+    "autoCommits": 7
+  },
+  "manualSeconds": [
+    3.5098949,
+    3.5150865999999996,
+    3.5154286
+  ],
+  "manualMedianSeconds": 3.5150866,
+  "manualCommitCallSeconds": [
+    0.0421451,
+    0.029030600000000018,
+    0.04518909999999998
+  ],
+  "autoPeriodSeconds": [
+    3.7708059999999994,
+    3.7574159,
+    3.747597700000002,
+    3.7612553999999996,
+    3.766115599999999,
+    3.7741419
+  ],
+  "autoMedianSeconds": 3.7636855,
+  "autoMinSeconds": 3.7475977,
+  "autoMaxSeconds": 3.7741419,
+  "clock": "Stopwatch monotonic; Editor.update observations, one observer-interval precision",
+  "fixture": "Private funded1000, seed1, actual40coin repair then hint acknowledgement;960 start, no selected target, no workshop, fixedUTC1000",
+  "foreground": "Actual existing Unity6000.3.21f1/Simulator1080x2340; programmatic Spin/ToggleAuto handlers, actual journal and animation; not device/pointer latency",
+  "firstAnomaly": "First spin invoked in script-eval frame finished0.1242222s in2frames. Preserved raw. Likely inherited unscaledDeltaTime after eval; not a stable pacing sample. Next two continuous manual cycles3.4896743/3.5155559. Smallest follow-up measured only3manual starts after2 later stable frames with delta<=.05s; no AUTO rerun.",
+  "firstFollowupRefusal": "Before any action, foreground guard refused while InBackground=true/Editor background override reset after Play restart. Focused actual Simulator and enabled Editor-only override, then ran same bounded follow-up.",
+  "normal": "Normal save+backup byte-identical throughout private measurement. Ordinary29coins/house2/seed3193385336/lastSpin108 restored, sequence116->117 no-income clock, menu complete-state unchanged, overrides cleared, AUTO off.",
+  "normalReceipt": "foreground-timing-normal-r10.json",
+  "freePhysicalKB": 12211656,
+  "freeCBytes": 9828536320,
+  "freeXBytes": 93233594368,
+  "pagefileBytes": 32928399360,
+  "editorLogBytes": 5256064,
+  "limits": "No natural chapter/session pacing or native acceptance. No new Editor, import, test campaign, APK, external-process or global-setting change.",
+  "sourceHashes": [
+    {
+      "sha256": "5E6FDD50508B0C3644B52BCAB7C867770EF86567D70650CB4162BE4A5068C696",
+      "path": "X:\\PROJECTS\\FINAL-SVALKA\\Unity\\Assets\\Scripts\\Core\\Model.cs"
+    },
+    {
+      "sha256": "2C22757027C55ABA2B205CC0454272E23B6022E44F807EA67CE8F304A8B87B8F",
+      "path": "X:\\PROJECTS\\FINAL-SVALKA\\Unity\\Assets\\Scripts\\Runtime\\JunkGame.cs"
+    },
+    {
+      "sha256": "98CC4B9BA68FB0E44DBCB895B5DAB1C6EF4471FDC697F813486A12557E44B202",
+      "path": "X:\\PROJECTS\\FINAL-SVALKA\\Unity\\Assets\\Scripts\\Runtime\\JunkGame.Journey.cs"
+    }
+  ]
+}

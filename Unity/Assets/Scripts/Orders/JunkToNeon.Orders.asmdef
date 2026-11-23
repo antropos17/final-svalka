@@ -1,0 +1,14 @@
+{
+  "name": "JunkToNeon.Orders",
+  "rootNamespace": "JunkToNeon.Orders",
+  "references": ["JunkToNeon.Contracts"],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": true
+}

@@ -1,0 +1,8 @@
+{
+  "name": "JunkToNeon.BackNavigationTests",
+  "rootNamespace": "JunkToNeon.Tests.BackNavigation",
+  "references": ["JunkToNeon.Core", "JunkToNeon.Presentation", "UnityEngine.UI", "Unity.InputSystem"],
+  "autoReferenced": false,
+  "defineConstraints": ["UNITY_INCLUDE_TESTS", "UNITY_EDITOR"],
+  "optionalUnityReferences": ["TestAssemblies"]
+}

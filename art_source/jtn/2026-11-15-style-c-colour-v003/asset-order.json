@@ -1,0 +1,52 @@
+{
+  "iconsPrimary": [
+    "home",
+    "spin",
+    "events",
+    "shop",
+    "upgrade",
+    "energy",
+    "profile",
+    "settings",
+    "map",
+    "diamond",
+    "ticket",
+    "parts",
+    "leaf",
+    "check",
+    "coin",
+    "info"
+  ],
+  "iconsUtility": [
+    "back",
+    "next",
+    "close",
+    "lock",
+    "play",
+    "pause",
+    "stop",
+    "sound",
+    "sound-off",
+    "reset",
+    "help",
+    "sections",
+    "yard-ruin",
+    "yard-house",
+    "yard-neon",
+    "bonus"
+  ],
+  "buttons": [
+    "primary-normal",
+    "primary-pressed",
+    "primary-disabled",
+    "secondary-normal",
+    "secondary-pressed",
+    "secondary-disabled",
+    "neutral-normal",
+    "neutral-pressed",
+    "neutral-disabled",
+    "round-normal",
+    "round-pressed",
+    "round-disabled"
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "gold-spark": {
+    "originalSize": [
+      1315,
+      1196
+    ],
+    "crop": [
+      293,
+      81,
+      1022,
+      1081
+    ],
+    "size": [
+      93,
+      128
+    ],
+    "sourceSHA256": "097a0220200e407c0eeb7b6bae91c053f818fae3139f55bc1e9ab3b3f214a186",
+    "runtimeSHA256": "cd531f3e8b168f3859b6ba8db35d435f458b897eb5dd46c1738fc96fb323e24e"
+  },
+  "gold-burst": {
+    "originalSize": [
+      1254,
+      1254
+    ],
+    "crop": [
+      53,
+      73,
+      1198,
+      1157
+    ],
+    "size": [
+      256,
+      242
+    ],
+    "sourceSHA256": "76d88988ff1f3e523081a6aa44ce499a2ece1a2c14381a2290e9626a2e4e4c84",
+    "runtimeSHA256": "55f3f6d04cd81e98e1a40fd1ad7594c3be36784ee76a30191e2d3df19931daa1"
+  }
+}

@@ -1,0 +1,12 @@
+PASS literal9-pair historical matrix and unknown/backward refusals
+PASS all24 V1/V2/V3 independent prices9460/9400/9310; unchanged610 skills
+PASS preserved literal v2-paid540 wallet=3
+PASS preserved literal v2-pending-instant540 wallet=10
+PASS preserved literal v2-pending-select-from-v1 wallet=535
+PASS preserved literal v2-pending-spin540 wallet=3
+PASS preserved literal v2-retained-v1-spin600 wallet=3
+PASS preserved literal v2-selected540 wallet=535
+PASS old600/540 promise until explicit480 reselection; fresh37/repair40 and current-only skill quotes
+PASS54 immutable V1 literal saves, pending recovery and no eager IO
+PASS two private actual-file V2/V1 backup restores540/600, exact replay and reopen
+PASS 390 selected-r12 assertions; no progression rerun or ordinary saves

@@ -1,0 +1,114 @@
+{
+  "date": "2026-10-29",
+  "timezone": "Asia/Baku",
+  "sourceBase": "d4cf353144e55b9e580ee11ef8c5b04ddf62f3f7",
+  "editor": "6000.3.21f1",
+  "cli": "1.0.0-beta.14",
+  "testSourceSha256": "572cb9da9337c62370264f34ed8239d6e8ef52b3822a6c55e92163c0bc7ff609",
+  "standaloneCoreGroupsPassed": 10,
+  "firstActualPlayModeVerdict": {
+    "status": "completed",
+    "duration": 9.35,
+    "summary": {
+      "total": 3,
+      "passed": 1,
+      "failed": 2,
+      "skipped": 0,
+      "inconclusive": 0
+    },
+    "results": [
+      {
+        "FullName": "JunkToNeon.Tests.PlayMode.ReelUiLifecycleTests.AffordablePreviewNeedsSelectionAndHintAcknowledgementSurvivesReentry",
+        "Status": "Failed",
+        "Duration": 1.022724,
+        "Message": "  closeButton must be reachable by a UI raycast\r\n  Expected: greater than 0\r\n  But was:  0\r\n",
+        "StackTrace": "at JunkToNeon.Tests.PlayMode.ReelUiLifecycleTests.PointerClick (System.String field) [0x000a5] in C:\\Users\\murtu\\.codex\\worktrees\\jtn-ui-lifecycle\\FINAL-SVALKA\\Unity\\Assets\\Tests\\PlayMode\\ReelUiLifecycleTests.cs:99\r\nat JunkToNeon.Tests.PlayMode.ReelUiLifecycleTests+<AffordablePreviewNeedsSelectionAndHintAcknowledgementSurvivesReentry>d__28.MoveNext () [0x00078] in C:\\Users\\murtu\\.codex\\worktrees\\jtn-ui-lifecycle\\FINAL-SVALKA\\Unity\\Assets\\Tests\\PlayMode\\ReelUiLifecycleTests.cs:157\r\nat UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in .\\Library\\PackageCache\\com.unity.test-framework@bd7f943e9647\\UnityEngine.TestRunner\\NUnitExtensions\\Attributes\\TestEnumerator.cs:44\r\n"
+      },
+      {
+        "FullName": "JunkToNeon.Tests.PlayMode.ReelUiLifecycleTests.FinalAutoSpinStopsAndRestoresExactCommittedResultWithoutFuturePurchase",
+        "Status": "Failed",
+        "Duration": 4.1360862,
+        "Message": "  closeButton must be reachable by a UI raycast\r\n  Expected: greater than 0\r\n  But was:  0\r\n",
+        "StackTrace": "at JunkToNeon.Tests.PlayMode.ReelUiLifecycleTests.PointerClick (System.String field) [0x000a5] in C:\\Users\\murtu\\.codex\\worktrees\\jtn-ui-lifecycle\\FINAL-SVALKA\\Unity\\Assets\\Tests\\PlayMode\\ReelUiLifecycleTests.cs:99\r\nat JunkToNeon.Tests.PlayMode.ReelUiLifecycleTests+<FinalAutoSpinStopsAndRestoresExactCommittedResultWithoutFuturePurchase>d__29.MoveNext () [0x00114] in C:\\Users\\murtu\\.codex\\worktrees\\jtn-ui-lifecycle\\FINAL-SVALKA\\Unity\\Assets\\Tests\\PlayMode\\ReelUiLifecycleTests.cs:192\r\nat UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in .\\Library\\PackageCache\\com.unity.test-framework@bd7f943e9647\\UnityEngine.TestRunner\\NUnitExtensions\\Attributes\\TestEnumerator.cs:44\r\n"
+      },
+      {
+        "FullName": "JunkToNeon.Tests.PlayMode.ReelUiLifecycleTests.RepeatedSpinPointersCommitOneOutcomeAndDoNotQueue",
+        "Status": "Passed",
+        "Duration": 4.1239592,
+        "Message": null,
+        "StackTrace": null
+      }
+    ]
+  },
+  "finalPlayModeVerdict": {
+    "status": "completed",
+    "duration": 9.27,
+    "summary": {
+      "total": 3,
+      "passed": 3,
+      "failed": 0,
+      "skipped": 0,
+      "inconclusive": 0
+    },
+    "results": [
+      {
+        "FullName": "JunkToNeon.Tests.PlayMode.ReelUiLifecycleTests.AffordablePreviewNeedsSelectionAndHintAcknowledgementSurvivesReentry",
+        "Status": "Passed",
+        "Duration": 0.8258343,
+        "Message": null,
+        "StackTrace": null
+      },
+      {
+        "FullName": "JunkToNeon.Tests.PlayMode.ReelUiLifecycleTests.FinalAutoSpinStopsAndRestoresExactCommittedResultWithoutFuturePurchase",
+        "Status": "Passed",
+        "Duration": 4.2612016,
+        "Message": null,
+        "StackTrace": null
+      },
+      {
+        "FullName": "JunkToNeon.Tests.PlayMode.ReelUiLifecycleTests.RepeatedSpinPointersCommitOneOutcomeAndDoNotQueue",
+        "Status": "Passed",
+        "Duration": 4.1275309,
+        "Message": null,
+        "StackTrace": null
+      }
+    ]
+  },
+  "finalEditModeVerdict": {
+    "Summary": {
+      "Total": 1,
+      "Passed": 1,
+      "Failed": 0,
+      "Skipped": 0,
+      "Inconclusive": 0
+    },
+    "Results": [
+      {
+        "FullName": "JunkToNeon.Tests.CoreRegressionUnity.EconomyAndPersistenceBehavior",
+        "Status": "Passed",
+        "Duration": 0.1587197,
+        "Message": null,
+        "StackTrace": null
+      }
+    ],
+    "Duration": 0.56,
+    "StatusPath": null,
+    "Mode": "EditMode",
+    "FilterApplied": "testname: JunkToNeon",
+    "success": true,
+    "result": null
+  },
+  "finalCompilation": {
+    "status": "up_to_date",
+    "compiling": false,
+    "failed": false,
+    "compilationFailed": null,
+    "errors": [],
+    "warnings": [],
+    "summary": {
+      "errors": 0,
+      "warnings": 0
+    }
+  },
+  "editorClosedGracefully": true
+}

@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Command Sequence Lab summary v1",
+  "type": "object",
+  "required": ["schema", "mode", "sourceManifestHash", "seedsRequested", "completed", "stepsCeiling", "secondsCeiling", "elapsedSeconds", "timedOut", "assertions", "commands", "categories", "uniqueStates", "missingRequired", "failures", "limits"],
+  "properties": {
+    "schema": {"const": 1},
+    "mode": {"enum": ["smoke", "explore", "compat"]},
+    "sourceManifestHash": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+    "seedsRequested": {"type": "integer", "minimum": 1, "maximum": 64},
+    "completed": {"type": "integer", "minimum": 0, "maximum": 64},
+    "stepsCeiling": {"type": "integer", "minimum": 110, "maximum": 150},
+    "secondsCeiling": {"const": 300},
+    "elapsedSeconds": {"type": "number", "minimum": 0},
+    "timedOut": {"type": "boolean"},
+    "assertions": {"type": "integer", "minimum": 0},
+    "commands": {"type": "object", "additionalProperties": {"type": "integer", "minimum": 0}},
+    "categories": {"type": "object", "additionalProperties": {"type": "integer", "minimum": 0}},
+    "uniqueStates": {"type": "integer", "minimum": 0},
+    "missingRequired": {"type": "array", "items": {"type": "string"}},
+    "failures": {"type": "array", "maxItems": 1, "items": {"type": "object"}},
+    "limits": {"type": "array", "items": {"type": "string"}}
+  }
+}

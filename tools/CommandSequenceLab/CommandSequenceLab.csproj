@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="../../Unity/Assets/Scripts/Core/*.cs" Link="Production/Core/%(Filename)%(Extension)" />
+    <Compile Include="../../Unity/Assets/Scripts/Contracts/*.cs" Link="Production/Contracts/%(Filename)%(Extension)" />
+    <Compile Include="../../Unity/Assets/Scripts/Content/*.cs" Link="Production/Content/%(Filename)%(Extension)" />
+    <Compile Include="../../Unity/Assets/Scripts/Effects/*.cs" Link="Production/Effects/%(Filename)%(Extension)" />
+    <Compile Include="../../Unity/Assets/Scripts/Upgrades/*.cs" Link="Production/Upgrades/%(Filename)%(Extension)" />
+    <Compile Include="../../Unity/Assets/Scripts/Orders/*.cs" Link="Production/Orders/%(Filename)%(Extension)" />
+    <Compile Include="../../Unity/Assets/Scripts/Guidance/*.cs" Link="Production/Guidance/%(Filename)%(Extension)" />
+  </ItemGroup>
+</Project>

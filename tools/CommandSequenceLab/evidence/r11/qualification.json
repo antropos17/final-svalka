@@ -1,0 +1,87 @@
+{
+  "schema": 1,
+  "date": "2026-10-29",
+  "hardStop": "2026-10-29T13:30:12Z",
+  "lastBatchStart": "2026-10-29T05:42:50Z",
+  "lastBatchEndBefore": "2026-10-29T05:43:12Z",
+  "productionPin": "bd8fbe8e140627f0bbbd0763b174c8245457705d",
+  "previousTool": "fd3d201fd45a3ad99b4bd54ccc0c9beadc51172a",
+  "linkedInputs": 45,
+  "productionPathsEdited": false,
+  "generatorRngChanged": false,
+  "harnessHashes": {
+    "Program.cs": "5374afe4179c967e03d0e8e51bf73ac6fd2cdc44fd9b903d32192e537e675ca2",
+    "CommandSequenceLab.csproj": "7248261969e6e64a6349342add0e6bbca5b41822c8c4bde63f8321a7027abcbe",
+    "run.ps1": "51a31bfe9cae4e3455027f9b3b3216ea0ba8dd237136dd26c536e042c1456956",
+    "source-manifest.json": "d9847ea5d24fc173d4bb1d63afba4a3a515d1d3a8128a1bc4e803bbbecfc06ee",
+    "result.schema.json": "a9ec0577067a40910c266ba73476f6f1a5a848d2906acd22bccaa712a2bd35b6"
+  },
+  "binarySha256": "be1254d947bd2be73ff00fb3769107b8d32ad324627e0e9389e0fda944fc9978",
+  "artifactHashes": {
+    "first-build-failure.txt": "67e38ab97a3bba51e00bc918bde5ee6b602cbb32f4e0c136cf7bca3fa5bea752",
+    "passing-trace-0.json": "a71225e43ce87fe225a7451d90d6eeca8d8cbbd88af62d0fb5368e7a477c5780",
+    "passing-trace-3.json": "cf2f3738750e2cf897762720f2ff0e040de568e4adad465fb5223ecc5917de32",
+    "summary.json": "cc0bd4c1e6cbdf84edc3ee9d4f0aecea185a8f3ea2c3618d102037a717bbb4a7"
+  },
+  "checks": [
+    {
+      "command": "./run.ps1 build",
+      "exit": 0,
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "command": "./run.ps1 check",
+      "exit": 0,
+      "scope": "64 outcomes;24 independent construction prices inV1/V2;9460/9400 totals;600/540 identity;historicalskillreceipts;syntheticreducer"
+    },
+    {
+      "command": "./run.ps1 compat --output r11-compat",
+      "exit": 0,
+      "histories": 5,
+      "commands": 545,
+      "assertions": 5589,
+      "seconds": 3.0841236,
+      "missingRequired": []
+    },
+    {
+      "command": "./run.ps1 replay artifacts/r11-compat/passing-trace-0.json",
+      "exit": 0,
+      "commands": 109,
+      "stateHashes": "all match"
+    },
+    {
+      "command": "./run.ps1 replay artifacts/r11-compat/passing-trace-3.json",
+      "exit": 0,
+      "commands": 109,
+      "stateHashes": "all match"
+    }
+  ],
+  "firstFailure": "first-build-failure.txt:CS0136 harness local-name collision before any game execution; renamed legacyPrice; slot released before corrected retry",
+  "scope": {
+    "gameReductionRan": false,
+    "broadCampaignRepeated": false,
+    "physicalStorageTest": false,
+    "priceTuning": false,
+    "unityImport": false,
+    "ordinarySaveAccess": false
+  },
+  "resources": {
+    "before": {
+      "cFreeBytes": 8995856384,
+      "xFreeBytes": 92330004480,
+      "freeRamKiB": 9284224
+    },
+    "after": {
+      "cFreeBytes": 9002811392,
+      "xFreeBytes": 92329807872,
+      "freeRamKiB": 9244608
+    },
+    "tempBytes": 2216148,
+    "binBytes": 537634,
+    "objBytes": 698755,
+    "allGeneratedReportBytes": 166653,
+    "newR11EvidenceBytesBeforeReceipt": 61722
+  },
+  "review": "Frozen independent07 review requested separately; receipt records producer checks only"
+}

@@ -1,0 +1,398 @@
+[
+  {
+    "id": "emblem-district",
+    "originalSha256": "F5BB25F3EC514DCC51957DD67133308C59C35963EEE7C63EAA68A97052B7EDAD",
+    "originalWidth": 1254,
+    "originalHeight": 1254,
+    "alphaBounds": [
+      131,
+      298,
+      1113,
+      1009
+    ],
+    "originalNonzeroAlphaBorderPixels": 46,
+    "crop": [
+      127,
+      294,
+      991,
+      720
+    ],
+    "runtimeWidth": 512,
+    "runtimeHeight": 372,
+    "runtimeSha256": "EDB4AD471D0187821692B851C0C0075F0AA391DD92E496320DD466CD84A86D73"
+  },
+  {
+    "id": "emblem-energy",
+    "originalSha256": "68314FEB459C268A666E82F69507AF8028DFEE6DEB249AB36EB3ECEEA41DA3AE",
+    "originalWidth": 1254,
+    "originalHeight": 1254,
+    "alphaBounds": [
+      306,
+      135,
+      942,
+      1123
+    ],
+    "originalNonzeroAlphaBorderPixels": 6,
+    "crop": [
+      302,
+      131,
+      645,
+      997
+    ],
+    "runtimeWidth": 331,
+    "runtimeHeight": 512,
+    "runtimeSha256": "AB9D09B528C7E750A6061226E36D7B274A80F7F39471A029AE7A09CFC7DF8A98"
+  },
+  {
+    "id": "emblem-events",
+    "originalSha256": "9422D11E6D22072430FD2E38F5E28CD4B18C0FBCB34F66133B20A4FA1D0281A7",
+    "originalWidth": 1254,
+    "originalHeight": 1254,
+    "alphaBounds": [
+      208,
+      161,
+      1051,
+      1116
+    ],
+    "originalNonzeroAlphaBorderPixels": 0,
+    "crop": [
+      204,
+      157,
+      852,
+      964
+    ],
+    "runtimeWidth": 453,
+    "runtimeHeight": 512,
+    "runtimeSha256": "D65884E7A66F44C75F5FA6D7AD046AC07E0DCC2D0C945FDC2D6481C8AFD83DF1"
+  },
+  {
+    "id": "emblem-memory",
+    "originalSha256": "F378652F146316EDD284282DA4911FE7D3B58F73DA2EB5621607CE88A8638D37",
+    "originalWidth": 1254,
+    "originalHeight": 1254,
+    "alphaBounds": [
+      142,
+      246,
+      1096,
+      1036
+    ],
+    "originalNonzeroAlphaBorderPixels": 29,
+    "crop": [
+      138,
+      242,
+      963,
+      799
+    ],
+    "runtimeWidth": 512,
+    "runtimeHeight": 425,
+    "runtimeSha256": "6E67BF25728C6EF27043594AEFC58D06CECB11F7FF936D9D645CE0C906B1BBB4"
+  },
+  {
+    "id": "emblem-parcels",
+    "originalSha256": "A0E5B28E938E9226F87AE270035DF81D54919E4CDEBBDA9F7E4971250F01A4C8",
+    "originalWidth": 1254,
+    "originalHeight": 1254,
+    "alphaBounds": [
+      172,
+      74,
+      1101,
+      1204
+    ],
+    "originalNonzeroAlphaBorderPixels": 0,
+    "crop": [
+      168,
+      70,
+      938,
+      1139
+    ],
+    "runtimeWidth": 422,
+    "runtimeHeight": 512,
+    "runtimeSha256": "061C9F2A718AFA93BB52E816F86D4B3B01B977C7CC5632396E152965B86DA271"
+  },
+  {
+    "id": "emblem-profile",
+    "originalSha256": "7B35FF63071DE2896E9619AA3C1AAB1A2AA630EE88B64E2B90A3AE332BA2AA8E",
+    "originalWidth": 1254,
+    "originalHeight": 1254,
+    "alphaBounds": [
+      202,
+      194,
+      1034,
+      1074
+    ],
+    "originalNonzeroAlphaBorderPixels": 0,
+    "crop": [
+      198,
+      190,
+      841,
+      889
+    ],
+    "runtimeWidth": 484,
+    "runtimeHeight": 512,
+    "runtimeSha256": "8D9562D40FBF8F7341B6CE08E22B24AFE82A4746D0D8FCFCDEEB58C7CC22FC2E"
+  },
+  {
+    "id": "emblem-settings",
+    "originalSha256": "B0FFDC43E1234F16EE81FA00AEAEA2FCBEEC040B873C77118694D5D0DCADA47A",
+    "originalWidth": 1254,
+    "originalHeight": 1254,
+    "alphaBounds": [
+      156,
+      188,
+      1095,
+      1089
+    ],
+    "originalNonzeroAlphaBorderPixels": 0,
+    "crop": [
+      152,
+      184,
+      948,
+      910
+    ],
+    "runtimeWidth": 512,
+    "runtimeHeight": 491,
+    "runtimeSha256": "DAA2D6945C630E5B5CE976D0D954ED686623366F03F533B8C9E25694C2E6C31F"
+  },
+  {
+    "id": "emblem-shop",
+    "originalSha256": "16FA861EDA38610C18BF6D5DE32BAD39FBF050ACFC754367D957F0956A7BA1AB",
+    "originalWidth": 1254,
+    "originalHeight": 1254,
+    "alphaBounds": [
+      228,
+      190,
+      1020,
+      1075
+    ],
+    "originalNonzeroAlphaBorderPixels": 13,
+    "crop": [
+      224,
+      186,
+      801,
+      894
+    ],
+    "runtimeWidth": 459,
+    "runtimeHeight": 512,
+    "runtimeSha256": "9345F907F1E5C92DE42B3434206DE3E0E1B5D936E0391AD920D4A4778F4484AA"
+  },
+  {
+    "id": "emblem-sorting",
+    "originalSha256": "9087FA4FF70B1A94AF023E832CC738C51DBA46B16D1603AA1401CEDD75DBD39F",
+    "originalWidth": 1254,
+    "originalHeight": 1254,
+    "alphaBounds": [
+      124,
+      149,
+      1129,
+      1073
+    ],
+    "originalNonzeroAlphaBorderPixels": 0,
+    "crop": [
+      120,
+      145,
+      1014,
+      933
+    ],
+    "runtimeWidth": 512,
+    "runtimeHeight": 471,
+    "runtimeSha256": "D57C7B3E406C6869FD6F67D765B7C5870FA1748D8330C84CB00762304F45FFD2"
+  },
+  {
+    "id": "emblem-upgrades",
+    "originalSha256": "1C919DA02BD285CC13AB5C6377E47404F9C82810FEE93249B19E0F2425631356",
+    "originalWidth": 1254,
+    "originalHeight": 1254,
+    "alphaBounds": [
+      207,
+      135,
+      1042,
+      1111
+    ],
+    "originalNonzeroAlphaBorderPixels": 9,
+    "crop": [
+      203,
+      131,
+      844,
+      985
+    ],
+    "runtimeWidth": 439,
+    "runtimeHeight": 512,
+    "runtimeSha256": "9487171F9848FC963B571F2F4450106A29CAD8F63ED7EBAB9295F8F34F596E8E"
+  },
+  {
+    "id": "icon-appearance",
+    "originalSha256": "4AEEA3360857CDCBE50E9B8D7DF49A603823B85C2B301F339B4391C468E0408C",
+    "originalWidth": 1254,
+    "originalHeight": 1254,
+    "alphaBounds": [
+      206,
+      223,
+      1022,
+      1036
+    ],
+    "originalNonzeroAlphaBorderPixels": 0,
+    "crop": [
+      202,
+      219,
+      825,
+      822
+    ],
+    "runtimeWidth": 512,
+    "runtimeHeight": 510,
+    "runtimeSha256": "18273AA3AB8043D4B570133D633BF0EA1A4EACD22F3D5F457B91940E10B08881"
+  },
+  {
+    "id": "icon-equipment",
+    "originalSha256": "C6CA20D4DAE67DCE6B5D660AEB90373BD707BD9963B87EA96CAD8A36CDB490A8",
+    "originalWidth": 1254,
+    "originalHeight": 1254,
+    "alphaBounds": [
+      196,
+      226,
+      1056,
+      1036
+    ],
+    "originalNonzeroAlphaBorderPixels": 0,
+    "crop": [
+      192,
+      222,
+      869,
+      819
+    ],
+    "runtimeWidth": 512,
+    "runtimeHeight": 483,
+    "runtimeSha256": "07562BB9B701C2E07E715E604F255186AF2F2CBC989DCA339A3806A8C0313AAE"
+  },
+  {
+    "id": "icon-modules",
+    "originalSha256": "A906933C38939F585490DA6E53BFA2F5ACEABD3F04E3C087BC54D3CB575B08A4",
+    "originalWidth": 1254,
+    "originalHeight": 1254,
+    "alphaBounds": [
+      185,
+      230,
+      1067,
+      1053
+    ],
+    "originalNonzeroAlphaBorderPixels": 14,
+    "crop": [
+      181,
+      226,
+      891,
+      832
+    ],
+    "runtimeWidth": 512,
+    "runtimeHeight": 478,
+    "runtimeSha256": "0947DCB73FE86E7EBDAC8F595F74662F22E4ADD4E00125268CF0C0064E265DC4"
+  },
+  {
+    "id": "icon-orders",
+    "originalSha256": "85F7EE0448EEDF5258C4656128C10310EAEA71DF42A189BEAF93D340550A517C",
+    "originalWidth": 1254,
+    "originalHeight": 1254,
+    "alphaBounds": [
+      209,
+      181,
+      1028,
+      1113
+    ],
+    "originalNonzeroAlphaBorderPixels": 0,
+    "crop": [
+      205,
+      177,
+      828,
+      941
+    ],
+    "runtimeWidth": 451,
+    "runtimeHeight": 512,
+    "runtimeSha256": "FD145B50DED37BF8A1953D7B7EF655F96DD8D2FD05489166CF3D5600044E6108"
+  },
+  {
+    "id": "icon-progress",
+    "originalSha256": "7462D6A946BB3EF0AAFD109A0099548226B076D12AC646EEC666A9869EB1FD48",
+    "originalWidth": 1254,
+    "originalHeight": 1254,
+    "alphaBounds": [
+      245,
+      145,
+      994,
+      1098
+    ],
+    "originalNonzeroAlphaBorderPixels": 0,
+    "crop": [
+      241,
+      141,
+      758,
+      962
+    ],
+    "runtimeWidth": 403,
+    "runtimeHeight": 512,
+    "runtimeSha256": "5A83D0DE4ACD058288ECDB46891BAC8B0F97D452330070C2AB2EF299EF52171E"
+  },
+  {
+    "id": "icon-skills",
+    "originalSha256": "54FF4E69C28BEF410DF8AAB6FB81994EC6A4E726E2697C75B41ABED318BC2D4D",
+    "originalWidth": 1254,
+    "originalHeight": 1254,
+    "alphaBounds": [
+      138,
+      188,
+      1113,
+      1103
+    ],
+    "originalNonzeroAlphaBorderPixels": 5,
+    "crop": [
+      134,
+      184,
+      984,
+      924
+    ],
+    "runtimeWidth": 512,
+    "runtimeHeight": 481,
+    "runtimeSha256": "7592CEB5CE9FE6B8A792BEC43EF6F04533C47D32D21FA276181AEFFBCDEC37ED"
+  },
+  {
+    "id": "icon-sockets",
+    "originalSha256": "4456076E048E7498594A3395FE0AC094AC88D6EB874190819E8D886B2DBD0F6F",
+    "originalWidth": 1254,
+    "originalHeight": 1254,
+    "alphaBounds": [
+      206,
+      279,
+      1100,
+      1031
+    ],
+    "originalNonzeroAlphaBorderPixels": 7,
+    "crop": [
+      202,
+      275,
+      903,
+      761
+    ],
+    "runtimeWidth": 512,
+    "runtimeHeight": 431,
+    "runtimeSha256": "9026CC28FE3B41809F71E68E7B22492B3DBBEF6797370B521C14C514D525447C"
+  },
+  {
+    "id": "icon-trades",
+    "originalSha256": "77D04EAFE8AB062C17E20FD26123F08C77C627E703DBD8701A30C0B7860A91B0",
+    "originalWidth": 1254,
+    "originalHeight": 1254,
+    "alphaBounds": [
+      187,
+      236,
+      1072,
+      1084
+    ],
+    "originalNonzeroAlphaBorderPixels": 0,
+    "crop": [
+      183,
+      232,
+      894,
+      857
+    ],
+    "runtimeWidth": 512,
+    "runtimeHeight": 491,
+    "runtimeSha256": "2C5C7BBB244EDBCDFC9EF35DF42F1261ED9250567D803B33217992FC8498EBE3"
+  }
+]

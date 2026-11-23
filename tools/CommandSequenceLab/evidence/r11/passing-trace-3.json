@@ -1,0 +1,1106 @@
+{
+  "Schema": 1,
+  "SourceManifestHash": "d9847ea5d24fc173d4bb1d63afba4a3a515d1d3a8128a1bc4e803bbbecfc06ee",
+  "Fixture": "legacy600",
+  "GameSeed": 1,
+  "GenerationSeed": 1004,
+  "InitialSnapshot": "{\u0022schemaVersion\u0022:1,\u0022contentVersion\u0022:1,\u0022revision\u0022:0,\u0022sequence\u0022:0,\u0022coins\u0022:550,\u0022houseStage\u0022:1,\u0022selectedStage\u0022:2,\u0022seed\u0022:1,\u0022autoHintSeen\u0022:1,\u0022workshopBuilt\u0022:0,\u0022lastSettledAt\u0022:0,\u0022lastSettlementSeen\u0022:0,\u0022lastSettlement\u0022:null,\u0022lastSpin\u0022:null,\u0022pending\u0022:null}",
+  "Commands": [
+    {
+      "Id": "c000",
+      "Kind": "query",
+      "Arg": null,
+      "Sequence": 1,
+      "Instance": 0,
+      "Completion": 0,
+      "Expected": "unchanged"
+    },
+    {
+      "Id": "c001",
+      "Kind": "reopen",
+      "Arg": null,
+      "Sequence": 1,
+      "Instance": 0,
+      "Completion": 0,
+      "Expected": "unchanged"
+    },
+    {
+      "Id": "c002",
+      "Kind": "spin",
+      "Arg": null,
+      "Sequence": 1,
+      "Instance": 0,
+      "Completion": 0,
+      "Expected": "commit"
+    },
+    {
+      "Id": "c003",
+      "Kind": "query",
+      "Arg": null,
+      "Sequence": 2,
+      "Instance": 0,
+      "Completion": 0,
+      "Expected": "unchanged"
+    },
+    {
+      "Id": "c004",
+      "Kind": "reopen",
+      "Arg": null,
+      "Sequence": 2,
+      "Instance": 0,
+      "Completion": 0,
+      "Expected": "unchanged"
+    },
+    {
+      "Id": "c005",
+      "Kind": "select",
+      "Arg": "house.improve",
+      "Sequence": 2,
+      "Instance": 0,
+      "Completion": 0,
+      "Expected": "commit"
+    },
+    {
+      "Id": "c006",
+      "Kind": "reopen",
+      "Arg": null,
+      "Sequence": 3,
+      "Instance": 0,
+      "Completion": 0,
+      "Expected": "unchanged"
+    },
+    {
+      "Id": "c007",
+      "Kind": "spin",
+      "Arg": null,
+      "Sequence": 3,
+      "Instance": 0,
+      "Completion": 0,
+      "Expected": "commit"
+    },
+    {
+      "Id": "c008",
+      "Kind": "select",
+      "Arg": "cart.build",
+      "Sequence": 4,
+      "Instance": 0,
+      "Completion": 0,
+      "Expected": "commit"
+    },
+    {
+      "Id": "c009",
+      "Kind": "spin",
+      "Arg": null,
+      "Sequence": 6,
+      "Instance": 0,
+      "Completion": 0,
+      "Expected": "refuse"
+    },
+    {
+      "Id": "c010",
+      "Kind": "reopen",
+      "Arg": null,
+      "Sequence": 5,
+      "Instance": 0,
+      "Completion": 0,
+      "Expected": "unchanged"
+    },
+    {
+      "Id": "c011",
+      "Kind": "query",
+      "Arg": null,
+      "Sequence": 5,
+      "Instance": 0,
+      "Completion": 0,
+      "Expected": "unchanged"
+    },
+    {
+      "Id": "c012",
+      "Kind": "select",
+      "Arg": "power-source.build",
+      "Sequence": 5,
+      "Instance": 0,
+      "Completion": 0,
+      "Expected": "commit"
+    },
+    {
+      "Id": "c013",
+      "Kind": "ack",
+      "Arg": "guide.completion",
+      "Sequence": 6,
+      "Instance": 0,
+      "Completion": 2,
+      "Expected": "commit"
+    },
+    {
+      "Id": "c014",
+      "Kind": "select",
+      "Arg": "pigeon-loft.build",
+      "Sequence": 7,
+      "Instance": 0,
+      "Completion": 0,
+      "Expected": "commit"
+    },
+    {
+      "Id": "c015",
+      "Kind": "reopen",
+      "Arg": null,
+      "Sequence": 8,
+      "Instance": 0,
+      "Completion": 0,
+      "Expected": "unchanged"
+    },
+    {
+      "Id": "c016",
+      "Kind": "ack",
+      "Arg": "guide.completion",
+      "Sequence": 8,
+      "Instance": 0,
+      "Completion": 2,
+      "Expected": "commit"
+    },
+    {
+      "Id": "c017",
+      "Kind": "select",
+      "Arg": "power-source.build",
+      "Sequence": 9,
+      "Instance": 0,
+      "Completion": 0,
+      "Expected": "commit"
+    },
+    {
+      "Id": "c018",
+      "Kind": "select",
+      "Arg": "workshop.build",
+      "Sequence": 10,
+      "Instance": 0,
+      "Completion": 0,
+      "Expected": "commit"
+    },
+    {
+      "Id": "c019",
+      "Kind": "quote",
+      "Arg": "skill.universal.2",
+      "Sequence": 11,
+      "Instance": 0,
+      "Completion": 0,
+      "Expected": "unchanged"
+    },
+    {
+      "Id": "c020",
+      "Kind": "buy",
+      "Arg": "c019",
+      "Sequence": 11,
+      "Instance": 0,
+      "Completion": 0,
+      "Expected": "refuse"
+    },
+    {
+      "Id": "c021",
+      "Kind": "quote",
+      "Arg": "skill.recycling.1",
+      "Sequence": 11,
+      "Instance": 0,
+      "Completion": 0,
+      "Expected": "unchanged"
+    },
+    {
+      "Id": "c022",
+      "Kind": "buy",
+      "Arg": "c021",
+      "Sequence": 11,
+      "Instance": 0,
+      "Completion": 0,
+      "Expected": "refuse"
+    },
+    {
+      "Id": "c023",
+      "Kind": "select",
+      "Arg": "project.invalid",
+      "Sequence": 11,
+      "Instance": 0,
+      "Completion": 0,
+      "Expected": "refuse"
+    },
+    {
+      "Id": "c024",
+      "Kind": "spin",
+      "Arg": null,
+      "Sequence": 11,
+      "Instance": 0,
+      "Completion": 0,
+      "Expected": "commit"
+    },
+    {
+      "Id": "c025",
+      "Kind": "reopen",
+      "Arg": null,
+      "Sequence": 12,
+      "Instance": 0,
+      "Completion": 0,
+      "Expected": "unchanged"
+    },
+    {
+      "Id": "c026",
+      "Kind": "spin",
+      "Arg": null,
+      "Sequence": 12,
+      "Instance": 0,
+      "Completion": 0,
+      "Expected": "commit"
+    },
+    {
+      "Id": "c027",
+      "Kind": "spin",
+      "Arg": null,
+      "Sequence": 13,
+      "Instance": 0,
+      "Completion": 0,
+      "Expected": "commit"
+    },
+    {
+      "Id": "c028",
+      "Kind": "spin",
+      "Arg": null,
+      "Sequence": 15,
+      "Instance": 0,
+      "Completion": 0,
+      "Expected": "refuse"
+    },
+    {
+      "Id": "c029",
+      "Kind": "select",
+      "Arg": "workshop.build",
+      "Sequence": 14,
+      "Instance": 0,
+      "Completion": 0,
+      "Expected": "commit"
+    },
+    {
+      "Id": "c030",
+      "Kind": "select",
+      "Arg": "project.invalid",
+      "Sequence": 15,
+      "Instance": 0,
+      "Completion": 0,
+      "Expected": "refuse"
+    },
+    {
+      "Id": "c031",
+      "Kind": "quote",
+      "Arg": "skill.recycling.2",
+      "Sequence": 15,
+      "Instance": 0,
+      "Completion": 0,
+      "Expected": "unchanged"
+    },
+    {
+      "Id": "c032",
+      "Kind": "buy",
+      "Arg": "c031",
+      "Sequence": 15,
+      "Instance": 0,
+      "Completion": 0,
+      "Expected": "refuse"
+    },
+    {
+      "Id": "c033",
+      "Kind": "spin",
+      "Arg": null,
+      "Sequence": 15,
+      "Instance": 0,
+      "Completion": 0,
+      "Expected": "commit"
+    },
+    {
+      "Id": "c034",
+      "Kind": "query",
+      "Arg": null,
+      "Sequence": 16,
+      "Instance": 0,
+      "Completion": 0,
+      "Expected": "unchanged"
+    },
+    {
+      "Id": "c035",
+      "Kind": "ack",
+      "Arg": "guide.completion",
+      "Sequence": 16,
+      "Instance": 0,
+      "Completion": 2,
+      "Expected": "commit"
+    },
+    {
+      "Id": "c036",
+      "Kind": "ack",
+      "Arg": "guide.completion",
+      "Sequence": 17,
+      "Instance": 0,
+      "Completion": 2,
+      "Expected": "commit"
+    },
+    {
+      "Id": "c037",
+      "Kind": "select",
+      "Arg": "recycler.build",
+      "Sequence": 18,
+      "Instance": 0,
+      "Completion": 0,
+      "Expected": "commit"
+    },
+    {
+      "Id": "c038",
+      "Kind": "select",
+      "Arg": "project.invalid",
+      "Sequence": 19,
+      "Instance": 0,
+      "Completion": 0,
+      "Expected": "refuse"
+    },
+    {
+      "Id": "c039",
+      "Kind": "query",
+      "Arg": null,
+      "Sequence": 19,
+      "Instance": 0,
+      "Completion": 0,
+      "Expected": "unchanged"
+    },
+    {
+      "Id": "c040",
+      "Kind": "ack",
+      "Arg": "guide.completion",
+      "Sequence": 19,
+      "Instance": 0,
+      "Completion": 2,
+      "Expected": "commit"
+    },
+    {
+      "Id": "c041",
+      "Kind": "select",
+      "Arg": "project.invalid",
+      "Sequence": 20,
+      "Instance": 0,
+      "Completion": 0,
+      "Expected": "refuse"
+    },
+    {
+      "Id": "c042",
+      "Kind": "spin",
+      "Arg": null,
+      "Sequence": 20,
+      "Instance": 0,
+      "Completion": 0,
+      "Expected": "commit"
+    },
+    {
+      "Id": "c043",
+      "Kind": "select",
+      "Arg": "workshop.build",
+      "Sequence": 21,
+      "Instance": 0,
+      "Completion": 0,
+      "Expected": "commit"
+    },
+    {
+      "Id": "c044",
+      "Kind": "spin",
+      "Arg": null,
+      "Sequence": 23,
+      "Instance": 0,
+      "Completion": 0,
+      "Expected": "refuse"
+    },
+    {
+      "Id": "c045",
+      "Kind": "quote",
+      "Arg": "skill.delivery.2",
+      "Sequence": 22,
+      "Instance": 0,
+      "Completion": 0,
+      "Expected": "unchanged"
+    },
+    {
+      "Id": "c046",
+      "Kind": "buy",
+      "Arg": "c045",
+      "Sequence": 22,
+      "Instance": 0,
+      "Completion": 0,
+      "Expected": "refuse"
+    },
+    {
+      "Id": "c047",
+      "Kind": "select",
+      "Arg": "project.invalid",
+      "Sequence": 22,
+      "Instance": 0,
+      "Completion": 0,
+      "Expected": "refuse"
+    },
+    {
+      "Id": "c048",
+      "Kind": "spin",
+      "Arg": null,
+      "Sequence": 23,
+      "Instance": 0,
+      "Completion": 0,
+      "Expected": "refuse"
+    },
+    {
+      "Id": "c049",
+      "Kind": "spin",
+      "Arg": null,
+      "Sequence": 22,
+      "Instance": 0,
+      "Completion": 0,
+      "Expected": "commit"
+    },
+    {
+      "Id": "c050",
+      "Kind": "query",
+      "Arg": null,
+      "Sequence": 23,
+      "Instance": 0,
+      "Completion": 0,
+      "Expected": "unchanged"
+    },
+    {
+      "Id": "c051",
+      "Kind": "quote",
+      "Arg": "slot.coin-boost",
+      "Sequence": 23,
+      "Instance": 0,
+      "Completion": 0,
+      "Expected": "unchanged"
+    },
+    {
+      "Id": "c052",
+      "Kind": "buy",
+      "Arg": "c051",
+      "Sequence": 23,
+      "Instance": 0,
+      "Completion": 0,
+      "Expected": "refuse"
+    },
+    {
+      "Id": "c053",
+      "Kind": "select",
+      "Arg": "project.invalid",
+      "Sequence": 23,
+      "Instance": 0,
+      "Completion": 0,
+      "Expected": "refuse"
+    },
+    {
+      "Id": "c054",
+      "Kind": "spin",
+      "Arg": null,
+      "Sequence": 24,
+      "Instance": 0,
+      "Completion": 0,
+      "Expected": "refuse"
+    },
+    {
+      "Id": "c055",
+      "Kind": "spin",
+      "Arg": null,
+      "Sequence": 23,
+      "Instance": 0,
+      "Completion": 0,
+      "Expected": "commit"
+    },
+    {
+      "Id": "c056",
+      "Kind": "spin",
+      "Arg": null,
+      "Sequence": 24,
+      "Instance": 0,
+      "Completion": 0,
+      "Expected": "commit"
+    },
+    {
+      "Id": "c057",
+      "Kind": "ack",
+      "Arg": "guide.completion",
+      "Sequence": 25,
+      "Instance": 0,
+      "Completion": 1,
+      "Expected": "refuse"
+    },
+    {
+      "Id": "c058",
+      "Kind": "select",
+      "Arg": "power-source.build",
+      "Sequence": 25,
+      "Instance": 0,
+      "Completion": 0,
+      "Expected": "commit"
+    },
+    {
+      "Id": "c059",
+      "Kind": "spin",
+      "Arg": null,
+      "Sequence": 26,
+      "Instance": 0,
+      "Completion": 0,
+      "Expected": "commit"
+    },
+    {
+      "Id": "c060",
+      "Kind": "ack",
+      "Arg": "guide.completion",
+      "Sequence": 27,
+      "Instance": 0,
+      "Completion": 2,
+      "Expected": "commit"
+    },
+    {
+      "Id": "c061",
+      "Kind": "select",
+      "Arg": "project.invalid",
+      "Sequence": 28,
+      "Instance": 0,
+      "Completion": 0,
+      "Expected": "refuse"
+    },
+    {
+      "Id": "c062",
+      "Kind": "spin",
+      "Arg": null,
+      "Sequence": 28,
+      "Instance": 0,
+      "Completion": 0,
+      "Expected": "commit"
+    },
+    {
+      "Id": "c063",
+      "Kind": "reopen",
+      "Arg": null,
+      "Sequence": 29,
+      "Instance": 0,
+      "Completion": 0,
+      "Expected": "unchanged"
+    },
+    {
+      "Id": "c064",
+      "Kind": "select",
+      "Arg": "project.invalid",
+      "Sequence": 29,
+      "Instance": 0,
+      "Completion": 0,
+      "Expected": "refuse"
+    },
+    {
+      "Id": "c065",
+      "Kind": "ack",
+      "Arg": "guide.completion",
+      "Sequence": 29,
+      "Instance": 0,
+      "Completion": 1,
+      "Expected": "refuse"
+    },
+    {
+      "Id": "c066",
+      "Kind": "ack",
+      "Arg": "guide.completion",
+      "Sequence": 29,
+      "Instance": 0,
+      "Completion": 2,
+      "Expected": "commit"
+    },
+    {
+      "Id": "c067",
+      "Kind": "select",
+      "Arg": "recycler.build",
+      "Sequence": 30,
+      "Instance": 0,
+      "Completion": 0,
+      "Expected": "commit"
+    },
+    {
+      "Id": "c068",
+      "Kind": "reopen",
+      "Arg": null,
+      "Sequence": 31,
+      "Instance": 0,
+      "Completion": 0,
+      "Expected": "unchanged"
+    },
+    {
+      "Id": "c069",
+      "Kind": "select",
+      "Arg": "power-source.build",
+      "Sequence": 31,
+      "Instance": 0,
+      "Completion": 0,
+      "Expected": "commit"
+    },
+    {
+      "Id": "c070",
+      "Kind": "reopen",
+      "Arg": null,
+      "Sequence": 32,
+      "Instance": 0,
+      "Completion": 0,
+      "Expected": "unchanged"
+    },
+    {
+      "Id": "c071",
+      "Kind": "select",
+      "Arg": "project.invalid",
+      "Sequence": 32,
+      "Instance": 0,
+      "Completion": 0,
+      "Expected": "refuse"
+    },
+    {
+      "Id": "c072",
+      "Kind": "query",
+      "Arg": null,
+      "Sequence": 32,
+      "Instance": 0,
+      "Completion": 0,
+      "Expected": "unchanged"
+    },
+    {
+      "Id": "c073",
+      "Kind": "reopen",
+      "Arg": null,
+      "Sequence": 32,
+      "Instance": 0,
+      "Completion": 0,
+      "Expected": "unchanged"
+    },
+    {
+      "Id": "c074",
+      "Kind": "spin",
+      "Arg": null,
+      "Sequence": 33,
+      "Instance": 0,
+      "Completion": 0,
+      "Expected": "refuse"
+    },
+    {
+      "Id": "c075",
+      "Kind": "spin",
+      "Arg": null,
+      "Sequence": 32,
+      "Instance": 0,
+      "Completion": 0,
+      "Expected": "commit"
+    },
+    {
+      "Id": "c076",
+      "Kind": "select",
+      "Arg": "power-source.build",
+      "Sequence": 33,
+      "Instance": 0,
+      "Completion": 0,
+      "Expected": "commit"
+    },
+    {
+      "Id": "c077",
+      "Kind": "select",
+      "Arg": "cart.build",
+      "Sequence": 34,
+      "Instance": 0,
+      "Completion": 0,
+      "Expected": "commit"
+    },
+    {
+      "Id": "c078",
+      "Kind": "select",
+      "Arg": "recycler.build",
+      "Sequence": 35,
+      "Instance": 0,
+      "Completion": 0,
+      "Expected": "commit"
+    },
+    {
+      "Id": "c079",
+      "Kind": "select",
+      "Arg": "cart.build",
+      "Sequence": 36,
+      "Instance": 0,
+      "Completion": 0,
+      "Expected": "commit"
+    },
+    {
+      "Id": "c080",
+      "Kind": "spin",
+      "Arg": null,
+      "Sequence": 37,
+      "Instance": 0,
+      "Completion": 0,
+      "Expected": "commit"
+    },
+    {
+      "Id": "c081",
+      "Kind": "quote",
+      "Arg": "skill.recycling.2",
+      "Sequence": 38,
+      "Instance": 0,
+      "Completion": 0,
+      "Expected": "unchanged"
+    },
+    {
+      "Id": "c082",
+      "Kind": "buy",
+      "Arg": "c081",
+      "Sequence": 38,
+      "Instance": 0,
+      "Completion": 0,
+      "Expected": "refuse"
+    },
+    {
+      "Id": "c083",
+      "Kind": "select",
+      "Arg": "project.invalid",
+      "Sequence": 38,
+      "Instance": 0,
+      "Completion": 0,
+      "Expected": "refuse"
+    },
+    {
+      "Id": "c084",
+      "Kind": "query",
+      "Arg": null,
+      "Sequence": 38,
+      "Instance": 0,
+      "Completion": 0,
+      "Expected": "unchanged"
+    },
+    {
+      "Id": "c085",
+      "Kind": "spin",
+      "Arg": null,
+      "Sequence": 38,
+      "Instance": 0,
+      "Completion": 0,
+      "Expected": "commit"
+    },
+    {
+      "Id": "c086",
+      "Kind": "quote",
+      "Arg": "skill.delivery.2",
+      "Sequence": 39,
+      "Instance": 0,
+      "Completion": 0,
+      "Expected": "unchanged"
+    },
+    {
+      "Id": "c087",
+      "Kind": "buy",
+      "Arg": "c086",
+      "Sequence": 39,
+      "Instance": 0,
+      "Completion": 0,
+      "Expected": "refuse"
+    },
+    {
+      "Id": "c088",
+      "Kind": "spin",
+      "Arg": null,
+      "Sequence": 39,
+      "Instance": 0,
+      "Completion": 0,
+      "Expected": "commit"
+    },
+    {
+      "Id": "c089",
+      "Kind": "query",
+      "Arg": null,
+      "Sequence": 40,
+      "Instance": 0,
+      "Completion": 0,
+      "Expected": "unchanged"
+    },
+    {
+      "Id": "c090",
+      "Kind": "spin",
+      "Arg": null,
+      "Sequence": 40,
+      "Instance": 0,
+      "Completion": 0,
+      "Expected": "commit"
+    },
+    {
+      "Id": "c091",
+      "Kind": "ack",
+      "Arg": "guide.completion",
+      "Sequence": 41,
+      "Instance": 0,
+      "Completion": 1,
+      "Expected": "refuse"
+    },
+    {
+      "Id": "c092",
+      "Kind": "select",
+      "Arg": "workshop.build",
+      "Sequence": 41,
+      "Instance": 0,
+      "Completion": 0,
+      "Expected": "commit"
+    },
+    {
+      "Id": "c093",
+      "Kind": "select",
+      "Arg": "recycler.build",
+      "Sequence": 42,
+      "Instance": 0,
+      "Completion": 0,
+      "Expected": "commit"
+    },
+    {
+      "Id": "c094",
+      "Kind": "select",
+      "Arg": "project.invalid",
+      "Sequence": 43,
+      "Instance": 0,
+      "Completion": 0,
+      "Expected": "refuse"
+    },
+    {
+      "Id": "c095",
+      "Kind": "select",
+      "Arg": "project.invalid",
+      "Sequence": 43,
+      "Instance": 0,
+      "Completion": 0,
+      "Expected": "refuse"
+    },
+    {
+      "Id": "c096",
+      "Kind": "spin",
+      "Arg": null,
+      "Sequence": 43,
+      "Instance": 0,
+      "Completion": 0,
+      "Expected": "commit"
+    },
+    {
+      "Id": "c097",
+      "Kind": "reopen",
+      "Arg": null,
+      "Sequence": 44,
+      "Instance": 0,
+      "Completion": 0,
+      "Expected": "unchanged"
+    },
+    {
+      "Id": "c098",
+      "Kind": "spin",
+      "Arg": null,
+      "Sequence": 44,
+      "Instance": 0,
+      "Completion": 0,
+      "Expected": "commit"
+    },
+    {
+      "Id": "c099",
+      "Kind": "select",
+      "Arg": "project.invalid",
+      "Sequence": 45,
+      "Instance": 0,
+      "Completion": 0,
+      "Expected": "refuse"
+    },
+    {
+      "Id": "c100",
+      "Kind": "select",
+      "Arg": "recycler.build",
+      "Sequence": 45,
+      "Instance": 0,
+      "Completion": 0,
+      "Expected": "commit"
+    },
+    {
+      "Id": "c101",
+      "Kind": "select",
+      "Arg": "cart.build",
+      "Sequence": 46,
+      "Instance": 0,
+      "Completion": 0,
+      "Expected": "commit"
+    },
+    {
+      "Id": "c102",
+      "Kind": "select",
+      "Arg": "power-source.build",
+      "Sequence": 47,
+      "Instance": 0,
+      "Completion": 0,
+      "Expected": "commit"
+    },
+    {
+      "Id": "c103",
+      "Kind": "ack",
+      "Arg": "guide.completion",
+      "Sequence": 48,
+      "Instance": 0,
+      "Completion": 40,
+      "Expected": "refuse"
+    },
+    {
+      "Id": "c104",
+      "Kind": "spin",
+      "Arg": null,
+      "Sequence": 48,
+      "Instance": 0,
+      "Completion": 0,
+      "Expected": "commit"
+    },
+    {
+      "Id": "c105",
+      "Kind": "select",
+      "Arg": "project.invalid",
+      "Sequence": 49,
+      "Instance": 0,
+      "Completion": 0,
+      "Expected": "refuse"
+    },
+    {
+      "Id": "c106",
+      "Kind": "spin",
+      "Arg": null,
+      "Sequence": 49,
+      "Instance": 0,
+      "Completion": 0,
+      "Expected": "commit"
+    },
+    {
+      "Id": "c107",
+      "Kind": "spin",
+      "Arg": null,
+      "Sequence": 50,
+      "Instance": 0,
+      "Completion": 0,
+      "Expected": "commit"
+    },
+    {
+      "Id": "c108",
+      "Kind": "reopen",
+      "Arg": null,
+      "Sequence": 51,
+      "Instance": 0,
+      "Completion": 0,
+      "Expected": "unchanged"
+    }
+  ],
+  "AfterHashes": {
+    "c000": "fa1392f6c506d7e39316117ed766a375c1cd918d421420b5bd3c3644f89cbff0",
+    "c001": "fa1392f6c506d7e39316117ed766a375c1cd918d421420b5bd3c3644f89cbff0",
+    "c002": "fb0325e4f2d894ebbeded339e4de53feb085b33c084e520504413bf0b784eee0",
+    "c003": "fb0325e4f2d894ebbeded339e4de53feb085b33c084e520504413bf0b784eee0",
+    "c004": "fb0325e4f2d894ebbeded339e4de53feb085b33c084e520504413bf0b784eee0",
+    "c005": "cb010ffcb7eef7ca4b4e551b6774300c1f3474ab4505766efdd4e3f889968785",
+    "c006": "cb010ffcb7eef7ca4b4e551b6774300c1f3474ab4505766efdd4e3f889968785",
+    "c007": "017193065555a41072160d75b03ee65c64661c26ff25d255ed983b5d823249ae",
+    "c008": "b0e5aefe918c889ad7ce2b6688165c35c380a6293c0028822855b032a35390ab",
+    "c009": "b0e5aefe918c889ad7ce2b6688165c35c380a6293c0028822855b032a35390ab",
+    "c010": "b0e5aefe918c889ad7ce2b6688165c35c380a6293c0028822855b032a35390ab",
+    "c011": "b0e5aefe918c889ad7ce2b6688165c35c380a6293c0028822855b032a35390ab",
+    "c012": "24500994a27cefcabd66f2be7e21bd9bd3ba3bd5256abb722b9ec38e4bcae744",
+    "c013": "d63c5647791bc0e3f3f101b58e9817ac1aa83c101a23e5b032378b7f218a0be9",
+    "c014": "f62652c7327522245cdc6110bfab18a5334ad989f3c7024102e47f86985e1312",
+    "c015": "f62652c7327522245cdc6110bfab18a5334ad989f3c7024102e47f86985e1312",
+    "c016": "50cf89b0bde727e3e7e070c40aa276eb55cb8c7b536ed1a6aaf22ad1fd7a23ee",
+    "c017": "d8884e9793b610c2b38c1abba42d89ba4ede9f4639f7153886d62d47226433e5",
+    "c018": "3bc97bfc6561c1e8d6356d852463d06d7a3e7e5321b7d06853e20dd7549acc81",
+    "c019": "3bc97bfc6561c1e8d6356d852463d06d7a3e7e5321b7d06853e20dd7549acc81",
+    "c020": "3bc97bfc6561c1e8d6356d852463d06d7a3e7e5321b7d06853e20dd7549acc81",
+    "c021": "3bc97bfc6561c1e8d6356d852463d06d7a3e7e5321b7d06853e20dd7549acc81",
+    "c022": "3bc97bfc6561c1e8d6356d852463d06d7a3e7e5321b7d06853e20dd7549acc81",
+    "c023": "3bc97bfc6561c1e8d6356d852463d06d7a3e7e5321b7d06853e20dd7549acc81",
+    "c024": "e15ba0379371ef9960d547897d7638c49dba7bdf57dd252c0cdd53ffbb83e980",
+    "c025": "e15ba0379371ef9960d547897d7638c49dba7bdf57dd252c0cdd53ffbb83e980",
+    "c026": "b9d62a3eff52d3378812db5f20b907f8a65e4385f04d31a61a4ac1d5bcf555b0",
+    "c027": "0fdec7f0c9b771b0e659b7b19917930c6c4f21d0576ddbb042e45a7185e3dbc9",
+    "c028": "0fdec7f0c9b771b0e659b7b19917930c6c4f21d0576ddbb042e45a7185e3dbc9",
+    "c029": "57b401122636b276692fa5a469054bb7cb2294a78250068cc78115b32f39592d",
+    "c030": "57b401122636b276692fa5a469054bb7cb2294a78250068cc78115b32f39592d",
+    "c031": "57b401122636b276692fa5a469054bb7cb2294a78250068cc78115b32f39592d",
+    "c032": "57b401122636b276692fa5a469054bb7cb2294a78250068cc78115b32f39592d",
+    "c033": "e442d57b180cf229b6f67eec54f6d1fe0b38a9073d5e24c9cd04ccb2b5081d34",
+    "c034": "e442d57b180cf229b6f67eec54f6d1fe0b38a9073d5e24c9cd04ccb2b5081d34",
+    "c035": "fc575403f52c8bf621ca7b65e90d4e24b038bcc121c83c3c78800cced41a145f",
+    "c036": "fa55cba9af47065dfeaa139cd05e58c4a5474247745069c6c7bad8a81f9fe866",
+    "c037": "ebe175672ad8200182076ab5da2dd540819278c88fdf7ca3d3a30e9f0cc951e9",
+    "c038": "ebe175672ad8200182076ab5da2dd540819278c88fdf7ca3d3a30e9f0cc951e9",
+    "c039": "ebe175672ad8200182076ab5da2dd540819278c88fdf7ca3d3a30e9f0cc951e9",
+    "c040": "72dc5b8b642b893bda5d5761f7c4b6cd2d6cd60b3d3701b68abb46d24eab3b55",
+    "c041": "72dc5b8b642b893bda5d5761f7c4b6cd2d6cd60b3d3701b68abb46d24eab3b55",
+    "c042": "02c3f372ae681a30da946677aca05ac45d358aafcee407a10c87ca42dff37c99",
+    "c043": "f4cf2496275c0951d73b7bcad728d20acd68cc06b8cb4293912f6848ee4de714",
+    "c044": "f4cf2496275c0951d73b7bcad728d20acd68cc06b8cb4293912f6848ee4de714",
+    "c045": "f4cf2496275c0951d73b7bcad728d20acd68cc06b8cb4293912f6848ee4de714",
+    "c046": "f4cf2496275c0951d73b7bcad728d20acd68cc06b8cb4293912f6848ee4de714",
+    "c047": "f4cf2496275c0951d73b7bcad728d20acd68cc06b8cb4293912f6848ee4de714",
+    "c048": "f4cf2496275c0951d73b7bcad728d20acd68cc06b8cb4293912f6848ee4de714",
+    "c049": "bff2ce32520d66e388d71b6766b796ee49c293c58c406f0bf8dd4cb378c6ae37",
+    "c050": "bff2ce32520d66e388d71b6766b796ee49c293c58c406f0bf8dd4cb378c6ae37",
+    "c051": "bff2ce32520d66e388d71b6766b796ee49c293c58c406f0bf8dd4cb378c6ae37",
+    "c052": "bff2ce32520d66e388d71b6766b796ee49c293c58c406f0bf8dd4cb378c6ae37",
+    "c053": "bff2ce32520d66e388d71b6766b796ee49c293c58c406f0bf8dd4cb378c6ae37",
+    "c054": "bff2ce32520d66e388d71b6766b796ee49c293c58c406f0bf8dd4cb378c6ae37",
+    "c055": "895c7657a39170233172d745a0ec46fe236ea671b7ce60d436d308fc6f6b6887",
+    "c056": "c909399798a6f84375a71cfac88348b033611ccfd7a39360cff9ce5c0d68099b",
+    "c057": "c909399798a6f84375a71cfac88348b033611ccfd7a39360cff9ce5c0d68099b",
+    "c058": "c1e216279a24eaaa62ac2193b9360b709e44ce5da895c32f089a76f5415e6108",
+    "c059": "f9e3fd1a593363b89f282d443bbc31f57b22fe79a7ff5809ea522f2d643a354d",
+    "c060": "07aa15b8631851fd9b7fcaf0046bd404218a3848e3fd184ff58e8b2bc14ade6c",
+    "c061": "07aa15b8631851fd9b7fcaf0046bd404218a3848e3fd184ff58e8b2bc14ade6c",
+    "c062": "05bfa218a2531518446e44f519537854a7934dad575139c6f85877301f8bdd9b",
+    "c063": "05bfa218a2531518446e44f519537854a7934dad575139c6f85877301f8bdd9b",
+    "c064": "05bfa218a2531518446e44f519537854a7934dad575139c6f85877301f8bdd9b",
+    "c065": "05bfa218a2531518446e44f519537854a7934dad575139c6f85877301f8bdd9b",
+    "c066": "65ccb1f36137e5b6418911a9052ff85f6dc11620065f4cd010fb0cf66bd84554",
+    "c067": "a2ac0bc41be77dbdbb0e7b55ea5128978b9ae2111400f548289f89e2c43a220d",
+    "c068": "a2ac0bc41be77dbdbb0e7b55ea5128978b9ae2111400f548289f89e2c43a220d",
+    "c069": "1ac5452236d05be862ff8b7f0e46ffa08824b98093943aa438694cdbb58fa7c5",
+    "c070": "1ac5452236d05be862ff8b7f0e46ffa08824b98093943aa438694cdbb58fa7c5",
+    "c071": "1ac5452236d05be862ff8b7f0e46ffa08824b98093943aa438694cdbb58fa7c5",
+    "c072": "1ac5452236d05be862ff8b7f0e46ffa08824b98093943aa438694cdbb58fa7c5",
+    "c073": "1ac5452236d05be862ff8b7f0e46ffa08824b98093943aa438694cdbb58fa7c5",
+    "c074": "1ac5452236d05be862ff8b7f0e46ffa08824b98093943aa438694cdbb58fa7c5",
+    "c075": "0a9a478baab323d900cb2792c6147d35b7b747819453e8bbe0c8bf4e70b92d91",
+    "c076": "c9c9b4b7100bcec92923bd73515ca406cc329031235f92aa882a358eaa561f2d",
+    "c077": "b87b851ffd3a3d3e693a99bbb00203625a39ca530dd530ddea14bbe0995c3af1",
+    "c078": "f6325835edece89a544bf23942cc93e26224834004dfce20e2bf87b26e1c746e",
+    "c079": "a93dc5dc74f47aad78ca280e7a720dce1000a6eaa4ab4f8a75894b58f664a0af",
+    "c080": "134bc4166725f84d7969d968eab10f751c6b3f4e88a74c5ce5adda66012c6c1e",
+    "c081": "134bc4166725f84d7969d968eab10f751c6b3f4e88a74c5ce5adda66012c6c1e",
+    "c082": "134bc4166725f84d7969d968eab10f751c6b3f4e88a74c5ce5adda66012c6c1e",
+    "c083": "134bc4166725f84d7969d968eab10f751c6b3f4e88a74c5ce5adda66012c6c1e",
+    "c084": "134bc4166725f84d7969d968eab10f751c6b3f4e88a74c5ce5adda66012c6c1e",
+    "c085": "70bff8af413fbec511bfe78f26ba06a58be3edcca3502f45b82eb691cc13b41e",
+    "c086": "70bff8af413fbec511bfe78f26ba06a58be3edcca3502f45b82eb691cc13b41e",
+    "c087": "70bff8af413fbec511bfe78f26ba06a58be3edcca3502f45b82eb691cc13b41e",
+    "c088": "ba0cd4778ee331152782756e500902df0d24d76305226887a889b5f02f10ed4a",
+    "c089": "ba0cd4778ee331152782756e500902df0d24d76305226887a889b5f02f10ed4a",
+    "c090": "76c379784ad5dae3066eef1af82be9fec35b6a06bf5152d26a1e3c6375feee38",
+    "c091": "76c379784ad5dae3066eef1af82be9fec35b6a06bf5152d26a1e3c6375feee38",
+    "c092": "280adc8de7f5be1d43b4998068b1a16a30494af71d23a15641be1d10fe2b3ecf",
+    "c093": "6d565a14f96f412280afa7a224855421bbac7d1db57a4a69bdb869cb14608f2f",
+    "c094": "6d565a14f96f412280afa7a224855421bbac7d1db57a4a69bdb869cb14608f2f",
+    "c095": "6d565a14f96f412280afa7a224855421bbac7d1db57a4a69bdb869cb14608f2f",
+    "c096": "987be716f7612335cfea7ab1339e38f653463116cb54e9ee7ab29c095af645f2",
+    "c097": "987be716f7612335cfea7ab1339e38f653463116cb54e9ee7ab29c095af645f2",
+    "c098": "cb22600c11c8d3372a48156c8d026ad951468624137ecd3a81549d5cdc196bee",
+    "c099": "cb22600c11c8d3372a48156c8d026ad951468624137ecd3a81549d5cdc196bee",
+    "c100": "6e2bcf85b79896fca8004bf4451ab081abd93972a247841eeb5f122f406bea7a",
+    "c101": "bd70a2feed7f5abf4068830f7ca7b20cbb25a9e4c5957c735aa322022e3a12ea",
+    "c102": "860910b0ec4a5207494cfaa3070fa66fc25d392b4c6ed47874c9f54e7b0a1251",
+    "c103": "860910b0ec4a5207494cfaa3070fa66fc25d392b4c6ed47874c9f54e7b0a1251",
+    "c104": "e070c8ea6524686c7568f67b64569dd292835580743823b5c9a542e435d5c3cc",
+    "c105": "e070c8ea6524686c7568f67b64569dd292835580743823b5c9a542e435d5c3cc",
+    "c106": "e2e77813b0684550c87f84f56603fcaad96c026e5e638bf387291ca238915f75",
+    "c107": "d125d4eab8565a75ec6c78a460f2617cf2e7f121e4beff60f5c0fc063137a7f5",
+    "c108": "d125d4eab8565a75ec6c78a460f2617cf2e7f121e4beff60f5c0fc063137a7f5"
+  },
+  "FailureSignature": null,
+  "FailureDetail": null,
+  "BeforeSnapshot": null,
+  "AfterSnapshot": null
+}

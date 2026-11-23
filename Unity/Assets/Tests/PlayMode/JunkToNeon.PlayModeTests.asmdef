@@ -1,0 +1,14 @@
+{
+  "name": "JunkToNeon.PlayModeTests",
+  "rootNamespace": "JunkToNeon.Tests.PlayMode",
+  "references": ["JunkToNeon.Core", "JunkToNeon.Diagnostics", "JunkToNeon.Orders", "JunkToNeon.Guidance", "JunkToNeon.Content", "JunkToNeon.Contracts", "JunkToNeon.Effects", "JunkToNeon.Upgrades", "UnityEngine.UI", "Unity.TextMeshPro", "Unity.InputSystem"],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": false,
+  "defineConstraints": ["UNITY_INCLUDE_TESTS", "UNITY_EDITOR"],
+  "versionDefines": [],
+  "optionalUnityReferences": ["TestAssemblies"]
+}

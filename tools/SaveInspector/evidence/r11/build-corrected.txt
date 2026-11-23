@@ -1,0 +1,10 @@
+  Определение проектов для восстановления...
+  Все проекты обновлены для восстановления.
+  SaveInspector -> X:\tmp\jtn-save-inspector-r11-04\.work\save-inspector\bin\Release\net10.0\junk-save-inspector.dll
+  FixChecks -> X:\tmp\jtn-save-inspector-r11-04\.work\save-inspector-fix-checks\bin\Release\net10.0\SaveInspector.FixChecks.dll
+
+Сборка успешно завершена.
+    Предупреждений: 0
+    Ошибок: 0
+
+Прошло времени 00:00:08.48

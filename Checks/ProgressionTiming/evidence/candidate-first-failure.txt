@@ -1,0 +1,5 @@
+First candidate run exited 1 before simulation:
+FAIL System.Exception: Compiled source does not match explicit profile label
+Reason: requested Candidate A's three explicit deltas produce total500, not the user/Opus handoff claim540.
+Explicit prices120+120+160+40+40+20=500; current V3 total610, reduction110.
+No candidate fields were changed to fit540. The guard was corrected to the independently recomputed500 before retry.

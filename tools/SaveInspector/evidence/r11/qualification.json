@@ -1,0 +1,54 @@
+{
+  "sourceCommit": "9231801c682ec1a73517ec28cee87670d3471f7d",
+  "base": "b1f1af1",
+  "productionSourceCommit": "bd8fbe8",
+  "toolVersion": "1.1.0",
+  "sourceManifestCount": 45,
+  "sourceManifestNormalizedSHA256": "83488B285BEB4FC0788DEC77FBF2F7A5EB0A4C97DE6A54DE710FB60039FCE454",
+  "build": {
+    "firstBuildFunctional": false,
+    "errors": 0,
+    "reasonForRetry": "Empty manifest caused first focused initializer failure; explicit production metadata fixed selection.",
+    "attempts": 2,
+    "warnings": 0
+  },
+  "focused": {
+    "firstTotal": 5,
+    "passed": 5,
+    "firstPassed": 0,
+    "total": 5
+  },
+  "integrated": {
+    "passed": 55,
+    "total": 55,
+    "failures": [],
+    "originalHarnessCliRuns": 198,
+    "repositoryOriginalsUnchanged": true,
+    "additionalCurrentGroupCliRuns": 9
+  },
+  "exports": {
+    "purpose": "Requested representative semantic diff and inspect artifacts; not a test rerun",
+    "count": 2
+  },
+  "productionAndUnityUnchanged": true,
+  "nativeAcceptance": "not performed",
+  "review": "07 source-only no findings; immutable evidence review pending",
+  "artifacts": {
+    "build-corrected.txt": "3E38D447A5CB74E480E79A967EEF012B4895152BEFE003E80FA81279A329BC5F",
+    "build-first.txt": "03F5BD7FEC07A3410DFDAB8ED7A07B8FB817159FAB1B702203B4DE6356D58646",
+    "current-focused-r1.json": "4079BF7A580667562D065E266C0362CC63DCC305AABF368F39C1F9FF11B35AA1",
+    "current-focused-r2.json": "2143EF86F8EEC754D578A9307BFE91085255DBA0F19288BC639D3C395DF349FF",
+    "current-paid540.json": "518B8D461486CEABAE89CC88079070F619C5BB2806901FDB90E70EDE8EA8E3A8",
+    "current-pending540.json": "C08CD7398AC767367D61131F386FF5B127B97E217AB6E25906293C45886BC1AD",
+    "current-selected540-inspect.json": "81DD9C96AA721F48F0B4F29AB4D17653A8A205D19B8D9871CB614F60CB13915B",
+    "current-selected540.json": "DB01A48BF800D9480DC5ADA166CC9DDFB84C0F72B6E6E97B5E3527CC92E1DA51",
+    "first-initializer-error.txt": "9808A9E11FC4581ABE50EDF6754CCD52DD0EC71F620B63BD5F1E4D8A690C5DE5",
+    "integrated-r11.json": "1CBC1F6E602C1D66D0480688EADA15ACB562C6EB032B79CAD039880D19092B38",
+    "legacy500.json": "1DA7D785262195D4743F13669CFA82886D88C823DF6ED6E06BBC9E6E5D90C89B",
+    "literal-pending600.json": "624C6BF2E0315DD3F2E9D3FD0F3FFE088E96342AAF39E560FA094D79AAAD83A0",
+    "literal-selected600.json": "C2F562CCB371E97F5BFBACFC444C8F85AC31314A0FDFE02D9FEE12C6450E02D0",
+    "production-sources-first.txt": "F1945CD6C19E56B3C1C78943EF5EC18116907A4CA1EFC40A57D48AB1DB7ADFC5",
+    "production-sources.txt": "3C74272347DF6D8A8B7414E5DDAD289E71FCBD8770084F7397DA74689CA42667",
+    "selected600-to540-diff.json": "206F1B095B4151D40438C05C63CEFA460EED172393AD6D75393194A1D8C453B5"
+  }
+}

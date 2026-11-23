@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType><TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>disable</ImplicitUsings><Nullable>disable</Nullable><EnableDefaultCompileItems>false</EnableDefaultCompileItems><LangVersion>9.0</LangVersion>
+    <ProductionRoot Condition="'$(ProductionRoot)' == ''">$(MSBuildThisFileDirectory)../../../</ProductionRoot>
+    <DefineConstants Condition="'$(EnableJourneyChecks)' == 'true'">$(DefineConstants);JOURNEY_CHECKS</DefineConstants>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(ProductionRoot)/Unity/Assets/Scripts/Core/*.cs" />
+    <Compile Include="$(ProductionRoot)/Unity/Assets/Scripts/Contracts/*.cs" />
+    <Compile Include="$(ProductionRoot)/Unity/Assets/Scripts/Content/*.cs" />
+    <Compile Include="$(ProductionRoot)/Unity/Assets/Scripts/Effects/*.cs" />
+    <Compile Include="$(ProductionRoot)/Unity/Assets/Scripts/Upgrades/*.cs" />
+    <Compile Include="$(ProductionRoot)/Unity/Assets/Scripts/Orders/*.cs" />
+    <Compile Include="$(ProductionRoot)/Unity/Assets/Scripts/Guidance/*.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="JourneyCompatibilityChecks.cs" />
+    <Compile Include="OlderCorpusChecks.cs" />
+    <Compile Include="../ReplayFaultMatrix.cs" />
+    <None Include="Fixtures/*.json" CopyToOutputDirectory="PreserveNewest" />
+    <None Include="V2Pricing/*.json" CopyToOutputDirectory="PreserveNewest" />
+    <None Include="../Fixtures/**/*.json" Link="OlderFixtures/%(RecursiveDir)%(Filename)%(Extension)" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+</Project>

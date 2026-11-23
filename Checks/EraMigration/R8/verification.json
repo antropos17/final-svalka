@@ -1,0 +1,18 @@
+{
+  "phase": "r8 literal fixtures and historical checks only",
+  "baseline": "042fb527037cf1aea8412a5c4b7dcce303e7d529",
+  "snapshots": 21,
+  "pendingOperations": 9,
+  "groupsPassed": 2,
+  "countedAssertions": 1217,
+  "exitCode": 0,
+  "command": "dotnet run --project Checks/EraMigration/R8/R8Checks.csproj -p:BaseIntermediateOutputPath=X:/tmp/jtn-r8-compat03/checks-obj/ -p:BaseOutputPath=X:/tmp/jtn-r8-compat03/checks-bin/",
+  "preserved": "33 r6/r7 literal fixtures and earlier receipts unchanged",
+  "testSourceSha256": {
+    "Program.cs": "516FF54F724D32E346FBBA2F53E1449EBF51F58519AC40EB62B9C7BB47E75BA7",
+    "R8Checks.csproj": "3CC7BCFF2127D4AD7A79460206F742758ACE3346B6165A864D91A672D076D7B8",
+    "R8Generator.cs": "3233D131B6D362A6CE16E2BB89B8878BEA046BC77C77FBD35A5124C18B1552DD",
+    "GenerateR8.ps1": "148C836E3E2D38CDACC856DC3DC14DC7814D0AD7D6C79F1FF2DFBF7CB198F032"
+  },
+  "newPricingJourneyCore": "PENDING implementation: no future API acceptance claim"
+}

@@ -1,0 +1,1040 @@
+{
+  "exportCount": 53,
+  "files": [
+    {
+      "bounds": [
+        82,
+        32,
+        475,
+        192
+      ],
+      "height": 256,
+      "transparentPixels": 75010,
+      "file": "exports/buttons/neutral-disabled.png",
+      "sha256": "e5e89e4043d973d83b77b451ac2a88a4d3c02bf257968c047e0cf6c97aa4c031",
+      "width": 640,
+      "edgePixels": 88090,
+      "opaquePixels": 740
+    },
+    {
+      "bounds": [
+        82,
+        32,
+        475,
+        192
+      ],
+      "height": 256,
+      "transparentPixels": 74784,
+      "file": "exports/buttons/neutral-normal.png",
+      "sha256": "389d2e066ca3d71faf07a2a51d8cde199a0715fa0709d4ece0f038ae0ae4079c",
+      "width": 640,
+      "edgePixels": 88266,
+      "opaquePixels": 790
+    },
+    {
+      "bounds": [
+        81,
+        32,
+        477,
+        192
+      ],
+      "height": 256,
+      "transparentPixels": 74424,
+      "file": "exports/buttons/neutral-pressed.png",
+      "sha256": "4841846a1959c1603efc0d97479b8d04c8ef552c2c5c02b18916d29bc3b8cd84",
+      "width": 640,
+      "edgePixels": 88860,
+      "opaquePixels": 556
+    },
+    {
+      "bounds": [
+        86,
+        32,
+        469,
+        192
+      ],
+      "height": 256,
+      "transparentPixels": 76133,
+      "file": "exports/buttons/primary-disabled.png",
+      "sha256": "ca81e3b3fd5e0f6cd89aa393d4eec7d8d14ad623ac5339183ae076801e454a57",
+      "width": 640,
+      "edgePixels": 86731,
+      "opaquePixels": 976
+    },
+    {
+      "bounds": [
+        86,
+        32,
+        468,
+        192
+      ],
+      "height": 256,
+      "transparentPixels": 76191,
+      "file": "exports/buttons/primary-normal.png",
+      "sha256": "e373c8f34517295e59bb12970910e18f277a0175032094ca6c7cad4572ab15b7",
+      "width": 640,
+      "edgePixels": 86724,
+      "opaquePixels": 925
+    },
+    {
+      "bounds": [
+        82,
+        32,
+        477,
+        192
+      ],
+      "height": 256,
+      "transparentPixels": 74568,
+      "file": "exports/buttons/primary-pressed.png",
+      "sha256": "41474386c5cc02118e8b3f795b320a2fd2559ac8e7ab15b1f78a7c207eecfb57",
+      "width": 640,
+      "edgePixels": 88463,
+      "opaquePixels": 809
+    },
+    {
+      "bounds": [
+        20,
+        20,
+        279,
+        280
+      ],
+      "height": 320,
+      "transparentPixels": 39795,
+      "file": "exports/buttons/round-disabled.png",
+      "sha256": "af471fd593b1e17f6528177e6a1b8f10eca71730862a0e26be5ed5a2119a3e9c",
+      "width": 320,
+      "edgePixels": 62166,
+      "opaquePixels": 439
+    },
+    {
+      "bounds": [
+        22,
+        20,
+        276,
+        280
+      ],
+      "height": 320,
+      "transparentPixels": 40347,
+      "file": "exports/buttons/round-normal.png",
+      "sha256": "c3b8aff14b2c9f1f388c073079c7e3dda063a54416ee0c74243951f80cfc2289",
+      "width": 320,
+      "edgePixels": 61653,
+      "opaquePixels": 400
+    },
+    {
+      "bounds": [
+        21,
+        20,
+        278,
+        280
+      ],
+      "height": 320,
+      "transparentPixels": 39577,
+      "file": "exports/buttons/round-pressed.png",
+      "sha256": "3b97c87d0bf5241e932948a240d87136b21ac51abb375c59eedc2903e6040617",
+      "width": 320,
+      "edgePixels": 62291,
+      "opaquePixels": 532
+    },
+    {
+      "bounds": [
+        84,
+        32,
+        472,
+        192
+      ],
+      "height": 256,
+      "transparentPixels": 75395,
+      "file": "exports/buttons/secondary-disabled.png",
+      "sha256": "0c2c691c486926e40f02ef612f9cd84e606f95e3e22b1bc96f20492a6dbee6f4",
+      "width": 640,
+      "edgePixels": 87689,
+      "opaquePixels": 756
+    },
+    {
+      "bounds": [
+        84,
+        32,
+        471,
+        192
+      ],
+      "height": 256,
+      "transparentPixels": 75612,
+      "file": "exports/buttons/secondary-normal.png",
+      "sha256": "e468bbcce9b90bac28a0833c9ce2ac776d4eeb6d77619b7002463392f065b81f",
+      "width": 640,
+      "edgePixels": 87426,
+      "opaquePixels": 802
+    },
+    {
+      "bounds": [
+        83,
+        32,
+        474,
+        192
+      ],
+      "height": 256,
+      "transparentPixels": 75231,
+      "file": "exports/buttons/secondary-pressed.png",
+      "sha256": "a56317e06fc1a911afe27858afbd486ab9615c02285a214323252dd6fe75c4f5",
+      "width": 640,
+      "edgePixels": 87682,
+      "opaquePixels": 927
+    },
+    {
+      "bounds": [
+        128,
+        154,
+        996,
+        987
+      ],
+      "height": 1254,
+      "transparentPixels": 872074,
+      "file": "exports/houses/house-s00.png",
+      "sha256": "8d5ba2c1326568d59d733cf661fb90f65ab4c29432ba7cb53831206b59b7ec35",
+      "width": 1254,
+      "edgePixels": 699344,
+      "opaquePixels": 1098
+    },
+    {
+      "bounds": [
+        127,
+        149,
+        1000,
+        995
+      ],
+      "height": 1254,
+      "transparentPixels": 852997,
+      "file": "exports/houses/house-s01.png",
+      "sha256": "6f5fdf521a3bd5eb443f9a04b4189d8f990caa4993ac17d28144bf84d704071b",
+      "width": 1254,
+      "edgePixels": 718204,
+      "opaquePixels": 1315
+    },
+    {
+      "bounds": [
+        127,
+        150,
+        999,
+        992
+      ],
+      "height": 1254,
+      "transparentPixels": 856701,
+      "file": "exports/houses/house-s02.png",
+      "sha256": "e1985f4a8cbe9ef715c54394e82c349bb218b309cbb7994a792f6339cf4b3f05",
+      "width": 1254,
+      "edgePixels": 714596,
+      "opaquePixels": 1219
+    },
+    {
+      "bounds": [
+        127,
+        154,
+        999,
+        1024
+      ],
+      "height": 1254,
+      "transparentPixels": 811947,
+      "file": "exports/houses/house-s03.png",
+      "sha256": "2916cd1989e397059074e7c0aadaff752941436700be9b844a9d3cadb3254c03",
+      "width": 1254,
+      "edgePixels": 759185,
+      "opaquePixels": 1384
+    },
+    {
+      "bounds": [
+        126,
+        153,
+        1000,
+        1070
+      ],
+      "height": 1254,
+      "transparentPixels": 797618,
+      "file": "exports/houses/house-s04.png",
+      "sha256": "a2521524bfc05aa98f77d32fc17ed3c7d9884935f5dd3c9d67695a9641105d33",
+      "width": 1254,
+      "edgePixels": 773469,
+      "opaquePixels": 1429
+    },
+    {
+      "bounds": [
+        20,
+        24,
+        279,
+        271
+      ],
+      "height": 320,
+      "transparentPixels": 54524,
+      "file": "exports/icons/back.png",
+      "sha256": "50b7d0a717ea204f1a6cfd40b44b8c6ead0f00f4626015a501db583482cc7720",
+      "width": 320,
+      "edgePixels": 47307,
+      "opaquePixels": 569
+    },
+    {
+      "bounds": [
+        20,
+        24,
+        280,
+        272
+      ],
+      "height": 320,
+      "transparentPixels": 39498,
+      "file": "exports/icons/bonus.png",
+      "sha256": "37b2390d2ea86277a641aeae481ab2d3b25ab7dafd7fc24a0c2461b2fc224a57",
+      "width": 320,
+      "edgePixels": 62375,
+      "opaquePixels": 527
+    },
+    {
+      "bounds": [
+        20,
+        40,
+        280,
+        240
+      ],
+      "height": 320,
+      "transparentPixels": 66943,
+      "file": "exports/icons/check.png",
+      "sha256": "3fbdf1d61cd158b990f11733e2b8c9fe001a3c97dd39c6256fe34ad12f191049",
+      "width": 320,
+      "edgePixels": 35002,
+      "opaquePixels": 455
+    },
+    {
+      "bounds": [
+        22,
+        20,
+        277,
+        280
+      ],
+      "height": 320,
+      "transparentPixels": 42650,
+      "file": "exports/icons/close.png",
+      "sha256": "fdef992bcc29e2450fb119764e947051983f931301369be42ccf7862ec31f06d",
+      "width": 320,
+      "edgePixels": 59043,
+      "opaquePixels": 707
+    },
+    {
+      "bounds": [
+        22,
+        20,
+        277,
+        280
+      ],
+      "height": 320,
+      "transparentPixels": 39863,
+      "file": "exports/icons/coin.png",
+      "sha256": "334f00677fae5bbb4fd5b8d5d1d5945a3920eb94e655d6520b2731298251a966",
+      "width": 320,
+      "edgePixels": 62015,
+      "opaquePixels": 522
+    },
+    {
+      "bounds": [
+        20,
+        46,
+        280,
+        227
+      ],
+      "height": 320,
+      "transparentPixels": 61703,
+      "file": "exports/icons/diamond.png",
+      "sha256": "b2c06be861d151d92606c4f912a50195593504b3bca22415fbe8050bf9bf5d29",
+      "width": 320,
+      "edgePixels": 40304,
+      "opaquePixels": 393
+    },
+    {
+      "bounds": [
+        46,
+        20,
+        227,
+        280
+      ],
+      "height": 320,
+      "transparentPixels": 63269,
+      "file": "exports/icons/energy.png",
+      "sha256": "d6470f7d65256af2366d1309cf8dc17117999ab7e4fc1145fb676cdb39201dbe",
+      "width": 320,
+      "edgePixels": 38693,
+      "opaquePixels": 438
+    },
+    {
+      "bounds": [
+        28,
+        20,
+        265,
+        280
+      ],
+      "height": 320,
+      "transparentPixels": 66765,
+      "file": "exports/icons/events.png",
+      "sha256": "c6636ad03ec6a267231fbf3625db6084d7dbc4b592a39cb2154a3c6441e2557d",
+      "width": 320,
+      "edgePixels": 35200,
+      "opaquePixels": 435
+    },
+    {
+      "bounds": [
+        54,
+        20,
+        212,
+        280
+      ],
+      "height": 320,
+      "transparentPixels": 65733,
+      "file": "exports/icons/help.png",
+      "sha256": "abdcef4d03bde4e772e7c4d022ad0a86f4435f15aee0b7f0ef30b1e77cbf6167",
+      "width": 320,
+      "edgePixels": 36052,
+      "opaquePixels": 615
+    },
+    {
+      "bounds": [
+        20,
+        24,
+        280,
+        271
+      ],
+      "height": 320,
+      "transparentPixels": 45324,
+      "file": "exports/icons/home.png",
+      "sha256": "a57ba69b740b678f217379d1854ca1c811b44afd2e5a17664029ef516a9785a3",
+      "width": 320,
+      "edgePixels": 56588,
+      "opaquePixels": 488
+    },
+    {
+      "bounds": [
+        20,
+        20,
+        279,
+        280
+      ],
+      "height": 320,
+      "transparentPixels": 39588,
+      "file": "exports/icons/info.png",
+      "sha256": "0cc5c04eef4987fd76c3ebc0d9a5b5508dbd7907f8ac761c041b35ec201b3d0a",
+      "width": 320,
+      "edgePixels": 62249,
+      "opaquePixels": 563
+    },
+    {
+      "bounds": [
+        37,
+        20,
+        246,
+        280
+      ],
+      "height": 320,
+      "transparentPixels": 50273,
+      "file": "exports/icons/leaf.png",
+      "sha256": "35526b501261363600ea3d3d7ffdf95e3c5286f3beb6d94225be8ac9747b0519",
+      "width": 320,
+      "edgePixels": 51551,
+      "opaquePixels": 576
+    },
+    {
+      "bounds": [
+        33,
+        20,
+        254,
+        280
+      ],
+      "height": 320,
+      "transparentPixels": 44116,
+      "file": "exports/icons/lock.png",
+      "sha256": "e8db2aa9a814b194a387cdda0e0690e30405bf9c56e75362f9bb517e7895709b",
+      "width": 320,
+      "edgePixels": 57646,
+      "opaquePixels": 638
+    },
+    {
+      "bounds": [
+        20,
+        48,
+        280,
+        224
+      ],
+      "height": 320,
+      "transparentPixels": 47365,
+      "file": "exports/icons/map.png",
+      "sha256": "be9b086acf34329788af92649e425655116f48a0d97ae40e9c1834d238465f83",
+      "width": 320,
+      "edgePixels": 54540,
+      "opaquePixels": 495
+    },
+    {
+      "bounds": [
+        20,
+        20,
+        280,
+        280
+      ],
+      "height": 320,
+      "transparentPixels": 52459,
+      "file": "exports/icons/next.png",
+      "sha256": "49b4071a9c9a012c939f3b6c21a49f1e3878e2d01058d2f4a92a5ee327ffa128",
+      "width": 320,
+      "edgePixels": 49242,
+      "opaquePixels": 699
+    },
+    {
+      "bounds": [
+        20,
+        39,
+        280,
+        242
+      ],
+      "height": 320,
+      "transparentPixels": 47430,
+      "file": "exports/icons/parts.png",
+      "sha256": "3cba557d39c1ed72276e0ede690cc560361f0e4bd255e55d0fba4e5f78cb3a92",
+      "width": 320,
+      "edgePixels": 54517,
+      "opaquePixels": 453
+    },
+    {
+      "bounds": [
+        36,
+        20,
+        246,
+        280
+      ],
+      "height": 320,
+      "transparentPixels": 35710,
+      "file": "exports/icons/pause.png",
+      "sha256": "aa8877383f5c88d3d85a0b9e4e53760aaef96177aeed0c90caa4054db7c22dee",
+      "width": 320,
+      "edgePixels": 65459,
+      "opaquePixels": 1231
+    },
+    {
+      "bounds": [
+        38,
+        20,
+        242,
+        280
+      ],
+      "height": 320,
+      "transparentPixels": 55815,
+      "file": "exports/icons/play.png",
+      "sha256": "6ce438fde3dafacea896c80242025045711c5201f75d3fa5ff77c0766324bbdf",
+      "width": 320,
+      "edgePixels": 46016,
+      "opaquePixels": 569
+    },
+    {
+      "bounds": [
+        24,
+        20,
+        273,
+        280
+      ],
+      "height": 320,
+      "transparentPixels": 47411,
+      "file": "exports/icons/profile.png",
+      "sha256": "b4f1edfe173f199cca639e3cf606c3e759c5cba7e153c6272ac05cff25acf33a",
+      "width": 320,
+      "edgePixels": 54339,
+      "opaquePixels": 650
+    },
+    {
+      "bounds": [
+        26,
+        20,
+        267,
+        280
+      ],
+      "height": 320,
+      "transparentPixels": 51062,
+      "file": "exports/icons/reset.png",
+      "sha256": "47941b65ed5dc6bff347698818907b47da2bd5c119c5a528f4cb889694637782",
+      "width": 320,
+      "edgePixels": 50598,
+      "opaquePixels": 740
+    },
+    {
+      "bounds": [
+        20,
+        22,
+        280,
+        274
+      ],
+      "height": 320,
+      "transparentPixels": 28225,
+      "file": "exports/icons/sections.png",
+      "sha256": "e699e73f52538e57efaccca5552cdcfe4b4e3a1771eda010c0864b9ca581435a",
+      "width": 320,
+      "edgePixels": 73406,
+      "opaquePixels": 769
+    },
+    {
+      "bounds": [
+        20,
+        28,
+        280,
+        264
+      ],
+      "height": 320,
+      "transparentPixels": 48349,
+      "file": "exports/icons/settings.png",
+      "sha256": "5f27834c91a4d15dcc82bdc25da1e4a0e6365f6b1522630044c2dbaa29ac898a",
+      "width": 320,
+      "edgePixels": 53547,
+      "opaquePixels": 504
+    },
+    {
+      "bounds": [
+        20,
+        38,
+        280,
+        245
+      ],
+      "height": 320,
+      "transparentPixels": 44308,
+      "file": "exports/icons/shop.png",
+      "sha256": "b40ef62bcf82de841361cf8001a6216a5043df3be4ce98488a3519c049de8614",
+      "width": 320,
+      "edgePixels": 57733,
+      "opaquePixels": 359
+    },
+    {
+      "bounds": [
+        34,
+        20,
+        251,
+        280
+      ],
+      "height": 320,
+      "transparentPixels": 54152,
+      "file": "exports/icons/sound-off.png",
+      "sha256": "7edf2aeece5fb9dabd4db68b7627669df1c82d769a9238ce1f49f15d82243ecb",
+      "width": 320,
+      "edgePixels": 47625,
+      "opaquePixels": 623
+    },
+    {
+      "bounds": [
+        20,
+        44,
+        280,
+        232
+      ],
+      "height": 320,
+      "transparentPixels": 57744,
+      "file": "exports/icons/sound.png",
+      "sha256": "3fea8bef5a46d33694e69e1822d8352df46b8681174ae945d61b59778d433845",
+      "width": 320,
+      "edgePixels": 43981,
+      "opaquePixels": 675
+    },
+    {
+      "bounds": [
+        24,
+        20,
+        272,
+        280
+      ],
+      "height": 320,
+      "transparentPixels": 45839,
+      "file": "exports/icons/spin.png",
+      "sha256": "a34ee239cfb3da813cd7363d4d9c8a4a2c5b25d210e3b6f35cbff98e4dde27b9",
+      "width": 320,
+      "edgePixels": 55519,
+      "opaquePixels": 1042
+    },
+    {
+      "bounds": [
+        20,
+        22,
+        280,
+        277
+      ],
+      "height": 320,
+      "transparentPixels": 27228,
+      "file": "exports/icons/stop.png",
+      "sha256": "408c32f14952b41a03badbe82f2d31dd5eae5e36d87fbd59ea41a8a981a249ad",
+      "width": 320,
+      "edgePixels": 74353,
+      "opaquePixels": 819
+    },
+    {
+      "bounds": [
+        20,
+        65,
+        280,
+        190
+      ],
+      "height": 320,
+      "transparentPixels": 53720,
+      "file": "exports/icons/ticket.png",
+      "sha256": "067748671c478cf898f1f8d3de946e86c055ec04e53a43acc8c055be18ad5c95",
+      "width": 320,
+      "edgePixels": 48164,
+      "opaquePixels": 516
+    },
+    {
+      "bounds": [
+        29,
+        20,
+        262,
+        280
+      ],
+      "height": 320,
+      "transparentPixels": 47553,
+      "file": "exports/icons/upgrade.png",
+      "sha256": "a85c8e11c1b1e457156086fc230828218af5ab7f3e2bbe5a10d76191f576dc23",
+      "width": 320,
+      "edgePixels": 53997,
+      "opaquePixels": 850
+    },
+    {
+      "bounds": [
+        20,
+        26,
+        280,
+        269
+      ],
+      "height": 320,
+      "transparentPixels": 45639,
+      "file": "exports/icons/yard-house.png",
+      "sha256": "c5fbdd4d987f490943f2f4ab726bac3cc20123c149ba110157e901903e6634a1",
+      "width": 320,
+      "edgePixels": 56329,
+      "opaquePixels": 432
+    },
+    {
+      "bounds": [
+        20,
+        26,
+        280,
+        267
+      ],
+      "height": 320,
+      "transparentPixels": 45549,
+      "file": "exports/icons/yard-neon.png",
+      "sha256": "520a79760938ab8315724a8daf17875b970f7c6665e840ca7a87b57bd8fd908d",
+      "width": 320,
+      "edgePixels": 56382,
+      "opaquePixels": 469
+    },
+    {
+      "bounds": [
+        20,
+        26,
+        280,
+        268
+      ],
+      "height": 320,
+      "transparentPixels": 45991,
+      "file": "exports/icons/yard-ruin.png",
+      "sha256": "f55b34ce28f4016eb5672d17be5dddb463824bfdeca5a4821ec029b4e10ea385",
+      "width": 320,
+      "edgePixels": 55939,
+      "opaquePixels": 470
+    },
+    {
+      "bounds": [
+        226,
+        283,
+        787,
+        687
+      ],
+      "height": 1254,
+      "transparentPixels": 1152787,
+      "file": "exports/symbols/symbol-box.png",
+      "sha256": "26cea512338d9fb01d945c2fd9b929dd74379d0080db0b4c14da9bb96dd563a5",
+      "width": 1254,
+      "edgePixels": 418416,
+      "opaquePixels": 1313
+    },
+    {
+      "bounds": [
+        256,
+        155,
+        765,
+        971
+      ],
+      "height": 1254,
+      "transparentPixels": 1175940,
+      "file": "exports/symbols/symbol-pigeon.png",
+      "sha256": "019b25626929135e74886bdf0e57311bb80f2989620e511b1026741fb15898cb",
+      "width": 1254,
+      "edgePixels": 395248,
+      "opaquePixels": 1328
+    },
+    {
+      "bounds": [
+        206,
+        258,
+        833,
+        766
+      ],
+      "height": 1254,
+      "transparentPixels": 1093920,
+      "file": "exports/symbols/symbol-potato.png",
+      "sha256": "e32af49d0579a3d2001d6d7ca2e6e781d0b803198211e51a6eee496fb81a8d3a",
+      "width": 1254,
+      "edgePixels": 477688,
+      "opaquePixels": 908
+    },
+    {
+      "bounds": [
+        235,
+        190,
+        752,
+        908
+      ],
+      "height": 1254,
+      "transparentPixels": 1094504,
+      "file": "exports/symbols/symbol-trash.png",
+      "sha256": "5eb1af2fde9f6e993517974ac176b416d3ae18ea38c0bbb0410b7102da9da003",
+      "width": 1254,
+      "edgePixels": 476888,
+      "opaquePixels": 1124
+    },
+    {
+      "bounds": [
+        44,
+        79,
+        1361,
+        979
+      ],
+      "height": 1086,
+      "transparentPixels": 702570,
+      "file": "originals/buttons-atlas.png",
+      "sha256": "6891736293c0f3b12fe6f7d189f76943b797a108e690b611559bddda6eafb74c",
+      "width": 1448,
+      "edgePixels": 864605,
+      "opaquePixels": 5353
+    },
+    {
+      "bounds": [
+        128,
+        154,
+        996,
+        987
+      ],
+      "height": 1254,
+      "transparentPixels": 872074,
+      "file": "originals/house-s00.png",
+      "sha256": "8d5ba2c1326568d59d733cf661fb90f65ab4c29432ba7cb53831206b59b7ec35",
+      "width": 1254,
+      "edgePixels": 699344,
+      "opaquePixels": 1098
+    },
+    {
+      "bounds": [
+        127,
+        149,
+        1000,
+        995
+      ],
+      "height": 1254,
+      "transparentPixels": 852997,
+      "file": "originals/house-s01.png",
+      "sha256": "6f5fdf521a3bd5eb443f9a04b4189d8f990caa4993ac17d28144bf84d704071b",
+      "width": 1254,
+      "edgePixels": 718204,
+      "opaquePixels": 1315
+    },
+    {
+      "bounds": [
+        127,
+        150,
+        999,
+        992
+      ],
+      "height": 1254,
+      "transparentPixels": 856701,
+      "file": "originals/house-s02.png",
+      "sha256": "e1985f4a8cbe9ef715c54394e82c349bb218b309cbb7994a792f6339cf4b3f05",
+      "width": 1254,
+      "edgePixels": 714596,
+      "opaquePixels": 1219
+    },
+    {
+      "bounds": [
+        127,
+        154,
+        999,
+        1024
+      ],
+      "height": 1254,
+      "transparentPixels": 811947,
+      "file": "originals/house-s03.png",
+      "sha256": "2916cd1989e397059074e7c0aadaff752941436700be9b844a9d3cadb3254c03",
+      "width": 1254,
+      "edgePixels": 759185,
+      "opaquePixels": 1384
+    },
+    {
+      "bounds": [
+        126,
+        153,
+        1000,
+        1070
+      ],
+      "height": 1254,
+      "transparentPixels": 797618,
+      "file": "originals/house-s04.png",
+      "sha256": "a2521524bfc05aa98f77d32fc17ed3c7d9884935f5dd3c9d67695a9641105d33",
+      "width": 1254,
+      "edgePixels": 773469,
+      "opaquePixels": 1429
+    },
+    {
+      "bounds": [
+        48,
+        53,
+        1160,
+        1152
+      ],
+      "height": 1254,
+      "transparentPixels": 844188,
+      "file": "originals/icons-primary-atlas.png",
+      "sha256": "2ebdb5252d5c9797ac6800391e2aa2513b03b078319738ec4862c717db7eb528",
+      "width": 1254,
+      "edgePixels": 723094,
+      "opaquePixels": 5234
+    },
+    {
+      "bounds": [
+        35,
+        51,
+        1190,
+        1171
+      ],
+      "height": 1254,
+      "transparentPixels": 895539,
+      "file": "originals/icons-utility-atlas.png",
+      "sha256": "12ee221f5951ce3fd3db2f5f4e23d6d76f07c81ea92559e17ab86ccc3010bbfb",
+      "width": 1254,
+      "edgePixels": 672490,
+      "opaquePixels": 4487
+    },
+    {
+      "bounds": [
+        226,
+        283,
+        787,
+        687
+      ],
+      "height": 1254,
+      "transparentPixels": 1152787,
+      "file": "originals/symbol-box.png",
+      "sha256": "26cea512338d9fb01d945c2fd9b929dd74379d0080db0b4c14da9bb96dd563a5",
+      "width": 1254,
+      "edgePixels": 418416,
+      "opaquePixels": 1313
+    },
+    {
+      "bounds": [
+        256,
+        155,
+        765,
+        971
+      ],
+      "height": 1254,
+      "transparentPixels": 1175940,
+      "file": "originals/symbol-pigeon.png",
+      "sha256": "019b25626929135e74886bdf0e57311bb80f2989620e511b1026741fb15898cb",
+      "width": 1254,
+      "edgePixels": 395248,
+      "opaquePixels": 1328
+    },
+    {
+      "bounds": [
+        206,
+        258,
+        833,
+        766
+      ],
+      "height": 1254,
+      "transparentPixels": 1093920,
+      "file": "originals/symbol-potato.png",
+      "sha256": "e32af49d0579a3d2001d6d7ca2e6e781d0b803198211e51a6eee496fb81a8d3a",
+      "width": 1254,
+      "edgePixels": 477688,
+      "opaquePixels": 908
+    },
+    {
+      "bounds": [
+        235,
+        190,
+        752,
+        908
+      ],
+      "height": 1254,
+      "transparentPixels": 1094504,
+      "file": "originals/symbol-trash.png",
+      "sha256": "5eb1af2fde9f6e993517974ac176b416d3ae18ea38c0bbb0410b7102da9da003",
+      "width": 1254,
+      "edgePixels": 476888,
+      "opaquePixels": 1124
+    }
+  ],
+  "alphaThresholdForBounds": 32,
+  "generatedOriginalCount": 12,
+  "atlasCuts": [
+    {
+      "id": "icons-primary-atlas",
+      "cutsX": [
+        0,
+        324,
+        627,
+        932,
+        1254
+      ],
+      "height": 1254,
+      "width": 1254,
+      "cutsY": [
+        0,
+        323,
+        632,
+        940,
+        1254
+      ]
+    },
+    {
+      "id": "icons-utility-atlas",
+      "cutsX": [
+        0,
+        314,
+        627,
+        940,
+        1254
+      ],
+      "height": 1254,
+      "width": 1254,
+      "cutsY": [
+        0,
+        314,
+        627,
+        940,
+        1254
+      ]
+    },
+    {
+      "id": "buttons-atlas",
+      "cutsX": [
+        0,
+        483,
+        965,
+        1448
+      ],
+      "height": 1086,
+      "width": 1448,
+      "cutsY": [
+        0,
+        272,
+        543,
+        785,
+        1086
+      ]
+    }
+  ]
+}

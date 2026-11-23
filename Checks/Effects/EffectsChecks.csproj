@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+    <LangVersion>9.0</LangVersion>
+    <ContractsDirectory Condition="'$(ContractsDirectory)' == ''">../../Unity/Assets/Scripts/Contracts</ContractsDirectory>
+    <ContractsSource Condition="'$(ContractsSource)' == ''">$(ContractsDirectory)/GameplayContracts.cs</ContractsSource>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(ContractsSource)" Link="GameplayContracts.cs" />
+    <Compile Include="$(ContractsDirectory)/ChapterContracts.cs" Link="ChapterContracts.cs" />
+    <Compile Include="$(ContractsDirectory)/ChapterSymbolModifiers.cs" Link="ChapterSymbolModifiers.cs" />
+    <Compile Include="../../Unity/Assets/Scripts/Effects/*.cs" />
+    <Compile Include="../../Unity/Assets/Tests/Effects/EffectsRegression.cs" />
+    <Compile Include="../../Unity/Assets/Tests/Effects/ChapterEffectsRegression.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="ChapterJsonChecks.cs" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,120 @@
+{
+  "status": "PRODUCER_PASS_INTEGRATION_PENDING",
+  "baseCommit": "1b15ed91078480a9bdcdf3883c99d90d6cb42327",
+  "proposalCommit": "0ca71b4c962c62408a36ed224a75aeb44e1bab9f",
+  "sourceOnlyRoot": "X:/tmp/jtn-house-pricing03-r11",
+  "branch": "codex/construction-pricing-r11",
+  "focusedAssertions": 307,
+  "focusedBehaviorGroups": 8,
+  "oldLiteralSaveCount": 54,
+  "separateLiteralSkillV2Payloads": 1,
+  "preservedSkillTerms": 18,
+  "contentCheckGroups": 29,
+  "oldSpinFaultPositions": 4,
+  "realPrivateWindowsBackupRecovery": true,
+  "productionSimulationReruns": 0,
+  "existingCoreChecks": "Deferred to02 by explicit ownership agreement; owned existing expected new-command values/wiring remain unchanged",
+  "unityAndNative": "No Editor/import/Unity compilation/EditMode/UI/APK here; integrator02 completes required affected acceptance",
+  "api": {
+    "test": "ConstructionPricingRegression.Run(privateRoot,repositoryRoot)",
+    "newOffer": "ChapterEconomy.ProjectPrice(string id)",
+    "revision": "ChapterState.ConstructionPriceRevision",
+    "json": "optional pricing; absent preservesLegacyV1; explicitV2 only",
+    "selectedGoal": "ChapterEconomy.SelectedProjectPrice(ChapterState state)"
+  },
+  "sourceFiles": [
+    {
+      "path": "Unity/Assets/Scripts/Content/ConstructionPricing.cs",
+      "rawSha256": "D490C8D5540B9B1D5FD9769B007D59DF88762AEFD91FFB63D9041B0B39A2F3CC",
+      "utf8LfSha256": "D490C8D5540B9B1D5FD9769B007D59DF88762AEFD91FFB63D9041B0B39A2F3CC",
+      "gitBlob": "45a7b9e685d226a9a7e9fd7ed3a0dca261fd090f"
+    },
+    {
+      "path": "Unity/Assets/Scripts/Core/ChapterState.cs",
+      "rawSha256": "962FA2613F3F225FC39D02FD944F2ACF135718E5F70DF35F0E5315F15E04C5D4",
+      "utf8LfSha256": "C98AE0D677F7BBD2384803D84D079DB120AEDC96D6872E0BF300A33DC0DBD579",
+      "gitBlob": "471d48d409dc800b2d5a11a5b52d078d829e484f"
+    },
+    {
+      "path": "Unity/Assets/Scripts/Core/ChapterStateCodec.cs",
+      "rawSha256": "6E1C7DDC08E608736F2703D6E594A7EBB589627E37513DA4D38DD5F88D04C478",
+      "utf8LfSha256": "278A019D3AB961990C85B36D85B90916A33D7CA1F9C3B1447D254D021285D76B",
+      "gitBlob": "09f19d25a0db74a5ed09bb948fc9216523cfe760"
+    },
+    {
+      "path": "Unity/Assets/Scripts/Core/ChapterEconomy.cs",
+      "rawSha256": "2A1B121C88DAB67A840DCAA27B4CABA51A3EE44DD82C8B2FC4893697AC249D47",
+      "utf8LfSha256": "932ABF68194646D8A4F523F9B0A73AC3C011D7A89078402750029CC43700027F",
+      "gitBlob": "c44b0bfb5dae52943c5f435ffecaa20d266f21a5"
+    },
+    {
+      "path": "Unity/Assets/Tests/ConstructionPricingRegression.cs",
+      "rawSha256": "FE094CE8A4DF96C7F73F88DA043E4D5058AB0E7292EC57CF786F0BC21AF7DEF6",
+      "utf8LfSha256": "FE094CE8A4DF96C7F73F88DA043E4D5058AB0E7292EC57CF786F0BC21AF7DEF6",
+      "gitBlob": "5defcd181c980eec69adbb37dedab652ea233b8e"
+    },
+    {
+      "path": "Checks/ConstructionPricing/ConstructionPricingChecks.csproj",
+      "rawSha256": "0CD95B2921E6F3C0BD486E2A046FE8F89B00A134474989635694DD6FCF1437F0",
+      "utf8LfSha256": "0CD95B2921E6F3C0BD486E2A046FE8F89B00A134474989635694DD6FCF1437F0",
+      "gitBlob": "2ce1614f5090f5f1513dd14531ce01f0e1c104a8"
+    },
+    {
+      "path": "Checks/ConstructionPricing/Program.cs",
+      "rawSha256": "4201359AA50A293C70168886D5DB1606431543613AC26684004EA6457E32B24A",
+      "utf8LfSha256": "4201359AA50A293C70168886D5DB1606431543613AC26684004EA6457E32B24A",
+      "gitBlob": "85116cfcb21485bdebbf127d05874fd46d6ce892"
+    }
+  ],
+  "artifactSha256": {
+    "content-pass.txt": "8F530CC7787B176BD41AAA3A107209D438D22DC3EED273B37F249734286F64EC",
+    "first-build-failure.txt": "0D0CA7454CDBEC6880389497CEFAC44407A224C6F0439B970BFEF8395A927BBE",
+    "fixture-shape-failure.txt": "15F834DB1E8B1D4EDD7C0DB29E6D9139DAC54D1365CB365B3CA292DEF81850EA",
+    "focused-pass.txt": "EAA736A73869B612ADAB101976A6A9C851BCD6E6DA5622030BA62DB13FBCAD34"
+  },
+  "reservedPathsVerifiedUnchanged": [
+    "Unity/Assets/Scripts/Core/GameSession.cs",
+    "Unity/Assets/Scripts/Core/Model.cs",
+    "Unity/Assets/Scripts/Core/JourneyEconomy.cs",
+    "Unity/Assets/Scripts/Content/ChapterData.cs",
+    "Unity/Assets/Scripts/Content/ChapterValidator.cs",
+    "Unity/Assets/Scripts/Upgrades/SkillPricing.cs",
+    "Checks/CoreChecks.csproj",
+    "Unity/Assets/Tests/CoreRegression.cs",
+    "Unity/Assets/Tests/CoreRegressionUnity.cs",
+    "Unity/Assets/Tests/ChapterEconomyRegression.cs",
+    "Unity/Assets/Tests/JourneyEconomyRegression.cs"
+  ],
+  "otherEffectsOrdersGuidanceUpgradesRuntimeScenesSettingsUnchanged": true,
+  "firstFailures": [
+    "First build:CS0136 local shadow andCS0103 invalidContent-to-Core catalog reference; fixed",
+    "Expanded test:V2 ownership-only literal was misclassified as fullsave; corrected codec, production unchanged"
+  ],
+  "freshConstructionTotal": 9400,
+  "legacyConstructionTotal": 9460,
+  "repair": 40,
+  "grant": 37,
+  "resources": {
+    "retention": "Manual7days of closed disposable .work files only, skip links/locked files; source/receipts preserved; no automatic cleanup",
+    "beforeFreeBytes": {
+      "X": 92563812352,
+      "C": 9011015680
+    },
+    "generatedFiles": 80,
+    "pagefileBytes": 32928399360,
+    "generatedRoot": ".work",
+    "generatedBytes": 1867664.0,
+    "afterPhysicalFreeKiB": 6947936,
+    "afterFreeBytes": [
+      {
+        "Name": "C",
+        "Free": 7095676928
+      },
+      {
+        "Name": "X",
+        "Free": 92423286784
+      }
+    ],
+    "attribution": "Drive totals shared with other chats; task generated output is onX, no attribution of global C growth"
+  }
+}

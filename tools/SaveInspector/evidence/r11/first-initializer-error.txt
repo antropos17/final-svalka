@@ -1,0 +1,8 @@
+Unhandled exception. System.TypeInitializationException: The type initializer for 'JunkToNeon.SaveInspector.Cli' threw an exception.
+ ---> System.InvalidOperationException: Missing production source identity
+   at JunkToNeon.SaveInspector.ProductionIdentity.Read() in X:\tmp\jtn-save-inspector-r11-04\tools\SaveInspector\src\ProductionIdentity.cs:line 19
+   at JunkToNeon.SaveInspector.Cli..cctor() in X:\tmp\jtn-save-inspector-r11-04\tools\SaveInspector\src\Cli.cs:line 21
+   --- End of inner exception stack trace ---
+   at JunkToNeon.SaveInspector.Cli.Envelope(String command, String status) in X:\tmp\jtn-save-inspector-r11-04\tools\SaveInspector\src\Cli.cs:line 93
+   at JunkToNeon.SaveInspector.Cli.Run(String[] args, Stream stdout) in X:\tmp\jtn-save-inspector-r11-04\tools\SaveInspector\src\Cli.cs:line 58
+   at JunkToNeon.SaveInspector.Program.Main(String[] args) in X:\tmp\jtn-save-inspector-r11-04\tools\SaveInspector\src\Program.cs:line 9

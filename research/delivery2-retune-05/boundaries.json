@@ -1,0 +1,1992 @@
+{
+  "base": "bff8b564bc55eeec24376a7cfa6c08631e4d27b0",
+  "method": "IEEE double phase DP over rational64 outcome probabilities; no MC",
+  "source_hashes": {
+    "lab\\catalog.py": "31d7f38f71676133a1d1b97961d807f1f9d528f0173a4bd6e9ff849528ca897c",
+    "lab\\model.py": "f6ec4b9566d31d018226c1feff0671c1329fe7cd4753244e4b98d162c861082f",
+    "lab\\plans.py": "0e14225afbf60e7e554c16c4f6905095d98b58346eea223a1971f3f4709dfc93",
+    "lab\\exact.py": "7621d532d0b8d7c2c327c2fb3d2ad0116c82a1a3e0907b29319bd3f938298b09",
+    "lab\\reels.py": "d73045a5daa1cd8ea79fd3d2f025af4ceda64ae6acfe86a9bfcbb28e94e2e795",
+    "data\\two_era_committed.json": "ba65827b8154c8d2b01a6f3d73adddeb8f640fa942c00bc226a2a87041ccca4d"
+  },
+  "scope": "three fixed foreground policies, parent-earliest/best; no offline or all-orders claim",
+  "prices": {
+    "7": [
+      {
+        "policy": "workshop-first",
+        "conditioning": "parent-earliest",
+        "parent_position": 6,
+        "baseline_spins": 597.5531204489379,
+        "beneficial": 7,
+        "saving": 0,
+        "best": {
+          "position": 20,
+          "before_step": [
+            "build",
+            "power-source.workshop-yard.upgrade-1"
+          ],
+          "delta_spins": -2.036576568992359,
+          "mean_spins": 595.5165438799455
+        },
+        "late": {
+          "position": 26,
+          "before_step": [
+            "build",
+            "power-source.workshop-yard.upgrade-2"
+          ],
+          "delta_spins": -0.013131183552900438,
+          "mean_spins": 597.539989265385
+        },
+        "rows": [
+          {
+            "position": 20,
+            "before_step": [
+              "build",
+              "power-source.workshop-yard.upgrade-1"
+            ],
+            "delta_spins": -2.036576568992359,
+            "mean_spins": 595.5165438799455
+          },
+          {
+            "position": 21,
+            "before_step": [
+              "build",
+              "cart.workshop-yard.upgrade-2"
+            ],
+            "delta_spins": -1.7302439116928099,
+            "mean_spins": 595.8228765372451
+          },
+          {
+            "position": 22,
+            "before_step": [
+              "build",
+              "workshop.workshop-yard.upgrade-2"
+            ],
+            "delta_spins": -1.3693966944691738,
+            "mean_spins": 596.1837237544687
+          },
+          {
+            "position": 23,
+            "before_step": [
+              "build",
+              "recycler.workshop-yard.upgrade-2"
+            ],
+            "delta_spins": -1.01056981603665,
+            "mean_spins": 596.5425506329012
+          },
+          {
+            "position": 24,
+            "before_step": [
+              "build",
+              "pigeon-loft.workshop-yard.upgrade-2"
+            ],
+            "delta_spins": -0.6655482724154353,
+            "mean_spins": 596.8875721765224
+          },
+          {
+            "position": 25,
+            "before_step": [
+              "build",
+              "house.workshop-yard.upgrade-2"
+            ],
+            "delta_spins": -0.33338978825815957,
+            "mean_spins": 597.2197306606797
+          },
+          {
+            "position": 26,
+            "before_step": [
+              "build",
+              "power-source.workshop-yard.upgrade-2"
+            ],
+            "delta_spins": -0.013131183552900438,
+            "mean_spins": 597.539989265385
+          }
+        ]
+      },
+      {
+        "policy": "workshop-first",
+        "conditioning": "parent-best",
+        "parent_position": 6,
+        "baseline_spins": 597.5531204489379,
+        "beneficial": 7,
+        "saving": 0,
+        "best": {
+          "position": 20,
+          "before_step": [
+            "build",
+            "power-source.workshop-yard.upgrade-1"
+          ],
+          "delta_spins": -2.036576568992359,
+          "mean_spins": 595.5165438799455
+        },
+        "late": {
+          "position": 26,
+          "before_step": [
+            "build",
+            "power-source.workshop-yard.upgrade-2"
+          ],
+          "delta_spins": -0.013131183552900438,
+          "mean_spins": 597.539989265385
+        },
+        "rows": [
+          {
+            "position": 20,
+            "before_step": [
+              "build",
+              "power-source.workshop-yard.upgrade-1"
+            ],
+            "delta_spins": -2.036576568992359,
+            "mean_spins": 595.5165438799455
+          },
+          {
+            "position": 21,
+            "before_step": [
+              "build",
+              "cart.workshop-yard.upgrade-2"
+            ],
+            "delta_spins": -1.7302439116928099,
+            "mean_spins": 595.8228765372451
+          },
+          {
+            "position": 22,
+            "before_step": [
+              "build",
+              "workshop.workshop-yard.upgrade-2"
+            ],
+            "delta_spins": -1.3693966944691738,
+            "mean_spins": 596.1837237544687
+          },
+          {
+            "position": 23,
+            "before_step": [
+              "build",
+              "recycler.workshop-yard.upgrade-2"
+            ],
+            "delta_spins": -1.01056981603665,
+            "mean_spins": 596.5425506329012
+          },
+          {
+            "position": 24,
+            "before_step": [
+              "build",
+              "pigeon-loft.workshop-yard.upgrade-2"
+            ],
+            "delta_spins": -0.6655482724154353,
+            "mean_spins": 596.8875721765224
+          },
+          {
+            "position": 25,
+            "before_step": [
+              "build",
+              "house.workshop-yard.upgrade-2"
+            ],
+            "delta_spins": -0.33338978825815957,
+            "mean_spins": 597.2197306606797
+          },
+          {
+            "position": 26,
+            "before_step": [
+              "build",
+              "power-source.workshop-yard.upgrade-2"
+            ],
+            "delta_spins": -0.013131183552900438,
+            "mean_spins": 597.539989265385
+          }
+        ]
+      },
+      {
+        "policy": "building-first",
+        "conditioning": "parent-earliest",
+        "parent_position": 7,
+        "baseline_spins": 646.7706398610944,
+        "beneficial": 6,
+        "saving": 0,
+        "best": {
+          "position": 21,
+          "before_step": [
+            "build",
+            "power-source.workshop-yard.upgrade-1"
+          ],
+          "delta_spins": -1.597650929161432,
+          "mean_spins": 645.172988931933
+        },
+        "late": {
+          "position": 26,
+          "before_step": [
+            "build",
+            "power-source.workshop-yard.upgrade-2"
+          ],
+          "delta_spins": -0.013121097568046025,
+          "mean_spins": 646.7575187635264
+        },
+        "rows": [
+          {
+            "position": 21,
+            "before_step": [
+              "build",
+              "power-source.workshop-yard.upgrade-1"
+            ],
+            "delta_spins": -1.597650929161432,
+            "mean_spins": 645.172988931933
+          },
+          {
+            "position": 22,
+            "before_step": [
+              "build",
+              "cart.workshop-yard.upgrade-2"
+            ],
+            "delta_spins": -1.3142238252274865,
+            "mean_spins": 645.4564160358669
+          },
+          {
+            "position": 23,
+            "before_step": [
+              "build",
+              "workshop.workshop-yard.upgrade-2"
+            ],
+            "delta_spins": -0.9793618292059136,
+            "mean_spins": 645.7912780318885
+          },
+          {
+            "position": 24,
+            "before_step": [
+              "build",
+              "recycler.workshop-yard.upgrade-2"
+            ],
+            "delta_spins": -0.6454991907526164,
+            "mean_spins": 646.1251406703418
+          },
+          {
+            "position": 25,
+            "before_step": [
+              "build",
+              "pigeon-loft.workshop-yard.upgrade-2"
+            ],
+            "delta_spins": -0.32367513058363784,
+            "mean_spins": 646.4469647305108
+          },
+          {
+            "position": 26,
+            "before_step": [
+              "build",
+              "power-source.workshop-yard.upgrade-2"
+            ],
+            "delta_spins": -0.013121097568046025,
+            "mean_spins": 646.7575187635264
+          }
+        ]
+      },
+      {
+        "policy": "building-first",
+        "conditioning": "parent-best",
+        "parent_position": 7,
+        "baseline_spins": 646.7706398610944,
+        "beneficial": 6,
+        "saving": 0,
+        "best": {
+          "position": 21,
+          "before_step": [
+            "build",
+            "power-source.workshop-yard.upgrade-1"
+          ],
+          "delta_spins": -1.597650929161432,
+          "mean_spins": 645.172988931933
+        },
+        "late": {
+          "position": 26,
+          "before_step": [
+            "build",
+            "power-source.workshop-yard.upgrade-2"
+          ],
+          "delta_spins": -0.013121097568046025,
+          "mean_spins": 646.7575187635264
+        },
+        "rows": [
+          {
+            "position": 21,
+            "before_step": [
+              "build",
+              "power-source.workshop-yard.upgrade-1"
+            ],
+            "delta_spins": -1.597650929161432,
+            "mean_spins": 645.172988931933
+          },
+          {
+            "position": 22,
+            "before_step": [
+              "build",
+              "cart.workshop-yard.upgrade-2"
+            ],
+            "delta_spins": -1.3142238252274865,
+            "mean_spins": 645.4564160358669
+          },
+          {
+            "position": 23,
+            "before_step": [
+              "build",
+              "workshop.workshop-yard.upgrade-2"
+            ],
+            "delta_spins": -0.9793618292059136,
+            "mean_spins": 645.7912780318885
+          },
+          {
+            "position": 24,
+            "before_step": [
+              "build",
+              "recycler.workshop-yard.upgrade-2"
+            ],
+            "delta_spins": -0.6454991907526164,
+            "mean_spins": 646.1251406703418
+          },
+          {
+            "position": 25,
+            "before_step": [
+              "build",
+              "pigeon-loft.workshop-yard.upgrade-2"
+            ],
+            "delta_spins": -0.32367513058363784,
+            "mean_spins": 646.4469647305108
+          },
+          {
+            "position": 26,
+            "before_step": [
+              "build",
+              "power-source.workshop-yard.upgrade-2"
+            ],
+            "delta_spins": -0.013121097568046025,
+            "mean_spins": 646.7575187635264
+          }
+        ]
+      },
+      {
+        "policy": "family-order",
+        "conditioning": "parent-earliest",
+        "parent_position": 7,
+        "baseline_spins": 660.3353305555544,
+        "beneficial": 5,
+        "saving": 0,
+        "best": {
+          "position": 22,
+          "before_step": [
+            "build",
+            "pigeon-loft.workshop-yard.upgrade-2"
+          ],
+          "delta_spins": -1.088913359097205,
+          "mean_spins": 659.2464171964572
+        },
+        "late": {
+          "position": 26,
+          "before_step": [
+            "build",
+            "power-source.workshop-yard.upgrade-2"
+          ],
+          "delta_spins": -0.013131182757774695,
+          "mean_spins": 660.3221993727966
+        },
+        "rows": [
+          {
+            "position": 22,
+            "before_step": [
+              "build",
+              "pigeon-loft.workshop-yard.upgrade-2"
+            ],
+            "delta_spins": -1.088913359097205,
+            "mean_spins": 659.2464171964572
+          },
+          {
+            "position": 23,
+            "before_step": [
+              "build",
+              "cart.workshop-yard.upgrade-1"
+            ],
+            "delta_spins": -0.7062063947490742,
+            "mean_spins": 659.6291241608053
+          },
+          {
+            "position": 24,
+            "before_step": [
+              "build",
+              "cart.workshop-yard.upgrade-2"
+            ],
+            "delta_spins": -0.517196717029492,
+            "mean_spins": 659.8181338385249
+          },
+          {
+            "position": 25,
+            "before_step": [
+              "build",
+              "power-source.workshop-yard.upgrade-1"
+            ],
+            "delta_spins": -0.2265774181684037,
+            "mean_spins": 660.108753137386
+          },
+          {
+            "position": 26,
+            "before_step": [
+              "build",
+              "power-source.workshop-yard.upgrade-2"
+            ],
+            "delta_spins": -0.013131182757774695,
+            "mean_spins": 660.3221993727966
+          }
+        ]
+      },
+      {
+        "policy": "family-order",
+        "conditioning": "parent-best",
+        "parent_position": 7,
+        "baseline_spins": 660.3353305555544,
+        "beneficial": 5,
+        "saving": 0,
+        "best": {
+          "position": 22,
+          "before_step": [
+            "build",
+            "pigeon-loft.workshop-yard.upgrade-2"
+          ],
+          "delta_spins": -1.088913359097205,
+          "mean_spins": 659.2464171964572
+        },
+        "late": {
+          "position": 26,
+          "before_step": [
+            "build",
+            "power-source.workshop-yard.upgrade-2"
+          ],
+          "delta_spins": -0.013131182757774695,
+          "mean_spins": 660.3221993727966
+        },
+        "rows": [
+          {
+            "position": 22,
+            "before_step": [
+              "build",
+              "pigeon-loft.workshop-yard.upgrade-2"
+            ],
+            "delta_spins": -1.088913359097205,
+            "mean_spins": 659.2464171964572
+          },
+          {
+            "position": 23,
+            "before_step": [
+              "build",
+              "cart.workshop-yard.upgrade-1"
+            ],
+            "delta_spins": -0.7062063947490742,
+            "mean_spins": 659.6291241608053
+          },
+          {
+            "position": 24,
+            "before_step": [
+              "build",
+              "cart.workshop-yard.upgrade-2"
+            ],
+            "delta_spins": -0.517196717029492,
+            "mean_spins": 659.8181338385249
+          },
+          {
+            "position": 25,
+            "before_step": [
+              "build",
+              "power-source.workshop-yard.upgrade-1"
+            ],
+            "delta_spins": -0.2265774181684037,
+            "mean_spins": 660.108753137386
+          },
+          {
+            "position": 26,
+            "before_step": [
+              "build",
+              "power-source.workshop-yard.upgrade-2"
+            ],
+            "delta_spins": -0.013131182757774695,
+            "mean_spins": 660.3221993727966
+          }
+        ]
+      }
+    ],
+    "8": [
+      {
+        "policy": "workshop-first",
+        "conditioning": "parent-earliest",
+        "parent_position": 6,
+        "baseline_spins": 597.5531204489379,
+        "beneficial": 6,
+        "saving": 1,
+        "best": {
+          "position": 20,
+          "before_step": [
+            "build",
+            "power-source.workshop-yard.upgrade-1"
+          ],
+          "delta_spins": -1.9833914769653802,
+          "mean_spins": 595.5697289719725
+        },
+        "late": {
+          "position": 26,
+          "before_step": [
+            "build",
+            "power-source.workshop-yard.upgrade-2"
+          ],
+          "delta_spins": 0.029779387104440502,
+          "mean_spins": 597.5828998360423
+        },
+        "rows": [
+          {
+            "position": 20,
+            "before_step": [
+              "build",
+              "power-source.workshop-yard.upgrade-1"
+            ],
+            "delta_spins": -1.9833914769653802,
+            "mean_spins": 595.5697289719725
+          },
+          {
+            "position": 21,
+            "before_step": [
+              "build",
+              "cart.workshop-yard.upgrade-2"
+            ],
+            "delta_spins": -1.6790999854157462,
+            "mean_spins": 595.8740204635221
+          },
+          {
+            "position": 22,
+            "before_step": [
+              "build",
+              "workshop.workshop-yard.upgrade-2"
+            ],
+            "delta_spins": -1.320142977622254,
+            "mean_spins": 596.2329774713156
+          },
+          {
+            "position": 23,
+            "before_step": [
+              "build",
+              "recycler.workshop-yard.upgrade-2"
+            ],
+            "delta_spins": -0.9630715078932326,
+            "mean_spins": 596.5900489410446
+          },
+          {
+            "position": 24,
+            "before_step": [
+              "build",
+              "pigeon-loft.workshop-yard.upgrade-2"
+            ],
+            "delta_spins": -0.6196845019360353,
+            "mean_spins": 596.9334359470018
+          },
+          {
+            "position": 25,
+            "before_step": [
+              "build",
+              "house.workshop-yard.upgrade-2"
+            ],
+            "delta_spins": -0.289051757858374,
+            "mean_spins": 597.2640686910795
+          },
+          {
+            "position": 26,
+            "before_step": [
+              "build",
+              "power-source.workshop-yard.upgrade-2"
+            ],
+            "delta_spins": 0.029779387104440502,
+            "mean_spins": 597.5828998360423
+          }
+        ]
+      },
+      {
+        "policy": "workshop-first",
+        "conditioning": "parent-best",
+        "parent_position": 6,
+        "baseline_spins": 597.5531204489379,
+        "beneficial": 6,
+        "saving": 1,
+        "best": {
+          "position": 20,
+          "before_step": [
+            "build",
+            "power-source.workshop-yard.upgrade-1"
+          ],
+          "delta_spins": -1.9833914769653802,
+          "mean_spins": 595.5697289719725
+        },
+        "late": {
+          "position": 26,
+          "before_step": [
+            "build",
+            "power-source.workshop-yard.upgrade-2"
+          ],
+          "delta_spins": 0.029779387104440502,
+          "mean_spins": 597.5828998360423
+        },
+        "rows": [
+          {
+            "position": 20,
+            "before_step": [
+              "build",
+              "power-source.workshop-yard.upgrade-1"
+            ],
+            "delta_spins": -1.9833914769653802,
+            "mean_spins": 595.5697289719725
+          },
+          {
+            "position": 21,
+            "before_step": [
+              "build",
+              "cart.workshop-yard.upgrade-2"
+            ],
+            "delta_spins": -1.6790999854157462,
+            "mean_spins": 595.8740204635221
+          },
+          {
+            "position": 22,
+            "before_step": [
+              "build",
+              "workshop.workshop-yard.upgrade-2"
+            ],
+            "delta_spins": -1.320142977622254,
+            "mean_spins": 596.2329774713156
+          },
+          {
+            "position": 23,
+            "before_step": [
+              "build",
+              "recycler.workshop-yard.upgrade-2"
+            ],
+            "delta_spins": -0.9630715078932326,
+            "mean_spins": 596.5900489410446
+          },
+          {
+            "position": 24,
+            "before_step": [
+              "build",
+              "pigeon-loft.workshop-yard.upgrade-2"
+            ],
+            "delta_spins": -0.6196845019360353,
+            "mean_spins": 596.9334359470018
+          },
+          {
+            "position": 25,
+            "before_step": [
+              "build",
+              "house.workshop-yard.upgrade-2"
+            ],
+            "delta_spins": -0.289051757858374,
+            "mean_spins": 597.2640686910795
+          },
+          {
+            "position": 26,
+            "before_step": [
+              "build",
+              "power-source.workshop-yard.upgrade-2"
+            ],
+            "delta_spins": 0.029779387104440502,
+            "mean_spins": 597.5828998360423
+          }
+        ]
+      },
+      {
+        "policy": "building-first",
+        "conditioning": "parent-earliest",
+        "parent_position": 7,
+        "baseline_spins": 646.7706398610944,
+        "beneficial": 5,
+        "saving": 1,
+        "best": {
+          "position": 21,
+          "before_step": [
+            "build",
+            "power-source.workshop-yard.upgrade-1"
+          ],
+          "delta_spins": -1.5465070059791515,
+          "mean_spins": 645.2241328551153
+        },
+        "late": {
+          "position": 26,
+          "before_step": [
+            "build",
+            "power-source.workshop-yard.upgrade-2"
+          ],
+          "delta_spins": 0.02978947288636391,
+          "mean_spins": 646.8004293339808
+        },
+        "rows": [
+          {
+            "position": 21,
+            "before_step": [
+              "build",
+              "power-source.workshop-yard.upgrade-1"
+            ],
+            "delta_spins": -1.5465070059791515,
+            "mean_spins": 645.2241328551153
+          },
+          {
+            "position": 22,
+            "before_step": [
+              "build",
+              "cart.workshop-yard.upgrade-2"
+            ],
+            "delta_spins": -1.264970108164107,
+            "mean_spins": 645.5056697529303
+          },
+          {
+            "position": 23,
+            "before_step": [
+              "build",
+              "workshop.workshop-yard.upgrade-2"
+            ],
+            "delta_spins": -0.9318635209807553,
+            "mean_spins": 645.8387763401137
+          },
+          {
+            "position": 24,
+            "before_step": [
+              "build",
+              "recycler.workshop-yard.upgrade-2"
+            ],
+            "delta_spins": -0.5996354202725342,
+            "mean_spins": 646.1710044408219
+          },
+          {
+            "position": 25,
+            "before_step": [
+              "build",
+              "pigeon-loft.workshop-yard.upgrade-2"
+            ],
+            "delta_spins": -0.279337100208636,
+            "mean_spins": 646.4913027608858
+          },
+          {
+            "position": 26,
+            "before_step": [
+              "build",
+              "power-source.workshop-yard.upgrade-2"
+            ],
+            "delta_spins": 0.02978947288636391,
+            "mean_spins": 646.8004293339808
+          }
+        ]
+      },
+      {
+        "policy": "building-first",
+        "conditioning": "parent-best",
+        "parent_position": 7,
+        "baseline_spins": 646.7706398610944,
+        "beneficial": 5,
+        "saving": 1,
+        "best": {
+          "position": 21,
+          "before_step": [
+            "build",
+            "power-source.workshop-yard.upgrade-1"
+          ],
+          "delta_spins": -1.5465070059791515,
+          "mean_spins": 645.2241328551153
+        },
+        "late": {
+          "position": 26,
+          "before_step": [
+            "build",
+            "power-source.workshop-yard.upgrade-2"
+          ],
+          "delta_spins": 0.02978947288636391,
+          "mean_spins": 646.8004293339808
+        },
+        "rows": [
+          {
+            "position": 21,
+            "before_step": [
+              "build",
+              "power-source.workshop-yard.upgrade-1"
+            ],
+            "delta_spins": -1.5465070059791515,
+            "mean_spins": 645.2241328551153
+          },
+          {
+            "position": 22,
+            "before_step": [
+              "build",
+              "cart.workshop-yard.upgrade-2"
+            ],
+            "delta_spins": -1.264970108164107,
+            "mean_spins": 645.5056697529303
+          },
+          {
+            "position": 23,
+            "before_step": [
+              "build",
+              "workshop.workshop-yard.upgrade-2"
+            ],
+            "delta_spins": -0.9318635209807553,
+            "mean_spins": 645.8387763401137
+          },
+          {
+            "position": 24,
+            "before_step": [
+              "build",
+              "recycler.workshop-yard.upgrade-2"
+            ],
+            "delta_spins": -0.5996354202725342,
+            "mean_spins": 646.1710044408219
+          },
+          {
+            "position": 25,
+            "before_step": [
+              "build",
+              "pigeon-loft.workshop-yard.upgrade-2"
+            ],
+            "delta_spins": -0.279337100208636,
+            "mean_spins": 646.4913027608858
+          },
+          {
+            "position": 26,
+            "before_step": [
+              "build",
+              "power-source.workshop-yard.upgrade-2"
+            ],
+            "delta_spins": 0.02978947288636391,
+            "mean_spins": 646.8004293339808
+          }
+        ]
+      },
+      {
+        "policy": "family-order",
+        "conditioning": "parent-earliest",
+        "parent_position": 7,
+        "baseline_spins": 660.3353305555544,
+        "beneficial": 4,
+        "saving": 1,
+        "best": {
+          "position": 22,
+          "before_step": [
+            "build",
+            "pigeon-loft.workshop-yard.upgrade-2"
+          ],
+          "delta_spins": -1.0396596420450805,
+          "mean_spins": 659.2956709135093
+        },
+        "late": {
+          "position": 26,
+          "before_step": [
+            "build",
+            "power-source.workshop-yard.upgrade-2"
+          ],
+          "delta_spins": 0.029779387125813628,
+          "mean_spins": 660.3651099426802
+        },
+        "rows": [
+          {
+            "position": 22,
+            "before_step": [
+              "build",
+              "pigeon-loft.workshop-yard.upgrade-2"
+            ],
+            "delta_spins": -1.0396596420450805,
+            "mean_spins": 659.2956709135093
+          },
+          {
+            "position": 23,
+            "before_step": [
+              "build",
+              "cart.workshop-yard.upgrade-1"
+            ],
+            "delta_spins": -0.6587080561471339,
+            "mean_spins": 659.6766224994072
+          },
+          {
+            "position": 24,
+            "before_step": [
+              "build",
+              "cart.workshop-yard.upgrade-2"
+            ],
+            "delta_spins": -0.47133288205679946,
+            "mean_spins": 659.8639976734976
+          },
+          {
+            "position": 25,
+            "before_step": [
+              "build",
+              "power-source.workshop-yard.upgrade-1"
+            ],
+            "delta_spins": -0.18223938670689677,
+            "mean_spins": 660.1530911688475
+          },
+          {
+            "position": 26,
+            "before_step": [
+              "build",
+              "power-source.workshop-yard.upgrade-2"
+            ],
+            "delta_spins": 0.029779387125813628,
+            "mean_spins": 660.3651099426802
+          }
+        ]
+      },
+      {
+        "policy": "family-order",
+        "conditioning": "parent-best",
+        "parent_position": 7,
+        "baseline_spins": 660.3353305555544,
+        "beneficial": 4,
+        "saving": 1,
+        "best": {
+          "position": 22,
+          "before_step": [
+            "build",
+            "pigeon-loft.workshop-yard.upgrade-2"
+          ],
+          "delta_spins": -1.0396596420450805,
+          "mean_spins": 659.2956709135093
+        },
+        "late": {
+          "position": 26,
+          "before_step": [
+            "build",
+            "power-source.workshop-yard.upgrade-2"
+          ],
+          "delta_spins": 0.029779387125813628,
+          "mean_spins": 660.3651099426802
+        },
+        "rows": [
+          {
+            "position": 22,
+            "before_step": [
+              "build",
+              "pigeon-loft.workshop-yard.upgrade-2"
+            ],
+            "delta_spins": -1.0396596420450805,
+            "mean_spins": 659.2956709135093
+          },
+          {
+            "position": 23,
+            "before_step": [
+              "build",
+              "cart.workshop-yard.upgrade-1"
+            ],
+            "delta_spins": -0.6587080561471339,
+            "mean_spins": 659.6766224994072
+          },
+          {
+            "position": 24,
+            "before_step": [
+              "build",
+              "cart.workshop-yard.upgrade-2"
+            ],
+            "delta_spins": -0.47133288205679946,
+            "mean_spins": 659.8639976734976
+          },
+          {
+            "position": 25,
+            "before_step": [
+              "build",
+              "power-source.workshop-yard.upgrade-1"
+            ],
+            "delta_spins": -0.18223938670689677,
+            "mean_spins": 660.1530911688475
+          },
+          {
+            "position": 26,
+            "before_step": [
+              "build",
+              "power-source.workshop-yard.upgrade-2"
+            ],
+            "delta_spins": 0.029779387125813628,
+            "mean_spins": 660.3651099426802
+          }
+        ]
+      }
+    ],
+    "19": [
+      {
+        "policy": "workshop-first",
+        "conditioning": "parent-earliest",
+        "parent_position": 6,
+        "baseline_spins": 597.5531204489379,
+        "beneficial": 5,
+        "saving": 2,
+        "best": {
+          "position": 20,
+          "before_step": [
+            "build",
+            "power-source.workshop-yard.upgrade-1"
+          ],
+          "delta_spins": -1.3987993275054578,
+          "mean_spins": 596.1543211214324
+        },
+        "late": {
+          "position": 26,
+          "before_step": [
+            "build",
+            "power-source.workshop-yard.upgrade-2"
+          ],
+          "delta_spins": 0.5017093260156571,
+          "mean_spins": 598.0548297749535
+        },
+        "rows": [
+          {
+            "position": 20,
+            "before_step": [
+              "build",
+              "power-source.workshop-yard.upgrade-1"
+            ],
+            "delta_spins": -1.3987993275054578,
+            "mean_spins": 596.1543211214324
+          },
+          {
+            "position": 21,
+            "before_step": [
+              "build",
+              "cart.workshop-yard.upgrade-2"
+            ],
+            "delta_spins": -1.116854132080789,
+            "mean_spins": 596.4362663168571
+          },
+          {
+            "position": 22,
+            "before_step": [
+              "build",
+              "workshop.workshop-yard.upgrade-2"
+            ],
+            "delta_spins": -0.7785481313328546,
+            "mean_spins": 596.774572317605
+          },
+          {
+            "position": 23,
+            "before_step": [
+              "build",
+              "recycler.workshop-yard.upgrade-2"
+            ],
+            "delta_spins": -0.4407502807345054,
+            "mean_spins": 597.1123701682034
+          },
+          {
+            "position": 24,
+            "before_step": [
+              "build",
+              "pigeon-loft.workshop-yard.upgrade-2"
+            ],
+            "delta_spins": -0.11540211106603238,
+            "mean_spins": 597.4377183378718
+          },
+          {
+            "position": 25,
+            "before_step": [
+              "build",
+              "house.workshop-yard.upgrade-2"
+            ],
+            "delta_spins": 0.19845462041223527,
+            "mean_spins": 597.7515750693501
+          },
+          {
+            "position": 26,
+            "before_step": [
+              "build",
+              "power-source.workshop-yard.upgrade-2"
+            ],
+            "delta_spins": 0.5017093260156571,
+            "mean_spins": 598.0548297749535
+          }
+        ]
+      },
+      {
+        "policy": "workshop-first",
+        "conditioning": "parent-best",
+        "parent_position": 6,
+        "baseline_spins": 597.5531204489379,
+        "beneficial": 5,
+        "saving": 2,
+        "best": {
+          "position": 20,
+          "before_step": [
+            "build",
+            "power-source.workshop-yard.upgrade-1"
+          ],
+          "delta_spins": -1.3987993275054578,
+          "mean_spins": 596.1543211214324
+        },
+        "late": {
+          "position": 26,
+          "before_step": [
+            "build",
+            "power-source.workshop-yard.upgrade-2"
+          ],
+          "delta_spins": 0.5017093260156571,
+          "mean_spins": 598.0548297749535
+        },
+        "rows": [
+          {
+            "position": 20,
+            "before_step": [
+              "build",
+              "power-source.workshop-yard.upgrade-1"
+            ],
+            "delta_spins": -1.3987993275054578,
+            "mean_spins": 596.1543211214324
+          },
+          {
+            "position": 21,
+            "before_step": [
+              "build",
+              "cart.workshop-yard.upgrade-2"
+            ],
+            "delta_spins": -1.116854132080789,
+            "mean_spins": 596.4362663168571
+          },
+          {
+            "position": 22,
+            "before_step": [
+              "build",
+              "workshop.workshop-yard.upgrade-2"
+            ],
+            "delta_spins": -0.7785481313328546,
+            "mean_spins": 596.774572317605
+          },
+          {
+            "position": 23,
+            "before_step": [
+              "build",
+              "recycler.workshop-yard.upgrade-2"
+            ],
+            "delta_spins": -0.4407502807345054,
+            "mean_spins": 597.1123701682034
+          },
+          {
+            "position": 24,
+            "before_step": [
+              "build",
+              "pigeon-loft.workshop-yard.upgrade-2"
+            ],
+            "delta_spins": -0.11540211106603238,
+            "mean_spins": 597.4377183378718
+          },
+          {
+            "position": 25,
+            "before_step": [
+              "build",
+              "house.workshop-yard.upgrade-2"
+            ],
+            "delta_spins": 0.19845462041223527,
+            "mean_spins": 597.7515750693501
+          },
+          {
+            "position": 26,
+            "before_step": [
+              "build",
+              "power-source.workshop-yard.upgrade-2"
+            ],
+            "delta_spins": 0.5017093260156571,
+            "mean_spins": 598.0548297749535
+          }
+        ]
+      },
+      {
+        "policy": "building-first",
+        "conditioning": "parent-earliest",
+        "parent_position": 7,
+        "baseline_spins": 646.7706398610944,
+        "beneficial": 4,
+        "saving": 2,
+        "best": {
+          "position": 21,
+          "before_step": [
+            "build",
+            "power-source.workshop-yard.upgrade-1"
+          ],
+          "delta_spins": -0.9843266519634426,
+          "mean_spins": 645.786313209131
+        },
+        "late": {
+          "position": 26,
+          "before_step": [
+            "build",
+            "power-source.workshop-yard.upgrade-2"
+          ],
+          "delta_spins": 0.5016252699020924,
+          "mean_spins": 647.2722651309965
+        },
+        "rows": [
+          {
+            "position": 21,
+            "before_step": [
+              "build",
+              "power-source.workshop-yard.upgrade-1"
+            ],
+            "delta_spins": -0.9843266519634426,
+            "mean_spins": 645.786313209131
+          },
+          {
+            "position": 22,
+            "before_step": [
+              "build",
+              "cart.workshop-yard.upgrade-2"
+            ],
+            "delta_spins": -0.7233752591190523,
+            "mean_spins": 646.0472646019754
+          },
+          {
+            "position": 23,
+            "before_step": [
+              "build",
+              "workshop.workshop-yard.upgrade-2"
+            ],
+            "delta_spins": -0.40956428797881017,
+            "mean_spins": 646.3610755731156
+          },
+          {
+            "position": 24,
+            "before_step": [
+              "build",
+              "recycler.workshop-yard.upgrade-2"
+            ],
+            "delta_spins": -0.09528315356283201,
+            "mean_spins": 646.6753567075316
+          },
+          {
+            "position": 25,
+            "before_step": [
+              "build",
+              "pigeon-loft.workshop-yard.upgrade-2"
+            ],
+            "delta_spins": 0.20822373899579816,
+            "mean_spins": 646.9788636000902
+          },
+          {
+            "position": 26,
+            "before_step": [
+              "build",
+              "power-source.workshop-yard.upgrade-2"
+            ],
+            "delta_spins": 0.5016252699020924,
+            "mean_spins": 647.2722651309965
+          }
+        ]
+      },
+      {
+        "policy": "building-first",
+        "conditioning": "parent-best",
+        "parent_position": 7,
+        "baseline_spins": 646.7706398610944,
+        "beneficial": 4,
+        "saving": 2,
+        "best": {
+          "position": 21,
+          "before_step": [
+            "build",
+            "power-source.workshop-yard.upgrade-1"
+          ],
+          "delta_spins": -0.9843266519634426,
+          "mean_spins": 645.786313209131
+        },
+        "late": {
+          "position": 26,
+          "before_step": [
+            "build",
+            "power-source.workshop-yard.upgrade-2"
+          ],
+          "delta_spins": 0.5016252699020924,
+          "mean_spins": 647.2722651309965
+        },
+        "rows": [
+          {
+            "position": 21,
+            "before_step": [
+              "build",
+              "power-source.workshop-yard.upgrade-1"
+            ],
+            "delta_spins": -0.9843266519634426,
+            "mean_spins": 645.786313209131
+          },
+          {
+            "position": 22,
+            "before_step": [
+              "build",
+              "cart.workshop-yard.upgrade-2"
+            ],
+            "delta_spins": -0.7233752591190523,
+            "mean_spins": 646.0472646019754
+          },
+          {
+            "position": 23,
+            "before_step": [
+              "build",
+              "workshop.workshop-yard.upgrade-2"
+            ],
+            "delta_spins": -0.40956428797881017,
+            "mean_spins": 646.3610755731156
+          },
+          {
+            "position": 24,
+            "before_step": [
+              "build",
+              "recycler.workshop-yard.upgrade-2"
+            ],
+            "delta_spins": -0.09528315356283201,
+            "mean_spins": 646.6753567075316
+          },
+          {
+            "position": 25,
+            "before_step": [
+              "build",
+              "pigeon-loft.workshop-yard.upgrade-2"
+            ],
+            "delta_spins": 0.20822373899579816,
+            "mean_spins": 646.9788636000902
+          },
+          {
+            "position": 26,
+            "before_step": [
+              "build",
+              "power-source.workshop-yard.upgrade-2"
+            ],
+            "delta_spins": 0.5016252699020924,
+            "mean_spins": 647.2722651309965
+          }
+        ]
+      },
+      {
+        "policy": "family-order",
+        "conditioning": "parent-earliest",
+        "parent_position": 7,
+        "baseline_spins": 660.3353305555544,
+        "beneficial": 2,
+        "saving": 3,
+        "best": {
+          "position": 22,
+          "before_step": [
+            "build",
+            "pigeon-loft.workshop-yard.upgrade-2"
+          ],
+          "delta_spins": -0.4982353413489591,
+          "mean_spins": 659.8370952142054
+        },
+        "late": {
+          "position": 26,
+          "before_step": [
+            "build",
+            "power-source.workshop-yard.upgrade-2"
+          ],
+          "delta_spins": 0.5017093257504257,
+          "mean_spins": 660.8370398813048
+        },
+        "rows": [
+          {
+            "position": 22,
+            "before_step": [
+              "build",
+              "pigeon-loft.workshop-yard.upgrade-2"
+            ],
+            "delta_spins": -0.4982353413489591,
+            "mean_spins": 659.8370952142054
+          },
+          {
+            "position": 23,
+            "before_step": [
+              "build",
+              "cart.workshop-yard.upgrade-1"
+            ],
+            "delta_spins": -0.136490130448351,
+            "mean_spins": 660.198840425106
+          },
+          {
+            "position": 24,
+            "before_step": [
+              "build",
+              "cart.workshop-yard.upgrade-2"
+            ],
+            "delta_spins": 0.033019241079159656,
+            "mean_spins": 660.3683497966335
+          },
+          {
+            "position": 25,
+            "before_step": [
+              "build",
+              "power-source.workshop-yard.upgrade-1"
+            ],
+            "delta_spins": 0.3053395989144292,
+            "mean_spins": 660.6406701544688
+          },
+          {
+            "position": 26,
+            "before_step": [
+              "build",
+              "power-source.workshop-yard.upgrade-2"
+            ],
+            "delta_spins": 0.5017093257504257,
+            "mean_spins": 660.8370398813048
+          }
+        ]
+      },
+      {
+        "policy": "family-order",
+        "conditioning": "parent-best",
+        "parent_position": 7,
+        "baseline_spins": 660.3353305555544,
+        "beneficial": 2,
+        "saving": 3,
+        "best": {
+          "position": 22,
+          "before_step": [
+            "build",
+            "pigeon-loft.workshop-yard.upgrade-2"
+          ],
+          "delta_spins": -0.4982353413489591,
+          "mean_spins": 659.8370952142054
+        },
+        "late": {
+          "position": 26,
+          "before_step": [
+            "build",
+            "power-source.workshop-yard.upgrade-2"
+          ],
+          "delta_spins": 0.5017093257504257,
+          "mean_spins": 660.8370398813048
+        },
+        "rows": [
+          {
+            "position": 22,
+            "before_step": [
+              "build",
+              "pigeon-loft.workshop-yard.upgrade-2"
+            ],
+            "delta_spins": -0.4982353413489591,
+            "mean_spins": 659.8370952142054
+          },
+          {
+            "position": 23,
+            "before_step": [
+              "build",
+              "cart.workshop-yard.upgrade-1"
+            ],
+            "delta_spins": -0.136490130448351,
+            "mean_spins": 660.198840425106
+          },
+          {
+            "position": 24,
+            "before_step": [
+              "build",
+              "cart.workshop-yard.upgrade-2"
+            ],
+            "delta_spins": 0.033019241079159656,
+            "mean_spins": 660.3683497966335
+          },
+          {
+            "position": 25,
+            "before_step": [
+              "build",
+              "power-source.workshop-yard.upgrade-1"
+            ],
+            "delta_spins": 0.3053395989144292,
+            "mean_spins": 660.6406701544688
+          },
+          {
+            "position": 26,
+            "before_step": [
+              "build",
+              "power-source.workshop-yard.upgrade-2"
+            ],
+            "delta_spins": 0.5017093257504257,
+            "mean_spins": 660.8370398813048
+          }
+        ]
+      }
+    ],
+    "29": [
+      {
+        "policy": "workshop-first",
+        "conditioning": "parent-earliest",
+        "parent_position": 6,
+        "baseline_spins": 597.5531204489379,
+        "beneficial": 3,
+        "saving": 4,
+        "best": {
+          "position": 20,
+          "before_step": [
+            "build",
+            "power-source.workshop-yard.upgrade-1"
+          ],
+          "delta_spins": -0.8670893708122094,
+          "mean_spins": 596.6860310781257
+        },
+        "late": {
+          "position": 26,
+          "before_step": [
+            "build",
+            "power-source.workshop-yard.upgrade-2"
+          ],
+          "delta_spins": 0.930570733116383,
+          "mean_spins": 598.4836911820543
+        },
+        "rows": [
+          {
+            "position": 20,
+            "before_step": [
+              "build",
+              "power-source.workshop-yard.upgrade-1"
+            ],
+            "delta_spins": -0.8670893708122094,
+            "mean_spins": 596.6860310781257
+          },
+          {
+            "position": 21,
+            "before_step": [
+              "build",
+              "cart.workshop-yard.upgrade-2"
+            ],
+            "delta_spins": -0.6055834157511981,
+            "mean_spins": 596.9475370331867
+          },
+          {
+            "position": 22,
+            "before_step": [
+              "build",
+              "workshop.workshop-yard.upgrade-2"
+            ],
+            "delta_spins": -0.28626033579723753,
+            "mean_spins": 597.2668601131406
+          },
+          {
+            "position": 23,
+            "before_step": [
+              "build",
+              "recycler.workshop-yard.upgrade-2"
+            ],
+            "delta_spins": 0.03398300513356389,
+            "mean_spins": 597.5871034540714
+          },
+          {
+            "position": 24,
+            "before_step": [
+              "build",
+              "pigeon-loft.workshop-yard.upgrade-2"
+            ],
+            "delta_spins": 0.3430727580594066,
+            "mean_spins": 597.8961932069973
+          },
+          {
+            "position": 25,
+            "before_step": [
+              "build",
+              "house.workshop-yard.upgrade-2"
+            ],
+            "delta_spins": 0.6416941109359868,
+            "mean_spins": 598.1948145598739
+          },
+          {
+            "position": 26,
+            "before_step": [
+              "build",
+              "power-source.workshop-yard.upgrade-2"
+            ],
+            "delta_spins": 0.930570733116383,
+            "mean_spins": 598.4836911820543
+          }
+        ]
+      },
+      {
+        "policy": "workshop-first",
+        "conditioning": "parent-best",
+        "parent_position": 6,
+        "baseline_spins": 597.5531204489379,
+        "beneficial": 3,
+        "saving": 4,
+        "best": {
+          "position": 20,
+          "before_step": [
+            "build",
+            "power-source.workshop-yard.upgrade-1"
+          ],
+          "delta_spins": -0.8670893708122094,
+          "mean_spins": 596.6860310781257
+        },
+        "late": {
+          "position": 26,
+          "before_step": [
+            "build",
+            "power-source.workshop-yard.upgrade-2"
+          ],
+          "delta_spins": 0.930570733116383,
+          "mean_spins": 598.4836911820543
+        },
+        "rows": [
+          {
+            "position": 20,
+            "before_step": [
+              "build",
+              "power-source.workshop-yard.upgrade-1"
+            ],
+            "delta_spins": -0.8670893708122094,
+            "mean_spins": 596.6860310781257
+          },
+          {
+            "position": 21,
+            "before_step": [
+              "build",
+              "cart.workshop-yard.upgrade-2"
+            ],
+            "delta_spins": -0.6055834157511981,
+            "mean_spins": 596.9475370331867
+          },
+          {
+            "position": 22,
+            "before_step": [
+              "build",
+              "workshop.workshop-yard.upgrade-2"
+            ],
+            "delta_spins": -0.28626033579723753,
+            "mean_spins": 597.2668601131406
+          },
+          {
+            "position": 23,
+            "before_step": [
+              "build",
+              "recycler.workshop-yard.upgrade-2"
+            ],
+            "delta_spins": 0.03398300513356389,
+            "mean_spins": 597.5871034540714
+          },
+          {
+            "position": 24,
+            "before_step": [
+              "build",
+              "pigeon-loft.workshop-yard.upgrade-2"
+            ],
+            "delta_spins": 0.3430727580594066,
+            "mean_spins": 597.8961932069973
+          },
+          {
+            "position": 25,
+            "before_step": [
+              "build",
+              "house.workshop-yard.upgrade-2"
+            ],
+            "delta_spins": 0.6416941109359868,
+            "mean_spins": 598.1948145598739
+          },
+          {
+            "position": 26,
+            "before_step": [
+              "build",
+              "power-source.workshop-yard.upgrade-2"
+            ],
+            "delta_spins": 0.930570733116383,
+            "mean_spins": 598.4836911820543
+          }
+        ]
+      },
+      {
+        "policy": "building-first",
+        "conditioning": "parent-earliest",
+        "parent_position": 7,
+        "baseline_spins": 646.7706398610944,
+        "beneficial": 2,
+        "saving": 4,
+        "best": {
+          "position": 21,
+          "before_step": [
+            "build",
+            "power-source.workshop-yard.upgrade-1"
+          ],
+          "delta_spins": -0.4729983010590786,
+          "mean_spins": 646.2976415600353
+        },
+        "late": {
+          "position": 26,
+          "before_step": [
+            "build",
+            "power-source.workshop-yard.upgrade-2"
+          ],
+          "delta_spins": 0.9305812782685052,
+          "mean_spins": 647.7012211393629
+        },
+        "rows": [
+          {
+            "position": 21,
+            "before_step": [
+              "build",
+              "power-source.workshop-yard.upgrade-1"
+            ],
+            "delta_spins": -0.4729983010590786,
+            "mean_spins": 646.2976415600353
+          },
+          {
+            "position": 22,
+            "before_step": [
+              "build",
+              "cart.workshop-yard.upgrade-2"
+            ],
+            "delta_spins": -0.2310874651548147,
+            "mean_spins": 646.5395523959396
+          },
+          {
+            "position": 23,
+            "before_step": [
+              "build",
+              "workshop.workshop-yard.upgrade-2"
+            ],
+            "delta_spins": 0.06519099203899259,
+            "mean_spins": 646.8358308531334
+          },
+          {
+            "position": 24,
+            "before_step": [
+              "build",
+              "recycler.workshop-yard.upgrade-2"
+            ],
+            "delta_spins": 0.363125484562147,
+            "mean_spins": 647.1337653456566
+          },
+          {
+            "position": 25,
+            "before_step": [
+              "build",
+              "pigeon-loft.workshop-yard.upgrade-2"
+            ],
+            "delta_spins": 0.6514082779801811,
+            "mean_spins": 647.4220481390746
+          },
+          {
+            "position": 26,
+            "before_step": [
+              "build",
+              "power-source.workshop-yard.upgrade-2"
+            ],
+            "delta_spins": 0.9305812782685052,
+            "mean_spins": 647.7012211393629
+          }
+        ]
+      },
+      {
+        "policy": "building-first",
+        "conditioning": "parent-best",
+        "parent_position": 7,
+        "baseline_spins": 646.7706398610944,
+        "beneficial": 2,
+        "saving": 4,
+        "best": {
+          "position": 21,
+          "before_step": [
+            "build",
+            "power-source.workshop-yard.upgrade-1"
+          ],
+          "delta_spins": -0.4729983010590786,
+          "mean_spins": 646.2976415600353
+        },
+        "late": {
+          "position": 26,
+          "before_step": [
+            "build",
+            "power-source.workshop-yard.upgrade-2"
+          ],
+          "delta_spins": 0.9305812782685052,
+          "mean_spins": 647.7012211393629
+        },
+        "rows": [
+          {
+            "position": 21,
+            "before_step": [
+              "build",
+              "power-source.workshop-yard.upgrade-1"
+            ],
+            "delta_spins": -0.4729983010590786,
+            "mean_spins": 646.2976415600353
+          },
+          {
+            "position": 22,
+            "before_step": [
+              "build",
+              "cart.workshop-yard.upgrade-2"
+            ],
+            "delta_spins": -0.2310874651548147,
+            "mean_spins": 646.5395523959396
+          },
+          {
+            "position": 23,
+            "before_step": [
+              "build",
+              "workshop.workshop-yard.upgrade-2"
+            ],
+            "delta_spins": 0.06519099203899259,
+            "mean_spins": 646.8358308531334
+          },
+          {
+            "position": 24,
+            "before_step": [
+              "build",
+              "recycler.workshop-yard.upgrade-2"
+            ],
+            "delta_spins": 0.363125484562147,
+            "mean_spins": 647.1337653456566
+          },
+          {
+            "position": 25,
+            "before_step": [
+              "build",
+              "pigeon-loft.workshop-yard.upgrade-2"
+            ],
+            "delta_spins": 0.6514082779801811,
+            "mean_spins": 647.4220481390746
+          },
+          {
+            "position": 26,
+            "before_step": [
+              "build",
+              "power-source.workshop-yard.upgrade-2"
+            ],
+            "delta_spins": 0.9305812782685052,
+            "mean_spins": 647.7012211393629
+          }
+        ]
+      },
+      {
+        "policy": "family-order",
+        "conditioning": "parent-earliest",
+        "parent_position": 7,
+        "baseline_spins": 660.3353305555544,
+        "beneficial": 1,
+        "saving": 4,
+        "best": {
+          "position": 22,
+          "before_step": [
+            "build",
+            "pigeon-loft.workshop-yard.upgrade-2"
+          ],
+          "delta_spins": -0.005789631017819374,
+          "mean_spins": 660.3295409245366
+        },
+        "late": {
+          "position": 26,
+          "before_step": [
+            "build",
+            "power-source.workshop-yard.upgrade-2"
+          ],
+          "delta_spins": 0.9305707334208364,
+          "mean_spins": 661.2659012889752
+        },
+        "rows": [
+          {
+            "position": 22,
+            "before_step": [
+              "build",
+              "pigeon-loft.workshop-yard.upgrade-2"
+            ],
+            "delta_spins": -0.005789631017819374,
+            "mean_spins": 660.3295409245366
+          },
+          {
+            "position": 23,
+            "before_step": [
+              "build",
+              "cart.workshop-yard.upgrade-1"
+            ],
+            "delta_spins": 0.3383506153977578,
+            "mean_spins": 660.6736811709521
+          },
+          {
+            "position": 24,
+            "before_step": [
+              "build",
+              "cart.workshop-yard.upgrade-2"
+            ],
+            "delta_spins": 0.49142802120877604,
+            "mean_spins": 660.8267585767632
+          },
+          {
+            "position": 25,
+            "before_step": [
+              "build",
+              "power-source.workshop-yard.upgrade-1"
+            ],
+            "delta_spins": 0.7485064803366868,
+            "mean_spins": 661.0838370358911
+          },
+          {
+            "position": 26,
+            "before_step": [
+              "build",
+              "power-source.workshop-yard.upgrade-2"
+            ],
+            "delta_spins": 0.9305707334208364,
+            "mean_spins": 661.2659012889752
+          }
+        ]
+      },
+      {
+        "policy": "family-order",
+        "conditioning": "parent-best",
+        "parent_position": 7,
+        "baseline_spins": 660.3353305555544,
+        "beneficial": 1,
+        "saving": 4,
+        "best": {
+          "position": 22,
+          "before_step": [
+            "build",
+            "pigeon-loft.workshop-yard.upgrade-2"
+          ],
+          "delta_spins": -0.005789631017819374,
+          "mean_spins": 660.3295409245366
+        },
+        "late": {
+          "position": 26,
+          "before_step": [
+            "build",
+            "power-source.workshop-yard.upgrade-2"
+          ],
+          "delta_spins": 0.9305707334208364,
+          "mean_spins": 661.2659012889752
+        },
+        "rows": [
+          {
+            "position": 22,
+            "before_step": [
+              "build",
+              "pigeon-loft.workshop-yard.upgrade-2"
+            ],
+            "delta_spins": -0.005789631017819374,
+            "mean_spins": 660.3295409245366
+          },
+          {
+            "position": 23,
+            "before_step": [
+              "build",
+              "cart.workshop-yard.upgrade-1"
+            ],
+            "delta_spins": 0.3383506153977578,
+            "mean_spins": 660.6736811709521
+          },
+          {
+            "position": 24,
+            "before_step": [
+              "build",
+              "cart.workshop-yard.upgrade-2"
+            ],
+            "delta_spins": 0.49142802120877604,
+            "mean_spins": 660.8267585767632
+          },
+          {
+            "position": 25,
+            "before_step": [
+              "build",
+              "power-source.workshop-yard.upgrade-1"
+            ],
+            "delta_spins": 0.7485064803366868,
+            "mean_spins": 661.0838370358911
+          },
+          {
+            "position": 26,
+            "before_step": [
+              "build",
+              "power-source.workshop-yard.upgrade-2"
+            ],
+            "delta_spins": 0.9305707334208364,
+            "mean_spins": 661.2659012889752
+          }
+        ]
+      }
+    ]
+  },
+  "runtime_seconds": 4.96337610000046
+}

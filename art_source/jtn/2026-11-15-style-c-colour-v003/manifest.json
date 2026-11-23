@@ -1,0 +1,168 @@
+{
+  "date": "2026-11-15",
+  "style": "C · colourful flat cartoon 2D v003",
+  "iterationReason": "User found v002 too dull and requested pleasant brighter colours, a little clean red, modest extra detail, internet research and applicable skills.",
+  "reviewStatus": "awaiting_user_style_review",
+  "generationTool": "built-in image_gen",
+  "backendModel": "not exposed by tool",
+  "higgsfieldUsed": false,
+  "skillsApplied": [
+    "imagegen",
+    "frontend-design (palette, subject-grounded visual identity and focused accents only)"
+  ],
+  "parentVersion": "../2026-11-15-style-c-flat2d-v002",
+  "scope": {
+    "houseStages": 5,
+    "sharedSymbols": 4,
+    "buttonSkins": 12,
+    "icons": 32,
+    "totalIndividualExports": 53
+  },
+  "palette": {
+    "outline": "#183A4B",
+    "cream": "#FFF0CE",
+    "turquoise": "#25B8C5",
+    "aqua": "#68E1DF",
+    "gold": "#FFD34A",
+    "wood": "#E5A447",
+    "green": "#82CF49",
+    "red": "#EF3E36",
+    "shadow": "#346174"
+  },
+  "files": [
+    {
+      "id": "house-s00",
+      "prompt": "prompts/house-s00.txt",
+      "original": "originals/house-s00.png",
+      "generatedSource": "C:\\Users\\murtu\\.codex\\generated_images\\01a1dbc7-b5d2-7191-bcd1-0ea366c26489\\exec-35f18fb4-5d8e-4752-abff-39888f7f8974.png",
+      "references": [
+        "X:/PROJECTS/FINAL-SVALKA/art_source/jtn/2026-11-15-style-c-flat2d-v002/originals/house-s00.png",
+        "X:/PROJECTS/FINAL-SVALKA/art_source/jtn/2026-11-15-style-c-colour-v003/originals/house-s02.png"
+      ]
+    },
+    {
+      "id": "house-s01",
+      "prompt": "prompts/house-s01.txt",
+      "original": "originals/house-s01.png",
+      "generatedSource": "C:\\Users\\murtu\\.codex\\generated_images\\01a1dbc7-b5d2-7191-bcd1-0ea366c26489\\exec-87570a9e-86b2-45ef-acbc-17159502f523.png",
+      "references": [
+        "X:/PROJECTS/FINAL-SVALKA/art_source/jtn/2026-11-15-style-c-flat2d-v002/originals/house-s01.png",
+        "X:/PROJECTS/FINAL-SVALKA/art_source/jtn/2026-11-15-style-c-colour-v003/originals/house-s02.png"
+      ]
+    },
+    {
+      "id": "house-s02",
+      "prompt": "prompts/house-s02.txt",
+      "original": "originals/house-s02.png",
+      "generatedSource": "C:\\Users\\murtu\\.codex\\generated_images\\01a1dbc7-b5d2-7191-bcd1-0ea366c26489\\exec-390feabc-1a98-4623-9118-078a3a5c5f1c.png",
+      "references": [
+        "X:/PROJECTS/FINAL-SVALKA/art_source/jtn/2026-11-15-style-c-flat2d-v002/originals/house-s02.png"
+      ]
+    },
+    {
+      "id": "house-s03",
+      "prompt": "prompts/house-s03.txt",
+      "original": "originals/house-s03.png",
+      "generatedSource": "C:\\Users\\murtu\\.codex\\generated_images\\01a1dbc7-b5d2-7191-bcd1-0ea366c26489\\exec-0f4e9699-6196-4381-adcd-7bdc121764f4.png",
+      "references": [
+        "X:/PROJECTS/FINAL-SVALKA/art_source/jtn/2026-11-15-style-c-flat2d-v002/originals/house-s03.png",
+        "X:/PROJECTS/FINAL-SVALKA/art_source/jtn/2026-11-15-style-c-colour-v003/originals/house-s02.png"
+      ]
+    },
+    {
+      "id": "house-s04",
+      "prompt": "prompts/house-s04.txt",
+      "original": "originals/house-s04.png",
+      "generatedSource": "C:\\Users\\murtu\\.codex\\generated_images\\01a1dbc7-b5d2-7191-bcd1-0ea366c26489\\exec-99b664c5-0ec3-46b5-bee8-75e9fd591d9d.png",
+      "references": [
+        "X:/PROJECTS/FINAL-SVALKA/art_source/jtn/2026-11-15-style-c-colour-v003/originals/house-s03.png"
+      ]
+    },
+    {
+      "id": "symbol-potato",
+      "prompt": "prompts/symbol-potato.txt",
+      "original": "originals/symbol-potato.png",
+      "generatedSource": "C:\\Users\\murtu\\.codex\\generated_images\\01a1dbc7-b5d2-7191-bcd1-0ea366c26489\\exec-0756dd69-0e27-4d08-b006-362829f3cd1e.png",
+      "references": [
+        "X:/PROJECTS/FINAL-SVALKA/art_source/jtn/2026-11-15-style-c-flat2d-v002/originals/symbol-potato.png",
+        "X:/PROJECTS/FINAL-SVALKA/art_source/jtn/2026-11-15-style-c-colour-v003/originals/house-s02.png"
+      ]
+    },
+    {
+      "id": "symbol-box",
+      "prompt": "prompts/symbol-box.txt",
+      "original": "originals/symbol-box.png",
+      "generatedSource": "C:\\Users\\murtu\\.codex\\generated_images\\01a1dbc7-b5d2-7191-bcd1-0ea366c26489\\exec-12c3f9e0-575e-4dc5-8bb7-96a2fad7e0b8.png",
+      "references": [
+        "X:/PROJECTS/FINAL-SVALKA/art_source/jtn/2026-11-15-style-c-flat2d-v002/originals/symbol-box.png",
+        "X:/PROJECTS/FINAL-SVALKA/art_source/jtn/2026-11-15-style-c-colour-v003/originals/house-s02.png"
+      ]
+    },
+    {
+      "id": "symbol-trash",
+      "prompt": "prompts/symbol-trash.txt",
+      "original": "originals/symbol-trash.png",
+      "generatedSource": "C:\\Users\\murtu\\.codex\\generated_images\\01a1dbc7-b5d2-7191-bcd1-0ea366c26489\\exec-160ab7f1-9f11-4c30-b3bb-345c6ae0fb1a.png",
+      "references": [
+        "X:/PROJECTS/FINAL-SVALKA/art_source/jtn/2026-11-15-style-c-flat2d-v002/originals/symbol-trash.png",
+        "X:/PROJECTS/FINAL-SVALKA/art_source/jtn/2026-11-15-style-c-colour-v003/originals/house-s02.png"
+      ]
+    },
+    {
+      "id": "symbol-pigeon",
+      "prompt": "prompts/symbol-pigeon.txt",
+      "original": "originals/symbol-pigeon.png",
+      "generatedSource": "C:\\Users\\murtu\\.codex\\generated_images\\01a1dbc7-b5d2-7191-bcd1-0ea366c26489\\exec-77fbe75e-c3b7-4408-a327-f8bd6487e84c.png",
+      "references": [
+        "X:/PROJECTS/FINAL-SVALKA/art_source/jtn/2026-11-15-style-c-flat2d-v002/originals/symbol-pigeon.png",
+        "X:/PROJECTS/FINAL-SVALKA/art_source/jtn/2026-11-15-style-c-colour-v003/originals/house-s02.png"
+      ]
+    },
+    {
+      "id": "icons-primary-atlas",
+      "prompt": "prompts/icons-primary-atlas.txt",
+      "original": "originals/icons-primary-atlas.png",
+      "generatedSource": "C:\\Users\\murtu\\.codex\\generated_images\\01a1dbc7-b5d2-7191-bcd1-0ea366c26489\\exec-181c4dcb-1e6c-468d-b6a9-8b9b13ae415a.png",
+      "references": [
+        "X:/PROJECTS/FINAL-SVALKA/art_source/jtn/2026-11-15-style-c-flat2d-v002/originals/icons-primary-atlas.png",
+        "X:/PROJECTS/FINAL-SVALKA/art_source/jtn/2026-11-15-style-c-colour-v003/originals/house-s02.png",
+        "X:/PROJECTS/FINAL-SVALKA/art_source/jtn/2026-11-15-style-c-colour-v003/originals/symbol-box.png"
+      ]
+    },
+    {
+      "id": "icons-utility-atlas",
+      "prompt": "prompts/icons-utility-atlas.txt",
+      "original": "originals/icons-utility-atlas.png",
+      "generatedSource": "C:\\Users\\murtu\\.codex\\generated_images\\01a1dbc7-b5d2-7191-bcd1-0ea366c26489\\exec-77a41f4b-3a95-41aa-98fd-9493df3cde58.png",
+      "references": [
+        "X:/PROJECTS/FINAL-SVALKA/art_source/jtn/2026-11-15-style-c-flat2d-v002/originals/icons-utility-atlas.png",
+        "X:/PROJECTS/FINAL-SVALKA/art_source/jtn/2026-11-15-style-c-colour-v003/originals/house-s02.png"
+      ]
+    },
+    {
+      "id": "buttons-atlas",
+      "prompt": "prompts/buttons-atlas.txt",
+      "original": "originals/buttons-atlas.png",
+      "generatedSource": "C:\\Users\\murtu\\.codex\\generated_images\\01a1dbc7-b5d2-7191-bcd1-0ea366c26489\\exec-3595c509-dacc-4d19-bce6-ba1114004614.png",
+      "references": [
+        "X:/PROJECTS/FINAL-SVALKA/art_source/jtn/2026-11-15-style-c-flat2d-v002/originals/buttons-atlas.png",
+        "X:/PROJECTS/FINAL-SVALKA/art_source/jtn/2026-11-15-style-c-colour-v003/originals/house-s02.png"
+      ]
+    }
+  ],
+  "qa": "alpha-qa.json",
+  "research": "COLOUR_RESEARCH.md",
+  "reviewSheets": [
+    "review/all-assets-navy.png",
+    "review/all-assets-transparent.png",
+    "review/v002-v003-comparison.png"
+  ],
+  "exportMethod": "Full unchanged house/symbol canvases; icon/button atlases cut through verified empty alpha gutters, centered and resized without redrawing.",
+  "integration": "Art source only. No runtime, scene, Unity import, settings, save, native build or device change.",
+  "limitations": [
+    "Research supports emotional associations and some measured arousal/valence effects, not a proven dopamine effect or a validated game-specific engagement increase.",
+    "v003 remains a human-review candidate.",
+    "Exact runtime pivots, 9-slice borders and pressed-state alignment require integration verification.",
+    "Generated fills contain cel highlights and some tonal variation; these are raster cartoon assets."
+  ]
+}
